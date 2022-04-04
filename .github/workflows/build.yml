@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ['ubuntu-latest', 'macos-latest']
+        os: ['ubuntu-latest']
         python-version: ['3.6', '3.7', '3.8', '3.9']
     steps:
       - uses: actions/checkout@v3
@@ -33,14 +33,15 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip setuptools
           python3 -m pip install .[dev,publishing]
-      - name: Run unit tests
-        run: pytest --cov --cov-report=xml
       - name: Verify that we can build the package
         run: python3 setup.py sdist bdist_wheel
+      - name: Test with pytest
+        run: pytest
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
         with:
           verbose: true
+          fail_ci_if_error: true
 
   lint:
     name: Linting build
