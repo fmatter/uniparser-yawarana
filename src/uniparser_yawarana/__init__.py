@@ -1,7 +1,8 @@
 """Documentation about uniparser_yawarana"""
 import logging
-from uniparser_morph import Analyzer
 from pathlib import Path
+from uniparser_morph import Analyzer
+
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
 

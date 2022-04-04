@@ -61,4 +61,4 @@ jobs:
       - name: Check style against standards using prospector
         run: prospector --strictness low
       - name: Check import order
-        run: isort --check-only uniparser_yawarana --diff
+        run: isort --check-only src/uniparser_yawarana --diff
