@@ -2,13 +2,11 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+[tool.coverage.report]
+show_missing = true
 
 [tool.coverage.run]
-branch = true
 source = ["src/uniparser_yawarana"]
-command_line = "-m pytest --cov"
 
 [tool.tox]
 legacy_tox_ini = """
