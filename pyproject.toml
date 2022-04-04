@@ -13,7 +13,6 @@ toxworkdir=/tmp/.uniparser_yawarana_tox
 usedevelop=True
 commands = 
     pytest --cov
-    coverage-badge -f -o .workflows/coverage.svg
 extras = dev
 
 [testenv:lint]
