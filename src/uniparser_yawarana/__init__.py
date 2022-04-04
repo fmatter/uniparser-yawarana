@@ -19,5 +19,5 @@ class YawaranaAnalyzer(Analyzer):
         # self.cliticsFile = base / "clitics.txt"
         self.load_grammar()
 
-    def analyze_words(self, words, format=None, disambiguate=False):
+    def analyze_words(self, words, cgFile="", format=None, disambiguate=False):
         return super().analyze_words(words, format=format, disambiguate=False)
