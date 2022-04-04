@@ -6,13 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.1] - 1900-12-31
+## [0.0.1] - 2022-04-04
 
 ### Added
 
-### Removed
-
-### Changed
+* initial release
 
 [Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/v1.0.0...HEAD
 [0.0.1]: https://github.com/fmatter/uniparser-yawarana/releases/tag/v0.0.1
