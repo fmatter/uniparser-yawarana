@@ -2,12 +2,6 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.coverage.report]
-show_missing = true
-
-[tool.coverage.run]
-source = ["src/uniparser_yawarana"]
-
 [tool.tox]
 legacy_tox_ini = """
 [tox]
