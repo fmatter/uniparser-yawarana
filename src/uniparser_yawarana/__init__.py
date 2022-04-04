@@ -20,4 +20,4 @@ class YawaranaAnalyzer(Analyzer):
         self.load_grammar()
 
     def analyze_words(self, words, cgFile="", format=None, disambiguate=False):
-        return super().analyze_words(words, format=format, disambiguate=False)
+        return super().analyze_words(words, cgFile=cgFile, format=format, disambiguate=disambiguate)
