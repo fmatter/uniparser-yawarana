@@ -1,0 +1,149 @@
+
+
+-paradigm: noun
+ -flex: y.<.>
+  gloss: LK
+  gramm: lk
+ -flex: t.<.>
+  gloss: 3
+  gramm: 3;poss
+ -flex: i.<.>
+  gramm: 3
+  gloss: 3
+ -flex: u.<.>
+  gloss: 1
+  gramm: 1;poss
+ -flex: .<.>
+  gramm:
+ paradigm: n_suff1
+
+-paradigm: n_suff2
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+ -flex: .
+  gramm: 
+
+-paradigm: n_suff1
+ -flex: .ru<.>
+  gloss: PERT
+  gramm: pert
+  id: pert
+  paradigm: n_suff2
+ -flex: .<.>
+  gramm:
+  paradigm: n_suff2
+ -flex: .pïjkë
+  gramm: dim
+  gloss: DIM
+ -flex: .jra
+  gramm: priv
+  gloss: PRIV
+ -flex: .jne
+  gramm: pl
+  gloss: PL
+ -flex: .tomo<.>//.ton<.>
+  gramm: pl
+  gloss: PL
+  paradigm: n_suff2
+
+
+-paradigm: uninfl
+ -flex: .
+  gramm:
+
+-paradigm: pro
+ -flex: .
+  gramm:
+
+-paradigm: v_tr
+ -flex: .<.>
+  gramm:
+ -flex: ta.<.>
+  gramm: 3P
+  gloss: 3P
+ paradigm: v_suff
+
+-paradigm: v_suff
+ -flex: .pëti<.>//.pëj<.>
+  gramm: plur
+  gloss: PLUR
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff1
+
+-paradigm: v_suff1
+ -flex: .tojpe<.>
+  gramm: fut
+  gloss: FUT
+ -flex: .sapë<.>//.saj<.>
+  gramm: pfv
+  gloss: PFV
+ -flex: .se<.>
+  gramm: pst
+  gloss: PST
+  id: pstse
+ -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
+  gramm: ipfv
+  gloss: IPFV
+ -flex: .jpë<.>
+  gramm: pst
+  gloss: PST
+ -flex: .kë
+  gloss: IMP
+  gramm: imp
+ -flex: .ta
+  gloss: MOTIMP
+  gramm: motimp
+ -flex: .sarë<.>
+  gramm: inm
+  gloss: INM
+ -flex: .ja
+  gramm: neg
+  gloss: NEG
+ -flex: .tïkene
+  gramm: post
+  gloss: POST
+ paradigm: dv_pl
+
+-paradigm: dv_pl
+ -flex: .
+  gramm:
+ -flex: .jne
+  gramm: pl
+  gloss: PL
+ -flex: .kontomo//.konton
+  gramm: pl
+  gloss: PL
+
+-paradigm: v_intr
+ -flex: ij.<.>
+  gramm: 3
+  gloss: 3
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
+
+-paradigm: aux
+ -flex: .tojpe
+  gramm: fut
+  gloss: FUT
+ -flex: .sapë//.saj
+  gramm: pfv
+  gloss: PFV
+ -flex: .se
+  gramm: pst
+  gloss: PST
+
+-paradigm: postp
+ -flex: t.
+  gramm: 3
+  gloss: 3
+ -flex: y.
+  gramm: lk
+  gloss: LK
+ -flex: .
+  gramm:

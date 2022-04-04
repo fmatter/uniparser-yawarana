@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["src/uniparser_yawarana"]
+command_line = "-m pytest --cov"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py36,py37,py38,py39,lint
+skip_missing_interpreters = true
+toxworkdir=/tmp/.uniparser_yawarana_tox
+
+[testenv]
+usedevelop=True
+commands = 
+    pytest --cov
+    coverage-badge -f -o .workflows/coverage.svg
+extras = dev
+
+[testenv:lint]
+commands = python -m flake8
+extras = dev
+"""
