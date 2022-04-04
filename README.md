@@ -1,5 +1,9 @@
 # uniparser_yawarana
 
+A morphological parser for Yawarana 
+
 [![Build Status](https://github.com/fmatter/uniparser-yawarana/workflows/tests/badge.svg)](https://github.com/fmatter/uniparser-yawarana/actions?query=workflow%3Atests)
 ![Test coverage](.workflows/coverage.svg)
 [![PyPI](https://img.shields.io/pypi/v/uniparser-yawarana.svg)](https://pypi.org/project/uniparser-yawarana)
+
+This project uses the excellent [uniparser-morph](https://github.com/timarkh/uniparser-morph/) package. It is currently under development.
