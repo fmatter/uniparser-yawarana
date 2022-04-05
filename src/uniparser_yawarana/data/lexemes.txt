@@ -179,22 +179,12 @@
  paradigm: uninfl
 
 -lexeme
- lex: yeni
- stem: .yeni.
- trans_en: drink
- gloss: drink
- gramm: vt
- id: manlex9
- std: yeni
- paradigm: v_tr
-
--lexeme
  lex: makë
  stem: .makë.
  trans_en: mother.VOC
  gloss: mother.VOC
  gramm: n,voc
- id: manlex10
+ id: manlex9
  std: makë
  paradigm: noun
 
@@ -204,7 +194,7 @@
  trans_en: ?
  gloss: ?
  gramm: ideo
- id: manlex11
+ id: manlex10
  std: taji
  paradigm: uninfl
 
@@ -214,7 +204,7 @@
  trans_en: drink
  gloss: drink
  gramm: vt
- id: manlex12
+ id: manlex11
  std: yëni
  paradigm: v_tr
 
@@ -224,7 +214,7 @@
  trans_en: REL.INAN
  gloss: REL.INAN
  gramm: rel
- id: manlex13
+ id: manlex12
  std: mare
  paradigm: uninfl
 
@@ -234,7 +224,7 @@
  trans_en: and
  gloss: and
  gramm: coord
- id: manlex14
+ id: manlex13
  std: nwarë
  paradigm: uninfl
 
@@ -244,7 +234,7 @@
  trans_en: cook
  gloss: cook
  gramm: vt
- id: manlex15
+ id: manlex14
  std: ijmoka
  paradigm: v_tr
 
@@ -254,7 +244,7 @@
  trans_en: cry
  gloss: cry
  gramm: vi
- id: manlex16
+ id: manlex15
  std: asamo
  paradigm: v_intr
 
@@ -264,7 +254,7 @@
  trans_en: create
  gloss: create
  gramm: vt
- id: manlex17
+ id: manlex16
  std: këyama
  paradigm: v_tr
 
@@ -274,7 +264,7 @@
  trans_en: marry
  gloss: marry
  gramm: vi
- id: manlex18
+ id: manlex17
  std: sepamï
  paradigm: v_intr
 
@@ -284,7 +274,7 @@
  trans_en: game.food
  gloss: game.food
  gramm: n
- id: manlex19
+ id: manlex18
  std: oti
  paradigm: noun
 
@@ -294,7 +284,7 @@
  trans_en: grow.up
  gloss: grow.up
  gramm: vi
- id: manlex20
+ id: manlex19
  std: këyata
  paradigm: v_intr
 
@@ -304,7 +294,7 @@
  trans_en: Pérez
  gloss: Pérez
  gramm: ideo
- id: manlex21
+ id: manlex20
  std: perez
  paradigm: uninfl
 
@@ -314,7 +304,7 @@
  trans_en: Rafel
  gloss: Rafel
  gramm: ideo
- id: manlex22
+ id: manlex21
  std: rafa
  paradigm: uninfl
 
@@ -324,7 +314,7 @@
  trans_en: go.IMP
  gloss: go.IMP
  gramm: vt,imp
- id: manlex23
+ id: manlex22
  std: maijtë
  paradigm: uninfl
 
@@ -334,7 +324,7 @@
  trans_en: DIM
  gloss: DIM
  gramm: ideo
- id: manlex24
+ id: manlex23
  std: pïjkë
  paradigm: uninfl
 
@@ -344,7 +334,7 @@
  trans_en: big
  gloss: big
  gramm: n
- id: manlex25
+ id: manlex24
  std: kampra
  paradigm: noun
 
@@ -354,7 +344,7 @@
  trans_en: padrastro
  gloss: padrastro
  gramm: n
- id: manlex26
+ id: manlex25
  std: padrastro
  paradigm: noun
 
@@ -364,7 +354,7 @@
  trans_en: long.time
  gloss: long.time
  gramm: adv
- id: manlex27
+ id: manlex26
  std: ïmparëjra
  paradigm: uninfl
 
@@ -374,7 +364,7 @@
  trans_en: like
  gloss: like
  gramm: part
- id: manlex28
+ id: manlex27
  std: ta
  paradigm: uninfl
 
@@ -9426,16 +9416,6 @@
  gramm: n
  id: e9377233-00ba-4ae7-b075-a59fafb2680d
  std: oroko
- paradigm: noun
-
--lexeme
- lex: muku
- stem: .muku.
- trans_en: daughter; son
- gloss: daughter
- gramm: n
- id: e9504be7-2932-46cb-a6fb-13db60076fbe
- std: muku
  paradigm: noun
 
 -lexeme
