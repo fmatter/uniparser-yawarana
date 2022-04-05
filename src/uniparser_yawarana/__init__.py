@@ -1,7 +1,6 @@
 """Documentation about uniparser_yawarana"""
 import logging
 from uniparser_morph import Analyzer
-import os
 
 try:
     from importlib.resources import files
@@ -18,14 +17,13 @@ __version__ = "0.0.1.dev"
 class YawaranaAnalyzer(Analyzer):
     def __init__(self, verbose_grammar=False):
         base = files("uniparser_yawarana") / "data"
-        print(os.listdir(base))
         super().__init__(verbose_grammar=verbose_grammar)
         self.lexFile = base / "lexemes.txt"
         self.paradigmFile = base / "paradigms.txt"
         # self.cliticsFile = base / "clitics.txt"
         self.load_grammar()
 
-    def analyze_words(self, words, cg_file="", format=None, disambiguate=False):
+    def analyze_words(self, words, cgFile="", format=None, disambiguate=False):
         return super().analyze_words(
-            words, cgFile=cg_file, format=format, disambiguate=disambiguate
+            words, cgFile=cgFile, format=format, disambiguate=disambiguate
         )
