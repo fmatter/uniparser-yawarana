@@ -23,7 +23,7 @@
   gloss: PST
  -flex: .<.>
   gramm: 
-  paradigm: n_clit
+ paradigm: n_clit
 
 -paradigm: n_clit
  -flex: .pe
