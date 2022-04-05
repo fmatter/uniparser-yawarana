@@ -7,3 +7,4 @@ REMOVE ("wepï") IF (*-1 verbal);
 
 SECTION #clitics and verbs
 REMOVE ("të" postp) IF (NEGATE -1 (n));
+REMOVE ("ma" vt ipfv) IF (-1 ("tawara"));

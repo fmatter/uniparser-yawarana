@@ -43,3 +43,7 @@ def test_wejsapë(parser):
 def test_të(parser):
     anas = parser.analyze_words("ana të".split(" "))
     assert len(anas[1]) == 1
+
+def test_ma(parser):
+    anas = parser.analyze_words("tawara ma".split(" "))
+    assert len(anas[1]) == 1
