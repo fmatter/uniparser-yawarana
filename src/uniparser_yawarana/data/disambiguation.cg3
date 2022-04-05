@@ -1,7 +1,7 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
 LIST verbal = ipfv;
-SET v = (vt) OR (vi); # transitive or intransitive verbs
+SET v = (vt) OR (vi) OR (aux); # transitive or intransitive verbs or auxiliaries
 
 SECTION #auxiliaries
 REMOVE ("wepï") IF (*-1 verbal); # remove forms of wepï 'come' homophonous with chi 'COP' when preceded by a verbal form
