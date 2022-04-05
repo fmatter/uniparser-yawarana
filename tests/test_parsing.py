@@ -48,3 +48,8 @@ def test_të(parser):
 def test_ma(parser):
     anas = parser.analyze_words("tawara ma".split(" "))
     assert len(anas[1]) == 1
+
+def test_ma(parser):
+    for exp in ["yojtë ta", "asamo ta"]:
+        anas = parser.analyze_words(exp.split(" "))
+        assert len(anas[1]) == 1

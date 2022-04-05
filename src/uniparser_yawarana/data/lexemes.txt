@@ -369,6 +369,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: ta
+ stem: .ta.
+ trans_en: like
+ gloss: like
+ gramm: part
+ id: manlex28
+ std: ta
+ paradigm: uninfl
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
@@ -8917,16 +8927,6 @@
  id: db2ee1eb-62e7-439d-bad9-bd65ee3a230b
  std: ini
  paradigm: v_tr
-
--lexeme
- lex: ta
- stem: .ta.
- trans_en: like
- gloss: like
- gramm: intj
- id: db988dab-62ce-45c7-8b51-41e5d894a8b9
- std: ta
- paradigm: uninfl
 
 -lexeme
  lex: mati

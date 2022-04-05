@@ -1,10 +1,14 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
 LIST verbal = ipfv;
+SET v = (vt) OR (vi);
 
 SECTION #auxiliaries
 REMOVE ("wepï") IF (*-1 verbal);
 
 SECTION #clitics and verbs
-REMOVE ("të" postp) IF (NEGATE -1 (n));
-REMOVE ("ma" vt ipfv) IF (-1 ("tawara"));
+REMOVE ("të" postp) IF (NEGATE -1 (n)); #të can be verbal të-∅ or postpositional =të; exclude the latter if not preceded by a noun
+REMOVE ("ma" vt ipfv) IF (-1 ("tawara")); #ma can be verbal ma-∅ or RESTR ma; tawara ma is always all=RESTR
+
+SECTION #particles
+REMOVE ("ta" vt) IF (-1 v);
