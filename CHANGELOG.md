@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-* bad segmentations (in addition to built-in bad analyses, based on lemmata)
+* disambiguation.cg3
 
 ### Changed
 * made work outside of test environment (importlib)
-
+* started implementing clitics in paradigms.txt
 
 
 ## [0.0.1] - 2022-04-04
