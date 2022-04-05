@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+* made work outside of test environment (importlib)
+
 ## [0.0.1] - 2022-04-04
 
 ### Added

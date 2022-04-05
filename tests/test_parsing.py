@@ -20,5 +20,5 @@ def test_se(parser):
         assert parse_1(b, parser).lemma == a
 
 
-def test_yutu(parser):
-    assert parse_1("yutu", parser).lemma == "yutu"
+def test_clitics(parser):
+    assert parse_1("yatampe", parser).lemma == "yatanë"

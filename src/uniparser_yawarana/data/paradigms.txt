@@ -18,11 +18,19 @@
  paradigm: n_suff1
 
 -paradigm: n_suff2
- -flex: .jpë
+ -flex: .jpë<.>
   gramm: pst
   gloss: PST
- -flex: .
+ -flex: .<.>
   gramm: 
+  paradigm: n_clit
+
+-paradigm: n_clit
+ -flex: .pe
+  gramm: ess
+  gloss: ESS
+ -flex: .
+  gramm:
 
 -paradigm: n_suff1
  -flex: .ru<.>

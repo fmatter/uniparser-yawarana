@@ -1,6 +1,6 @@
 # uniparser_yawarana
 
-A morphological parser for Yawarana 
+A morphological parser for Yawarana ([yaba1248](https://glottolog.org/resource/languoid/id/yaba1248), [yar](https://iso639-3.sil.org/code/yar)).
 
 ![License](https://img.shields.io/github/license/fmatter/uniparser-yawarana)
 [![Build Status](https://github.com/fmatter/uniparser-yawarana/workflows/tests/badge.svg)](https://github.com/fmatter/uniparser-yawarana/actions?query=workflow%3Atests)
