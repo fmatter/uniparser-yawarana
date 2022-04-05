@@ -42,7 +42,7 @@ class YawaranaAnalyzer(Analyzer):
         all_analyses = super().analyze_words(
             words, cgFile=cgFile, format=format, disambiguate=disambiguate
         )
-        if type(words) == str:
+        if isinstance(words, str):
             pruned_analyses = self.del_seg(all_analyses)
         else:
             pruned_analyses = []
