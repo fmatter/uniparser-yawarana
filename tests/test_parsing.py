@@ -24,9 +24,17 @@ def test_clitics(parser):
     assert parse_1("yatampe", parser).lemma == "yatanë"
     assert parse_1("chawë", parser).lemma == "chi"
 
+
 def test_multiple(parser):
     assert len(parser.analyze_words("wïrë tawara rë entë".split(" "))) == 4
 
 
 def test_bad_parsing(parser):
     assert len(parser.analyze_words("yawë", parser)) == 1
+
+
+def test_disambiguations(parser):
+    anas = parser.analyze_words("yaka wejsapë".split(" "))
+    anas2 = parser.analyze_words("yaka wejsapë".split(" "), disambiguate=False)
+    assert len(anas[1]) == 1
+    assert len(anas2[1]) == 2

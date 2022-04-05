@@ -1,0 +1,6 @@
+DELIMITERS = "<SENT_BOUNDARY>";
+
+LIST verbal = ipfv;
+
+SECTION # auxiliaries
+REMOVE ("wepï") IF (*-1 verbal);
