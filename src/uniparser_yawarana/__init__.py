@@ -1,7 +1,6 @@
 """Documentation about uniparser_yawarana"""
 import logging
 from uniparser_morph import Analyzer
-import yaml
 
 try:
     from importlib.resources import files  # pragma: no cover
