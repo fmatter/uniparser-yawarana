@@ -1,4 +1,5 @@
 [
     {"wf": "yawë", "gramm": ".*lk.*"},
-    {"wf": "makë", "lemma": "ma"}
+    {"wf": "makë", "lemma": "ma"},
+    {"wf": "tujpë", "lemma": "u"}
 ]
