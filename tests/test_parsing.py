@@ -15,5 +15,10 @@ def parse_1(str, parser):
     return parser.analyze_words(str)[0]
 
 
-def test_hello(parser):
-    assert parse_1("sujtase", parser).lemma == "sujta"
+def test_se(parser):
+    for a, b in [("sujta", "sujtase")]:
+        assert parse_1(b, parser).lemma == a
+
+
+def test_yutu(parser):
+    assert parse_1("yutu", parser).lemma == "yutu"
