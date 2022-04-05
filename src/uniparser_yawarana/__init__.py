@@ -2,6 +2,7 @@
 import logging
 from uniparser_morph import Analyzer
 
+
 try:
     from importlib.resources import files  # pragma: no cover
 except ImportError:  # pragma: no cover
