@@ -129,7 +129,7 @@
  -flex: .
   gramm:
  -flex: .awë
-  gramm: loc
+  gramm: LEX:yawë:CLIT,loc
   gloss: TEMP.LOC
 
 -paradigm: v_intr
