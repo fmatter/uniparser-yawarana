@@ -17,6 +17,7 @@ __version__ = "0.0.1.dev"
 class YawaranaAnalyzer(Analyzer):
     def __init__(self, verbose_grammar=False):
         base = files("uniparser_yawarana") / "data"
+        print(base)
         super().__init__(verbose_grammar=verbose_grammar)
         self.lexFile = base / "lexemes.txt"
         self.paradigmFile = base / "paradigms.txt"
