@@ -115,14 +115,22 @@
  paradigm: dv_pl
 
 -paradigm: dv_pl
+ -flex: .<.>
+  gramm:
+ -flex: .jne<.>
+  gramm: pl
+  gloss: PL
+ -flex: .kontomo<.>//.konton<.>
+  gramm: pl
+  gloss: PL
+ paradigm: v_clit
+
+-paradigm: v_clit
  -flex: .
   gramm:
- -flex: .jne
-  gramm: pl
-  gloss: PL
- -flex: .kontomo//.konton
-  gramm: pl
-  gloss: PL
+ -flex: .awë
+  gramm: loc
+  gloss: TEMP.LOC
 
 -paradigm: v_intr
  -flex: ij.<.>
