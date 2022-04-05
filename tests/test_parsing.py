@@ -33,8 +33,13 @@ def test_bad_parsing(parser):
     assert len(parser.analyze_words("yawë", parser)) == 1
 
 
-def test_disambiguations(parser):
+def test_wejsapë(parser):
     anas = parser.analyze_words("yaka wejsapë".split(" "))
     anas2 = parser.analyze_words("yaka wejsapë".split(" "), disambiguate=False)
     assert len(anas[1]) == 1
     assert len(anas2[1]) == 2
+
+
+def test_të(parser):
+    anas = parser.analyze_words("ana të".split(" "))
+    assert len(anas[1]) == 1
