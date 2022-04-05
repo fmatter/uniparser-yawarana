@@ -21,31 +21,25 @@ class YawaranaAnalyzer(Analyzer):
         super().__init__(verbose_grammar=verbose_grammar)
         self.lexFile = base / "lexemes.txt"
         self.paradigmFile = base / "paradigms.txt"
+        self.delAnaFile = base / "bad_analyses.txt"
         # self.cliticsFile = base / "clitics.txt"
         self.load_grammar()
-        badsegs = open(base / "bad_segmentations.yaml", "r").read()
-        self.bad_segmentations = yaml.load(badsegs, Loader=yaml.FullLoader)
 
-    def del_seg(self, analyses):
-        pruned_analyses = []
-        for analysis in analyses:
-            if (
-                analysis.wf in self.bad_segmentations
-                and analysis.wfGlossed in self.bad_segmentations[analysis.wf]
-            ):
-                pass
-            else:
-                pruned_analyses.append(analysis)
-        return pruned_analyses
+    # def del_seg(self, analyses):
+    #     return analyses
+    #     pruned_analyses = []
+    #     for analysis in analyses:
+    #         if (
+    #             analysis.wf in self.bad_segmentations
+    #             and analysis.wfGlossed in self.bad_segmentations[analysis.wf]
+    #         ):
+    #             pass
+    #         else:
+    #             pruned_analyses.append(analysis)
+    #     return pruned_analyses
 
     def analyze_words(self, words, cgFile="", format=None, disambiguate=False):
         all_analyses = super().analyze_words(
             words, cgFile=cgFile, format=format, disambiguate=disambiguate
         )
-        if isinstance(words, str):
-            pruned_analyses = self.del_seg(all_analyses)
-        else:
-            pruned_analyses = []
-            for analyses in all_analyses:
-                pruned_analyses.append(self.del_seg(analyses))
-        return pruned_analyses
+        return all_analyses
