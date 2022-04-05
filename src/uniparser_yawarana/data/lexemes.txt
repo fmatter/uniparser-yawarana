@@ -529,16 +529,6 @@
  paradigm: noun
 
 -lexeme
- lex: pano
- stem: .pano.|.pan.
- trans_en: =CONCL
- gloss: CONCL
- gramm: part
- id: 046318ea-3545-47d1-b8e8-62e45c1930a3
- std: pano
- paradigm: uninfl
-
--lexeme
  lex: ëkëmo
  stem: .ëkëmo.
  trans_en: bee.sp
