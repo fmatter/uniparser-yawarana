@@ -4,9 +4,9 @@ from uniparser_morph import Analyzer
 import yaml
 
 try:
-    from importlib.resources import files # pragma: no cover
-except ImportError:# pragma: no cover
-    from importlib_resources import files # pragma: no cover
+    from importlib.resources import files  # pragma: no cover
+except ImportError:  # pragma: no cover
+    from importlib_resources import files  # pragma: no cover
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
 
@@ -23,13 +23,16 @@ class YawaranaAnalyzer(Analyzer):
         self.paradigmFile = base / "paradigms.txt"
         # self.cliticsFile = base / "clitics.txt"
         self.load_grammar()
-        badsegs = open(base/"bad_segmentations.yaml", "r").read()
+        badsegs = open(base / "bad_segmentations.yaml", "r").read()
         self.bad_segmentations = yaml.load(badsegs, Loader=yaml.FullLoader)
 
     def del_seg(self, analyses):
         pruned_analyses = []
         for analysis in analyses:
-            if analysis.wf in self.bad_segmentations and analysis.wfGlossed in self.bad_segmentations[analysis.wf]:
+            if (
+                analysis.wf in self.bad_segmentations
+                and analysis.wfGlossed in self.bad_segmentations[analysis.wf]
+            ):
                 pass
             else:
                 pruned_analyses.append(analysis)

@@ -23,6 +23,7 @@ def test_se(parser):
 def test_clitics(parser):
     assert parse_1("yatampe", parser).lemma == "yatanë"
 
+
 def test_multiple(parser):
     assert len(parser.analyze_words("wïrë tawara rë entë".split(" "))) == 4
 
