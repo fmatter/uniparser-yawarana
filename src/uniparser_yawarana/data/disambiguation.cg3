@@ -1,14 +1,14 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
 LIST verbal = ipfv;
-SET v = (vt) OR (vi);
+SET v = (vt) OR (vi); # transitive or intransitive verbs
 
 SECTION #auxiliaries
-REMOVE ("wepï") IF (*-1 verbal);
+REMOVE ("wepï") IF (*-1 verbal); # remove forms of wepï 'come' homophonous with chi 'COP' when preceded by a verbal form
 
 SECTION #clitics and verbs
 REMOVE ("të" postp) IF (NEGATE -1 (n)); #të can be verbal të-∅ or postpositional =të; exclude the latter if not preceded by a noun
 REMOVE ("ma" vt ipfv) IF (-1 ("tawara")); #ma can be verbal ma-∅ or RESTR ma; tawara ma is always all=RESTR
 
 SECTION #particles
-REMOVE ("ta" vt) IF (-1 v);
+REMOVE ("ta" vt) IF (-1 v); # remove analysis ta-∅ 'said' if previous lexeme is verb
