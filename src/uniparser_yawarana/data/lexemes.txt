@@ -109,13 +109,13 @@
  paradigm: v_tr
 
 -lexeme
- lex: nai
- stem: .nai.|.naij.
+ lex: naij
+ stem: .naij.
  trans_en: do; put
  gloss: do
  gramm: vt
  id: manlex2
- std: nai
+ std: naij
  paradigm: v_tr
 
 -lexeme
