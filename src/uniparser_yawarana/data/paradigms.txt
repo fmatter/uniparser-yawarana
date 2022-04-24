@@ -67,6 +67,9 @@
 -paradigm: v_tr
  -flex: .<.>
   gramm:
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
  -flex: ta.<.>
   gramm: 3P
   gloss: 3P
@@ -136,6 +139,9 @@
  -flex: ij.<.>
   gramm: 3
   gloss: 3
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
  -flex: u.<.>
   gramm: 1
   gloss: 1
