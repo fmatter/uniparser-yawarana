@@ -1349,6 +1349,16 @@
  paradigm: noun
 
 -lexeme
+ lex: wajyakïtï
+ stem: .wajyakïtï.|.wajyakï.
+ trans_en: be.happy
+ gloss: be.happy
+ gramm: vi
+ id: 1d47445b-035f-458f-ab65-fa1bf664f129
+ std: wajyakïtï
+ paradigm: v_intr
+
+-lexeme
  lex: kopi
  stem: .kopi.|.okopi.|.ojkopi.
  trans_en: bathe
@@ -2237,6 +2247,16 @@
  id: 3054ce46-e2e3-45da-9039-ce6abb2c2979
  std: yenïjtë
  paradigm: v_tr
+
+-lexeme
+ lex: waimu
+ stem: .waimu.|.waimurun.|.waimuj.|.waimuru.
+ trans_en: speak
+ gloss: speak
+ gramm: vi
+ id: 3078733f-0930-414f-8b78-42c99ecef055
+ std: waimu
+ paradigm: v_intr
 
 -lexeme
  lex: sejpëjtëkë
@@ -5627,6 +5647,16 @@
  id: 85d5ccf6-b396-4851-a6b1-86b2874af88c
  std: yëmpëka
  paradigm: v_tr
+
+-lexeme
+ lex: yaruwa
+ stem: .yaruwa.
+ trans_en: laugh
+ gloss: laugh
+ gramm: vi
+ id: 866eb4fd-5869-403f-a12d-922cb0f26a9a
+ std: yaruwa
+ paradigm: v_intr
 
 -lexeme
  lex: supuj
