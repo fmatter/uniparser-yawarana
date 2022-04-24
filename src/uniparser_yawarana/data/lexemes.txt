@@ -349,6 +349,36 @@
  paradigm: uninfl
 
 -lexeme
+ lex: sereka
+ stem: .sereka.
+ trans_en: tire
+ gloss: tire
+ gramm: vi
+ id: manlex26
+ std: sereka
+ paradigm: v_intr
+
+-lexeme
+ lex: kï
+ stem: .kï.
+ trans_en: oh
+ gloss: oh
+ gramm: intj
+ id: manlex27
+ std: kï
+ paradigm: uninfl
+
+-lexeme
+ lex: esene
+ stem: .esene.|.sene.
+ trans_en: see.self
+ gloss: see.self
+ gramm: vi
+ id: manlex28
+ std: esene
+ paradigm: v_intr
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain

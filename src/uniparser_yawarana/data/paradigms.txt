@@ -4,18 +4,23 @@
  -flex: y.<.>
   gloss: LK
   gramm: lk
+  id: ylk
  -flex: t.<.>
   gloss: 3
   gramm: 3;poss
+  id: t3
  -flex: i.<.>
   gramm: 3
   gloss: 3
+  id: i3
  -flex: u.<.>
   gloss: 1
   gramm: 1;poss
+  id: u1
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1;poss
+  id: u1
  -flex: .<.>
   gramm:
  paradigm: n_suff1
@@ -24,6 +29,7 @@
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
+  id: jpepst
  -flex: .<.>
   gramm: 
  paradigm: n_clit
@@ -32,6 +38,7 @@
  -flex: .pe
   gramm: ess
   gloss: ESS
+  id: peess
  -flex: .
   gramm:
 
@@ -39,7 +46,7 @@
  -flex: .ru<.>
   gloss: PERT
   gramm: pert
-  id: pert
+  id: rupert
   paradigm: n_suff2
  -flex: .<.>
   gramm:
@@ -47,15 +54,19 @@
  -flex: .pïjkë
   gramm: dim
   gloss: DIM
+  id: pijkedim
  -flex: .jra
   gramm: priv
   gloss: PRIV
+  id: jraneg
  -flex: .jne
   gramm: pl
   gloss: PL
+  id: jnepl
  -flex: .tomo<.>//.ton<.>
   gramm: pl
   gloss: PL
+  id: tomopl
   paradigm: n_suff2
 
 
@@ -73,15 +84,18 @@
  -flex: më.<.>
   gramm: 2
   gloss: 2
+  id: me2
  -flex: ta.<.>
   gramm: 3P
   gloss: 3P
+  id: t3
  paradigm: v_suff
 
 -paradigm: v_suff
  -flex: .pëti<.>//.pëj<.>
   gramm: plur
   gloss: PLUR
+  id: petiplur
  -flex: .<.>
   gramm:
  paradigm: v_suff1
@@ -90,6 +104,10 @@
  -flex: .tojpe<.>
   gramm: fut
   gloss: FUT
+  id: tojpefut
+ -flex: .tëpëkë<.>
+  gramm: prog,intr
+  gloss: PROG.INTR
  -flex: .sapë<.>//.saj<.>
   gramm: pfv
   gloss: PFV
@@ -100,39 +118,52 @@
  -flex: .se|mï<.>
   gramm: ptcp,nmlz
   gloss: PTCP|NMLZ
+  id: septcp,minmlz
   paradigm: n_suff1
  -flex: .po<.>
   gramm: des
   gloss: DES
+  id: podes
   paradigm: n_suff1
  -flex: .topo
   gramm: nmlz
   gloss: CIRC.NMLZ
+  id: toponmlz
+  paradigm: 
+ -flex: .tane
+  gramm: cncs
+  gloss: CNCS
+  id: tanecncs
   paradigm: 
  -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
   gramm: ipfv
   gloss: IPFV
+  id: ri
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
+  id: jpepst
  -flex: .kë
   gloss: IMP
   gramm: imp
+  id: keimp
  -flex: .ta
   gloss: MOTIMP
   gramm: motimp
+  id: tamotimp
  -flex: .sarë<.>
   gramm: inm
   gloss: INM
- -flex: .ja
-  gramm: neg
-  gloss: NEG
+  id: sareinm
+  id: jraneg
  -flex: .tïkene
   gramm: post
   gloss: POST
+  id: tikenepost
  -flex: .kempïnirë
   gramm: ptcp,nmlz,gno,neg
   gloss: PTCP.NZR.GNO:NEG
+  id: kempinire
  paradigm: dv_pl
 
 -paradigm: dv_pl
@@ -141,31 +172,30 @@
  -flex: .jne<.>
   gramm: pl
   gloss: PL
+  id: jnepl
  -flex: .kontomo<.>//.konton<.>
   gramm: pl
   gloss: PL
- -flex: .jra<.>
+  id: konomopl
+ -flex: .jra<.>//.ja<.>
   gloss: NEG
   gramm: neg
+  id: jraneg
  paradigm: v_clit
-
--paradigm: v_clit
- -flex: .
-  gramm:
- -flex: .awë
-  gramm: LEX:yawë:CLIT,loc
-  gloss: TEMP.LOC
 
 -paradigm: cop
  -flex: ij.<.>
   gramm: 3
   gloss: 3
+  id: i3
  -flex: më.<.>
   gramm: 2
   gloss: 2
+  id: me2
  -flex: u.<.>
   gramm: 1
   gloss: 1
+  id: u1
  -flex: .<.>
   gramm:
  paradigm: v_suff
@@ -176,21 +206,31 @@
   gloss: because|NMLZ
   gramm: nmlz
   sep: =
+  id: pokobecause,nonmlz
  -flex: .pëkë
   gloss: because
   gramm: because
+  id: pokobecause
   sep: =
+ -flex: .awë
+  gramm: LEX:yawë:CLIT,loc
+  gloss: TEMP.LOC
+  sep: =
+  id: yaweloc
 
 -paradigm: v_intr
  -flex: ij.<.>
   gramm: 3
   gloss: 3
+  id: i3
  -flex: më.<.>
   gramm: 2
   gloss: 2
+  id: me2
  -flex: u.<.>
   gramm: 1
   gloss: 1
+  id: u1
  -flex: .<.>
   gramm:
  paradigm: v_suff
@@ -199,19 +239,28 @@
  -flex: .tojpe
   gramm: fut
   gloss: FUT
+  id: tojpefut
  -flex: .sapë//.saj
   gramm: pfv
   gloss: PFV
+  id: sapepfv
  -flex: .se
   gramm: pst
   gloss: PST
+  id: septcp
 
 -paradigm: postp
  -flex: t.
   gramm: 3
   gloss: 3
+  id: t3
  -flex: y.
   gramm: lk
   gloss: LK
+  id: ylk
+ -flex: u.
+  gramm: 1
+  gloss: 1
+  id: u1
  -flex: .
   gramm:
