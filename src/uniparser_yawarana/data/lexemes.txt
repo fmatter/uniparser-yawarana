@@ -559,26 +559,6 @@
  paradigm: noun
 
 -lexeme
- lex: -tomo
- stem: .-tomo.|.-ton.|.-tom.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: 04ce7871-188b-47ff-b5db-8c9a50dc17cf
- std: -tomo
- paradigm: noun
-
--lexeme
- lex: ne
- stem: .ne.|.n.
- trans_en: =INTS
- gloss: INTS
- gramm: part
- id: 052ce7b2-cdd0-423e-8686-22e43307bf5b
- std: ne
- paradigm: uninfl
-
--lexeme
  lex: sojpa
  stem: .sojpa.
  trans_en: take.out
@@ -829,16 +809,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: winë
- stem: .winë.
- trans_en: =ABLA
- gloss: ABLA
- gramm: postp
- id: 0beb0066-2523-4fc8-83eb-355ae4d4c1c2
- std: winë
- paradigm: postp
-
--lexeme
  lex: i
  stem: .i.|.yi.
  trans_en: put; harm
@@ -949,36 +919,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: -ka
- stem: .-ka.
- trans_en: -VZR
- gloss: -VZR
- gramm: vi
- id: 0e7219fb-5d10-4d22-b150-b7ffee7eca4e
- std: -ka
- paradigm: v_intr
-
--lexeme
- lex: t-
- stem: .t-.|.ti-.|.it-.
- trans_en: 3-
- gloss: 3-
- gramm: n
- id: 0eac459e-a75f-433c-b994-085b7754c8f3
- std: t-
- paradigm: noun
-
--lexeme
- lex: yawë
- stem: .yawë.|.awë.|.yawo.
- trans_en: =LOC; =TMP:LOC; =COND
- gloss: LOC
- gramm: postp
- id: 0f33fe52-ad15-4a13-8efc-f52c62f51f28
- std: yawë
- paradigm: postp
-
--lexeme
  lex: yerema
  stem: .yerema.
  trans_en: feed
@@ -987,16 +927,6 @@
  id: 0f40009d-39ec-4751-aec9-01c47243cf1f
  std: yerema
  paradigm: v_tr
-
--lexeme
- lex: yaka
- stem: .yaka.|.yaka.
- trans_en: =into; =in
- gloss: into
- gramm: postp
- id: 0f4993a7-5709-45b6-82d2-fe339b4d94e6
- std: yaka
- paradigm: postp
 
 -lexeme
  lex: tëtëpamï
@@ -1089,16 +1019,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: ta-
- stem: .ta-.
- trans_en: 3O-
- gloss: 3O-
- gramm: vt
- id: 129015b1-7ea1-460b-b384-e6ddde1236f5
- std: ta-
- paradigm: v_tr
-
--lexeme
  lex: ijpu
  stem: .ijpu.
  trans_en: summit
@@ -1116,16 +1036,6 @@
  gramm: adv
  id: 134a62ee-93f1-4f0a-a4de-0d3f39a24ac6
  std: mojne
- paradigm: uninfl
-
--lexeme
- lex: me
- stem: .me.
- trans_en: =POL
- gloss: POL
- gramm: part
- id: 1355265e-5c3d-4f83-974c-8c3b549ceec3
- std: me
  paradigm: uninfl
 
 -lexeme
@@ -1209,16 +1119,6 @@
  paradigm: noun
 
 -lexeme
- lex: t- -re
- stem: .t- -re.|.t-.|.-re.|.Ø-.
- trans_en: -AZR
- gloss: -AZR
- gramm: adv
- id: 172b2cf3-a510-42c0-8593-e5ba12c0a44e
- std: t- -re
- paradigm: uninfl
-
--lexeme
  lex: chiwa
  stem: .chiwa.
  trans_en: rope
@@ -1226,26 +1126,6 @@
  gramm: n
  id: 172bc794-6696-458e-b58a-33265fbf8f90
  std: chiwa
- paradigm: noun
-
--lexeme
- lex: ma
- stem: .ma.
- trans_en: =RESTR
- gloss: RESTR
- gramm: part
- id: 175a2c76-1c8f-4d49-8432-88d333df38bc
- std: ma
- paradigm: uninfl
-
--lexeme
- lex: -ti
- stem: .-ti.
- trans_en: -POS
- gloss: -POS
- gramm: n
- id: 1766bf1f-dc21-4ee0-8c37-d1911bcff0fa
- std: -ti
  paradigm: noun
 
 -lexeme
@@ -1257,16 +1137,6 @@
  id: 17979045-3607-4747-86de-4cdeacfc568b
  std: werewere
  paradigm: noun
-
--lexeme
- lex: ya
- stem: .ya.
- trans_en: =ERG; =notERG; =CAUS
- gloss: ERG
- gramm: part
- id: 17d51112-76bf-4fe8-83e6-efa89fc0dcdd
- std: ya
- paradigm: uninfl
 
 -lexeme
  lex: ësëmpëka
@@ -1739,16 +1609,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: -komo
- stem: .-komo.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: 252daa7c-1783-4c18-aab0-1abab46f03fe
- std: -komo
- paradigm: noun
-
--lexeme
  lex: pïrini
  stem: .pïrini.|.pirin.
  trans_en: walk.IPFV
@@ -1777,16 +1637,6 @@
  id: 255a325b-f2a9-4fa7-bd37-e8c57e5ad9b3
  std: ëchikini
  paradigm: noun
-
--lexeme
- lex: pëkë
- stem: .pëkë.|.poko.
- trans_en: =about; =because; =when; =between
- gloss: about
- gramm: postp
- id: 256c6a1b-9ea1-47d0-9819-7ab516573ded
- std: pëkë
- paradigm: postp
 
 -lexeme
  lex: mukujpë
@@ -1889,16 +1739,6 @@
  paradigm: noun
 
 -lexeme
- lex: -rono
- stem: .-rono.
- trans_en: -NZR.newly
- gloss: -NZR.newly
- gramm: n
- id: 2789fea6-1572-4554-9d18-136e7ccbc0ec
- std: -rono
- paradigm: noun
-
--lexeme
  lex: nepï
  stem: .nepï.|.nej.
  trans_en: bring
@@ -1997,16 +1837,6 @@
  id: 2942dfac-9699-429b-8943-4234cdd137b6
  std: pomï
  paradigm: v_tr
-
--lexeme
- lex: n-
- stem: .n-.
- trans_en: O.NZR
- gloss: O.NZR
- gramm: n
- id: 2a53dd54-3bee-4b77-9c1c-9bc2aa92cd2e
- std: n-
- paradigm: noun
 
 -lexeme
  lex: yaaka
@@ -2129,16 +1959,6 @@
  paradigm: noun
 
 -lexeme
- lex: -yawë
- stem: .-yawë.
- trans_en: -ABIL
- gloss: -ABIL
- gramm: vi
- id: 2cb60811-9b0d-4a84-a14c-5b140e49b7be
- std: -yawë
- paradigm: v_intr
-
--lexeme
  lex: arikuwa
  stem: .arikuwa.
  trans_en: oil.lamp
@@ -2159,16 +1979,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: të
- stem: .të.|.to.
- trans_en: =LOC
- gloss: LOC
- gramm: postp
- id: 2d44f8c3-fec2-467a-ba62-150ea031ffef
- std: të
- paradigm: postp
-
--lexeme
  lex: irëjpë
  stem: .irëjpë.
  trans_en: then
@@ -2186,16 +1996,6 @@
  gramm: vi
  id: 2d577076-cb5c-4601-98a8-c16c82276888
  std: ëjmëti
- paradigm: v_intr
-
--lexeme
- lex: -ta
- stem: .-ta.
- trans_en: -INCH:VZR
- gloss: -INCH:VZR
- gramm: vi
- id: 2d767dad-c657-4d49-b51a-82b912c99608
- std: -ta
  paradigm: v_intr
 
 -lexeme
@@ -2226,16 +2026,6 @@
  gramm: ideo
  id: 2e686433-259e-44d5-9cb1-35f7085e7ad0
  std: taka
- paradigm: uninfl
-
--lexeme
- lex: t- -ne
- stem: .t- -ne.|.t-.|.-ne.
- trans_en: -AZR
- gloss: -AZR
- gramm: adv
- id: 2e8ebc91-9843-4da9-b87b-db65432bc973
- std: t- -ne
  paradigm: uninfl
 
 -lexeme
@@ -2339,16 +2129,6 @@
  paradigm: pro
 
 -lexeme
- lex: -se
- stem: .-se.|.-che.
- trans_en: -PTCP; -PST; -MD.PAS
- gloss: -PTCP
- gramm: vi
- id: 3237f635-e433-45c2-a852-c6768dbdf6b0
- std: -se
- paradigm: v_intr
-
--lexeme
  lex: sejpëjtëkë
  stem: .sejpëjtëkë.
  trans_en: come:IMP:PL
@@ -2407,16 +2187,6 @@
  id: 32e25003-b32f-4040-98a9-9a389fd3aae3
  std: jta
  paradigm: noun
-
--lexeme
- lex: s-
- stem: .s-.
- trans_en: -DETR
- gloss: -DETR
- gramm: vi
- id: 3313dc59-3216-44ad-a032-bf07b88e21a0
- std: s-
- paradigm: v_intr
 
 -lexeme
  lex: semana
@@ -2507,26 +2277,6 @@
  id: 36697578-801c-4c54-8aa4-d2683991e368
  std: kuku
  paradigm: v_tr
-
--lexeme
- lex: -pa
- stem: .-pa.
- trans_en: -TR.VZR
- gloss: -TR.VZR
- gramm: vt
- id: 3675a6cc-5ad1-4c87-b972-a3f7b4c70d45
- std: -pa
- paradigm: v_tr
-
--lexeme
- lex: -sapë
- stem: .-sapë.|.-saj.|.-chaj.|.-chapë.
- trans_en: -ABS.NZR; -PERF
- gloss: -ABS.NZR
- gramm: vi
- id: 369a8163-e66c-40ec-a58b-dae90abb3ab5
- std: -sapë
- paradigm: v_intr
 
 -lexeme
  lex: ajpachi
@@ -2699,16 +2449,6 @@
  paradigm: noun
 
 -lexeme
- lex: -në
- stem: .-në.
- trans_en: -INF
- gloss: -INF
- gramm: n
- id: 3c9dbea5-8e52-4909-9620-b7b5a27a6722
- std: -në
- paradigm: noun
-
--lexeme
  lex: pamo
  stem: .pamo.
  trans_en: cousin.:VOC
@@ -2727,16 +2467,6 @@
  id: 3cf2994a-418f-45e2-9f7f-10a42ebc5768
  std: impai
  paradigm: noun
-
--lexeme
- lex: -kempïnirë
- stem: .-kempïnirë.
- trans_en: -:PTCP.NZR.GNO:NEG
- gloss: -:PTCP.NZR.GNO:NEG
- gramm: vi
- id: 3d5701a5-29b7-4575-a70c-83408fbc57d8
- std: -kempïnirë
- paradigm: v_intr
 
 -lexeme
  lex: nunë
@@ -2779,16 +2509,6 @@
  paradigm: noun
 
 -lexeme
- lex: -sepano
- stem: .-sepano.|.-chepano.
- trans_en: -PST
- gloss: -PST
- gramm: vi
- id: 3e14b049-77a6-4945-8701-bfb550a044f4
- std: -sepano
- paradigm: v_intr
-
--lexeme
  lex: tajwere
  stem: .tajwere.
  trans_en: sweet
@@ -2817,16 +2537,6 @@
  id: 3f00c493-1890-4a54-bd98-ce503e4125bb
  std: tawiriki
  paradigm: v_intr
-
--lexeme
- lex: -jpë
- stem: .-jpë.|.-jpo.
- trans_en: -PST.PSN; -MOD
- gloss: -PST.PSN
- gramm: n
- id: 3f0c52e3-1af5-4ff8-8ca5-43bfdc88614d
- std: -jpë
- paradigm: noun
 
 -lexeme
  lex: yanontë
@@ -2917,16 +2627,6 @@
  id: 41ecd580-e6ba-4bc3-a924-b2d0c26ed67e
  std: saku
  paradigm: noun
-
--lexeme
- lex: t- -ke
- stem: .t- -ke.|.t-.|.-ke.|.Ø-.
- trans_en: -PROP
- gloss: -PROP
- gramm: adv
- id: 41eee779-d5eb-40c5-af10-f12a6a45d035
- std: t- -ke
- paradigm: uninfl
 
 -lexeme
  lex: takonowinë
@@ -3059,26 +2759,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: -tan
- stem: .-tan.
- trans_en: -MOT
- gloss: -MOT
- gramm: vi
- id: 45761220-8f65-4729-971d-4bceba6125f8
- std: -tan
- paradigm: v_intr
-
--lexeme
- lex: -tane
- stem: .-tane.|.-tan.|.-tanë.
- trans_en: -CNCS; -SIMUL
- gloss: -CNCS
- gramm: adv
- id: 45d72891-1426-4f1c-a160-13b1e4b323ee
- std: -tane
- paradigm: uninfl
-
--lexeme
  lex: paijta
  stem: .paijta.
  trans_en: river.???
@@ -3097,16 +2777,6 @@
  id: 4604aff4-10aa-40dd-9995-f14ff00422af
  std: pipi
  paradigm: noun
-
--lexeme
- lex: -tërë
- stem: .-tërë.|.-tere.
- trans_en: -after; -type
- gloss: -after
- gramm: adv
- id: 4609f71d-38c2-4efb-b565-c2ef58e9c002
- std: -tërë
- paradigm: uninfl
 
 -lexeme
  lex: kanawa
@@ -3249,16 +2919,6 @@
  paradigm: noun
 
 -lexeme
- lex: -yapo
- stem: .-yapo.|.-ya'po.
- trans_en: -NEG.PURP
- gloss: -NEG.PURP
- gramm: vi
- id: 4b072ee0-6dc2-4865-b36a-2c4ef55294da
- std: -yapo
- paradigm: v_intr
-
--lexeme
  lex: wecheka
  stem: .wecheka.
  trans_en: move; transform
@@ -3379,16 +3039,6 @@
  paradigm: noun
 
 -lexeme
- lex: -ni
- stem: .-ni.|.-nij.
- trans_en: -A.NZR
- gloss: -A.NZR
- gramm: n
- id: 4da3ecf0-32b8-4c17-9259-15472c5661f1
- std: -ni
- paradigm: noun
-
--lexeme
  lex: rujruku
  stem: .rujruku.
  trans_en: wild.grape
@@ -3459,26 +3109,6 @@
  paradigm: noun
 
 -lexeme
- lex: -sarë
- stem: .-sarë.|.-charë.
- trans_en: -CONV
- gloss: -CONV
- gramm: adv
- id: 5015a856-31d0-40a3-93da-8339785d9ae7
- std: -sarë
- paradigm: uninfl
-
--lexeme
- lex: -të
- stem: .-të.
- trans_en: NPOS
- gloss: NPOS
- gramm: n
- id: 502723cd-39e3-4591-a25b-f70bd0f85d97
- std: -të
- paradigm: noun
-
--lexeme
  lex: yapo
  stem: .yapo.
  trans_en: try.out
@@ -3517,16 +3147,6 @@
  id: 5116547d-be92-4f54-90e3-69fd668ecdcb
  std: sakaijpe
  paradigm: uninfl
-
--lexeme
- lex: -tantë
- stem: .-tantë.
- trans_en: -ALL.PL
- gloss: -ALL.PL
- gramm: vi
- id: 516576f9-7dc4-4fbc-8a8b-7bc276288f94
- std: -tantë
- paradigm: v_intr
 
 -lexeme
  lex: top
@@ -3729,16 +3349,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: a-
- stem: .a-.|.e-.|.ë-.
- trans_en: 2-
- gloss: 2-
- gramm: n
- id: 57c77c2f-45cb-44e3-950b-f05efafdd1e1
- std: a-
- paradigm: noun
-
--lexeme
  lex: yopo
  stem: .yopo.
  trans_en: search; find
@@ -3766,16 +3376,6 @@
  gramm: n
  id: 587df19c-4c17-4861-8fca-fcabc2467305
  std: yapijtomo
- paradigm: noun
-
--lexeme
- lex: y-
- stem: .y-.
- trans_en: REL-
- gloss: REL-
- gramm: n
- id: 589dc721-1957-478d-8d5a-12ee117d001f
- std: y-
  paradigm: noun
 
 -lexeme
@@ -3829,16 +3429,6 @@
  paradigm: noun
 
 -lexeme
- lex: -kontomo
- stem: .-kontomo.|.-konton.|.-konto.|.-kontom.|.-kontomo.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: 5a683e16-9978-47a7-8c6b-1a8d8e455626
- std: -kontomo
- paradigm: noun
-
--lexeme
  lex: araya
  stem: .araya.
  trans_en: spider
@@ -3887,16 +3477,6 @@
  id: 5b82d999-9392-4baf-8162-3b7d99a3b547
  std: yawankui
  paradigm: v_tr
-
--lexeme
- lex: po
- stem: .po.
- trans_en: =LOC
- gloss: LOC
- gramm: postp
- id: 5bc139bc-8d8e-4957-a812-290a65b85a9f
- std: po
- paradigm: postp
 
 -lexeme
  lex: uuu
@@ -4007,16 +3587,6 @@
  id: 5e5941b5-c3e9-4cc7-a0e5-3c2676a90688
  std: sëmpinuku
  paradigm: v_intr
-
--lexeme
- lex: wï-
- stem: .wï-.|.u-.
- trans_en: 1SG-
- gloss: 1SG-
- gramm: n
- id: 5ec19222-900e-466f-893b-d45518d2c216
- std: wï-
- paradigm: noun
 
 -lexeme
  lex: waro
@@ -4179,16 +3749,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: -jra
- stem: .-jra.
- trans_en: -PRIV
- gloss: -PRIV
- gramm: adv
- id: 62e1159f-c738-486f-b822-49ae0b42fd81
- std: -jra
- paradigm: uninfl
-
--lexeme
  lex: ta
  stem: .ta.|.taj.|.taro.
  trans_en: say; mention
@@ -4279,16 +3839,6 @@
  paradigm: noun
 
 -lexeme
- lex: -jtë
- stem: .-jtë.
- trans_en: -TR.VZR
- gloss: -TR.VZR
- gramm: vt
- id: 64f7cf2a-5181-433a-a080-d816015e8632
- std: -jtë
- paradigm: v_tr
-
--lexeme
  lex: ëkëwinë
  stem: .ëkëwinë.
  trans_en: where:PERL
@@ -4317,16 +3867,6 @@
  id: 654efc08-331d-4962-bb31-09312754a2c4
  std: chëkïi
  paradigm: noun
-
--lexeme
- lex: -pëkë
- stem: .-pëkë.|.-poko.
- trans_en: -because
- gloss: -because
- gramm: adv
- id: 659f832d-9049-48b1-88e4-fc71483bed07
- std: -pëkë
- paradigm: uninfl
 
 -lexeme
  lex: tïnïjna
@@ -4409,16 +3949,6 @@
  paradigm: noun
 
 -lexeme
- lex: -ni
- stem: .-ni.
- trans_en: -POS
- gloss: -POS
- gramm: n
- id: 673eec92-970b-4af5-8824-9025395f7881
- std: -ni
- paradigm: noun
-
--lexeme
  lex: mëkontomo
  stem: .mëkontomo.|.mokontomo.|.montomo.
  trans_en: 2PL
@@ -4427,16 +3957,6 @@
  id: 6834a422-bece-4f7c-9e98-baa8ba7f2f38
  std: mëkontomo
  paradigm: pro
-
--lexeme
- lex: ke
- stem: .ke.
- trans_en: =INSTR
- gloss: INSTR
- gramm: postp
- id: 68469347-be2c-4ae1-97f6-ff3a04eac786
- std: ke
- paradigm: postp
 
 -lexeme
  lex: asamawë
@@ -4539,16 +4059,6 @@
  paradigm: noun
 
 -lexeme
- lex: -pïnirë
- stem: .-pïnirë.|.-pïnïre.|.-pïnïre.|.-pïni.
- trans_en: -NEG
- gloss: -NEG
- gramm: n
- id: 6a99b196-137b-4cc8-bc1d-c860f03170f4
- std: -pïnirë
- paradigm: noun
-
--lexeme
  lex: jwakïrï
  stem: .jwakïrï.
  trans_en: liquid:PERL
@@ -4557,26 +4067,6 @@
  id: 6aeb6dce-b9ab-49e1-be4f-d2060a163552
  std: jwakïrï
  paradigm: postp
-
--lexeme
- lex: pana
- stem: .pana.
- trans_en: =ALL; =ADRS; =REC; =???; =DAT.S
- gloss: ALL
- gramm: postp
- id: 6b965300-b60c-4d5f-a8ee-2b00837e5929
- std: pana
- paradigm: postp
-
--lexeme
- lex: -ja
- stem: .-ja.
- trans_en: -NEG
- gloss: -NEG
- gramm: vi
- id: 6bb471b3-0b43-4728-a5ac-da0186dca7e0
- std: -ja
- paradigm: v_intr
 
 -lexeme
  lex: awasuka
@@ -4589,16 +4079,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: -jti
- stem: .-jti.|.-jtij.
- trans_en: -DIM
- gloss: -DIM
- gramm: n
- id: 6bea3535-6af0-4074-a75f-28fb16fd9ff1
- std: -jti
- paradigm: noun
-
--lexeme
  lex: pataka
  stem: .pataka.
  trans_en: take.out
@@ -4607,16 +4087,6 @@
  id: 6bf9d072-f9f8-443e-8274-1a15c48c7939
  std: pataka
  paradigm: v_tr
-
--lexeme
- lex: -nojpë
- stem: .-nojpë.
- trans_en: -ABLA
- gloss: -ABLA
- gramm: adv
- id: 6c04a4e7-ebf2-4ae9-845c-812f82b811da
- std: -nojpë
- paradigm: uninfl
 
 -lexeme
  lex: naki
@@ -4659,16 +4129,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: yatë
- stem: .yatë.
- trans_en: =LOC
- gloss: LOC
- gramm: postp
- id: 6c77bb8c-c801-42c4-95db-eb3e78b56ed7
- std: yatë
- paradigm: postp
-
--lexeme
  lex: chej
  stem: .chej.
  trans_en: pull.out
@@ -4677,16 +4137,6 @@
  id: 6cbe3502-f914-46b3-8ebf-9606dc331fdb
  std: chej
  paradigm: uninfl
-
--lexeme
- lex: i-
- stem: .i-.|.ij-.
- trans_en: 3-
- gloss: 3-
- gramm: n
- id: 6cbf0545-1143-4cb7-b9ff-7c0690a3a71d
- std: i-
- paradigm: noun
 
 -lexeme
  lex: waijtë
@@ -4819,16 +4269,6 @@
  paradigm: postp
 
 -lexeme
- lex: -sempe
- stem: .-sempe.
- trans_en: ABIL
- gloss: ABIL
- gramm: adv
- id: 70f6fa8c-9cfc-4b50-ad71-f0a198646135
- std: -sempe
- paradigm: uninfl
-
--lexeme
  lex: morontama
  stem: .morontama.
  trans_en: hurt
@@ -4897,16 +4337,6 @@
  id: 72a3a43c-8f74-4c86-967a-caf0649c9039
  std: apo
  paradigm: uninfl
-
--lexeme
- lex: -jne
- stem: .-jne.|.-jnë.
- trans_en: -PL
- gloss: -PL
- gramm: vi
- id: 72a56537-15fb-499f-ac5f-bb197307e9d2
- std: -jne
- paradigm: v_intr
 
 -lexeme
  lex: jyatë
@@ -5079,26 +4509,6 @@
  paradigm: noun
 
 -lexeme
- lex: -tano
- stem: .-tano.
- trans_en: -HYP
- gloss: -HYP
- gramm: n
- id: 76f74fa5-cb9f-49cf-b418-c225b91546f7
- std: -tano
- paradigm: noun
-
--lexeme
- lex: -nëpëkë
- stem: .-nëpëkë.|.-tëpëkë.|.-nëpïkë.
- trans_en: -INTR.PROG
- gloss: -INTR.PROG
- gramm: vi
- id: 76f77148-2ace-43c2-9f0a-d3b607e8efe6
- std: -nëpëkë
- paradigm: v_intr
-
--lexeme
  lex: yawaka
  stem: .yawaka.
  trans_en: sow
@@ -5127,16 +4537,6 @@
  id: 7770d7b9-08b4-478c-a7a1-3db99929fc4b
  std: tunampe
  paradigm: uninfl
-
--lexeme
- lex: -po
- stem: .-po.
- trans_en: -DES
- gloss: -DES
- gramm: vi
- id: 777341f0-34ff-4c1a-93b9-fa703ee060cc
- std: -po
- paradigm: v_intr
 
 -lexeme
  lex: nai
@@ -5229,16 +4629,6 @@
  paradigm: noun
 
 -lexeme
- lex: -ni
- stem: .-ni.|.-m.
- trans_en: -PROG
- gloss: -PROG
- gramm: vi
- id: 79806a57-ace0-4a69-ad65-d06c925f68b5
- std: -ni
- paradigm: v_intr
-
--lexeme
  lex: yaijkota
  stem: .yaijkota.
  trans_en: bark
@@ -5247,16 +4637,6 @@
  id: 79a93005-3293-4ed1-afb2-2edbb9b622db
  std: yaijkota
  paradigm: v_tr
-
--lexeme
- lex: pëkëpene
- stem: .pëkëpene.|.pokopene.
- trans_en: =alone
- gloss: alone
- gramm: postp
- id: 79e3888c-0fa2-4e0b-a5fe-c74c99fc9967
- std: pëkëpene
- paradigm: postp
 
 -lexeme
  lex: kajkë
@@ -5309,16 +4689,6 @@
  paradigm: noun
 
 -lexeme
- lex: -ta
- stem: .-ta.
- trans_en: -ALL:IMP
- gloss: -ALL:IMP
- gramm: vi
- id: 7be1e4dc-0d4e-4675-af04-3366af156105
- std: -ta
- paradigm: v_intr
-
--lexeme
  lex: korororo
  stem: .korororo.
  trans_en: thick.drip
@@ -5367,16 +4737,6 @@
  id: 7ccdea1f-add1-4fd0-b650-5473ccff99fd
  std: morone
  paradigm: uninfl
-
--lexeme
- lex: -tïkene
- stem: .-tïkene.
- trans_en: -POST
- gloss: -POST
- gramm: vt
- id: 7cd65c26-ba08-40f4-bd5a-0ba8e301fdaa
- std: -tïkene
- paradigm: v_tr
 
 -lexeme
  lex: sarë
@@ -5439,16 +4799,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: -pëtï
- stem: .-pëtï.|.-pëj.|.-pëti.
- trans_en: -PLAC
- gloss: -PLAC
- gramm: vi
- id: 7fe9f6f8-2d14-4538-af58-72a1b0bcc58c
- std: -pëtï
- paradigm: v_intr
-
--lexeme
  lex: romoyaye
  stem: .romoyaye.
  trans_en: downriver:PERL
@@ -5457,16 +4807,6 @@
  id: 7ffb9541-318f-45e2-aa58-167c79c0fdfc
  std: romoyaye
  paradigm: uninfl
-
--lexeme
- lex: pëkë
- stem: .pëkë.
- trans_en: =CONV; =simult
- gloss: CONV
- gramm: postp
- id: 801b54ee-ab60-46fd-8d37-6df99343b452
- std: pëkë
- paradigm: postp
 
 -lexeme
  lex: kasawoko
@@ -5549,16 +4889,6 @@
  paradigm: noun
 
 -lexeme
- lex: -yamo
- stem: .-yamo.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: 821421f8-3634-4e83-9b43-48847a5368ce
- std: -yamo
- paradigm: noun
-
--lexeme
  lex: warë
  stem: .warë.|.ënwarë.|.nwarë.|.uwarë.|.enwarë.
  trans_en: thus
@@ -5629,16 +4959,6 @@
  paradigm: noun
 
 -lexeme
- lex: -sarë
- stem: .-sarë.|.-sare.
- trans_en: -INM
- gloss: -INM
- gramm: vt
- id: 84db0e60-a756-4662-911c-d7d5c0632711
- std: -sarë
- paradigm: v_tr
-
--lexeme
  lex: yajka
  stem: .yajka.
  trans_en: clean
@@ -5697,26 +5017,6 @@
  id: 86fe5bcd-66a7-41b7-9204-cbbdfe983be8
  std: supuj
  paradigm: uninfl
-
--lexeme
- lex: -mï
- stem: .-mï.|.-m.|.-n.
- trans_en: -NZR
- gloss: -NZR
- gramm: n
- id: 871289e9-5dfd-4037-8808-063ed817d66e
- std: -mï
- paradigm: noun
-
--lexeme
- lex: -sejra
- stem: .-sejra.|.-chejra.
- trans_en: -NEG:PST
- gloss: -NEG:PST
- gramm: vi
- id: 87dd26f2-35c5-49f4-9825-54f606308d90
- std: -sejra
- paradigm: v_intr
 
 -lexeme
  lex: iij
@@ -5807,16 +5107,6 @@
  id: 892ebb65-bd9a-40d7-b383-5a7c667efa97
  std: tëpuij
  paradigm: uninfl
-
--lexeme
- lex: -tojpe
- stem: .-tojpe.
- trans_en: -FUT
- gloss: -FUT
- gramm: vi
- id: 89915fa4-081f-4ad6-a09c-1bbdb588ad4d
- std: -tojpe
- paradigm: v_intr
 
 -lexeme
  lex: asanï pïjkë
@@ -6129,16 +5419,6 @@
  paradigm: noun
 
 -lexeme
- lex: -pamï
- stem: .-pamï.
- trans_en: -VZR
- gloss: -VZR
- gramm: vi
- id: 91a3d758-87ba-4a72-a658-d9641ad0f53e
- std: -pamï
- paradigm: v_intr
-
--lexeme
  lex: ëjka
  stem: .ëjka.
  trans_en: ¿right?
@@ -6177,16 +5457,6 @@
  id: 9270f7e1-9cfb-4342-92ed-4d580b584ee0
  std: yawanëkï
  paradigm: v_tr
-
--lexeme
- lex: ta-ta
- stem: .ta-ta.|.ta-ta-ta.
- trans_en: hit
- gloss: hit
- gramm: ideo
- id: 92d1b1b0-7dad-4df2-98a6-4449fc5d8c4b
- std: ta-ta
- paradigm: uninfl
 
 -lexeme
  lex: pëj
@@ -6287,16 +5557,6 @@
  id: 95164e9e-0116-4a33-beda-b7bc57d7596f
  std: yerempa
  paradigm: v_tr
-
--lexeme
- lex: tërë
- stem: .tërë.
- trans_en: =after
- gloss: after
- gramm: postp
- id: 95917d57-a5c9-4f68-ae22-a95203a129f5
- std: tërë
- paradigm: postp
 
 -lexeme
  lex: mïjmamï
@@ -6599,16 +5859,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: -yawë
- stem: .-yawë.
- trans_en: -SIMULT
- gloss: -SIMULT
- gramm: vi
- id: 9c3ea4ca-8da7-4a63-8259-c988d073ad0a
- std: -yawë
- paradigm: v_intr
-
--lexeme
  lex: wenka
  stem: .wenka.
  trans_en: give.birth
@@ -6617,16 +5867,6 @@
  id: 9caa7313-5f48-457b-bac3-d1b1ee37dd45
  std: wenka
  paradigm: v_intr
-
--lexeme
- lex: -i
- stem: .-i.|.-ij.
- trans_en: POS?
- gloss: POS?
- gramm: n
- id: 9cc67240-a9de-4ed9-994e-05fc202c1e3d
- std: -i
- paradigm: noun
 
 -lexeme
  lex: yanïkï
@@ -6739,16 +5979,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: at-
- stem: .at-.
- trans_en: DETR-
- gloss: DETR-
- gramm: vi
- id: 9f0453bb-5ad3-431b-9d1b-e813c8e79701
- std: at-
- paradigm: v_intr
-
--lexeme
  lex: irëjpëtënë
  stem: .irëjpëtënë.
  trans_en: from.then
@@ -6789,16 +6019,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: -topo
- stem: .-topo.|.-toj.
- trans_en: -CIRC
- gloss: -CIRC
- gramm: n
- id: a033b89c-44ae-4d9f-bb42-aa950d65a88c
- std: -topo
- paradigm: noun
-
--lexeme
  lex: mënë
  stem: .mënë.
  trans_en: 2SG
@@ -6827,16 +6047,6 @@
  id: a273b3dc-f741-492f-a2a0-65ebe267fe8b
  std: sejkë
  paradigm: v_intr
-
--lexeme
- lex: yaye
- stem: .yaye.
- trans_en: =LOC.TMP
- gloss: LOC.TMP
- gramm: postp
- id: a2ab90af-16a5-4b95-8688-0f8e6e8aa0bc
- std: yaye
- paradigm: postp
 
 -lexeme
  lex: terepune
@@ -6969,16 +6179,6 @@
  paradigm: noun
 
 -lexeme
- lex: -pëkë
- stem: .-pëkë.|.-poko.|.-pïke.
- trans_en: -PROG
- gloss: -PROG
- gramm: vi
- id: a60ca47a-a8d5-4940-a467-a60c6c45b555
- std: -pëkë
- paradigm: v_intr
-
--lexeme
  lex: parë
  stem: .parë.
  trans_en: and; too
@@ -6997,16 +6197,6 @@
  id: a64b13ec-f863-4853-bff4-f1ec03f1d72f
  std: sayu
  paradigm: noun
-
--lexeme
- lex: -se
- stem: .-se.|.-che.
- trans_en: -SUP
- gloss: -SUP
- gramm: vi
- id: a652844a-cce0-47b0-93c1-bf95775080f8
- std: -se
- paradigm: v_intr
 
 -lexeme
  lex: mïjna
@@ -7089,16 +6279,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: -ri
- stem: .-ri.|.-Ø.|.-ru.|.-rï.
- trans_en: -NZR; -IPFV
- gloss: -NZR
- gramm: vi
- id: aa0127ab-8dc5-4a03-8e7c-9db537991775
- std: -ri
- paradigm: v_intr
-
--lexeme
  lex: kïrïrï
  stem: .kïrïrï.
  trans_en: slide
@@ -7157,16 +6337,6 @@
  id: abf45ba7-3cea-4ef9-8a78-6229ac7b2cc1
  std: sukase
  paradigm: uninfl
-
--lexeme
- lex: -ma
- stem: .-ma.
- trans_en: -TR.VZR
- gloss: -TR.VZR
- gramm: vt
- id: ac43c8af-3ba0-4bff-a0bf-10cf42871d87
- std: -ma
- paradigm: v_tr
 
 -lexeme
  lex: yësajye
@@ -7419,16 +6589,6 @@
  paradigm: pro
 
 -lexeme
- lex: rë
- stem: .rë.|.re.
- trans_en: =EMPH
- gloss: EMPH
- gramm: part
- id: b262ffce-0a32-4265-986e-4661cea2e147
- std: rë
- paradigm: uninfl
-
--lexeme
  lex: wajyare
  stem: .wajyare.
  trans_en: happy
@@ -7499,16 +6659,6 @@
  paradigm: noun
 
 -lexeme
- lex: -jra
- stem: .-jra.
- trans_en: -NEG
- gloss: -NEG
- gramm: adv
- id: b4f20be5-147d-4a9e-999e-4c10c137688a
- std: -jra
- paradigm: uninfl
-
--lexeme
  lex: tejpore
  stem: .tejpore.
  trans_en: tasty
@@ -7519,16 +6669,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: -ri
- stem: .-ri.|.-ru.|.-Ø.|.-rï.
- trans_en: -POS
- gloss: -POS
- gramm: n
- id: b554f367-9890-4061-b835-71c6b373fb2a
- std: -ri
- paradigm: noun
-
--lexeme
  lex: yanaka
  stem: .yanaka.
  trans_en: help; heal; pay
@@ -7537,16 +6677,6 @@
  id: b561fd50-7269-4b3a-aa8b-127eef38ce2c
  std: yanaka
  paradigm: v_tr
-
--lexeme
- lex: -jrama
- stem: .-jrama.|.-jra.
- trans_en: -PROH
- gloss: -PROH
- gramm: vi
- id: b585ae32-abcc-4b27-b5f9-619e1b7af4fa
- std: -jrama
- paradigm: v_intr
 
 -lexeme
  lex: taa
@@ -7567,16 +6697,6 @@
  id: b62f2759-d3c7-423f-935c-1d8ac53b311d
  std: mui
  paradigm: noun
-
--lexeme
- lex: pïni
- stem: .pïni.
- trans_en: =NEG
- gloss: NEG
- gramm: part
- id: b63bf97e-6586-4af0-813d-cd2c22b8533a
- std: pïni
- paradigm: uninfl
 
 -lexeme
  lex: yëye
@@ -7659,16 +6779,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: -santomo
- stem: .-santomo.|.-santom.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: b81ad841-cce0-4f7d-8e0d-b689d253346e
- std: -santomo
- paradigm: noun
-
--lexeme
  lex: tee
  stem: .tee.
  trans_en: oh.dear!
@@ -7747,16 +6857,6 @@
  id: b9dfbad6-8b39-4618-89fb-88fd252b5828
  std: wichanorë
  paradigm: uninfl
-
--lexeme
- lex: -pïjkë
- stem: .-pïjkë.
- trans_en: -DIM
- gloss: -DIM
- gramm: n
- id: b9f0bdc6-5970-4002-b2ce-ad476b3e895d
- std: -pïjkë
- paradigm: noun
 
 -lexeme
  lex: tëk
@@ -7857,16 +6957,6 @@
  id: bcfb197f-800e-48bd-8ec6-664e658aff04
  std: womï
  paradigm: v_intr
-
--lexeme
- lex: -po
- stem: .-po.
- trans_en: -CAUS
- gloss: -CAUS
- gramm: vt
- id: bd019e88-00a5-490a-9e58-b87539e09661
- std: -po
- paradigm: v_tr
 
 -lexeme
  lex: tejetunu
@@ -7979,16 +7069,6 @@
  paradigm: noun
 
 -lexeme
- lex: -të
- stem: .-të.|.-te.
- trans_en: -PL
- gloss: -PL
- gramm: vi
- id: c046dd91-fadb-48e8-9578-4fc283171368
- std: -të
- paradigm: v_intr
-
--lexeme
  lex: ajroni
  stem: .ajroni.
  trans_en: suds
@@ -8027,16 +7107,6 @@
  id: c28b3b5f-585a-4ef7-ae7d-c38576a79f12
  std: patajpë
  paradigm: noun
-
--lexeme
- lex: ëj-
- stem: .ëj-.
- trans_en: DETR-
- gloss: DETR-
- gramm: vi
- id: c2a69cbb-41c6-42c1-96fb-8d02c1a55d42
- std: ëj-
- paradigm: v_intr
 
 -lexeme
  lex: inëkï
@@ -8097,16 +7167,6 @@
  id: c47fe2b7-10b9-4e67-94f1-c44c0430ff9e
  std: tïnïkïchï
  paradigm: noun
-
--lexeme
- lex: -kë
- stem: .-kë.
- trans_en: -IMP
- gloss: -IMP
- gramm: vi
- id: c4bb8c14-eb97-4518-b8d9-6d591d483a75
- std: -kë
- paradigm: v_intr
 
 -lexeme
  lex: wareta
@@ -8196,16 +7256,6 @@
  gramm: adv
  id: c6cedab2-5fd5-420c-88b7-fa09740723fa
  std: potipene
- paradigm: uninfl
-
--lexeme
- lex: -sempejra
- stem: .-sempejra.
- trans_en: -NEG.ABIL
- gloss: -NEG.ABIL
- gramm: adv
- id: c6e7eca1-1a16-489f-850a-a8d19448ea96
- std: -sempejra
  paradigm: uninfl
 
 -lexeme
@@ -8499,16 +7549,6 @@
  paradigm: noun
 
 -lexeme
- lex: pïnirë
- stem: .pïnirë.
- trans_en: =NEG
- gloss: NEG
- gramm: part
- id: d1125025-ae15-438c-a1a9-0b05c8da458b
- std: pïnirë
- paradigm: uninfl
-
--lexeme
  lex: racha
  stem: .racha.
  trans_en: blow.gun
@@ -8599,16 +7639,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: të-
- stem: .të-.
- trans_en: 3-
- gloss: 3-
- gramm: postp
- id: d325897d-0379-4c20-8d7d-7b56c7256b2d
- std: të-
- paradigm: postp
-
--lexeme
  lex: wicherë
  stem: .wicherë.|.wïchërë.
  trans_en: enough; big
@@ -8697,16 +7727,6 @@
  id: d4e4baf6-bc64-4974-b5a2-0a79bb0c1d4d
  std: pïre
  paradigm: uninfl
-
--lexeme
- lex: -no
- stem: .-no.|.--ano.|.-ano.|.-n.|.-m.|.-am.
- trans_en: -NZR
- gloss: -NZR
- gramm: n
- id: d4f1ae7e-fa58-4df6-a7a1-721085766d5f
- std: -no
- paradigm: noun
 
 -lexeme
  lex: sakai
@@ -8879,16 +7899,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: tawë
- stem: .tawë.
- trans_en: =LOC
- gloss: LOC
- gramm: postp
- id: d97b6c6b-7a52-472b-bf73-ccadec0d8b44
- std: tawë
- paradigm: postp
-
--lexeme
  lex: wanapu
  stem: .wanapu.
  trans_en: savanah
@@ -9017,16 +8027,6 @@
  id: dcabbb63-c21c-4901-aba5-838c9cf37f0b
  std: pika
  paradigm: v_tr
-
--lexeme
- lex: pano
- stem: .pano.|.pan.
- trans_en: =late
- gloss: late
- gramm: part
- id: dcccf595-bab9-4519-8c8d-513d0b241c96
- std: pano
- paradigm: uninfl
 
 -lexeme
  lex: atono
@@ -9169,16 +8169,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: pe
- stem: .pe.
- trans_en: =ESS; =after; =when
- gloss: ESS
- gramm: postp
- id: e19bb00f-6793-4287-beab-73b7d6274a01
- std: pe
- paradigm: postp
-
--lexeme
  lex: karakachi
  stem: .karakachi.
  trans_en: ring.worm
@@ -9206,16 +8196,6 @@
  gramm: intj
  id: e1bd0a03-cb0f-478e-8efa-402e79e51351
  std: iii
- paradigm: uninfl
-
--lexeme
- lex: -pore
- stem: .-pore.
- trans_en: ???
- gloss: ???
- gramm: adv
- id: e21bcddb-0501-4a4c-813b-811e5b246f6b
- std: -pore
  paradigm: uninfl
 
 -lexeme
@@ -9257,16 +8237,6 @@
  id: e27a3fa2-cd4d-4eba-b9e9-16f3bacba891
  std: anoto
  paradigm: noun
-
--lexeme
- lex: pijin
- stem: .pijin.
- trans_en: =blank
- gloss: blank
- gramm: part
- id: e36bf1df-7871-4a0a-b2e5-2cef7fd1714c
- std: pijin
- paradigm: uninfl
 
 -lexeme
  lex: kawë
@@ -9559,16 +8529,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: -tane
- stem: .-tane.|.-tan.
- trans_en: -PX.FUT
- gloss: -PX.FUT
- gramm: vi
- id: ed659e1b-dc18-4222-813a-b3b4419b7d82
- std: -tane
- paradigm: v_intr
-
--lexeme
  lex: mëwinë
  stem: .mëwinë.
  trans_en: that:PERL
@@ -9759,16 +8719,6 @@
  paradigm: noun
 
 -lexeme
- lex: -yantomo
- stem: .-yantomo.|.-yanton.
- trans_en: -PL
- gloss: -PL
- gramm: n
- id: f1fef5d1-e96e-402d-9e66-548f9153bbbe
- std: -yantomo
- paradigm: noun
-
--lexeme
  lex: senema
  stem: .senema.
  trans_en: get.period
@@ -9889,16 +8839,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: më-
- stem: .më-.|.m-.
- trans_en: 2-
- gloss: 2-
- gramm: n
- id: f3f11ec1-fe81-44b6-9dd5-06d83659adbc
- std: më-
- paradigm: noun
-
--lexeme
  lex: moroni
  stem: .moroni.
  trans_en: pain
@@ -9957,16 +8897,6 @@
  id: f5acf9c7-51ef-4079-a810-43e4b51d5cbc
  std: pïmï
  paradigm: noun
-
--lexeme
- lex: -jnari
- stem: .-jnari.|.-jna.
- trans_en: NEG
- gloss: NEG
- gramm: vi
- id: f6b0ea96-379a-4984-ade1-aa7aa44c9042
- std: -jnari
- paradigm: v_intr
 
 -lexeme
  lex: përëtë
@@ -10037,26 +8967,6 @@
  id: f7d9599e-4cb0-4047-b10a-8ac37ca90d4e
  std: akono
  paradigm: noun
-
--lexeme
- lex: truj-truj-truj
- stem: .truj-truj-truj.
- trans_en: jump:IDEO
- gloss: jump:IDEO
- gramm: ideo
- id: f7f36502-c8b2-4ae6-bdbd-491acd16751e
- std: truj-truj-truj
- paradigm: uninfl
-
--lexeme
- lex: -ripo
- stem: .-ripo.
- trans_en: -CTRF
- gloss: -CTRF
- gramm: aux
- id: f82d954d-6680-4650-94e6-61fa186f3db8
- std: -ripo
- paradigm: aux
 
 -lexeme
  lex: akereti
@@ -10167,16 +9077,6 @@
  id: f9c8abbd-9fd3-4693-b044-b5200b378bc7
  std: pakuri
  paradigm: noun
-
--lexeme
- lex: yaye
- stem: .yaye.|.aye.
- trans_en: =PERL
- gloss: PERL
- gramm: postp
- id: fa0ea8b8-2789-4edc-b61c-882990e55218
- std: yaye
- paradigm: postp
 
 -lexeme
  lex: ewenke
@@ -10299,26 +9199,6 @@
  paradigm: noun
 
 -lexeme
- lex: -i
- stem: .-i.
- trans_en: -HORT
- gloss: -HORT
- gramm: vi
- id: fc7adb23-7415-46be-9000-f05a64c1143b
- std: -i
- paradigm: v_intr
-
--lexeme
- lex: -ke
- stem: .-ke.
- trans_en: -with.SUB
- gloss: -with.SUB
- gramm: adv
- id: fc8ab63b-310b-4b9f-a290-7d04091a6248
- std: -ke
- paradigm: uninfl
-
--lexeme
  lex: koñarë
  stem: .koñarë.
  trans_en: yesterday
@@ -10417,26 +9297,6 @@
  id: ff32aa22-53ea-484c-b1ce-64e2aca26980
  std: tejwetune
  paradigm: uninfl
-
--lexeme
- lex: ësë-
- stem: .ësë-.
- trans_en: RECIP-
- gloss: RECIP-
- gramm: postp
- id: ffaedf64-c1a0-4a56-9e1f-767d01fb8ea3
- std: ësë-
- paradigm: postp
-
--lexeme
- lex: -jpë
- stem: .-jpë.|.-jpo.
- trans_en: -NZR; -PST
- gloss: -NZR
- gramm: vi
- id: ffd00b38-d3d3-4708-a418-0a61fc6696fe
- std: -jpë
- paradigm: v_intr
 
 -lexeme
  lex: tajne
