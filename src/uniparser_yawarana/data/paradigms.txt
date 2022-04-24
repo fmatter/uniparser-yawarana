@@ -135,6 +135,27 @@
   gramm: LEX:yawë:CLIT,loc
   gloss: TEMP.LOC
 
+-paradigm: cop
+ -flex: ij.<.>
+  gramm: 3
+  gloss: 3
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
+ paradigm: cop_clit
+
+-paradigm: cop_clit
+ -flex: .poko|no
+  gloss: because|NMLZ
+  gramm: nmlz
+  sep: =
+
 -paradigm: v_intr
  -flex: ij.<.>
   gramm: 3

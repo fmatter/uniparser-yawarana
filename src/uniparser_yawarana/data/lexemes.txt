@@ -8219,16 +8219,6 @@
  paradigm: noun
 
 -lexeme
- lex: chi
- stem: .chi.|.ch.|.chij.
- trans_en: COP
- gloss: COP
- gramm: vi
- id: c8933806-af53-4d35-8110-0f9d5b5d7d5b
- std: chi
- paradigm: v_intr
-
--lexeme
  lex: ijpuruya
  stem: .ijpuruya.
  trans_en: upriver
@@ -10426,3 +10416,14 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
+
+
+-lexeme
+ lex: chi
+ stem: .chi.|.ch.|.chij.
+ trans_en: COP
+ gloss: COP
+ gramm: cop
+ id: cop
+ std: chi
+ paradigm: cop
