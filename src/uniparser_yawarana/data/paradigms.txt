@@ -167,21 +167,20 @@
  paradigm: dv_pl
 
 -paradigm: dv_pl
- -flex: .<.>
+ -flex: .
   gramm:
- -flex: .jne<.>
+ -flex: .jne
   gramm: pl
   gloss: PL
   id: jnepl
- -flex: .kontomo<.>//.konton<.>
+ -flex: .kontomo//.konton
   gramm: pl
   gloss: PL
   id: konomopl
- -flex: .jra<.>//.ja<.>
+ -flex: .jra//.ja
   gloss: NEG
   gramm: neg
   id: jraneg
- paradigm: v_clit
 
 -paradigm: cop
  -flex: ij.<.>
