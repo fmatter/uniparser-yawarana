@@ -13,6 +13,9 @@
  -flex: u.<.>
   gloss: 1
   gramm: 1;poss
+ -flex: u|y.<.>
+  gloss: 1|LK
+  gramm: 1;poss
  -flex: .<.>
   gramm:
  paradigm: n_suff1
@@ -94,6 +97,18 @@
   gramm: pst
   gloss: PST
   id: pstse
+ -flex: .se|mï<.>
+  gramm: ptcp,nmlz
+  gloss: PTCP|NMLZ
+  paradigm: n_suff1
+ -flex: .po<.>
+  gramm: des
+  gloss: DES
+  paradigm: n_suff1
+ -flex: .topo
+  gramm: nmlz
+  gloss: CIRC.NMLZ
+  paradigm: 
  -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
   gramm: ipfv
   gloss: IPFV
@@ -115,6 +130,9 @@
  -flex: .tïkene
   gramm: post
   gloss: POST
+ -flex: .kempïnirë
+  gramm: ptcp,nmlz,gno,neg
+  gloss: PTCP.NZR.GNO:NEG
  paradigm: dv_pl
 
 -paradigm: dv_pl
@@ -126,6 +144,9 @@
  -flex: .kontomo<.>//.konton<.>
   gramm: pl
   gloss: PL
+ -flex: .jra<.>
+  gloss: NEG
+  gramm: neg
  paradigm: v_clit
 
 -paradigm: v_clit
@@ -151,9 +172,13 @@
  paradigm: cop_clit
 
 -paradigm: cop_clit
- -flex: .poko|no
+ -flex: .poko|no//.poko|n
   gloss: because|NMLZ
   gramm: nmlz
+  sep: =
+ -flex: .pëkë
+  gloss: because
+  gramm: because
   sep: =
 
 -paradigm: v_intr
