@@ -108,6 +108,7 @@
  -flex: .tëpëkë<.>
   gramm: prog,intr
   gloss: PROG.INTR
+  id: tepeke
  -flex: .sapë<.>//.saj<.>
   gramm: pfv
   gloss: PFV
@@ -202,14 +203,14 @@
 
 -paradigm: cop_clit
  -flex: .poko|no//.poko|n
-  gloss: because|NMLZ
+  gloss: on.surface|NMLZ
   gramm: nmlz
   sep: =
-  id: pokobecause,nonmlz
+  id: pekeon,anonmlz
  -flex: .pëkë
-  gloss: because
+  gloss: on.surface
   gramm: because
-  id: pokobecause
+  id: pekeon
   sep: =
  -flex: .awë
   gramm: LEX:yawë:CLIT,loc

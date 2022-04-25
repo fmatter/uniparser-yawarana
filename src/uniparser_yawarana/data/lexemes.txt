@@ -24,7 +24,7 @@
  trans_en: dance
  gloss: dance&VBZ.TR
  gramm: vt
- id: jtevbz
+ id: nwadance,jtevbz
  std: nwajtë
  paradigm: v_tr
 
@@ -92,7 +92,7 @@
  lex: pokono
  stem: .poko&no.
  trans_en: because
- gloss: because&NMLZ
+ gloss: on.surface&NMLZ
  gramm: n
  id: pekeon,anonmlz
  std: pokono
@@ -441,10 +441,10 @@
 -lexeme
  lex: yawë
  stem: .yawë.|.awë.
- trans_en: LOC.TMP
- gloss: LOC.TMP
+ trans_en: TEMP.LOC
+ gloss: TEMP.LOC
  gramm: postp,loc,tmp
- id: locyaw
+ id: yaweloc
  std: yawë
  paradigm: postp
 
@@ -480,7 +480,7 @@
 
 -lexeme
  lex: pëkë
- stem: .pëkë.
+ stem: .pëkë.|.poko.
  trans_en: on.surface
  gloss: on.surface
  gramm: postp,loc
@@ -577,6 +577,16 @@
  id: yerema
  std: yerema
  paradigm: v_tr
+
+-lexeme
+ lex: nwa
+ stem: .nwa.
+ trans_en: dance
+ gloss: dance
+ gramm: n
+ id: nwadance
+ std: nwa
+ paradigm: noun
 
 -lexeme
  lex: moronkepï
