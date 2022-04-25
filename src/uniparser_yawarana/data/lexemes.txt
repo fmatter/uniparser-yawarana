@@ -82,7 +82,7 @@
  lex: kaimota
  stem: .kaimo&ta.
  trans_en: hunt
- gloss: hunt&VBZ
+ gloss: game&VBZ
  gramm: vi
  id: kaimo,tavbz
  std: kaimota
@@ -526,6 +526,56 @@
  gramm: vt
  id: manlex42
  std: nai
+ paradigm: v_tr
+
+-lexeme
+ lex: pïnirë
+ stem: .pïnirë.
+ trans_en: nothing
+ gloss: nothing
+ gramm: part
+ id: manlex43
+ std: pïnirë
+ paradigm: uninfl
+
+-lexeme
+ lex: pe
+ stem: .pe.
+ trans_en: ESS
+ gloss: ESS
+ gramm: postp
+ id: esspe
+ std: pe
+ paradigm: postp
+
+-lexeme
+ lex: aniki
+ stem: .aniki.
+ trans_en: who
+ gloss: who
+ gramm: pn
+ id: manlex45
+ std: aniki
+ paradigm: pro
+
+-lexeme
+ lex: ponoko
+ stem: .ponoko.
+ trans_en: every
+ gloss: every
+ gramm: adv
+ id: manlex46
+ std: ponoko
+ paradigm: uninfl
+
+-lexeme
+ lex: yerema
+ stem: .yerema.|.erema.
+ trans_en: feed
+ gloss: feed
+ gramm: vt
+ id: yerema
+ std: yerema
  paradigm: v_tr
 
 -lexeme
@@ -1074,7 +1124,7 @@
  trans_en: feed
  gloss: feed
  gramm: vt
- id: yerema
+ id: 0f40009d-39ec-4751-aec9-01c47243cf1f
  std: yerema
  paradigm: v_tr
 
@@ -3913,10 +3963,10 @@
  stem: .wintika.
  trans_en: eliminate; disappear
  gloss: eliminate
- gramm: vt
+ gramm: vi
  id: 63dc619a-32f7-4470-9610-263aad00ee50
  std: wintika
- paradigm: v_tr
+ paradigm: v_intr
 
 -lexeme
  lex: apë
@@ -4673,10 +4723,10 @@
  stem: .nai.|.naij.
  trans_en: do; thing; put
  gloss: do
- gramm: n
+ gramm: vt
  id: 77ab3f90-a8cd-4217-9b75-aacb941802e5
  std: nai
- paradigm: noun
+ paradigm: v_tr
 
 -lexeme
  lex: mërë
@@ -6113,10 +6163,10 @@
  stem: .wënkepï.|.wënkej.|.wënke.|.wenkej.|.wenkepï.
  trans_en: forget; get.distracted
  gloss: forget
- gramm: vt
+ gramm: vi
  id: 9f9386c6-b578-43d5-bab7-799a8a83b1fd
  std: wënkepï
- paradigm: v_tr
+ paradigm: v_intr
 
 -lexeme
  lex: sejpëti
@@ -6163,10 +6213,10 @@
  stem: .sejkë.
  trans_en: COP:IMP; come:IMP
  gloss: COP:IMP
- gramm: vi
+ gramm: aux
  id: a273b3dc-f741-492f-a2a0-65ebe267fe8b
  std: sejkë
- paradigm: v_intr
+ paradigm: aux
 
 -lexeme
  lex: terepune
@@ -6453,7 +6503,7 @@
  stem: .sukase.
  trans_en: all; etc
  gloss: all
- gramm: part
+ gramm: adv
  id: abf45ba7-3cea-4ef9-8a78-6229ac7b2cc1
  std: sukase
  paradigm: uninfl

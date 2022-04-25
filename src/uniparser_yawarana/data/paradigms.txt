@@ -20,7 +20,7 @@
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1;poss
-  id: u1
+  id: u1,ylk
  -flex: .<.>
   gramm:
  paradigm: n_suff1
@@ -111,6 +111,7 @@
  -flex: .sapë<.>//.saj<.>
   gramm: pfv
   gloss: PFV
+  id: sapepfv
  -flex: .se<.>
   gramm: pst
   gloss: PST
@@ -129,7 +130,6 @@
   gramm: nmlz
   gloss: CIRC.NMLZ
   id: toponmlz
-  paradigm: 
  -flex: .tane
   gramm: cncs
   gloss: CNCS
@@ -176,7 +176,7 @@
  -flex: .kontomo//.konton
   gramm: pl
   gloss: PL
-  id: konomopl
+  id: kontomopl
  -flex: .jra//.ja
   gloss: NEG
   gramm: neg
