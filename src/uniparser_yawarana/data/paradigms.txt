@@ -114,7 +114,7 @@
  -flex: .se<.>
   gramm: pst
   gloss: PST
-  id: pstse
+  id: septcp
  -flex: .se|mï<.>
   gramm: ptcp,nmlz
   gloss: PTCP|NMLZ

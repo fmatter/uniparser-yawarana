@@ -14,7 +14,7 @@
  trans_en: urinate
  gloss: urine&VBZ
  gramm: vi
- id: suku,vbz1
+ id: suku,tavbz
  std: sujta
  paradigm: v_intr
 
@@ -24,7 +24,7 @@
  trans_en: dance
  gloss: dance&VBZ.TR
  gramm: vt
- id: nwa,vbztr
+ id: jtevbz
  std: nwajtë
  paradigm: v_tr
 
@@ -64,7 +64,7 @@
  trans_en: well
  gloss: good&NMLZ
  gramm: adv
- id: nope,nmlz
+ id: nope,anonmlz
  std: nopano
  paradigm: uninfl
 
@@ -84,7 +84,7 @@
  trans_en: hunt
  gloss: hunt&VBZ
  gramm: vi
- id: kaimo,vbz1
+ id: kaimo,tavbz
  std: kaimota
  paradigm: v_intr
 
@@ -224,7 +224,7 @@
  trans_en: cry
  gloss: cry
  gramm: vi
- id: manlex13
+ id: asamo
  std: asamo
  paradigm: v_intr
 
@@ -379,12 +379,42 @@
  paradigm: v_intr
 
 -lexeme
+ lex: chi
+ stem: .chi.|.ch.|.chij.
+ trans_en: COP
+ gloss: COP
+ gramm: aux,cop
+ id: manlex29
+ std: chi
+ paradigm: cop
+
+-lexeme
+ lex: enejka
+ stem: .enejka.
+ trans_en: watch
+ gloss: watch
+ gramm: vt
+ id: enejka
+ std: enejka
+ paradigm: v_tr
+
+-lexeme
+ lex: kaimo
+ stem: .kaimo.
+ trans_en: game
+ gloss: game
+ gramm: n
+ id: kaimo
+ std: kaimo
+ paradigm: noun
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
  gloss: stop.pain
  gramm: vi
- id: 0040db97-5be9-4716-a3ad-33f3e679f129
+ id: moronkepi
  std: moronkepï
  paradigm: v_intr
 
@@ -924,7 +954,7 @@
  trans_en: feed
  gloss: feed
  gramm: vt
- id: 0f40009d-39ec-4751-aec9-01c47243cf1f
+ id: yerema
  std: yerema
  paradigm: v_tr
 
@@ -1234,7 +1264,7 @@
  trans_en: vomit
  gloss: vomit
  gramm: vt
- id: 1d02b141-5985-4013-ab47-665bbf78b137
+ id: wenaka
  std: wenaka
  paradigm: v_tr
 
@@ -1397,16 +1427,6 @@
  id: 1f94ee19-38df-4543-a405-b4bdd12d41b5
  std: ati
  paradigm: uninfl
-
--lexeme
- lex: yenejka
- stem: .yenejka.
- trans_en: watch
- gloss: watch
- gramm: vt
- id: 1fd75061-7605-41bc-adb1-9d48c56c0781
- std: yenejka
- paradigm: v_tr
 
 -lexeme
  lex: narë
@@ -1894,7 +1914,7 @@
  trans_en: urine
  gloss: urine
  gramm: n
- id: 2bb05c6b-af02-4532-9b07-434f29cb6719
+ id: suku
  std: suku
  paradigm: noun
 
@@ -3783,10 +3803,10 @@
  stem: .wintika.
  trans_en: eliminate; disappear
  gloss: eliminate
- gramm: vi
+ gramm: vt
  id: 63dc619a-32f7-4470-9610-263aad00ee50
  std: wintika
- paradigm: v_intr
+ paradigm: v_tr
 
 -lexeme
  lex: apë
@@ -4754,7 +4774,7 @@
  trans_en: good; easy
  gloss: good
  gramm: adv
- id: 7d38ba55-07de-4d93-b218-038373f4d764
+ id: nope
  std: nope
  paradigm: uninfl
 
@@ -5993,10 +6013,10 @@
  stem: .wënkepï.|.wënkej.|.wënke.|.wenkej.|.wenkepï.
  trans_en: forget; get.distracted
  gloss: forget
- gramm: vi
+ gramm: vt
  id: 9f9386c6-b578-43d5-bab7-799a8a83b1fd
  std: wënkepï
- paradigm: v_intr
+ paradigm: v_tr
 
 -lexeme
  lex: sejpëti
@@ -6043,10 +6063,10 @@
  stem: .sejkë.
  trans_en: COP:IMP; come:IMP
  gloss: COP:IMP
- gramm: vi
+ gramm: aux
  id: a273b3dc-f741-492f-a2a0-65ebe267fe8b
  std: sejkë
- paradigm: v_intr
+ paradigm: aux
 
 -lexeme
  lex: terepune
@@ -6333,7 +6353,7 @@
  stem: .sukase.
  trans_en: all; etc
  gloss: all
- gramm: part
+ gramm: adv
  id: abf45ba7-3cea-4ef9-8a78-6229ac7b2cc1
  std: sukase
  paradigm: uninfl
@@ -7029,16 +7049,6 @@
  paradigm: postp
 
 -lexeme
- lex: kaimo
- stem: .kaimo.
- trans_en: game
- gloss: game
- gramm: n
- id: bf5fc8cc-608e-4ca7-ac8c-e2484082850a
- std: kaimo
- paradigm: noun
-
--lexeme
  lex: ere
  stem: .ere.
  trans_en: liver
@@ -7213,7 +7223,7 @@
  stem: .kwa ta.
  trans_en: thus; how?; of.course!
  gloss: thus
- gramm: part
+ gramm: intj
  id: c5bf4fce-5548-4c53-bcda-14134fae394a
  std: kwa ta
  paradigm: uninfl
@@ -9306,14 +9316,3 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
-
-
--lexeme
- lex: chi
- stem: .chi.|.ch.|.chij.
- trans_en: COP
- gloss: COP
- gramm: cop
- id: cop
- std: chi
- paradigm: cop
