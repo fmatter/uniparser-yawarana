@@ -7,70 +7,6 @@
  gramm: ess
  id: esspe
 -clitic
- lex: yawë
- stem: yawë
- trans_en: LOC.TMP
- type: en
- gloss: LOC.TMP
- gramm: loc,tmp
- id: locyaw
--clitic
- lex: awë
- stem: awë
- trans_en: LOC.TMP
- type: en
- gloss: LOC.TMP
- gramm: loc,tmp
- id: locyaw
--clitic
- lex: ya
- stem: ya
- trans_en: ERG
- type: en
- gloss: ERG
- gramm: erg
- id: erg
--clitic
- lex: ne
- stem: ne
- trans_en: INTS
- type: en
- gloss: INTS
- gramm: ints
- id: intsne
--clitic
- lex: n
- stem: n
- trans_en: INTS
- type: en
- gloss: INTS
- gramm: ints
- id: intsne
--clitic
- lex: rë
- stem: rë
- trans_en: EMP
- type: en
- gloss: EMP
- gramm: emp
- id: emp
--clitic
- lex: pan
- stem: pan
- trans_en: deceased
- type: en
- gloss: deceased
- gramm: dead
- id: pan
--clitic
- lex: pano
- stem: pano
- trans_en: deceased
- type: en
- gloss: deceased
- gramm: dead
- id: pan
--clitic
  lex: pïnirë
  stem: pïnirë
  trans_en: NEG
@@ -86,14 +22,6 @@
  gloss: ILL
  gramm: ill
  id: yaka
--clitic
- lex: pëkë
- stem: pëkë
- trans_en: on
- type: en
- gloss: on
- gramm: on.surface
- id: on
 -clitic
  lex: pana
  stem: pana

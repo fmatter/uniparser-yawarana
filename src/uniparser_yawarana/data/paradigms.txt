@@ -249,6 +249,10 @@
   id: septcp
 
 -paradigm: postp
+ -flex: më.
+  gramm: 2
+  gloss: 2
+  id: me2
  -flex: t.
   gramm: 3
   gloss: 3

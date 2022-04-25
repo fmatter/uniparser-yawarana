@@ -22,7 +22,7 @@ class YawaranaAnalyzer(Analyzer):
         self.lexFile = self.base_path / "lexemes.txt"
         self.paradigmFile = self.base_path / "paradigms.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
-        # self.cliticsFile = base / "clitics.txt"
+        self.cliticFile = self.base_path / "clitics.txt"
         self.load_grammar()
 
     # def del_seg(self, analyses):

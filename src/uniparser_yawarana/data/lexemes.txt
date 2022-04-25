@@ -89,6 +89,16 @@
  paradigm: v_intr
 
 -lexeme
+ lex: pokono
+ stem: .poko&no.
+ trans_en: because
+ gloss: because&NMLZ
+ gramm: n
+ id: pekeon,anonmlz
+ std: pokono
+ paradigm: noun
+
+-lexeme
  lex: ajpu
  stem: .ajpu.
  trans_en: heart
@@ -407,6 +417,116 @@
  id: kaimo
  std: kaimo
  paradigm: noun
+
+-lexeme
+ lex: suku
+ stem: .suku.|.suj.
+ trans_en: urine
+ gloss: urine
+ gramm: n
+ id: suku
+ std: suku
+ paradigm: noun
+
+-lexeme
+ lex: ya
+ stem: .ya.
+ trans_en: ERG
+ gloss: ERG
+ gramm: postp,erg
+ id: yaerg
+ std: ya
+ paradigm: postp
+
+-lexeme
+ lex: yawë
+ stem: .yawë.|.awë.
+ trans_en: LOC.TMP
+ gloss: LOC.TMP
+ gramm: postp,loc,tmp
+ id: locyaw
+ std: yawë
+ paradigm: postp
+
+-lexeme
+ lex: rë
+ stem: .rë.
+ trans_en: EMP
+ gloss: EMP
+ gramm: postp,emp
+ id: emp
+ std: rë
+ paradigm: postp
+
+-lexeme
+ lex: ne
+ stem: .ne.|.n.
+ trans_en: INTS
+ gloss: INTS
+ gramm: postp,ints
+ id: intsne
+ std: ne
+ paradigm: postp
+
+-lexeme
+ lex: pano
+ stem: .pano.|.pan.
+ trans_en: deceased
+ gloss: deceased
+ gramm: postp,deceased
+ id: pano
+ std: pano
+ paradigm: postp
+
+-lexeme
+ lex: pëkë
+ stem: .pëkë.
+ trans_en: on.surface
+ gloss: on.surface
+ gramm: postp,loc
+ id: pekeon
+ std: pëkë
+ paradigm: postp
+
+-lexeme
+ lex: ëjka
+ stem: .ëjka.|.ënka.
+ trans_en: right
+ gloss: right
+ gramm: part
+ id: manlex39
+ std: ëjka
+ paradigm: uninfl
+
+-lexeme
+ lex: pëkëpene
+ stem: .pëkëpene.
+ trans_en: alone
+ gloss: alone
+ gramm: postp
+ id: manlex40
+ std: pëkëpene
+ paradigm: postp
+
+-lexeme
+ lex: ajaja
+ stem: .ajaja.
+ trans_en: hahaha
+ gloss: hahaha
+ gramm: intj
+ id: manlex41
+ std: ajaja
+ paradigm: uninfl
+
+-lexeme
+ lex: nai
+ stem: .nai.|.naij.
+ trans_en: make
+ gloss: make
+ gramm: vt
+ id: manlex42
+ std: nai
+ paradigm: v_tr
 
 -lexeme
  lex: moronkepï
@@ -1907,16 +2027,6 @@
  id: 2b5fa12b-1e2c-4dcb-92bd-48dfa2a32842
  std: wïrë
  paradigm: pro
-
--lexeme
- lex: suku
- stem: .suku.
- trans_en: urine
- gloss: urine
- gramm: n
- id: suku
- std: suku
- paradigm: noun
 
 -lexeme
  lex: pene
@@ -4563,10 +4673,10 @@
  stem: .nai.|.naij.
  trans_en: do; thing; put
  gloss: do
- gramm: vt
+ gramm: n
  id: 77ab3f90-a8cd-4217-9b75-aacb941802e5
  std: nai
- paradigm: v_tr
+ paradigm: noun
 
 -lexeme
  lex: mërë
@@ -5439,16 +5549,6 @@
  paradigm: noun
 
 -lexeme
- lex: ëjka
- stem: .ëjka.
- trans_en: ¿right?
- gloss: ¿right?
- gramm: part
- id: 91cbf0cb-29c5-4849-9236-caabc5f18b19
- std: ëjka
- paradigm: uninfl
-
--lexeme
  lex: yumu
  stem: .yumu.|.yum.|.yun.|.yïmï.|.yïmu.
  trans_en: father
@@ -6063,10 +6163,10 @@
  stem: .sejkë.
  trans_en: COP:IMP; come:IMP
  gloss: COP:IMP
- gramm: aux
+ gramm: vi
  id: a273b3dc-f741-492f-a2a0-65ebe267fe8b
  std: sejkë
- paradigm: aux
+ paradigm: v_intr
 
 -lexeme
  lex: terepune
@@ -6353,7 +6453,7 @@
  stem: .sukase.
  trans_en: all; etc
  gloss: all
- gramm: adv
+ gramm: part
  id: abf45ba7-3cea-4ef9-8a78-6229ac7b2cc1
  std: sukase
  paradigm: uninfl
@@ -7223,7 +7323,7 @@
  stem: .kwa ta.
  trans_en: thus; how?; of.course!
  gloss: thus
- gramm: intj
+ gramm: part
  id: c5bf4fce-5548-4c53-bcda-14134fae394a
  std: kwa ta
  paradigm: uninfl
