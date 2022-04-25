@@ -12,7 +12,7 @@ logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 __author__ = "Florian Matter"
 __email__ = "florianmatter@gmail.com"
-__version__ = "0.0.1.dev"
+__version__ = "0.0.1"
 
 
 class YawaranaAnalyzer(Analyzer):
