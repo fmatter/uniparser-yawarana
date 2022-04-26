@@ -171,9 +171,9 @@
 -lexeme
  lex: makë
  stem: .makë.
- trans_en: mother.VOC
- gloss: mother.VOC
- gramm: n,voc
+ trans_en: mother
+ gloss: mother
+ gramm: n
  id: manlex7
  std: makë
  paradigm: noun

@@ -117,6 +117,9 @@
   gramm: pst
   gloss: PST
   id: septcp
+ -flex: .se
+  gramm: sup
+  gloss: SUP
  -flex: .se|mï<.>
   gramm: ptcp,nmlz
   gloss: PTCP|NMLZ
