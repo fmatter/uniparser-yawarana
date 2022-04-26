@@ -7,10 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-* disambiguation.cg3:
-    * wejsapë only as copula if preceded by verb (not wepï-sapë 'came')
-* nominal verbs
-* second person prefix
+* disambiguation rules
+* much morphology
+* morpheme IDs
 
 ### Changed
 * made work outside of test environment (importlib)

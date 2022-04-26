@@ -7879,16 +7879,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: ti
- stem: .ti.
- trans_en: like
- gloss: like
- gramm: part
- id: d46af2f7-8cec-41e5-9757-55dd8bd7d221
- std: ti
- paradigm: uninfl
-
--lexeme
  lex: pïre
  stem: .pïre.
  trans_en: standing
