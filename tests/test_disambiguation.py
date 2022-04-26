@@ -23,8 +23,8 @@ def test_ma(parser):
     assert len(anas[1]) == 1
 
 
-def test_ta(parser):
-    for exp in ["yojtë ta", "asamo ta"]:
-        anas = parser.analyze_words(exp.split(" "))
-        assert len(anas[1]) == 1
+# def test_ta(parser):
+#     for exp in ["yojtë ta", "asamo ta"]:
+#         anas = parser.analyze_words(exp.split(" "))
+#         assert len(anas[1]) == 1
 
