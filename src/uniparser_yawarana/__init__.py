@@ -38,7 +38,9 @@ class YawaranaAnalyzer(Analyzer):
     #             pruned_analyses.append(analysis)
     #     return pruned_analyses
 
-    def analyze_words(self, words, cgFile="", format=None, disambiguate=True):  # noqa: N803
+    def analyze_words(
+        self, words, cgFile="", format=None, disambiguate=True
+    ):  # noqa: N803
         all_analyses = super().analyze_words(
             words,
             cgFile=str(self.base_path / "disambiguation.cg3"),
