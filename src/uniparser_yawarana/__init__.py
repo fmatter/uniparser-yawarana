@@ -40,7 +40,7 @@ class YawaranaAnalyzer(Analyzer):
 
     def analyze_words(
         self, words, cgFile="", format=None, disambiguate=True
-    ):  # noqa: N803
+    ):  # noqa: N803 pylint: disable=redefined-builtin
         all_analyses = super().analyze_words(
             words,
             cgFile=str(self.base_path / "disambiguation.cg3"),
