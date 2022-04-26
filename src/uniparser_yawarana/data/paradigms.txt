@@ -7,7 +7,7 @@
   id: ylk
  -flex: t.<.>
   gloss: 3
-  gramm: 3;poss
+  gramm: 3,poss
   id: t3
  -flex: i.<.>
   gramm: 3
@@ -15,11 +15,11 @@
   id: i3
  -flex: u.<.>
   gloss: 1
-  gramm: 1;poss
+  gramm: 1,poss
   id: u1
  -flex: u|y.<.>
   gloss: 1|LK
-  gramm: 1;poss
+  gramm: 1,poss
   id: u1,ylk
  -flex: .<.>
   gramm:

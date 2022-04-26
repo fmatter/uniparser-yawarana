@@ -16,3 +16,6 @@ REMOVE ("yaka" n) IF (-1 (n)); # yaka is 'deer', but if we're after a noun it's 
 
 SECTION #particles
 REMOVE ("ta" vt) IF (-1 v); # remove analysis ta-∅ 'said' if previous lexeme is verb
+
+SECTION # misc
+REMOVE ("aro" n) IF (-1 ("wïrë")); # wïrë taro is not 'I, his/her own rice'...
