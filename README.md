@@ -2,6 +2,9 @@
 
 A morphological parser for Yawarana ([yaba1248](https://glottolog.org/resource/languoid/id/yaba1248), [yar](https://iso639-3.sil.org/code/yar)).
 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6510180.svg)](https://doi.org/10.5281/zenodo.6510180)
 ![License](https://img.shields.io/github/license/fmatter/uniparser-yawarana)
 [![Tests](https://img.shields.io/github/workflow/status/fmatter/uniparser-yawarana/tests?label=tests)](https://github.com/fmatter/uniparser-yawarana/actions/workflows/tests.yml)
 [![Linting](https://img.shields.io/github/workflow/status/fmatter/uniparser-yawarana/lint?label=linting)](https://github.com/fmatter/uniparser-yawarana/actions/workflows/lint.yml)
