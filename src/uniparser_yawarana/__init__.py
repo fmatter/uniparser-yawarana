@@ -12,7 +12,7 @@ logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 __author__ = "Florian Matter"
 __email__ = "florianmatter@gmail.com"
-__version__ = "0.0.2.dev"
+__version__ = "0.0.2"
 
 
 class YawaranaAnalyzer(Analyzer):
@@ -39,8 +39,8 @@ class YawaranaAnalyzer(Analyzer):
     #     return pruned_analyses
 
     def analyze_words(
-        self, words, cgFile="", format=None, disambiguate=True
-    ):  # noqa: N803 pylint: disable=redefined-builtin
+        self, words, cgFile="", format=None, disambiguate=True  # noqa: N803
+    ):
         all_analyses = super().analyze_words(
             words,
             cgFile=str(self.base_path / "disambiguation.cg3"),
