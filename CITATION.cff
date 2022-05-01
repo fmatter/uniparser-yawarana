@@ -1,7 +1,7 @@
 # YAML 1.2
 ---
 cff-version: "1.1.0"
-title: "uniparser_yawarana"
+title: "uniparser-yawarana"
 authors:
   -
     family-names: Matter
@@ -10,9 +10,9 @@ authors:
 date-released: 2022-05-01
 doi: 10.5281/zenodo.6510180
 version: "0.0.2"
-repository-code: "https://github.com/fmatter/uniparser-yawarana"
 keywords:
   - linguistics
   - morphology
+  - yawarana
 message: "If you use this software, please cite it using these metadata."
 license: Apache-2.0
