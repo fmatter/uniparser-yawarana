@@ -1,6 +1,7 @@
 """Tests for the uniparser_yawarana.my_module module.
 """
 
+
 def parse_1(str, parser):
     return parser.analyze_words(str)[0]
 

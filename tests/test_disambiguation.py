@@ -1,5 +1,9 @@
 def parse_ambig(ambig, parser):
-    return parser.analyze_words(ambig.split(" ")), parser.analyze_words(ambig.split(" "), disambiguate=False)
+    return (
+        parser.analyze_words(ambig.split(" ")),
+        parser.analyze_words(ambig.split(" "), disambiguate=False),
+    )
+
 
 def test_wejsapë(parser):
     anas, anas2 = parse_ambig("yaka wejsapë", parser)
@@ -27,4 +31,3 @@ def test_ma(parser):
 #     for exp in ["yojtë ta", "asamo ta"]:
 #         anas = parser.analyze_words(exp.split(" "))
 #         assert len(anas[1]) == 1
-
