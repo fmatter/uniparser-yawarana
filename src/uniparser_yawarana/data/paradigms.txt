@@ -120,6 +120,7 @@
  -flex: .se
   gramm: sup
   gloss: SUP
+  id: septcp
  -flex: .se|mï<.>
   gramm: ptcp,nmlz
   gloss: PTCP|NMLZ
