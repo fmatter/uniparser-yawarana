@@ -24,18 +24,10 @@
  paradigm: n_suff1
 
 -paradigm: n_suff1
- -flex: .jpë<.>
-  gramm: pst
-  gloss: PST
-  id: jpepst
  -flex: .ru<.>
   gloss: PERT
   gramm: pert
   id: rupert
- -flex: .ru|jpë<.>
-  gloss: PERT|PST
-  gramm: pert,pst
-  id: rupert,jpepst
  -flex: .pïjkë<.>
   gramm: dim
   gloss: DIM
@@ -57,6 +49,10 @@
  paradigm: n_suff2
 
 -paradigm: n_suff2
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
  -flex: .pe
   gramm: ess
   gloss: ESS
