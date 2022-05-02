@@ -121,6 +121,10 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
+ -flex: .sapë<.>//.saj<.>
+  gramm: nmlz
+  gloss: NMLZ
+  id: sapepfv
  -flex: .se
   gramm: ptcp
   gloss: PTCP
