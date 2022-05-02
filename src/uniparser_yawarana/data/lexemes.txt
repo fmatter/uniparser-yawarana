@@ -459,6 +459,16 @@
  paradigm: postp
 
 -lexeme
+ lex: yaka
+ stem: .yaka.
+ trans_en: ALL
+ gloss: ALL
+ gramm: postp,all
+ id: yakaall
+ std: yaka
+ paradigm: postp
+
+-lexeme
  lex: mare
  stem: .mare.
  trans_en: REL.INAN
