@@ -1,8 +1,6 @@
-# uniparser_yawarana
+# uniparser-yawarana
 
 A morphological parser for Yawarana ([yaba1248](https://glottolog.org/resource/languoid/id/yaba1248), [yar](https://iso639-3.sil.org/code/yar)).
-
-
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6510180.svg)](https://doi.org/10.5281/zenodo.6510180)
 ![License](https://img.shields.io/github/license/fmatter/uniparser-yawarana)
