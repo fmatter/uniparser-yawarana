@@ -444,7 +444,7 @@
  trans_en: OBL
  gloss: OBL
  gramm: postp,obl
- id: yaerg
+ id: yaobl
  std: ya
  paradigm: postp
 
