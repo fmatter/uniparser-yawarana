@@ -599,6 +599,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: të
+ stem: .të.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ id: teloc
+ std: të
+ paradigm: postp
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
