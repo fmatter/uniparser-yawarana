@@ -1,5 +1,3 @@
-
-
 -paradigm: noun
  -flex: y.<.>
   gloss: LK
@@ -25,41 +23,28 @@
   gramm:
  paradigm: n_suff1
 
--paradigm: n_suff2
+-paradigm: n_suff1
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
   id: jpepst
- -flex: .<.>
-  gramm: 
- paradigm: n_clit
-
--paradigm: n_clit
- -flex: .pe
-  gramm: ess
-  gloss: ESS
-  id: peess
- -flex: .
-  gramm:
-
--paradigm: n_suff1
  -flex: .ru<.>
   gloss: PERT
   gramm: pert
   id: rupert
-  paradigm: n_suff2
- -flex: .<.>
-  gramm:
-  paradigm: n_suff2
- -flex: .pïjkë
+ -flex: .ru|jpë<.>
+  gloss: PERT|PST
+  gramm: pert,pst
+  id: rupert,jpepst
+ -flex: .pïjkë<.>
   gramm: dim
   gloss: DIM
   id: pijkedim
- -flex: .jra
+ -flex: .jra<.>
   gramm: priv
   gloss: PRIV
   id: jraneg
- -flex: .jne
+ -flex: .jne<.>
   gramm: pl
   gloss: PL
   id: jnepl
@@ -67,8 +52,17 @@
   gramm: pl
   gloss: PL
   id: tomopl
-  paradigm: n_suff2
+ -flex: .<.>
+  gramm:
+ paradigm: n_suff2
 
+-paradigm: n_suff2
+ -flex: .pe
+  gramm: ess
+  gloss: ESS
+  id: peess
+ -flex: .
+  gramm:
 
 -paradigm: uninfl
  -flex: .
@@ -113,6 +107,11 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
+ -flex: .jpë
+  gramm: N
+  gloss: CIRC.NMLZ
+  id: jpepst
+  paradigm: 
  -flex: .se<.>
   gramm: pst
   gloss: PST
