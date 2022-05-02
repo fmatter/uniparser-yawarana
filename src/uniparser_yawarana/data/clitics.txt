@@ -1,12 +1,4 @@
 -clitic
- lex: pe
- stem: pe
- trans_en: ESS
- type: en
- gloss: ESS
- gramm: ess
- id: esspe
--clitic
  lex: pïnirë
  stem: pïnirë
  trans_en: NEG
