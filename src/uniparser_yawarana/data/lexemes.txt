@@ -439,6 +439,16 @@
  paradigm: postp
 
 -lexeme
+ lex: ya
+ stem: .ya.
+ trans_en: OBL
+ gloss: OBL
+ gramm: postp,obl
+ id: yaerg
+ std: ya
+ paradigm: postp
+
+-lexeme
  lex: yawë
  stem: .yawë.|.awë.
  trans_en: TEMP.LOC
