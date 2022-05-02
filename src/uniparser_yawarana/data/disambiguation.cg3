@@ -8,7 +8,7 @@ REMOVE ("wepï") IF (*-1 verbal); # remove forms of wepï 'come' homophonous wit
 
 SECTION #clitics and verbs
 REMOVE ("të" postp) IF (NEGATE -1 (n)); # të can be verbal të-∅ or postpositional =të; exclude the latter if not preceded by a noun
-REMOVE ("ma" vt ipfv) IF (-1 ("tawara")); # ma can be verbal ma-∅ or RESTR ma; tawara ma is always all=RESTR
+REMOVE ("ma" vt) IF (-1 ("tawara")); # ma can be verbal ma-∅ or RESTR ma; tawara ma is always all=RESTR
 REMOVE ("yaka" vt ipfv); # yaka 'excavate' does not occur zero-marked in the corpus
 
 SECTION #other clitic homophones
