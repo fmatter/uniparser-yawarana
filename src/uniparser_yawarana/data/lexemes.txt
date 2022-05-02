@@ -89,63 +89,33 @@
  paradigm: noun
 
 -lexeme
- lex: ajpu
- stem: .ajpu.
- trans_en: heart
- gloss: heart
- gramm: n
- id: manlex0
- std: ajpu
- paradigm: noun
-
--lexeme
- lex: wejyaka
- stem: .wejyaka.
- trans_en: open
- gloss: open
- gramm: vt
- id: manlex1
- std: wejyaka
- paradigm: v_tr
-
--lexeme
- lex: sakunkai
- stem: .sakunkai.
- trans_en: sakunkai
- gloss: sakunkai
- gramm: ideo
- id: manlex2
- std: sakunkai
- paradigm: uninfl
-
--lexeme
- lex: maniki
- stem: .maniki.
- trans_en: ?
- gloss: ?
- gramm: n
- id: manlex3
- std: maniki
- paradigm: noun
-
--lexeme
- lex: waraijtokon
- stem: .waraijtokon.
- trans_en: man
- gloss: man
- gramm: n
- id: manlex4
- std: waraijtokon
- paradigm: noun
-
--lexeme
  lex: enijpëtërë
  stem: .enijpëtërë.
  trans_en: one
  gloss: one
  gramm: adv
- id: manlex5
+ id: enijpetere-one
  std: enijpëtërë
+ paradigm: uninfl
+
+-lexeme
+ lex: ïmparëjra
+ stem: .ïmparëjra.
+ trans_en: long.time
+ gloss: long.time
+ gramm: adv
+ id: imparejra-long-time
+ std: ïmparëjra
+ paradigm: uninfl
+
+-lexeme
+ lex: ponoko
+ stem: .ponoko.
+ trans_en: every
+ gloss: every
+ gramm: adv
+ id: ponoko-every
+ std: ponoko
  paradigm: uninfl
 
 -lexeme
@@ -154,49 +124,19 @@
  trans_en: far; long
  gloss: far
  gramm: adv
- id: manlex6
+ id: teijpo-far-long
  std: tëijpo
  paradigm: uninfl
 
 -lexeme
- lex: makë
- stem: .makë.
- trans_en: mother
- gloss: mother
- gramm: n
- id: manlex7
- std: makë
- paradigm: noun
-
--lexeme
- lex: taji
- stem: .taji.
- trans_en: ?
- gloss: ?
- gramm: ideo
- id: manlex8
- std: taji
- paradigm: uninfl
-
--lexeme
- lex: yëni
- stem: .yëni.
- trans_en: drink
- gloss: drink
- gramm: vt
- id: manlex9
- std: yëni
- paradigm: v_tr
-
--lexeme
- lex: mare
- stem: .mare.
- trans_en: REL.INAN
- gloss: REL.INAN
- gramm: rel
- id: manlex10
- std: mare
- paradigm: uninfl
+ lex: chi
+ stem: .chi.|.ch.|.chij.
+ trans_en: COP
+ gloss: COP
+ gramm: aux,cop
+ id: chi-ch-chij-cop
+ std: chi
+ paradigm: cop
 
 -lexeme
  lex: nwarë
@@ -204,69 +144,9 @@
  trans_en: and
  gloss: and
  gramm: coord
- id: manlex11
+ id: nware-and
  std: nwarë
  paradigm: uninfl
-
--lexeme
- lex: ijmoka
- stem: .ijmoka.|.ijmojka.
- trans_en: cook
- gloss: cook
- gramm: vt
- id: manlex12
- std: ijmoka
- paradigm: v_tr
-
--lexeme
- lex: asamo
- stem: .asamo.
- trans_en: cry
- gloss: cry
- gramm: vi
- id: asamo
- std: asamo
- paradigm: v_intr
-
--lexeme
- lex: këyama
- stem: .këyama.
- trans_en: create
- gloss: create
- gramm: vt
- id: manlex14
- std: këyama
- paradigm: v_tr
-
--lexeme
- lex: sepamï
- stem: .sepamï.|.sepan.
- trans_en: marry
- gloss: marry
- gramm: vi
- id: manlex15
- std: sepamï
- paradigm: v_intr
-
--lexeme
- lex: oti
- stem: .oti.
- trans_en: game.food
- gloss: game.food
- gramm: n
- id: manlex16
- std: oti
- paradigm: noun
-
--lexeme
- lex: këyata
- stem: .këyata.|.këyeta.|.këyëta.
- trans_en: grow.up
- gloss: grow.up
- gramm: vi
- id: manlex17
- std: këyata
- paradigm: v_intr
 
 -lexeme
  lex: perez
@@ -274,28 +154,8 @@
  trans_en: Pérez
  gloss: Pérez
  gramm: ideo
- id: manlex18
+ id: perez-perez
  std: perez
- paradigm: uninfl
-
--lexeme
- lex: rafa
- stem: .rafa.
- trans_en: Rafel
- gloss: Rafel
- gramm: ideo
- id: manlex19
- std: rafa
- paradigm: uninfl
-
--lexeme
- lex: maijtë
- stem: .maijtë.
- trans_en: go.IMP
- gloss: go.IMP
- gramm: vt,imp
- id: manlex20
- std: maijtë
  paradigm: uninfl
 
 -lexeme
@@ -304,59 +164,49 @@
  trans_en: DIM
  gloss: DIM
  gramm: ideo
- id: manlex21
+ id: pijke-dim
  std: pïjkë
  paradigm: uninfl
 
 -lexeme
- lex: kampra
- stem: .kampra.
- trans_en: big
- gloss: big
- gramm: n
- id: manlex22
- std: kampra
- paradigm: noun
-
--lexeme
- lex: padrastro
- stem: .padrastro.
- trans_en: padrastro
- gloss: padrastro
- gramm: n
- id: manlex23
- std: padrastro
- paradigm: noun
-
--lexeme
- lex: ïmparëjra
- stem: .ïmparëjra.
- trans_en: long.time
- gloss: long.time
- gramm: adv
- id: manlex24
- std: ïmparëjra
+ lex: rafa
+ stem: .rafa.
+ trans_en: Rafel
+ gloss: Rafel
+ gramm: ideo
+ id: rafa-rafel
+ std: rafa
  paradigm: uninfl
 
 -lexeme
- lex: ta
- stem: .ta.
- trans_en: like
- gloss: like
- gramm: part
- id: manlex25
- std: ta
+ lex: sakunkai
+ stem: .sakunkai.
+ trans_en: sakunkai
+ gloss: sakunkai
+ gramm: ideo
+ id: sakunkai-sakunkai
+ std: sakunkai
  paradigm: uninfl
 
 -lexeme
- lex: sereka
- stem: .sereka.
- trans_en: tire
- gloss: tire
- gramm: vi
- id: manlex26
- std: sereka
- paradigm: v_intr
+ lex: taji
+ stem: .taji.
+ trans_en: ?
+ gloss: ?
+ gramm: ideo
+ id: taji
+ std: taji
+ paradigm: uninfl
+
+-lexeme
+ lex: ajaja
+ stem: .ajaja.
+ trans_en: hahaha
+ gloss: hahaha
+ gramm: intj
+ id: ajaja-hahaha
+ std: ajaja
+ paradigm: uninfl
 
 -lexeme
  lex: kï
@@ -364,39 +214,19 @@
  trans_en: oh
  gloss: oh
  gramm: intj
- id: manlex27
+ id: ki-oh
  std: kï
  paradigm: uninfl
 
 -lexeme
- lex: esene
- stem: .esene.|.sene.
- trans_en: see.self
- gloss: see.self
- gramm: vi
- id: manlex28
- std: esene
- paradigm: v_intr
-
--lexeme
- lex: chi
- stem: .chi.|.ch.|.chij.
- trans_en: COP
- gloss: COP
- gramm: aux,cop
- id: manlex29
- std: chi
- paradigm: cop
-
--lexeme
- lex: enejka
- stem: .enejka.
- trans_en: watch
- gloss: watch
- gramm: vt
- id: enejka
- std: enejka
- paradigm: v_tr
+ lex: ajpu
+ stem: .ajpu.
+ trans_en: heart
+ gloss: heart
+ gramm: n
+ id: ajpu-heart
+ std: ajpu
+ paradigm: noun
 
 -lexeme
  lex: kaimo
@@ -409,6 +239,66 @@
  paradigm: noun
 
 -lexeme
+ lex: kampra
+ stem: .kampra.
+ trans_en: big
+ gloss: big
+ gramm: n
+ id: kampra-big
+ std: kampra
+ paradigm: noun
+
+-lexeme
+ lex: makë
+ stem: .makë.
+ trans_en: mother
+ gloss: mother
+ gramm: n
+ id: make-mother
+ std: makë
+ paradigm: noun
+
+-lexeme
+ lex: maniki
+ stem: .maniki.
+ trans_en: ?
+ gloss: ?
+ gramm: n
+ id: maniki
+ std: maniki
+ paradigm: noun
+
+-lexeme
+ lex: nwa
+ stem: .nwa.
+ trans_en: dance
+ gloss: dance
+ gramm: n
+ id: nwadance
+ std: nwa
+ paradigm: noun
+
+-lexeme
+ lex: oti
+ stem: .oti.
+ trans_en: game.food
+ gloss: game.food
+ gramm: n
+ id: oti-game-food
+ std: oti
+ paradigm: noun
+
+-lexeme
+ lex: padrastro
+ stem: .padrastro.
+ trans_en: padrastro
+ gloss: padrastro
+ gramm: n
+ id: padrastro-padrastro
+ std: padrastro
+ paradigm: noun
+
+-lexeme
  lex: suku
  stem: .suku.|.suj.
  trans_en: urine
@@ -417,6 +307,126 @@
  id: suku
  std: suku
  paradigm: noun
+
+-lexeme
+ lex: waraijtokon
+ stem: .waraijtokon.
+ trans_en: man
+ gloss: man
+ gramm: n
+ id: waraijtokon-man
+ std: waraijtokon
+ paradigm: noun
+
+-lexeme
+ lex: ëjka
+ stem: .ëjka.|.ënka.
+ trans_en: right
+ gloss: right
+ gramm: part
+ id: ejka-enka-right
+ std: ëjka
+ paradigm: uninfl
+
+-lexeme
+ lex: pïnirë
+ stem: .pïnirë.
+ trans_en: nothing
+ gloss: nothing
+ gramm: part
+ id: pinire-nothing
+ std: pïnirë
+ paradigm: uninfl
+
+-lexeme
+ lex: ta
+ stem: .ta.
+ trans_en: like
+ gloss: like
+ gramm: part
+ id: ta-like
+ std: ta
+ paradigm: uninfl
+
+-lexeme
+ lex: aniki
+ stem: .aniki.
+ trans_en: who
+ gloss: who
+ gramm: pn
+ id: aniki-who
+ std: aniki
+ paradigm: pro
+
+-lexeme
+ lex: ne
+ stem: .ne.|.n.
+ trans_en: INTS
+ gloss: INTS
+ gramm: postp,ints
+ id: intsne
+ std: ne
+ paradigm: postp
+
+-lexeme
+ lex: pana
+ stem: .pana.
+ trans_en: DAT
+ gloss: DAT
+ gramm: postp
+ id: panadat
+ std: pana
+ paradigm: postp
+
+-lexeme
+ lex: pano
+ stem: .pano.|.pan.
+ trans_en: deceased
+ gloss: deceased
+ gramm: postp,deceased
+ id: pano
+ std: pano
+ paradigm: postp
+
+-lexeme
+ lex: pe
+ stem: .pe.
+ trans_en: ESS
+ gloss: ESS
+ gramm: postp
+ id: esspe
+ std: pe
+ paradigm: postp
+
+-lexeme
+ lex: pëkë
+ stem: .pëkë.|.poko.
+ trans_en: on.surface
+ gloss: on.surface
+ gramm: postp,loc
+ id: pekeon
+ std: pëkë
+ paradigm: postp
+
+-lexeme
+ lex: pëkëpene
+ stem: .pëkëpene.
+ trans_en: alone
+ gloss: alone
+ gramm: postp
+ id: pekepene-alone
+ std: pëkëpene
+ paradigm: postp
+
+-lexeme
+ lex: rë
+ stem: .rë.
+ trans_en: EMP
+ gloss: EMP
+ gramm: postp,emp
+ id: emp
+ std: rë
+ paradigm: postp
 
 -lexeme
  lex: ya
@@ -439,73 +449,103 @@
  paradigm: postp
 
 -lexeme
- lex: rë
- stem: .rë.
- trans_en: EMP
- gloss: EMP
- gramm: postp,emp
- id: emp
- std: rë
- paradigm: postp
-
--lexeme
- lex: ne
- stem: .ne.|.n.
- trans_en: INTS
- gloss: INTS
- gramm: postp,ints
- id: intsne
- std: ne
- paradigm: postp
-
--lexeme
- lex: pano
- stem: .pano.|.pan.
- trans_en: deceased
- gloss: deceased
- gramm: postp,deceased
- id: pano
- std: pano
- paradigm: postp
-
--lexeme
- lex: pëkë
- stem: .pëkë.|.poko.
- trans_en: on.surface
- gloss: on.surface
- gramm: postp,loc
- id: pekeon
- std: pëkë
- paradigm: postp
-
--lexeme
- lex: ëjka
- stem: .ëjka.|.ënka.
- trans_en: right
- gloss: right
- gramm: part
- id: manlex39
- std: ëjka
+ lex: mare
+ stem: .mare.
+ trans_en: REL.INAN
+ gloss: REL.INAN
+ gramm: rel
+ id: mare-rel-inan
+ std: mare
  paradigm: uninfl
 
 -lexeme
- lex: pëkëpene
- stem: .pëkëpene.
- trans_en: alone
- gloss: alone
- gramm: postp
- id: manlex40
- std: pëkëpene
- paradigm: postp
+ lex: asamo
+ stem: .asamo.
+ trans_en: cry
+ gloss: cry
+ gramm: vi
+ id: asamo
+ std: asamo
+ paradigm: v_intr
 
 -lexeme
- lex: ajaja
- stem: .ajaja.
- trans_en: hahaha
- gloss: hahaha
- gramm: intj
- id: manlex41
- std: ajaja
+ lex: esene
+ stem: .esene.|.sene.
+ trans_en: see.self
+ gloss: see.self
+ gramm: vi
+ id: esene-sene-see-self
+ std: esene
+ paradigm: v_intr
+
+-lexeme
+ lex: këyata
+ stem: .këyata.|.këyeta.|.këyëta.
+ trans_en: grow.up
+ gloss: grow.up
+ gramm: vi
+ id: keyata-keyeta-keyeta-grow-up
+ std: këyata
+ paradigm: v_intr
+
+-lexeme
+ lex: sepamï
+ stem: .sepamï.|.sepan.
+ trans_en: marry
+ gloss: marry
+ gramm: vi
+ id: sepami-sepan-marry
+ std: sepamï
+ paradigm: v_intr
+
+-lexeme
+ lex: sereka
+ stem: .sereka.
+ trans_en: tire
+ gloss: tire
+ gramm: vi
+ id: sereka-tire
+ std: sereka
+ paradigm: v_intr
+
+-lexeme
+ lex: enejka
+ stem: .enejka.
+ trans_en: watch
+ gloss: watch
+ gramm: vt
+ id: enejka
+ std: enejka
+ paradigm: v_tr
+
+-lexeme
+ lex: ijmoka
+ stem: .ijmoka.|.ijmojka.
+ trans_en: cook
+ gloss: cook
+ gramm: vt
+ id: ijmoka-ijmojka-cook
+ std: ijmoka
+ paradigm: v_tr
+
+-lexeme
+ lex: këyama
+ stem: .këyama.
+ trans_en: create
+ gloss: create
+ gramm: vt
+ id: keyama-create
+ std: këyama
+ paradigm: v_tr
+
+-lexeme
+ lex: maijtë
+ stem: .maijtë.
+ trans_en: go.IMP
+ gloss: go.IMP
+ gramm: vt,imp
+ id: maijte-go-imp
+ std: maijtë
  paradigm: uninfl
 
 -lexeme
@@ -514,49 +554,29 @@
  trans_en: make
  gloss: make
  gramm: vt
- id: manlex42
+ id: nai-naij-make
  std: nai
  paradigm: v_tr
 
 -lexeme
- lex: pïnirë
- stem: .pïnirë.
- trans_en: nothing
- gloss: nothing
- gramm: part
- id: manlex43
- std: pïnirë
- paradigm: uninfl
+ lex: wejyaka
+ stem: .wejyaka.
+ trans_en: open
+ gloss: open
+ gramm: vt
+ id: wejyaka-open
+ std: wejyaka
+ paradigm: v_tr
 
 -lexeme
- lex: pe
- stem: .pe.
- trans_en: ESS
- gloss: ESS
- gramm: postp
- id: esspe
- std: pe
- paradigm: postp
-
--lexeme
- lex: aniki
- stem: .aniki.
- trans_en: who
- gloss: who
- gramm: pn
- id: manlex45
- std: aniki
- paradigm: pro
-
--lexeme
- lex: ponoko
- stem: .ponoko.
- trans_en: every
- gloss: every
- gramm: adv
- id: manlex46
- std: ponoko
- paradigm: uninfl
+ lex: yëni
+ stem: .yëni.
+ trans_en: drink
+ gloss: drink
+ gramm: vt
+ id: yeni-drink
+ std: yëni
+ paradigm: v_tr
 
 -lexeme
  lex: yerema
@@ -567,16 +587,6 @@
  id: yerema
  std: yerema
  paradigm: v_tr
-
--lexeme
- lex: nwa
- stem: .nwa.
- trans_en: dance
- gloss: dance
- gramm: n
- id: nwadance
- std: nwa
- paradigm: noun
 
 -lexeme
  lex: moronkepï
