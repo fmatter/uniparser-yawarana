@@ -143,6 +143,10 @@
   gramm: fut
   gloss: FUT
   id: tojpefut
+ -flex: .tojpe<.>
+  gramm: purp
+  gloss: PURP
+  id: tojpefut
  -flex: .tëpëkë<.>
   gramm: prog,intr
   gloss: PROG.INTR
