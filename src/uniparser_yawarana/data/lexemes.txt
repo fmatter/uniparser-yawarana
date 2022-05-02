@@ -451,9 +451,9 @@
 -lexeme
  lex: yawë
  stem: .yawë.|.awë.
- trans_en: TEMP.LOC
- gloss: TEMP.LOC
- gramm: postp,loc,tmp
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp,loc
  id: yaweloc
  std: yawë
  paradigm: postp
