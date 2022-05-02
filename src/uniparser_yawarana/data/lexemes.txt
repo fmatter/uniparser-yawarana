@@ -589,6 +589,16 @@
  paradigm: v_tr
 
 -lexeme
+ lex: ma
+ stem: .ma.
+ trans_en: RESTR
+ gloss: RESTR
+ gramm: part
+ id: marestr
+ std: ma
+ paradigm: uninfl
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
