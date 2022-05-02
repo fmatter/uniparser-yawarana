@@ -69,16 +69,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: asamori
- stem: .asamo&ri.
- trans_en: crying
- gloss: cry&NMLZ
- gramm: n
- id: asamo,ri
- std: asamori
- paradigm: noun
-
--lexeme
  lex: kaimota
  stem: .kaimo&ta.
  trans_en: hunt

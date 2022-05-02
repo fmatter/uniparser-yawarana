@@ -91,23 +91,46 @@
  paradigm: v_suff1
 
 -paradigm: v_suff1
- -flex: .tojpe<.>
-  gramm: fut
-  gloss: FUT
-  id: tojpefut
- -flex: .tëpëkë<.>
-  gramm: prog,intr
-  gloss: PROG.INTR
-  id: tepeke
- -flex: .sapë<.>//.saj<.>
-  gramm: pfv
-  gloss: PFV
-  id: sapepfv
+ -flex: .kë
+  gloss: IMP
+  gramm: imp
+  id: keimp
+ -flex: .ta
+  gloss: MOTIMP
+  gramm: motimp
+  id: tamotimp
+ -flex: .ri//.0
+  gramm: N
+  gloss: NMLZ
+  id: ri
+  paradigm: 
+ -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
+  gramm: ipfv
+  gloss: IPFV
+  id: ri
  -flex: .jpë
   gramm: N
   gloss: CIRC.NMLZ
   id: jpepst
   paradigm: 
+ -flex: .jpë<.>
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .sapë<.>//.saj<.>
+  gramm: pfv
+  gloss: PFV
+  id: sapepfv
+ -flex: .se
+  gramm: ptcp
+  gloss: PTCP
+  id: septcp
+  paradigm: n_suff1
+ -flex: .se|mï<.>
+  gramm: ptcp,nmlz
+  gloss: PTCP|NMLZ
+  id: septcp,minmlz
+  paradigm: n_suff1
  -flex: .se<.>
   gramm: pst
   gloss: PST
@@ -116,11 +139,14 @@
   gramm: sup
   gloss: SUP
   id: septcp
- -flex: .se|mï<.>
-  gramm: ptcp,nmlz
-  gloss: PTCP|NMLZ
-  id: septcp,minmlz
-  paradigm: n_suff1
+ -flex: .tojpe<.>
+  gramm: fut
+  gloss: FUT
+  id: tojpefut
+ -flex: .tëpëkë<.>
+  gramm: prog,intr
+  gloss: PROG.INTR
+  id: tepeke
  -flex: .po<.>
   gramm: des
   gloss: DES
@@ -135,22 +161,6 @@
   gloss: CNCS
   id: tanecncs
   paradigm: 
- -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
-  gramm: ipfv
-  gloss: IPFV
-  id: ri
- -flex: .jpë<.>
-  gramm: pst
-  gloss: PST
-  id: jpepst
- -flex: .kë
-  gloss: IMP
-  gramm: imp
-  id: keimp
- -flex: .ta
-  gloss: MOTIMP
-  gramm: motimp
-  id: tamotimp
  -flex: .sarë<.>
   gramm: inm
   gloss: INM
