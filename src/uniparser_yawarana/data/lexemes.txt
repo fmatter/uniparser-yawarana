@@ -4859,16 +4859,6 @@
  paradigm: v_tr
 
 -lexeme
- lex: kajkë
- stem: .kajkë.
- trans_en: say:IMP
- gloss: say:IMP
- gramm: vt
- id: 7a0566cf-3599-466e-937b-b7f9a4708568
- std: kajkë
- paradigm: v_tr
-
--lexeme
  lex: eretapi
  stem: .eretapi.
  trans_en: crop
@@ -9492,7 +9482,14 @@
  lex: tajne
  stem: .ta&jne.
  trans_en: they
- std: TAHNE
  gloss: 3&PL
  gramm: pn
  paradigm: pro
+
+-lexeme
+ lex: kajkë
+ stem: kaj&kë.
+ trans_en: say it!
+ gloss: say&IMP
+ gramm: vt,imp
+ paradigm: uninfl
