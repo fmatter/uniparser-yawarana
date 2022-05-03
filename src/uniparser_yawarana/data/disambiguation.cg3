@@ -16,3 +16,5 @@ REMOVE ("yaka" n) IF (-1 (n)); # yaka is 'deer', but if we're after a noun it's 
 
 SECTION # misc
 REMOVE ("aro" n) IF (-1 ("wïrë")); # wïrë taro is not 'I, his/her own rice'...
+REMOVE ("ka" vt) IF (-1 (des neg)); # -po-jra ka 'would not?'
+REMOVE (des priv) IF (1 (part));

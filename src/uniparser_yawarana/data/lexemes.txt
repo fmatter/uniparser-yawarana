@@ -4769,16 +4769,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: nai
- stem: .nai.|.naij.
- trans_en: do; thing; put
- gloss: do
- gramm: vt
- id: 77ab3f90-a8cd-4217-9b75-aacb941802e5
- std: nai
- paradigm: v_tr
-
--lexeme
  lex: mërë
  stem: .mërë.
  trans_en: 3IN:MD

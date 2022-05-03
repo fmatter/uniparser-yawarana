@@ -231,7 +231,7 @@
   sep: =
  -flex: .awë
   gramm: LEX:yawë:CLIT,loc
-  gloss: TEMP.LOC
+  gloss: LOC
   sep: =
   id: yaweloc
 
