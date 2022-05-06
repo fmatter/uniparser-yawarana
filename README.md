@@ -10,4 +10,15 @@ A morphological parser for Yawarana ([yaba1248](https://glottolog.org/resource/l
 [![PyPI](https://img.shields.io/pypi/v/uniparser-yawarana.svg)](https://pypi.org/project/uniparser-yawarana)
 ![Versions](https://img.shields.io/pypi/pyversions/uniparser-yawarana)
 
-This project uses the excellent [uniparser-morph](https://github.com/timarkh/uniparser-morph/) package. It is currently under development.
+This project uses the excellent [uniparser-morph](https://github.com/timarkh/uniparser-morph/) package.
+It is currently under development.
+
+The lexical material is largely sourced from this database:
+
+```
+@unpublished{caceres2020flex,
+title={Yawarana {FLEx} project with partially parsed and glossed texts and corresponding morpheme lexicon from {Natalia} {Cáceres} {Arandia}'s own fieldwork.},
+author={Cáceres Arandia, Natalia},
+year={2020},
+}
+```
