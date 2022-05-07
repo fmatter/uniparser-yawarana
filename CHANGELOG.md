@@ -7,10 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+* some bad analyses
+* some disambiguation rules
+* "function word" lexemes
 
 ### Changed
+* remodelled and expanded paradigms.txt
 
 ### Removed
+* clitical *=pe*
 
 ## [0.0.2] -- 2022-05-01
 
