@@ -15,6 +15,10 @@
   gloss: 1
   gramm: 1,poss
   id: u1
+ -flex: a.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: a2
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1,poss
@@ -24,7 +28,7 @@
  paradigm: n_suff1
 
 -paradigm: n_suff1
- -flex: .ru<.>
+ -flex: .ru<.>//.ri<.>//.i<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -109,8 +113,8 @@
   gloss: IPFV
   id: ri
  -flex: .jpë
-  gramm: N
-  gloss: CIRC.NMLZ
+  gramm: n
+  gloss: PST.ACNMLZ
   id: jpepst
   paradigm: 
  -flex: .jpë<.>

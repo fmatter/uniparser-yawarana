@@ -89,6 +89,16 @@
  paradigm: noun
 
 -lexeme
+ lex: sere
+ stem: .s&ere.
+ trans_en: become scared
+ gloss: DETRZ&scare
+ gramm: vi
+ id: dt2,erepiscare
+ std: sere
+ paradigm: v_intr
+
+-lexeme
  lex: enijpëtërë
  stem: .enijpëtërë.
  trans_en: one
@@ -627,6 +637,26 @@
  id: teloc
  std: të
  paradigm: postp
+
+-lexeme
+ lex: erepï
+ stem: .erepï.|.erej.|.ere.
+ trans_en: scare
+ gloss: scare
+ gramm: vt
+ id: erepiscare
+ std: erepï
+ paradigm: v_tr
+
+-lexeme
+ lex: tojpa
+ stem: .tojpa.
+ trans_en: hit
+ gloss: hit
+ gramm: vt
+ id: tojpahit
+ std: tojpa
+ paradigm: v_tr
 
 -lexeme
  lex: moronkepï
@@ -1329,6 +1359,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: Petra
+ stem: .Petra.|.petra.
+ trans_en: Petra
+ gloss: Petra
+ gramm: propn
+ id: 14dae6ef-579f-4f55-a9e4-f038b455f22e
+ std: Petra
+ paradigm: uninfl
+
+-lexeme
  lex: iyajtëpene
  stem: .iyajtëpene.
  trans_en: at.beginning
@@ -1879,6 +1919,16 @@
  paradigm: noun
 
 -lexeme
+ lex: Florinda
+ stem: .Florinda.|.florinda.
+ trans_en: Florinda
+ gloss: Florinda
+ gramm: propn
+ id: 256653a6-13c7-4313-afff-a78d59fa7874
+ std: Florinda
+ paradigm: uninfl
+
+-lexeme
  lex: mukujpë
  stem: .mukujpë.
  trans_en: small
@@ -2319,6 +2369,16 @@
  paradigm: aux
 
 -lexeme
+ lex: Manapiare
+ stem: .Manapiare.|.manapiare.
+ trans_en: Manapiare
+ gloss: Manapiare
+ gramm: propn
+ id: 310c33ed-b7f1-4393-b540-9e10a67d6d50
+ std: Manapiare
+ paradigm: uninfl
+
+-lexeme
  lex: kuyari
  stem: .kuyari.
  trans_en: guayabita.de.monte
@@ -2327,6 +2387,16 @@
  id: 31190e65-b18c-42bf-95c4-2012119719d2
  std: kuyari
  paradigm: noun
+
+-lexeme
+ lex: Chirino
+ stem: .Chirino.
+ trans_en: Chirinos
+ gloss: Chirinos
+ gramm: propn
+ id: 316de6da-17db-42b6-860a-030f83d2b9a5
+ std: Chirino
+ paradigm: uninfl
 
 -lexeme
  lex: sopika
@@ -2477,6 +2547,16 @@
  id: 34ba7be1-6f81-48f0-b23a-1a5abf47d398
  std: yanupï
  paradigm: v_tr
+
+-lexeme
+ lex: David
+ stem: .David.|.david.
+ trans_en: David
+ gloss: David
+ gramm: propn
+ id: 34d4f3c7-080a-47bd-baa6-aaa491e95a53
+ std: David
+ paradigm: uninfl
 
 -lexeme
  lex: tëpï
@@ -2969,6 +3049,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: wayawarë
+ stem: .wayawarë.
+ trans_en: Guayabal
+ gloss: Guayabal
+ gramm: propn
+ id: 449028dc-c8d8-44fb-8888-de889677e534
+ std: wayawarë
+ paradigm: uninfl
+
+-lexeme
  lex: kuyuwi
  stem: .kuyuwi.
  trans_en: bird.sp
@@ -2986,6 +3076,16 @@
  gramm: adv
  id: 44c71964-16a2-486f-9c5f-0a4859c90595
  std: wanarë
+ paradigm: uninfl
+
+-lexeme
+ lex: Kukuchi
+ stem: .Kukuchi.|.kukuchi.
+ trans_en: Kukuchi
+ gloss: Kukuchi
+ gramm: propn
+ id: 4521098a-fb26-4002-9b4f-f5889c667369
+ std: Kukuchi
  paradigm: uninfl
 
 -lexeme
@@ -3257,6 +3357,16 @@
  id: 4c346666-18de-4ff6-b26a-a581153e4d5f
  std: tëpu
  paradigm: noun
+
+-lexeme
+ lex: Yakucho
+ stem: .Yakucho.
+ trans_en: Ayacucho
+ gloss: Ayacucho
+ gramm: propn
+ id: 4ce40b0d-39fe-4373-bb96-ffc718f6fd27
+ std: Yakucho
+ paradigm: uninfl
 
 -lexeme
  lex: arinë
@@ -3657,6 +3767,16 @@
  id: 5a574bb6-06fc-4cdb-bf1e-2cc526576b27
  std: pañu
  paradigm: noun
+
+-lexeme
+ lex: Wajiwo
+ stem: .Wajiwo.
+ trans_en: Jiwi
+ gloss: Jiwi
+ gramm: propn
+ id: 5a7618a3-06f1-4d32-8791-cc423f6e7166
+ std: Wajiwo
+ paradigm: uninfl
 
 -lexeme
  lex: araya
@@ -4727,6 +4847,16 @@
  id: 763cd0a8-2338-47f6-be83-51c37991b129
  std: yatunë
  paradigm: noun
+
+-lexeme
+ lex: Wëikiyare
+ stem: .Wëikiyare.
+ trans_en: Woikiare
+ gloss: Woikiare
+ gramm: propn
+ id: 763e920c-3ab7-4180-8186-c75e368ba15f
+ std: Wëikiyare
+ paradigm: uninfl
 
 -lexeme
  lex: yëjpë
@@ -7439,6 +7569,16 @@
  paradigm: v_intr
 
 -lexeme
+ lex: Mayawaka
+ stem: .Mayawaka.
+ trans_en: Mayawaka
+ gloss: Mayawaka
+ gramm: propn
+ id: c6a5f55e-6e88-44f9-8580-a9172a5541ec
+ std: Mayawaka
+ paradigm: uninfl
+
+-lexeme
  lex: potipene
  stem: .potipene.
  trans_en: before
@@ -7446,6 +7586,16 @@
  gramm: adv
  id: c6cedab2-5fd5-420c-88b7-fa09740723fa
  std: potipene
+ paradigm: uninfl
+
+-lexeme
+ lex: Ochi
+ stem: .Ochi.|.ochi.
+ trans_en: Ochi
+ gloss: Ochi
+ gramm: propn
+ id: c6ec5a0b-126b-49db-8993-48ac73744fbb
+ std: Ochi
  paradigm: uninfl
 
 -lexeme
@@ -7607,6 +7757,16 @@
  id: cccd3a2d-9e85-4a43-a44e-2137fb9e535c
  std: tapitu
  paradigm: noun
+
+-lexeme
+ lex: Juanita
+ stem: .Juanita.|.juanita.
+ trans_en: Juanita
+ gloss: Juanita
+ gramm: propn
+ id: cdc7946c-4f11-423f-947a-ecf4ecc5dd46
+ std: Juanita
+ paradigm: uninfl
 
 -lexeme
  lex: mëkïsantomo
@@ -8439,6 +8599,16 @@
  paradigm: v_tr
 
 -lexeme
+ lex: Majawa
+ stem: .Majawa.
+ trans_en: Majagua
+ gloss: Majagua
+ gramm: propn
+ id: e4d12f3b-8a24-4e38-9a5f-7b3fac08e59f
+ std: Majawa
+ paradigm: uninfl
+
+-lexeme
  lex: toto
  stem: .toto.
  trans_en: non.indian; human
@@ -9227,6 +9397,16 @@
  id: f90c63ed-bd4c-43b7-b9f9-2709d3ff0ddd
  std: wïnïkï
  paradigm: v_intr
+
+-lexeme
+ lex: asurito
+ stem: .asurito.
+ trans_en: SPA_Azulito
+ gloss: SPA_Azulito
+ gramm: propn
+ id: f92dc380-d18e-4c81-983f-87a86f990504
+ std: asurito
+ paradigm: uninfl
 
 -lexeme
  lex: *epe

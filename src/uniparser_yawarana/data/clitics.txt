@@ -29,7 +29,7 @@
  type: en
  gloss: LOC
  gramm: loc
- id: locte
+ id: teloc
 -clitic
  lex: ma
  stem: ma
