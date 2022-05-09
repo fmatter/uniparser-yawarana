@@ -125,6 +125,15 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
+ -flex: .në<.>
+  gramm: inf
+  gloss: INF
+  id: neinf
+ -flex: .ni<.>
+  gramm: n
+  gloss: NMLZ
+  id: ninmlz
+  paradigm: noun
  -flex: .sapë<.>//.saj<.>
   gramm: nmlz
   gloss: NMLZ
