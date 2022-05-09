@@ -71,6 +71,10 @@
 -paradigm: pro
  -flex: .
   gramm:
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
 
 -paradigm: v_tr
  -flex: .<.>
@@ -211,6 +215,10 @@
   gloss: NEG
   gramm: neg
   id: janeg
+ -flex: .jnari
+  gloss: NEG
+  gramm: neg
+  id: jnarineg
 
 -paradigm: cop
  -flex: ij.<.>
