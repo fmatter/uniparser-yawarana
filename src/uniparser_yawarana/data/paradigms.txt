@@ -173,7 +173,7 @@
   gloss: DES
   id: podes
   paradigm: n_suff1
- -flex: .topo
+ -flex: .topo//.toj
   gramm: nmlz
   gloss: CIRC.NMLZ
   id: toponmlz
