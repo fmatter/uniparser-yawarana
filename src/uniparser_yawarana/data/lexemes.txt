@@ -699,6 +699,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: yënka
+ stem: .yënka.|.ënka.
+ trans_en: finish
+ gloss: finish
+ gramm: vt
+ id: enkafinish
+ std: yënka
+ paradigm: v_tr
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
@@ -3456,16 +3466,6 @@
  gramm: vt
  id: 4f5aa84b-1593-4f77-bbcd-c83b2d3080f7
  std: pïmë
- paradigm: v_tr
-
--lexeme
- lex: yënka
- stem: .yënka.
- trans_en: finish.O
- gloss: finish.O
- gramm: vt
- id: 4f7ae877-6934-4e01-b0b2-ab58b142ae6d
- std: yënka
  paradigm: v_tr
 
 -lexeme
