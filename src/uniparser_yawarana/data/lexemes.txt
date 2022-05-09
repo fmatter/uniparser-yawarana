@@ -104,7 +104,7 @@
  trans_en: finish
  gloss: DETRZ&finish
  gramm: vi
- id: dt2,4f7ae877,6934,4e01,b0b2,ab58b142ae6d
+ id: dt2,enkafinish
  std: sënka
  paradigm: v_intr
 
