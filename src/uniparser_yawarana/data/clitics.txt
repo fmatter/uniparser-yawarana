@@ -38,3 +38,11 @@
  gloss: RESTR
  gramm: restr
  id: ma
+-clitic
+ lex: rë
+ stem: rë
+ trans_en: EMP
+ type: en
+ gloss: EMP
+ gramm: emp
+ id: reemp
