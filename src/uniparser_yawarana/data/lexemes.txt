@@ -99,6 +99,16 @@
  paradigm: v_intr
 
 -lexeme
+ lex: sënka
+ stem: .s&ënka.
+ trans_en: finish
+ gloss: DETRZ&finish
+ gramm: vi
+ id: dt2,4f7ae877,6934,4e01,b0b2,ab58b142ae6d
+ std: sënka
+ paradigm: v_intr
+
+-lexeme
  lex: enijpëtërë
  stem: .enijpëtërë.
  trans_en: one
@@ -657,6 +667,36 @@
  id: tojpahit
  std: tojpa
  paradigm: v_tr
+
+-lexeme
+ lex: pojtë
+ stem: .pojtë.
+ trans_en: want
+ gloss: want
+ gramm: vt
+ id: pojtewant
+ std: pojtë
+ paradigm: v_tr
+
+-lexeme
+ lex: weseyu
+ stem: .weseyu.
+ trans_en: become mad
+ gloss: become mad
+ gramm: vi
+ id: weseyu
+ std: weseyu
+ paradigm: v_intr
+
+-lexeme
+ lex: me
+ stem: .me.
+ trans_en: POL
+ gloss: POL
+ gramm: part
+ id: me-pol
+ std: me
+ paradigm: uninfl
 
 -lexeme
  lex: moronkepï
