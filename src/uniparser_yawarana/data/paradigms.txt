@@ -142,7 +142,7 @@
   gramm: nmlz
   gloss: NMLZ
   id: sapepfv
- -flex: .se
+ -flex: .se//.che
   gramm: ptcp
   gloss: PTCP
   id: septcp
@@ -152,11 +152,11 @@
   gloss: PTCP|NMLZ
   id: septcp,minmlz
   paradigm: n_suff1
- -flex: .se<.>
+ -flex: .se<.>//.che.<.>
   gramm: pst
   gloss: PST
   id: septcp
- -flex: .se
+ -flex: .se//.che
   gramm: sup
   gloss: SUP
   id: septcp
