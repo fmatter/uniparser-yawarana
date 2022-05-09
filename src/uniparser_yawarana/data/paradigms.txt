@@ -177,7 +177,6 @@
   gramm: inm
   gloss: INM
   id: sareinm
-  id: jraneg
  -flex: .tïkene
   gramm: post
   gloss: POST
@@ -199,10 +198,10 @@
   gramm: pl
   gloss: PL
   id: kontomopl
- -flex: .jra//.ja
+ -flex: .ja
   gloss: NEG
   gramm: neg
-  id: jraneg
+  id: janeg
 
 -paradigm: cop
  -flex: ij.<.>
