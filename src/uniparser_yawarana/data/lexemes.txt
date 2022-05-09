@@ -66,7 +66,7 @@
  gramm: adv
  id: nope,anonmlz
  std: nopano
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kaimota
@@ -116,7 +116,7 @@
  gramm: adv
  id: enijpetere-one
  std: enijpëtërë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ïmparëjra
@@ -126,7 +126,7 @@
  gramm: adv
  id: imparejra-long-time
  std: ïmparëjra
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ponoko
@@ -136,7 +136,7 @@
  gramm: adv
  id: ponoko-every
  std: ponoko
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tëijpo
@@ -146,7 +146,7 @@
  gramm: adv
  id: teijpo-far-long
  std: tëijpo
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: chi
@@ -956,7 +956,7 @@
  gramm: adv
  id: 06a1b275-cc7d-414c-9834-b2f5003c625f
  std: kojparetawë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ajpu
@@ -976,7 +976,7 @@
  gramm: adv
  id: 074e838c-62e0-49ec-8ff3-7d8d2e569a7b
  std: kojpayarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ëpëtu
@@ -996,7 +996,7 @@
  gramm: adv
  id: 07bd51f6-fb85-483e-b0cf-b27e244f61b4
  std: ëkëtë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tawanke
@@ -1006,7 +1006,7 @@
  gramm: adv
  id: 07e64a4e-9efd-4dbb-a65f-648aafcc205f
  std: tawanke
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: noro
@@ -1076,7 +1076,7 @@
  gramm: adv
  id: 09da3ecf-aad3-4702-b014-53799eaf692b
  std: mëtë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tënkuye
@@ -1086,7 +1086,7 @@
  gramm: adv
  id: 0a0d88c5-551f-4335-8cbe-04083f6db14d
  std: tënkuye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yasujma
@@ -1146,7 +1146,7 @@
  gramm: adv
  id: 0c0cda92-26c4-4e3c-91cc-3dda6fbc15d8
  std: pumanse
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: koropicha
@@ -1166,7 +1166,7 @@
  gramm: adv
  id: 0c5767dc-3d72-44d9-bce8-956199b2f504
  std: kaimarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: pekuye
@@ -1176,7 +1176,7 @@
  gramm: adv
  id: 0ccf73a9-af52-49fb-a5e3-420724e5a272
  std: pekuye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: taka
@@ -1216,7 +1216,7 @@
  gramm: adv
  id: 0da5c89c-c4a6-46c8-9b1a-3a74e21a2a02
  std: tajnema
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yejwetijtë
@@ -1336,7 +1336,7 @@
  gramm: adv
  id: 11c3174b-e8d5-43bd-84aa-5772ec8e5617
  std: penajrë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ijpu
@@ -1356,7 +1356,7 @@
  gramm: adv
  id: 134a62ee-93f1-4f0a-a4de-0d3f39a24ac6
  std: mojne
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: intipïjkë
@@ -1366,7 +1366,7 @@
  gramm: adv
  id: 13cd1d8d-11c6-434c-aa1f-02e60843e20f
  std: intipïjkë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yatanë
@@ -1386,7 +1386,7 @@
  gramm: adv
  id: 14552ab6-3514-4e1b-a14c-6934dde0b71f
  std: inaijtërë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kwajsapene
@@ -1396,7 +1396,7 @@
  gramm: adv
  id: 148a4ba2-152b-4e59-aae5-78441b32f692
  std: kwajsapene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: Petra
@@ -1416,7 +1416,7 @@
  gramm: adv
  id: 156ca9cc-34f9-4208-bbec-93986b90141b
  std: iyajtëpene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: semekï
@@ -1766,7 +1766,7 @@
  gramm: adv
  id: 20f519ea-0a37-4179-9ea4-e76dcd6541f2
  std: asakontompene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kïrïma
@@ -1906,7 +1906,7 @@
  gramm: adv
  id: 246090e9-85c5-4e68-9b0f-7b3d612c92a3
  std: pïrajrarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kein
@@ -2266,7 +2266,7 @@
  gramm: adv
  id: 2c96339f-4a65-4af5-8751-9313e5059467
  std: kwatojpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: pota
@@ -2506,7 +2506,7 @@
  gramm: adv
  id: 32cdb8eb-dc18-4460-8fde-07994582888d
  std: tëwïsapejra
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: are
@@ -2616,7 +2616,7 @@
  gramm: adv
  id: 36482ad4-45d2-4143-bbda-f8e9b9e781be
  std: tëwïjpë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kuku
@@ -2686,7 +2686,7 @@
  gramm: adv
  id: 3816dac0-3d78-4dbd-bce5-6f2a34df5c99
  std: ëjpïna
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tajpïi
@@ -2776,7 +2776,7 @@
  gramm: adv
  id: 3b92fde8-f646-47dd-b190-18c1ca2d6079
  std: tawara
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: këtëjwatë
@@ -2866,7 +2866,7 @@
  gramm: adv
  id: 3e1a4904-fbf2-46ad-ab73-eed0188bdd31
  std: tajwere
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: chïkïchï
@@ -2986,7 +2986,7 @@
  gramm: adv
  id: 42183311-d6a7-4cca-800a-2162cf01ed9a
  std: takonowinë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: pon
@@ -3056,7 +3056,7 @@
  gramm: adv
  id: 438fed41-7c59-4e14-86e8-38250c69a48c
  std: asorompe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: maku
@@ -3086,7 +3086,7 @@
  gramm: adv
  id: 443a3491-9a08-4a68-874b-8c9b44220019
  std: mïntë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: wayawarë
@@ -3116,7 +3116,7 @@
  gramm: adv
  id: 44c71964-16a2-486f-9c5f-0a4859c90595
  std: wanarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: Kukuchi
@@ -3276,7 +3276,7 @@
  gramm: adv
  id: 4a9eb16a-798f-4d8f-b712-20d70bc69fb2
  std: entë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ëtï
@@ -3516,7 +3516,7 @@
  gramm: adv
  id: 5078e6e4-e2ee-49ad-8d89-d59d13f379a1
  std: enijpëtë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: sakaijpe
@@ -3526,7 +3526,7 @@
  gramm: adv
  id: 5116547d-be92-4f54-90e3-69fd668ecdcb
  std: sakaijpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: top
@@ -3566,7 +3566,7 @@
  gramm: adv
  id: 52d719dc-9d21-4624-a14f-40fbd81ac3ca
  std: iyajtëpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kamere
@@ -3776,7 +3776,7 @@
  gramm: adv
  id: 594b7aaa-7cd3-4fc9-b5c4-fb9d83ba6163
  std: ijtërë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tui
@@ -3906,7 +3906,7 @@
  gramm: adv
  id: 5d0e5d78-0c95-41b9-bd4c-a980d57dac3a
  std: tijpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yawano
@@ -4036,7 +4036,7 @@
  gramm: adv
  id: 5fe79004-133a-4aa1-b2e6-3e28a948b72e
  std: tajme
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: këjma
@@ -4086,7 +4086,7 @@
  gramm: adv
  id: 61c230c3-0c2b-4a72-9910-720dca67ddb5
  std: tëwïjna
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: toromo
@@ -4236,7 +4236,7 @@
  gramm: adv
  id: 651f4c55-75e1-4c88-8e29-41ba02c48f41
  std: ëkëwinë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: wara
@@ -4326,7 +4326,7 @@
  gramm: adv
  id: 667c061c-c363-47db-9e08-7039de4e5050
  std: asakë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: wacho
@@ -4356,7 +4356,7 @@
  gramm: adv
  id: 6863c61c-0594-40bc-8837-d2d65a13e708
  std: asamawë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kayari
@@ -4516,7 +4516,7 @@
  gramm: adv
  id: 6c5a2240-02da-4805-b023-bc6f5f4611a4
  std: romoye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: chej
@@ -4726,7 +4726,7 @@
  gramm: adv
  id: 72a3a43c-8f74-4c86-967a-caf0649c9039
  std: apo
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: jyatë
@@ -4756,7 +4756,7 @@
  gramm: adv
  id: 734ca159-668e-49c2-81ab-e0c9e9d84812
  std: poke
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yaʼra
@@ -4816,7 +4816,7 @@
  gramm: adv
  id: 743fce7e-671f-435a-af2b-bcc698ef2032
  std: ijtë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: soro
@@ -4936,7 +4936,7 @@
  gramm: adv
  id: 7770d7b9-08b4-478c-a7a1-3db99929fc4b
  std: tunampe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: mërë
@@ -4956,7 +4956,7 @@
  gramm: adv
  id: 77cf2ace-dbc5-4717-b88f-f67514341441
  std: tasujre
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kïmïi
@@ -5116,7 +5116,7 @@
  gramm: adv
  id: 7ccdea1f-add1-4fd0-b650-5473ccff99fd
  std: morone
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: sarë
@@ -5126,7 +5126,7 @@
  gramm: adv
  id: 7d093765-b392-4ad9-a0ab-787481d79b99
  std: sarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: nope
@@ -5136,7 +5136,7 @@
  gramm: adv
  id: nope
  std: nope
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: cha
@@ -5186,7 +5186,7 @@
  gramm: adv
  id: 7ffb9541-318f-45e2-aa58-167c79c0fdfc
  std: romoyaye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kasawoko
@@ -5256,7 +5256,7 @@
  gramm: adv
  id: 82059265-f4ad-44e2-aa67-796d97e42016
  std: tujnaka
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: chïkïi
@@ -5286,7 +5286,7 @@
  gramm: adv
  id: 82db2eaf-3a68-41be-83b8-925ea3d20539
  std: pune
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: impanika
@@ -5536,7 +5536,7 @@
  gramm: adv
  id: 8a9d2392-c397-4851-85b2-01b3d01a75a1
  std: petomyakërë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: antë
@@ -5606,7 +5606,7 @@
  gramm: adv
  id: 8c699b89-5dd2-43c5-a294-e036a6e2c235
  std: kwasa
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: pakara
@@ -5656,7 +5656,7 @@
  gramm: adv
  id: 8e92e1b2-e9a1-498c-87fc-734bf42fea26
  std: yumpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: wanïpï
@@ -5676,7 +5676,7 @@
  gramm: adv
  id: 8efc9c6f-ad42-43f0-bdd2-f25654b65eaa
  std: yarachine
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: waraijtokomo
@@ -5776,7 +5776,7 @@
  gramm: adv
  id: 915c330f-0180-4aef-8dc0-2ebc0143d5ec
  std: amarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yaupa
@@ -5986,7 +5986,7 @@
  gramm: adv
  id: 9701210b-3e2e-4a49-b15f-dc9c327955ac
  std: enipokema
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: irë
@@ -6036,7 +6036,7 @@
  gramm: adv
  id: 97cde562-206d-4f09-9299-a7fe83161862
  std: potipëkë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yëjma
@@ -6066,7 +6066,7 @@
  gramm: adv
  id: 9870cec9-7516-442b-a922-fbc6dce941bc
  std: ëjpïne
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yëwanëta
@@ -6116,7 +6116,7 @@
  gramm: adv
  id: 99d3eb48-8f5d-4bf2-b9f4-31714f76c677
  std: mowinompo
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: nu
@@ -6186,7 +6186,7 @@
  gramm: adv
  id: 9b1b7ee2-19d3-4a1d-b21f-bc50e66c2115
  std: achikïpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: chimantë
@@ -6426,7 +6426,7 @@
  gramm: adv
  id: a2d0b8bb-9594-4738-88ea-b9a0570826ed
  std: terepune
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tawarai
@@ -6576,7 +6576,7 @@
  gramm: adv
  id: a674355b-5de9-409b-9daa-7c5825152b83
  std: mïjna
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tujururu
@@ -6646,7 +6646,7 @@
  gramm: adv
  id: a992b4b6-c478-4e4b-9814-670e19682543
  std: ëkëjna
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kïrïrï
@@ -6706,7 +6706,7 @@
  gramm: adv
  id: abf45ba7-3cea-4ef9-8a78-6229ac7b2cc1
  std: sukase
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yësajye
@@ -6716,7 +6716,7 @@
  gramm: adv
  id: ac46bdd8-b2b1-45b6-a7f0-9cf8677f47b5
  std: yësajye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: am
@@ -6786,7 +6786,7 @@
  gramm: adv
  id: ad954cda-d866-4e59-bf69-82ffafb6f87f
  std: sukuri
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: Wërechikana
@@ -6856,7 +6856,7 @@
  gramm: adv
  id: b0116386-4331-4c42-90a4-c7e6721b511c
  std: tawaja
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: aponi
@@ -6876,7 +6876,7 @@
  gramm: adv
  id: b0606ac8-f4e1-4ead-b646-720fa4674574
  std: asakëpene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tayurake
@@ -6886,7 +6886,7 @@
  gramm: adv
  id: b068de6d-785d-4be4-8d5c-82032ba91393
  std: tayurake
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yoko
@@ -6936,7 +6936,7 @@
  gramm: adv
  id: b1d7631a-d229-4e92-81bf-8ba9d0a47c3e
  std: asakërërë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yamanë
@@ -6966,7 +6966,7 @@
  gramm: adv
  id: b30ee3e9-0f5a-4fc1-aa8a-7d0ff7ec6ec6
  std: wajyare
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: maniki
@@ -6996,7 +6996,7 @@
  gramm: adv
  id: b4213c12-4abe-46d2-9e9e-f2a745fd8464
  std: kojpaye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: akïta
@@ -7036,7 +7036,7 @@
  gramm: adv
  id: b52bbbbf-4b17-46af-a818-6c340d7a1b45
  std: tejpore
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yanaka
@@ -7176,7 +7176,7 @@
  gramm: adv
  id: b87cdd93-cece-4925-86a0-ad53bca55cf7
  std: tijnëjke
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: soj
@@ -7226,7 +7226,7 @@
  gramm: adv
  id: b9dfbad6-8b39-4618-89fb-88fd252b5828
  std: wichanorë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tëk
@@ -7356,7 +7356,7 @@
  gramm: adv
  id: be5a4c1b-2b5c-44db-8e03-874600c31743
  std: romana
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: punu
@@ -7446,7 +7446,7 @@
  gramm: adv
  id: c166b1f3-7564-472a-8a63-6f770db79927
  std: ewinë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: poj
@@ -7626,7 +7626,7 @@
  gramm: adv
  id: c6cedab2-5fd5-420c-88b7-fa09740723fa
  std: potipene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: Ochi
@@ -7686,7 +7686,7 @@
  gramm: adv
  id: c8a4935b-6f63-44ef-b3e2-1eb6271c2ba8
  std: ijpuruya
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: iyajtë
@@ -7736,7 +7736,7 @@
  gramm: adv
  id: caeb9b87-0022-40ee-9c13-80a861e0731e
  std: keremere
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: karana
@@ -7856,7 +7856,7 @@
  gramm: adv
  id: cf941f56-c0ba-4a4a-bc78-92a78ab45156
  std: tokoke
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: sura
@@ -8036,7 +8036,7 @@
  gramm: adv
  id: d32e2a20-9568-4ea8-99d9-03252b3225f8
  std: wicherë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kojpa
@@ -8106,7 +8106,7 @@
  gramm: adv
  id: d4e4baf6-bc64-4974-b5a2-0a79bb0c1d4d
  std: pïre
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: sakai
@@ -8176,7 +8176,7 @@
  gramm: adv
  id: d6325fa7-e8b2-4c48-b29a-47e40c9ba787
  std: takune
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: makïrïkïrï
@@ -8326,7 +8326,7 @@
  gramm: adv
  id: daff3c04-c51b-4401-a84d-c4b09e45e8e5
  std: kojpayarëpene
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: ini
@@ -8626,7 +8626,7 @@
  gramm: adv
  id: e3b3482c-4e80-4935-9308-c271dff14097
  std: kawë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yapojka
@@ -8786,7 +8786,7 @@
  gramm: adv
  id: e8f64426-d7a9-4cc0-a9e3-5be12aa3ea63
  std: kojmanpe
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: aroma
@@ -8846,7 +8846,7 @@
  gramm: adv
  id: eae27c23-976a-46c4-be11-4495531d3da1
  std: tëijpë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kïrïpa
@@ -8926,7 +8926,7 @@
  gramm: adv
  id: eda0d4cc-12cd-412d-9685-ab5ee834f549
  std: mëwinë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: pepoye
@@ -8936,7 +8936,7 @@
  gramm: adv
  id: edf6f168-6763-45db-98c5-1c9c27dd702c
  std: pepoye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: kampara
@@ -9026,7 +9026,7 @@
  gramm: adv
  id: efcd3ed5-e42a-4582-ae61-131423ec08a9
  std: enirë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tawejka
@@ -9066,7 +9066,7 @@
  gramm: adv
  id: f1048839-078f-4bad-b66f-eaf4ecfc838f
  std: purë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tururu
@@ -9096,7 +9096,7 @@
  gramm: adv
  id: f1c37f4e-1b9f-4956-9950-9c3ef2143efc
  std: potijye
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: yawotomo
@@ -9536,7 +9536,7 @@
  gramm: adv
  id: fba748ee-2e69-4d3d-9885-7d993464ce24
  std: arajmatë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: watï
@@ -9606,7 +9606,7 @@
  gramm: adv
  id: fce13f14-d740-4905-897e-9948eee8e5ae
  std: koñarë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: otoromiki
@@ -9636,7 +9636,7 @@
  gramm: adv
  id: fda184e8-8ecc-4a24-b757-f220d60f82ed
  std: kojpayarëpëkë
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: miritari
@@ -9696,7 +9696,7 @@
  gramm: adv
  id: ff32aa22-53ea-484c-b1ce-64e2aca26980
  std: tejwetune
- paradigm: uninfl
+ paradigm: adv
 
 -lexeme
  lex: tajne

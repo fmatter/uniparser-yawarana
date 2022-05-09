@@ -297,3 +297,11 @@
   id: u1
  -flex: .
   gramm:
+
+-paradigm: adv
+ -flex: .jra
+  gloss: NEG
+  gramm: neg
+  id: jraneg
+ -flex: .
+  gramm
