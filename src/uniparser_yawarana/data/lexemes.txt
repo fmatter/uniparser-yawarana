@@ -444,7 +444,7 @@
  trans_en: EMP
  gloss: EMP
  gramm: postp,emp
- id: emp
+ id: reemp
  std: rë
  paradigm: postp
 
