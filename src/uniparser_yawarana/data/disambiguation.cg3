@@ -1,7 +1,6 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
 LIST verbal = ipfv;
-SET v = (vt) OR (vi) OR (aux); # transitive or intransitive verbs or auxiliaries
 
 SECTION #auxiliaries
 REMOVE ("wepï") IF (*-1 verbal); # remove forms of wepï 'come' homophonous with chi 'COP' when preceded by a verbal form
@@ -16,5 +15,3 @@ REMOVE ("yaka" n) IF (-1 (n)); # yaka is also 'deer' or 'excavate', but if we're
 
 SECTION # misc
 REMOVE ("aro" n) IF (-1 ("wïrë")); # wïrë taro is not 'I, his/her own rice'...
-REMOVE ("ka" vt) IF (-1 (des neg)); # -po-jra ka 'would not?'
-REMOVE (des priv) IF (1 (part));
