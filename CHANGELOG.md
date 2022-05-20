@@ -7,12 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
+
+### Changed
+
+### Removed
+
+## [0.0.3] -- 2022-05-20
+
+### Added
 * some bad analyses
 * some disambiguation rules
-* "function word" lexemes
+* "function word" lexemes (postpositions et. al)
 
 ### Changed
 * remodelled and expanded paradigms.txt
+* uniform IDs
 
 ### Removed
 * clitical *=pe*
@@ -35,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * initial release
 
-[Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.2...HEAD
+[Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.3...HEAD
+[0.0.3]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.3
 [0.0.2]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.2
 [0.0.1]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.1
