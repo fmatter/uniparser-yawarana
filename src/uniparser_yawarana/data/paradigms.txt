@@ -211,6 +211,10 @@
   gramm: pl
   gloss: PL
   id: kontomopl
+ -flex: .jra
+  gloss: NEG
+  gramm: neg
+  id: jraneg
  -flex: .ja
   gloss: NEG
   gramm: neg
