@@ -19,16 +19,6 @@
  paradigm: v_intr
 
 -lexeme
- lex: nwajtë
- stem: .nwa&jtë.
- trans_en: dance
- gloss: dance&VBZ.TR
- gramm: vt
- id: nwadance,jtevbz
- std: nwajtë
- paradigm: v_tr
-
--lexeme
  lex: ëjwenaka
  stem: .ëj&wenaka.
  trans_en: vomit
@@ -36,16 +26,6 @@
  gramm: vi
  id: dt1,wenaka
  std: ëjwenaka
- paradigm: v_intr
-
--lexeme
- lex: senejka
- stem: .s&enejka.
- trans_en: remain
- gloss: DETRZ&watch
- gramm: vi
- id: dt2,enejka
- std: senejka
  paradigm: v_intr
 
 -lexeme
@@ -591,10 +571,10 @@
 -lexeme
  lex: nai
  stem: .nai.|.naij.
- trans_en: make
- gloss: make
+ trans_en: do
+ gloss: do
  gramm: vt
- id: nai-naij-make
+ id: nai-naij-do
  std: nai
  paradigm: v_tr
 
@@ -707,6 +687,26 @@
  id: enkafinish
  std: yënka
  paradigm: v_tr
+
+-lexeme
+ lex: senejka
+ stem: .senejka.
+ trans_en: remain
+ gloss: remain
+ gramm: vi
+ id: senejkastay
+ std: senejka
+ paradigm: v_intr
+
+-lexeme
+ lex: nwajtë
+ stem: .nwajtë.
+ trans_en: dance
+ gloss: dance
+ gramm: vi,vt
+ id: nwajtedance
+ std: nwajtë
+ paradigm: v_intr
 
 -lexeme
  lex: moronkepï
