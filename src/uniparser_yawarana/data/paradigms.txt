@@ -89,6 +89,19 @@
   id: t3
  paradigm: v_suff
 
+-paradigm: v_tr_nmlz
+ -flex: <.>.se|mï
+  gramm: ptcp,nmlz
+  gloss: PTCP|NMLZ
+  id: septcp,minmlz
+ paradigm: v_nmlz_pre
+
+-paradigm: v_nmlz_pre
+ -flex: ta.
+  gramm: 3
+  gloss 3P
+  id: t3
+
 -paradigm: v_suff
  -flex: .pëti<.>//.pëj<.>
   gramm: plur
@@ -146,11 +159,6 @@
   gramm: ptcp
   gloss: PTCP
   id: septcp
-  paradigm: n_suff1
- -flex: .se|mï<.>
-  gramm: ptcp,nmlz
-  gloss: PTCP|NMLZ
-  id: septcp,minmlz
   paradigm: n_suff1
  -flex: .se<.>//.che.<.>
   gramm: pst

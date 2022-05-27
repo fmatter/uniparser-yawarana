@@ -537,6 +537,7 @@
  id: enejka
  std: enejka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ijmoka
@@ -547,6 +548,7 @@
  id: ijmoka-ijmojka-cook
  std: ijmoka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: këyama
@@ -557,6 +559,7 @@
  id: keyama-create
  std: këyama
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: maijtë
@@ -577,6 +580,7 @@
  id: nai-naij-do
  std: nai
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wejyaka
@@ -587,6 +591,7 @@
  id: wejyaka-open
  std: wejyaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yëni
@@ -597,6 +602,7 @@
  id: yeni-drink
  std: yëni
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yerema
@@ -607,6 +613,7 @@
  id: yerema
  std: yerema
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ma
@@ -637,6 +644,7 @@
  id: erepiscare
  std: erepï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tojpa
@@ -647,6 +655,7 @@
  id: tojpahit
  std: tojpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pojtë
@@ -657,6 +666,7 @@
  id: pojtewant
  std: pojtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: weseyu
@@ -687,6 +697,7 @@
  id: enkafinish
  std: yënka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: senejka
@@ -757,6 +768,7 @@
  id: 00852021-4600-4c55-af3d-3eab5b708f82
  std: yënkejka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yajra
@@ -817,6 +829,7 @@
  id: 0274b796-3f16-4124-9307-535c1df1bdea
  std: yemiki
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yaka
@@ -827,6 +840,7 @@
  id: 02b332df-f7da-4749-9720-574666e70d71
  std: yaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kërëjpë
@@ -847,6 +861,7 @@
  id: 02e33469-e1ce-4124-9b80-1a219e8bbc44
  std: mu
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: chiyakono
@@ -867,6 +882,7 @@
  id: 0398c7ab-76ad-4898-9422-15c99c2d0a61
  std: kujnë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yëkï
@@ -877,6 +893,7 @@
  id: 03e50fc6-a371-4612-840b-ebfb287eaca7
  std: yëkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tawani
@@ -917,6 +934,7 @@
  id: 054b5aab-2dac-4e5c-8ca7-749b2618afca
  std: sojpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: makai
@@ -1057,6 +1075,7 @@
  id: 08c42ecb-ff75-4783-8599-2a3def3a12b5
  std: retinika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: balde
@@ -1087,6 +1106,7 @@
  id: 092f2d85-c2c5-4f87-b8ff-1f4aee0865f6
  std: wainka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wïchika
@@ -1127,6 +1147,7 @@
  id: 0a90874b-d912-4667-98a2-6f05b76f929d
  std: yasujma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: karaij
@@ -1157,6 +1178,7 @@
  id: 0bd5b390-ef15-4e7b-b2a9-2ce62bc5ab9a
  std: nanka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: i
@@ -1167,6 +1189,7 @@
  id: 0c04e481-d982-43f9-bc0f-faffaa9b2795
  std: i
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pumanse
@@ -1257,6 +1280,7 @@
  id: 0df3a24a-c202-43ce-9d70-0f90149c088a
  std: yejwetijtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yameku
@@ -1267,6 +1291,7 @@
  id: 0e583e82-77e0-4f03-b20c-11d4168ff0ae
  std: yameku
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yerema
@@ -1277,6 +1302,7 @@
  id: 0f40009d-39ec-4751-aec9-01c47243cf1f
  std: yerema
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tëtëpamï
@@ -1457,6 +1483,7 @@
  id: 15dace8e-6319-499a-ab34-1b07edfffee9
  std: semekï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mone
@@ -1517,6 +1544,7 @@
  id: 18a93f6c-2ace-4583-bf2f-105a616de8d7
  std: këyajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: maka
@@ -1587,6 +1615,7 @@
  id: 1c577f46-bc13-47d4-9808-c7baff3fd35e
  std: warepa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wenaka
@@ -1597,6 +1626,7 @@
  id: wenaka
  std: wenaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yama
@@ -1647,6 +1677,7 @@
  id: 1df622ab-8a8b-43a5-8bf0-5daca6b8f4d0
  std: yawanojtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mokomo
@@ -1677,6 +1708,7 @@
  id: 1e5db91a-7b88-45a0-8c4e-384a8f0d78fa
  std: yajpeka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: akërë
@@ -1787,6 +1819,7 @@
  id: 206db7f8-db38-4970-a520-f10c84c5c8b0
  std: yawa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: asakontompene
@@ -1807,6 +1840,7 @@
  id: 20fca5d0-50d9-4a4b-b41c-9abbaac9c581
  std: kïrïma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: chipiyu
@@ -1897,6 +1931,7 @@
  id: 239eff5b-2d01-4815-8b9b-5b1228e8375c
  std: yëwuku
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: weroro
@@ -1917,6 +1952,7 @@
  id: 23cea559-76ed-435d-b559-6008774a2eac
  std: yokï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yëmi
@@ -1957,6 +1993,7 @@
  id: 24e40647-5acf-47bc-987b-2b22af19667e
  std: rekojijtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pïrini
@@ -1977,6 +2014,7 @@
  id: 253c1e84-9611-460c-b21b-ecfff60a867b
  std: nëmë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëchikini
@@ -2057,6 +2095,7 @@
  id: 2622c4c4-c7ca-4f2e-a4b4-7c521071b6a4
  std: yujwa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wakïjpe
@@ -2107,6 +2146,7 @@
  id: 278a7760-50f7-44df-a34e-1a1297887915
  std: nepï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: jwichu
@@ -2127,6 +2167,7 @@
  id: 2801855b-450e-402b-88a9-78afc5f09436
  std: kopi
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: putu
@@ -2197,6 +2238,7 @@
  id: 2942dfac-9699-429b-8943-4234cdd137b6
  std: pomï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yaaka
@@ -2207,6 +2249,7 @@
  id: 2acf64ea-8a56-4556-bcd5-e4d46df3c667
  std: yaaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëkïnï
@@ -2227,6 +2270,7 @@
  id: 2b261735-fb54-42c4-9010-2ec3525b1928
  std: kujnëjtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: marajtë
@@ -2237,6 +2281,7 @@
  id: 2b47341c-1634-4b1b-828d-3ed7d972ea5c
  std: marajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wïrë
@@ -2327,6 +2372,7 @@
  id: 2d2c562b-2269-4834-b83a-9740df759981
  std: tujpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: irëjpë
@@ -2417,6 +2463,7 @@
  id: 3054ce46-e2e3-45da-9039-ce6abb2c2979
  std: yenïjtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: waimu
@@ -2477,6 +2524,7 @@
  id: 31834165-2dd6-4122-a81c-fb4ab8bdd67d
  std: sopika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: rokota
@@ -2617,6 +2665,7 @@
  id: 34ba7be1-6f81-48f0-b23a-1a5abf47d398
  std: yanupï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: David
@@ -2657,6 +2706,7 @@
  id: 36697578-801c-4c54-8aa4-d2683991e368
  std: kuku
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ajpachi
@@ -2737,6 +2787,7 @@
  id: 389ac6c7-27f8-462c-9dca-e933c119cf1e
  std: muka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yënsamïrïn
@@ -2747,6 +2798,7 @@
  id: 38abc6c5-cd2e-4214-b0bd-61daeac2ae2d
  std: yënsamïrïn
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëjpïnta
@@ -2767,6 +2819,7 @@
  id: 3a4be4ea-9314-4540-82b3-96254a6aa00a
  std: ganajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: puj
@@ -2797,6 +2850,7 @@
  id: 3b3c81f0-cf23-486c-9302-b505e55031a5
  std: pejma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tawara
@@ -2877,6 +2931,7 @@
  id: 3df4b06f-0e9a-4b33-a6ac-7ca96baf397a
  std: sepantë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëpi
@@ -2927,6 +2982,7 @@
  id: 3f2ecd70-18a2-4611-9354-c38fa2cd14ea
  std: yanontë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: rekorejtë
@@ -2937,6 +2993,7 @@
  id: 3f7ff20f-9761-4bb1-9abd-6e6151448c08
  std: rekorejtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yënë
@@ -2947,6 +3004,7 @@
  id: 3fb9e231-5766-4848-b557-ff235549951d
  std: yënë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: taj
@@ -2967,6 +3025,7 @@
  id: 4046b469-5335-41e2-b62f-e4c2ca7ce5e5
  std: ma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tujtë
@@ -2977,6 +3036,7 @@
  id: 406dfcd0-05bc-4c36-8ec2-fd28b693d5c3
  std: tujtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pïrata
@@ -2997,6 +3057,7 @@
  id: 411dc881-a798-42d9-8bf2-044ca273732a
  std: wakëtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: saku
@@ -3107,6 +3168,7 @@
  id: 44005048-ce96-4412-a53c-c64a160e0ec6
  std: yakarama
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mïntë
@@ -3197,6 +3259,7 @@
  id: 46f9abc4-37ec-43f6-861a-f8b4b9679f64
  std: yakajpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yeme
@@ -3207,6 +3270,7 @@
  id: 473d743a-dcd6-425a-a340-29dd857a0706
  std: yeme
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: korokï
@@ -3277,6 +3341,7 @@
  id: 49792b95-cc03-4b81-9a63-f686beffe2f2
  std: puma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: rotoro
@@ -3337,6 +3402,7 @@
  id: 4b230a79-caef-4731-aa1a-1d37869c601b
  std: yenëka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: sinko
@@ -3367,6 +3433,7 @@
  id: 4b493bbe-d081-4dcb-9b4d-4a2c84b1d78a
  std: yapëjtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tënsemï
@@ -3387,6 +3454,7 @@
  id: 4b7aa887-9a64-4e6f-b680-5d43b21ce9f4
  std: yapïchi
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pejkaw
@@ -3487,6 +3555,7 @@
  id: 4f5aa84b-1593-4f77-bbcd-c83b2d3080f7
  std: pïmë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tej
@@ -3517,6 +3586,7 @@
  id: 50406caf-854e-4fb8-a06d-841f7191563a
  std: yapo
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mejyaka
@@ -3527,6 +3597,7 @@
  id: 5058cc9e-d9c1-4c67-a128-1485641cc461
  std: mejyaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: enijpëtë
@@ -3637,6 +3708,7 @@
  id: 53fce2a7-622f-4453-81d3-bec9d79e5553
  std: pesakï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wan
@@ -3697,6 +3769,7 @@
  id: 55a630f2-e24c-44e3-9a2e-a742454d0f7b
  std: roka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wepï
@@ -3757,6 +3830,7 @@
  id: 58553415-305d-42d9-9695-61aaf31b2c67
  std: yopo
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tëwï
@@ -3877,6 +3951,7 @@
  id: 5b5b877a-d21d-4433-81ba-e64043de8846
  std: yëka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yawankui
@@ -3887,6 +3962,7 @@
  id: 5b82d999-9392-4baf-8162-3b7d99a3b547
  std: yawankui
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: uuu
@@ -3917,6 +3993,7 @@
  id: 5bf1c4e0-b285-4900-af83-371ae8b2be95
  std: yawakï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tijpe
@@ -3987,6 +4064,7 @@
  id: 5e39df5e-d386-4ead-be24-cc495df1a29c
  std: pïma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: sëmpinuku
@@ -4067,6 +4145,7 @@
  id: 607c409f-35a4-4003-928d-d2d9ccad5a82
  std: këjma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yarijtë
@@ -4077,6 +4156,7 @@
  id: 609f9ba2-f0e4-47fc-8a69-086d9757433f
  std: yarijtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yajtë
@@ -4087,6 +4167,7 @@
  id: 60b798f0-327e-48c6-94ef-90e3339b5133
  std: yajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: enijpëtërë ejyemekunu
@@ -4137,6 +4218,7 @@
  id: 622a9d6b-f2ce-4ed3-9b31-572b39e9254f
  std: yajsemekï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: umparë
@@ -4157,6 +4239,7 @@
  id: 62dbbf94-0f12-4d10-a827-3b11b386b974
  std: tapa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ta
@@ -4167,6 +4250,7 @@
  id: 62e12d1c-dd51-4a74-af84-2c7b0b87d0c1
  std: ta
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: nekï
@@ -4217,6 +4301,7 @@
  id: 6400160c-fbed-464d-b384-80ea2bb73975
  std: tu
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: chimichimita
@@ -4327,6 +4412,7 @@
  id: 6641a161-e413-443b-86b8-e378d28ca036
  std: yojma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: akata
@@ -4407,6 +4493,7 @@
  id: 68f1d02b-9e2c-4d72-a977-267d95f46b6b
  std: katupuma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: omï
@@ -4437,6 +4524,7 @@
  id: 69e315d1-96be-4c27-8395-70a27fbd445e
  std: meyajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mariya
@@ -4497,6 +4585,7 @@
  id: 6bf9d072-f9f8-443e-8274-1a15c48c7939
  std: pataka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: naki
@@ -4527,6 +4616,7 @@
  id: 6c43ffe8-6cb7-4c10-bf3e-6c604cc5643c
  std: chiwaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: romoye
@@ -4567,6 +4657,7 @@
  id: 6ec26a18-c9af-495c-a322-6e620f56647b
  std: kanejtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mëka
@@ -4577,6 +4668,7 @@
  id: 6edbe42f-f875-4db8-b45f-7f2afb87d86f
  std: mëka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mmm
@@ -4687,6 +4779,7 @@
  id: 71b9c29d-ee32-4470-b1b6-38589ac7286a
  std: morontama
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yokï
@@ -4707,6 +4800,7 @@
  id: 71ebd5f6-8a7d-417d-9085-ccb43743c4da
  std: yujtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëkëi
@@ -4727,6 +4821,7 @@
  id: 7246f6e6-5471-431b-9cc1-c5cdd840b403
  std: yenepe
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: cha
@@ -4797,6 +4892,7 @@
  id: 73510c17-4f69-4b65-8227-71c7f0b250c3
  std: yamë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: këta
@@ -4817,6 +4913,7 @@
  id: 7390dc13-ee1d-401b-a2e1-eff555af0770
  std: yepema
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kujpë
@@ -4857,6 +4954,7 @@
  id: 74b1e6f5-5d72-4278-bd3a-cfb5b3b82a8b
  std: yanuku
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kuyara
@@ -4937,6 +5035,7 @@
  id: 7716b314-dd7c-424e-b49b-41a39089a7b2
  std: yawaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kanajmunu
@@ -5047,6 +5146,7 @@
  id: 79a93005-3293-4ed1-afb2-2edbb9b622db
  std: yaijkota
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: eretapi
@@ -5077,6 +5177,7 @@
  id: 7abdc22a-b215-41be-8de4-f1bf7b3e84f1
  std: ka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wuro
@@ -5127,6 +5228,7 @@
  id: 7ccbc960-3700-48fe-8eb9-422b9fef6f78
  std: yïmïkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: morone
@@ -5197,6 +5299,7 @@
  id: 7ef6edf1-35ce-4f7d-b007-eca1ce50abdd
  std: yënkujtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: romoyaye
@@ -5227,6 +5330,7 @@
  id: 804292c5-c666-44b2-a891-1cef599fdb4e
  std: yïmpamï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kayakani
@@ -5317,6 +5421,7 @@
  id: 832bc837-92ec-4566-aedc-48ce5eca8ef0
  std: impanika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tujna
@@ -5367,6 +5472,7 @@
  id: 85b5f702-83f2-4e05-b730-7c7a1ed680fa
  std: yajka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yëwanëjtë
@@ -5397,6 +5503,7 @@
  id: 85d5ccf6-b396-4851-a6b1-86b2874af88c
  std: yëmpëka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yaruwa
@@ -5437,6 +5544,7 @@
  id: 87e8708c-474b-48db-9fb7-ce1004c72228
  std: kamwiyajka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kujpa
@@ -5487,6 +5595,7 @@
  id: 8918b9ed-44ed-4945-9d23-e79524fc8038
  std: pïrïka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: këë
@@ -5527,6 +5636,7 @@
  id: 8a5e104b-3363-482b-a404-70d82544153a
  std: pëtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yamore
@@ -5597,6 +5707,7 @@
  id: 8ba70845-f9f6-40d8-8bea-e87114cbd877
  std: yëmpanïkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: *iri
@@ -5617,6 +5728,7 @@
  id: 8c3e3699-871b-4346-a8f2-fffd7209e571
  std: kunë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kwasa
@@ -5667,6 +5779,7 @@
  id: 8dbda05d-9fe9-4ebc-ac25-23279bebd34f
  std: yonko
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yumpe
@@ -5717,6 +5830,7 @@
  id: 8f2b723f-58a1-4154-ae8f-c65c5caad2f0
  std: wë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pina
@@ -5727,6 +5841,7 @@
  id: 8f6d64ab-e5b7-47aa-9d83-3adde263a7fc
  std: pina
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ntawë
@@ -5767,6 +5882,7 @@
  id: 90e14cba-29c0-485b-a31e-081992d5c384
  std: merë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yësajta
@@ -5847,6 +5963,7 @@
  id: 9270f7e1-9cfb-4342-92ed-4d580b584ee0
  std: yawanëkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pëj
@@ -5867,6 +5984,7 @@
  id: 9303ee16-f0d5-40fe-b4c2-1e96fe7b45a1
  std: pu
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: okï
@@ -5947,6 +6065,7 @@
  id: 95164e9e-0116-4a33-beda-b7bc57d7596f
  std: yerempa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mïjmamï
@@ -6067,6 +6186,7 @@
  id: 97e87f1d-fdfc-4ade-b5b3-c6f2d202732d
  std: yëjma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: muku
@@ -6097,6 +6217,7 @@
  id: 989c1b37-0aec-4658-b272-433d7ef8cc08
  std: yëwanëta
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pëijpë
@@ -6157,6 +6278,7 @@
  id: 99e9f0d6-2f24-4f4b-bb64-4e1a03b8d3c9
  std: yarika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yïwïrï
@@ -6197,6 +6319,7 @@
  id: 9b1a2461-8e39-4ca1-81a7-0fb61554caeb
  std: ojpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: achikïpe
@@ -6267,6 +6390,7 @@
  id: 9cea4265-cfe4-4023-9fbf-52f48ec75471
  std: yanïkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tïmï
@@ -6277,6 +6401,7 @@
  id: 9d8631f2-4a96-4b06-bbee-7fcf17167750
  std: tïmï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: aro
@@ -6327,6 +6452,7 @@
  id: 9e158c15-bfd2-4000-9ec0-4c37cfdf1fa4
  std: yënijtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: chikimu
@@ -6367,6 +6493,7 @@
  id: 9edfc78b-93f0-4f56-9138-3445990e67c8
  std: yakëtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: irëjpëtënë
@@ -6557,6 +6684,7 @@
  id: a559fd9e-ccf4-46ac-972f-c65acbb9b06a
  std: yakara
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ëna
@@ -6697,6 +6825,7 @@
  id: ab068d82-2bfc-47b4-93bc-85544010e080
  std: pïtï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: apontë
@@ -6857,6 +6986,7 @@
  id: afaf8b89-7296-415c-8257-75dcf97123b3
  std: wajyama
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: aka
@@ -6917,6 +7047,7 @@
  id: b0f89cbb-2e47-406a-babb-cb595168f21a
  std: yoko
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: esereka
@@ -6937,6 +7068,7 @@
  id: b149cf62-a901-473f-980f-78788d653ed8
  std: ita
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: maraijta
@@ -6967,6 +7099,7 @@
  id: b1df8e7d-c7bc-4333-a260-1591c907a188
  std: yamanë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kërë
@@ -7067,6 +7200,7 @@
  id: b561fd50-7269-4b3a-aa8b-127eef38ce2c
  std: yanaka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: taa
@@ -7107,6 +7241,7 @@
  id: b6d352b0-d52c-4839-823b-8c5515fad162
  std: meta
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wajpëmï
@@ -7147,6 +7282,7 @@
  id: b7aeec09-7b5f-4387-b8d6-45c9806a348b
  std: kakajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pu
@@ -7397,6 +7533,7 @@
  id: be9e60cf-16fa-4d4a-8d8b-2bb9f6f7bc0a
  std: yatuma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yerepunta
@@ -7497,6 +7634,7 @@
  id: c30855ed-87af-4bde-a552-c4f1eca729a5
  std: inëkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: kapï
@@ -7507,6 +7645,7 @@
  id: c3d86e76-7b22-41c1-80f2-71e9997e3afd
  std: kapï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: waintomo
@@ -7567,6 +7706,7 @@
  id: c5415a08-cf11-441a-b8f7-3c58bb29a8a4
  std: yeke
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wëjtë
@@ -7717,6 +7857,7 @@
  id: c943c1dd-30ab-4559-b763-dcb2c4bebe84
  std: iyajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mesuka
@@ -7727,6 +7868,7 @@
  id: c96556b0-4538-4bd5-b9e1-743e227f8a4b
  std: mesuka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: okono
@@ -7747,6 +7889,7 @@
  id: c9edd863-f544-4217-a8a5-1705d26d2b1b
  std: pujna
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: keremere
@@ -7797,6 +7940,7 @@
  id: ccaf92cd-3c61-417f-a346-f189014855dc
  std: tujnamï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wej
@@ -7847,6 +7991,7 @@
  id: ceaa8e83-da1a-4a4c-b55f-2ef6200670ca
  std: po
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: u
@@ -8017,6 +8162,7 @@
  id: d21d81fa-5e74-4037-b932-d9471a7ae37c
  std: yëpijtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: bota
@@ -8077,6 +8223,7 @@
  id: d39c92b7-f6ca-4f6e-ac80-bb0a1634acda
  std: yasuka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: chika
@@ -8087,6 +8234,7 @@
  id: d3a2437b-af18-4d26-9433-00c049fc3b9c
  std: chika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: sanakrijka
@@ -8217,6 +8365,7 @@
  id: d6555403-999b-4533-b2d0-b1228075f36d
  std: yëjpëchi
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tajromini
@@ -8287,6 +8436,7 @@
  id: d8e0e5d2-cc64-4f1e-aae3-ee38de2a06eb
  std: yojtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tampa
@@ -8357,6 +8507,7 @@
  id: db2ee1eb-62e7-439d-bad9-bd65ee3a230b
  std: ini
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: mati
@@ -8377,6 +8528,7 @@
  id: dbd7cd3e-ed7c-4c80-aeb7-365fbae961a2
  std: ejturiajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: panare
@@ -8427,6 +8579,7 @@
  id: dcabbb63-c21c-4901-aba5-838c9cf37f0b
  std: pika
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: atono
@@ -8507,6 +8660,7 @@
  id: df63a501-2e67-4c6a-ae09-9610e50fc372
  std: tunamï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yarë
@@ -8517,6 +8671,7 @@
  id: e000169a-4f21-43c5-83ba-a855450cb5a2
  std: yarë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: najpï
@@ -8537,6 +8692,7 @@
  id: e088b6ee-424b-4c7e-aa71-5a8ee4bf6a8e
  std: yakïjtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: otï
@@ -8557,6 +8713,7 @@
  id: e118ac9a-0c25-4a30-9f66-12e76d804422
  std: kachunajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: yamï
@@ -8567,6 +8724,7 @@
  id: e1771801-d3df-4462-bd3f-39c800c6a0a2
  std: yamï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: karakachi
@@ -8607,6 +8765,7 @@
  id: e23e9831-7faf-420d-8c6f-23903c5cfc2a
  std: yeni
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: sawena
@@ -8627,6 +8786,7 @@
  id: e2514af2-c124-44f2-8cca-4a880ee7bcb4
  std: kunojtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: anoto
@@ -8657,6 +8817,7 @@
  id: e4bec28c-d5fd-43a2-a297-c14ad133d580
  std: yapojka
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: Majawa
@@ -8767,6 +8928,7 @@
  id: e82fed26-85bc-4682-b3e0-86cee7e668ec
  std: temekï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: viernes
@@ -8857,6 +9019,7 @@
  id: eaa23710-8504-40eb-9326-0de79d76cd7a
  std: yajwema
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tëijpë
@@ -8877,6 +9040,7 @@
  id: eb20863b-4dc4-4d9f-88aa-88ef7c691381
  std: kïrïpa
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: parapi
@@ -8907,6 +9071,7 @@
  id: eb888e20-2b5c-4c59-a6f2-4a6a57346854
  std: kajra
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: maijturu
@@ -9147,6 +9312,7 @@
  id: f2bc9a54-af38-4b29-860c-aca90bc64d18
  std: warokï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wanïpï
@@ -9317,6 +9483,7 @@
  id: f710db1f-41bd-49dc-a1f0-a6543e5cb7c8
  std: përëtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tapotëi
@@ -9367,6 +9534,7 @@
  id: f7881f77-2c45-4059-a14e-c9f972c57c3b
  std: yapima
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: akono
@@ -9437,6 +9605,7 @@
  id: f8fe79a9-499c-4055-ae72-b5cee5ad1066
  std: yakai
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ijmo
@@ -9447,6 +9616,7 @@
  id: f9048e46-b250-470f-a1f1-7792acb99b1d
  std: ijmo
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: wïnïkï
@@ -9517,6 +9687,7 @@
  id: fa9fd95a-30ce-49e1-84cc-6fc0695c8137
  std: ponajtë
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: ïwïtï
@@ -9547,6 +9718,7 @@
  id: fb4c77bd-d3ef-49b9-ac68-012dc8b382a5
  std: pëmekï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: arajmatë
@@ -9587,6 +9759,7 @@
  id: fbfaaf71-6250-41c4-8161-48d2697707e7
  std: yejpëma
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pata
@@ -9687,6 +9860,7 @@
  id: fe742a95-c553-4212-a181-fc826f5432ae
  std: mëkï
  paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: tuj
