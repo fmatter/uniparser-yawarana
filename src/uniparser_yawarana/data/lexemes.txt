@@ -709,6 +709,26 @@
  paradigm: v_intr
 
 -lexeme
+ lex: ajpachi
+ stem: .ajpachi.
+ trans_en: undergrowth
+ gloss: undergrowth
+ gramm: n
+ id: ajpachi-undergrowth
+ std: ajpachi
+ paradigm: noun
+
+-lexeme
+ lex: akajra
+ stem: .akajra.
+ trans_en: bow
+ gloss: bow
+ gramm: n
+ id: akajra-bow
+ std: akajra
+ paradigm: noun
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
