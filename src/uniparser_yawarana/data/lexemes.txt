@@ -751,6 +751,16 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: ese
+ stem: .ese.
+ trans_en: name
+ gloss: name
+ gramm: n
+ id: ese-name
+ std: ese
+ paradigm: noun
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
@@ -6906,16 +6916,6 @@
  gramm: n
  id: acda8bac-9b32-484c-a1c6-f763b1bffe4a
  std: imu
- paradigm: noun
-
--lexeme
- lex: eseti
- stem: .eseti.|.esej.|.ese.
- trans_en: name
- gloss: name
- gramm: n
- id: ad1d4ac4-0342-4785-9e2e-52dce8b3c9fe
- std: eseti
  paradigm: noun
 
 -lexeme

@@ -39,11 +39,12 @@ def test_noun_inflection(parser):
         assert "grand.mother" in form.gloss
         assert "poss" in form.gramm
 
-    for x in ["yëri", "akajrari", ""]:  # 'uncle / father in law'
+    for x in ["uyawori", "ayawori", "tawori"]: # 'uncle / father in law'
         form = parse_1(x, parser)
         # assert form.lemma == "najmo"
         # assert "grand.mother" in form.gloss
         # assert "poss" in form.gramm
 
+    assert "pert" in parse_1("yeseti", parser).gramm
     assert "pert" in parse_1("yëri", parser).gramm
     assert "NPERT" in parse_1("yëtë", parser).gloss
