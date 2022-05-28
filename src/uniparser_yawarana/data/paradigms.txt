@@ -97,9 +97,9 @@
  paradigm: v_nmlz_pre
 
 -paradigm: v_nmlz_pre
- -flex: ta.
+ -flex: ta.//t.
   gramm: 3
-  gloss 3P
+  gloss: 3P
   id: t3
 
 -paradigm: v_suff

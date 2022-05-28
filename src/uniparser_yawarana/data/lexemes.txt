@@ -740,6 +740,17 @@
  paradigm: noun
 
 -lexeme
+ lex: ëni
+ stem: .ëni.|.ën.
+ trans_en: drink
+ gloss: drink
+ gramm: vt
+ id: eni-en-drink
+ std: ëni
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: moronkepï
  stem: .moronkepï.|.moronkej.
  trans_en: stop.pain
@@ -3434,16 +3445,6 @@
  std: yapëjtë
  paradigm: v_tr
  paradigm: v_tr_nmlz
-
--lexeme
- lex: tënsemï
- stem: .tënsemï.|.tënsen.|.tënsem.
- trans_en: beverage
- gloss: beverage
- gramm: n
- id: 4b4b2003-6289-4891-b10f-ad7cac69a7d1
- std: tënsemï
- paradigm: noun
 
 -lexeme
  lex: yapïchi
