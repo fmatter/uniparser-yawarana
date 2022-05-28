@@ -745,7 +745,7 @@
  trans_en: drink
  gloss: drink
  gramm: vt
- id: eni-en-drink
+ id: eni-drink
  std: ëni
  paradigm: v_tr
  paradigm: v_tr_nmlz

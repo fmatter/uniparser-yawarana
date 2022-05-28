@@ -15,6 +15,10 @@
   gloss: 1
   gramm: 1,poss
   id: u1
+ -flex: më|y.<.>
+  gloss: 2|LK
+  gramm: 2,poss,lk
+  id: me2,ylk
  -flex: a.<.>
   gloss: 2
   gramm: 2,poss

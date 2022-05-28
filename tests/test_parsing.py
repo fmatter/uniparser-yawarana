@@ -1,7 +1,3 @@
-"""Tests for the uniparser_yawarana.my_module module.
-"""
-
-
 def parse_1(str, parser):
     return parser.analyze_words(str)[0]
 
@@ -22,3 +18,9 @@ def test_multiple(parser):
 
 def test_bad_parsing(parser):
     assert len(parser.analyze_words("yawë", parser)) == 1
+
+def test_noun_inflection(parser):
+    for x in ["uyïwïj", "mëyïwïj", "tïwïj"]: 
+        form = parse_1(x, parser)
+        assert form.lemma == "ïwïtï"
+        assert "poss" in form.gramm
