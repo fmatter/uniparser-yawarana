@@ -8379,16 +8379,6 @@
  paradigm: noun
 
 -lexeme
- lex: yawo
- stem: .yawo.|.awo.
- trans_en: uncle.VOC
- gloss: uncle.VOC
- gramm: n
- id: d740f552-4c2c-4bd1-a801-2b1dce0e3891
- std: yawo
- paradigm: noun
-
--lexeme
  lex: pachi
  stem: .pachi.
  trans_en: older.sister.F

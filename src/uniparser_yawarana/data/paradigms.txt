@@ -3,18 +3,18 @@
   gloss: LK
   gramm: lk
   id: ylk
- -flex: t.<.>
-  gloss: 3
+ -flex: i.<.>//t.<.>
   gramm: 3,poss
-  id: t3
- -flex: i.<.>
-  gramm: 3
   gloss: 3
   id: i3
  -flex: u.<.>
   gloss: 1
   gramm: 1,poss
   id: u1
+ -flex: më.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: me2
  -flex: më|y.<.>
   gloss: 2|LK
   gramm: 2,poss,lk
@@ -23,6 +23,10 @@
   gloss: 2
   gramm: 2,poss
   id: a2
+ -flex: a|y.<.>
+  gloss: 2|LK
+  gramm: 2,poss
+  id: a2,ylk
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1,poss
@@ -310,7 +314,7 @@
  -flex: t.
   gramm: 3
   gloss: 3
-  id: t3
+  id: i3
  -flex: y.
   gramm: lk
   gloss: LK

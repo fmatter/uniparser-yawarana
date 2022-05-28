@@ -20,7 +20,26 @@ def test_bad_parsing(parser):
     assert len(parser.analyze_words("yawë", parser)) == 1
 
 def test_noun_inflection(parser):
-    for x in ["uyïwïj", "mëyïwïj", "tïwïj"]: 
+    for x in ["uyïwïj", "mëyïwïj", "tïwïj"]: # 'house'
         form = parse_1(x, parser)
         assert form.lemma == "ïwïtï"
+        assert "house" in form.gloss
         assert "poss" in form.gramm
+
+    for x in ["umukuru", "mëmukuru", "imukuru"]: # 'child'
+        form = parse_1(x, parser)
+        assert form.lemma == "muku"
+        assert "child" in form.gloss
+        assert "poss" in form.gramm
+
+    for x in ["unajmori", "anajmori", "inajmori"]: # 'grandmother'
+        form = parse_1(x, parser)
+        assert form.lemma == "najmo"
+        assert "grand.mother" in form.gloss
+        assert "poss" in form.gramm
+
+    for x in ["uyawori", "ayawori", "tawori"]: # 'uncle / father in law'
+        form = parse_1(x, parser)
+        # assert form.lemma == "najmo"
+        # assert "grand.mother" in form.gloss
+        # assert "poss" in form.gramm
