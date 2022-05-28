@@ -40,6 +40,10 @@
   gloss: PERT
   gramm: pert
   id: rupert
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
  -flex: .pïjkë<.>
   gramm: dim
   gloss: DIM
