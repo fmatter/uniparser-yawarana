@@ -21,29 +21,33 @@ def test_bad_parsing(parser):
 
 
 def test_noun_inflection(parser):
-    for x in ["uyïwïj", "mëyïwïj", "tïwïj"]:  # 'house'
+    for i, x in enumerate(["uyïwïj", "mëyïwïj", "tïwïj"]):  # 'house'
         form = parse_1(x, parser)
         assert form.lemma == "ïwïtï"
         assert "house" in form.gloss
         assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
 
-    for x in ["umukuru", "mëmukuru", "imukuru"]:  # 'child'
+    for i, x in enumerate(["umukuru", "mëmukuru", "imukuru"]):  # 'child'
         form = parse_1(x, parser)
         assert form.lemma == "muku"
         assert "child" in form.gloss
         assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
 
-    for x in ["unajmori", "anajmori", "inajmori"]:  # 'grandmother'
+    for i, x in enumerate(["unajmori", "anajmori", "inajmori"]):  # 'grandmother'
         form = parse_1(x, parser)
         assert form.lemma == "najmo"
         assert "grand.mother" in form.gloss
         assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
 
-    for x in ["uyawori", "ayawori", "tawori"]: # 'uncle / father in law'
+    for i, x in enumerate(["uyawori", "ayawori", "tawori"]): # 'uncle / father in law'
         form = parse_1(x, parser)
         # assert form.lemma == "najmo"
         # assert "grand.mother" in form.gloss
         # assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
 
     assert "pert" in parse_1("yeseti", parser).gramm
     assert "pert" in parse_1("yëri", parser).gramm
