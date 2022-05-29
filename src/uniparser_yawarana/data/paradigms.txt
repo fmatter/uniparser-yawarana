@@ -19,7 +19,7 @@
   gloss: 2|LK
   gramm: 2,poss,lk
   id: me2,ylk
- -flex: a.<.>
+ -flex: a.<.>//o.<.>
   gloss: 2
   gramm: 2,poss
   id: a2

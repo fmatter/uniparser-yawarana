@@ -720,23 +720,55 @@
  paradigm: v_intr
 
 -lexeme
- lex: ajpachi
- stem: .ajpachi.
- trans_en: undergrowth
- gloss: undergrowth
+ lex: achi
+ stem: .achi.|.asi.
+ trans_en: wilderness
+ gloss: wilderness
  gramm: n
- id: ajpachi-undergrowth
- std: ajpachi
+ id: achi-wilderness
+ std: achi
  paradigm: noun
 
 -lexeme
- lex: akajra
- stem: .akajra.
- trans_en: bow
- gloss: bow
+ lex: chika
+ stem: .chika.
+ trans_en: bite
+ gloss: bite
+ gramm: vt
+ id: chika-bite
+ std: chika
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: noti
+ stem: .noti.
+ trans_en: potential.partner
+ gloss: potential.partner
  gramm: n
- id: akajra-bow
- std: akajra
+ id: noti-potential-partner
+ std: noti
+ paradigm: noun
+
+-lexeme
+ lex: tu
+ stem: .tu.
+ trans_en: give
+ gloss: give
+ gramm: vt
+ id: tu-give
+ std: tu
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yë
+ stem: .yë.
+ trans_en: tooth
+ gloss: tooth
+ gramm: n
+ id: ye-tooth
+ std: yë
  paradigm: noun
 
 -lexeme

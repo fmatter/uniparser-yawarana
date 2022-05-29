@@ -52,3 +52,8 @@ def test_noun_inflection(parser):
     assert "pert" in parse_1("yeseti", parser).gramm
     assert "pert" in parse_1("yëri", parser).gramm
     assert "NPERT" in parse_1("yëtë", parser).gloss
+
+def test_postp_inflection(parser):
+    for x in ["upoye", "mëpoye", "ipoye"]:
+        form = parse_1(x, parser)
+        print(form)
