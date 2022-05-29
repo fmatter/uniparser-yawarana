@@ -95,6 +95,10 @@
 -paradigm: v_tr
  -flex: .<.>
   gramm:
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
  -flex: më.<.>
   gramm: 2
   gloss: 2
@@ -136,20 +140,10 @@
   gloss: MOTIMP
   gramm: motimp
   id: tamotimp
- -flex: .ri//.0
-  gramm: N
-  gloss: NMLZ
-  id: ri
-  paradigm: 
  -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
   gramm: ipfv
   gloss: IPFV
   id: ri
- -flex: .jpë
-  gramm: n
-  gloss: PST.ACNMLZ
-  id: jpepst
-  paradigm: 
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
@@ -167,10 +161,6 @@
   gloss: NMLZ
   id: ninmlz
   paradigm: noun
- -flex: .sapë<.>//.saj<.>
-  gramm: nmlz
-  gloss: NMLZ
-  id: sapepfv
  -flex: .se//.che
   gramm: ptcp
   gloss: PTCP
@@ -187,10 +177,6 @@
  -flex: .tojpe<.>
   gramm: fut
   gloss: FUT
-  id: tojpefut
- -flex: .tojpe<.>
-  gramm: purp
-  gloss: PURP
   id: tojpefut
  -flex: .tëpëkë<.>
   gramm: prog,intr
