@@ -802,6 +802,36 @@
  paradigm: noun
 
 -lexeme
+ lex: yarika
+ stem: .yarika.
+ trans_en: laugh
+ gloss: laugh
+ gramm: vi
+ id: yarika-laugh
+ std: yarika
+ paradigm: v_intr
+
+-lexeme
+ lex: yaruwa
+ stem: .yaruwa.
+ trans_en: laugh
+ gloss: laugh
+ gramm: vi
+ id: yaruwa-laugh
+ std: yaruwa
+ paradigm: v_intr
+
+-lexeme
+ lex: yutu
+ stem: .yutu.
+ trans_en: forest
+ gloss: forest
+ gramm: n
+ id: yutu-forest
+ std: yutu
+ paradigm: noun
+
+-lexeme
  lex: yë
  stem: .yë.
  trans_en: tooth
@@ -845,8 +875,8 @@
 -lexeme
  lex: ëkëtë
  stem: .ëkëtë.
- trans_en: w; h; e; r; e
- gloss: w
+ trans_en: where
+ gloss: where
  gramm: adv
  id: 07bd51f6-fb85-483e-b0cf-b27e244f61b4
  std: ëkëtë
@@ -855,18 +885,28 @@
 -lexeme
  lex: ëkï
  stem: .ëkï.
- trans_en: m; a; n; i; o; c; .; b; e; e; r
- gloss: m
+ trans_en: manioc.beer
+ gloss: manioc.beer
  gramm: n
  id: 58bf6d86-1230-4458-997c-15f94ad6fbd6
  std: ëkï
  paradigm: noun
 
 -lexeme
+ lex: yatunë
+ stem: .yatunë.|.yatun.|.yatum.
+ trans_en: sun; day
+ gloss: sun
+ gramm: n
+ id: 763cd0a8-2338-47f6-be83-51c37991b129
+ std: yatunë
+ paradigm: noun
+
+-lexeme
  lex: ëkëjna
  stem: .ëkëjna.
- trans_en: w; h; e; r; e; .; t; o
- gloss: w
+ trans_en: where.to
+ gloss: where.to
  gramm: adv
  id: a992b4b6-c478-4e4b-9814-670e19682543
  std: ëkëjna
@@ -875,12 +915,22 @@
 -lexeme
  lex: ënuku
  stem: .ënuku.|.ënuj.
- trans_en: g; o; .; u; p
- gloss: g
+ trans_en: go.up
+ gloss: go.up
  gramm: vi
  id: dc33b380-8376-4775-83e2-46bcef401199
  std: ënuku
  paradigm: v_intr
+
+-lexeme
+ lex: ewenke
+ stem: .ewenke.
+ trans_en: not.know
+ gloss: not.know
+ gramm: postp
+ id: fa238937-9392-4a63-8142-4c56dd4a5c99
+ std: ewenke
+ paradigm: postp
 
 -lexeme
  lex: tajne
