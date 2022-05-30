@@ -60,38 +60,11 @@ def test_postp_inflection(parser):
 
 def test_verb_inflection(parser):
     for lemma, gloss, gramm, verb_set in [
-        ("yerema", "feed", "ipfv", ["uyeremari", "mëyeremari", "tayeremari"])
+        ("yerema", "feed", "ipfv", ["uyeremari", "mëyeremari", "tayeremari"]),
+        ("senejka", "remain", "ipfv", ["usenejkari", "mësenejkari", "senejkari"])
     ]:
         for i, x in enumerate(verb_set):
             form = parse_1(x, parser)
-            print(form)
             assert form.lemma == lemma
             assert gloss in form.gloss
             assert gramm in form.gramm
-        # assert "ipfv" in form.gramm
-        # assert str(i+1) in form.gloss
-
-#     for i, x in enumerate(["umukuru", "mëmukuru", "imukuru"]):  # 'child'
-#         form = parse_1(x, parser)
-#         assert form.lemma == "muku"
-#         assert "child" in form.gloss
-#         assert "poss" in form.gramm
-#         assert str(i+1) in form.gloss
-
-#     for i, x in enumerate(["unajmori", "anajmori", "inajmori"]):  # 'grandmother'
-#         form = parse_1(x, parser)
-#         assert form.lemma == "najmo"
-#         assert "grand.mother" in form.gloss
-#         assert "poss" in form.gramm
-#         assert str(i+1) in form.gloss
-
-#     for i, x in enumerate(["uyawori", "ayawori", "tawori"]): # 'uncle / father in law'
-#         form = parse_1(x, parser)
-#         # assert form.lemma == "najmo"
-#         # assert "grand.mother" in form.gloss
-#         # assert "poss" in form.gramm
-#         assert str(i+1) in form.gloss
-
-#     assert "pert" in parse_1("yeseti", parser).gramm
-#     assert "pert" in parse_1("yëri", parser).gramm
-#     assert "NPERT" in parse_1("yëtë", parser).gloss

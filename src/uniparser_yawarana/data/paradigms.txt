@@ -143,7 +143,7 @@
  -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
   gramm: ipfv
   gloss: IPFV
-  id: ri
+  id: riipfv
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
@@ -161,19 +161,10 @@
   gloss: NMLZ
   id: ninmlz
   paradigm: noun
- -flex: .se//.che
-  gramm: ptcp
-  gloss: PTCP
-  id: septcp
-  paradigm: n_suff1
  -flex: .se<.>//.che.<.>
   gramm: pst
   gloss: PST
-  id: septcp
- -flex: .se//.che
-  gramm: sup
-  gloss: SUP
-  id: septcp
+  id: sepst
  -flex: .tojpe<.>
   gramm: fut
   gloss: FUT
@@ -298,7 +289,7 @@
  -flex: .se
   gramm: pst
   gloss: PST
-  id: septcp
+  id: sepst
 
 -paradigm: postp
  -flex: më.

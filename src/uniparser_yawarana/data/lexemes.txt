@@ -720,6 +720,26 @@
  paradigm: v_intr
 
 -lexeme
+ lex: ti
+ stem: .ti.
+ trans_en: HSY
+ gloss: HSY
+ gramm: part
+ id: ti-hsy
+ std: ti
+ paradigm: uninfl
+
+-lexeme
+ lex: ti
+ stem: .ti.
+ trans_en: QUOT
+ gloss: QUOT
+ gramm: part
+ id: ti-quot
+ std: ti
+ paradigm: uninfl
+
+-lexeme
  lex: achi
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -911,6 +931,16 @@
  id: a992b4b6-c478-4e4b-9814-670e19682543
  std: ëkëjna
  paradigm: adv
+
+-lexeme
+ lex: pïrarë
+ stem: .pïrarë.
+ trans_en: nothing
+ gloss: nothing
+ gramm: part
+ id: b97a0ed7-7ceb-4cab-83d8-5b30b45d9a59
+ std: pïrarë
+ paradigm: uninfl
 
 -lexeme
  lex: ënuku
