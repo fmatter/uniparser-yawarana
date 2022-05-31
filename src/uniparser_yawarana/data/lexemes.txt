@@ -143,7 +143,7 @@
  stem: .chi.|.ch.|.chij.
  trans_en: COP
  gloss: COP
- gramm: aux,cop
+ gramm: vi,cop
  id: chi-cop
  std: chi
  paradigm: cop
@@ -153,7 +153,7 @@
  stem: .perez.
  trans_en: Pérez
  gloss: Pérez
- gramm: ideo
+ gramm: n
  id: perez-perez
  std: perez
  paradigm: uninfl
@@ -173,7 +173,7 @@
  stem: .rafa.
  trans_en: Rafel
  gloss: Rafel
- gramm: ideo
+ gramm: n
  id: rafa-rafel
  std: rafa
  paradigm: uninfl
@@ -193,7 +193,7 @@
  stem: .taji.
  trans_en: ?
  gloss: ?
- gramm: ideo
+ gramm: ?
  id: taji
  std: taji
  paradigm: uninfl
@@ -859,6 +859,16 @@
  id: ajpachi-undergrowth
  std: ajpachi
  paradigm: noun
+
+-lexeme
+ lex: ana
+ stem: .ana.
+ trans_en: 1+3PRO
+ gloss: 1+3PRO
+ gramm: pn
+ id: ana-1-3pro
+ std: ana
+ paradigm: pro
 
 -lexeme
  lex: chika
