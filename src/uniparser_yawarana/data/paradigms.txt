@@ -162,8 +162,8 @@
   id: tanecncs
   paradigm: 
  -flex: .sarë<.>
-  gramm: inm
-  gloss: INM
+  gramm: imn
+  gloss: IMN
   id: sareinm
  -flex: .tïkene
   gramm: post

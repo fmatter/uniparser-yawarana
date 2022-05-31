@@ -902,6 +902,26 @@
  paradigm: pro
 
 -lexeme
+ lex: eni
+ stem: .eni.|.seni.
+ trans_en: PROX.INAN
+ gloss: PROX.INAN
+ gramm: det
+ id: eni-prox-inan
+ std: eni
+ paradigm: uninfl
+
+-lexeme
+ lex: enijne
+ stem: .enijne.
+ trans_en: PROX.INAN.PL
+ gloss: PROX.INAN.PL
+ gramm: det
+ id: enijne-prox-inan-pl
+ std: enijne
+ paradigm: uninfl
+
+-lexeme
  lex: ini
  stem: .ini.|.yini.|.in.
  trans_en: see
@@ -964,6 +984,66 @@
  paradigm: noun
 
 -lexeme
+ lex: kërë
+ stem: .kërë.
+ trans_en: PROX.ANIM
+ gloss: PROX.ANIM
+ gramm: det
+ id: kere-prox-anim
+ std: kërë
+ paradigm: uninfl
+
+-lexeme
+ lex: kërësantomo
+ stem: .kërësantomo.
+ trans_en: PROX.ANIM.PL
+ gloss: PROX.ANIM.PL
+ gramm: det
+ id: keresantomo-prox-anim-pl
+ std: kërësantomo
+ paradigm: uninfl
+
+-lexeme
+ lex: michisantomo
+ stem: .michisantomo.
+ trans_en: MED.INAN.PL
+ gloss: MED.INAN.PL
+ gramm: det
+ id: michisantomo-med-inan-pl
+ std: michisantomo
+ paradigm: uninfl
+
+-lexeme
+ lex: michitomo
+ stem: .michitomo.
+ trans_en: MED.INAN.PL
+ gloss: MED.INAN.PL
+ gramm: det
+ id: michitomo-med-inan-pl
+ std: michitomo
+ paradigm: uninfl
+
+-lexeme
+ lex: michí
+ stem: .michí.
+ trans_en: MED.ANIM
+ gloss: MED.ANIM
+ gramm: det
+ id: michi-med-anim
+ std: michí
+ paradigm: uninfl
+
+-lexeme
+ lex: misi
+ stem: .misi.
+ trans_en: MED.INAN
+ gloss: MED.INAN
+ gramm: det
+ id: misi-med-inan
+ std: misi
+ paradigm: uninfl
+
+-lexeme
  lex: monkontomo
  stem: .monkontomo.|.mokontomo.
  trans_en: 2PL.PRO
@@ -982,6 +1062,26 @@
  id: morone-hurting
  std: morone
  paradigm: adv
+
+-lexeme
+ lex: mëjnijne
+ stem: .mëjnijne.
+ trans_en: DIST.INAN.PL
+ gloss: DIST.INAN.PL
+ gramm: det
+ id: mejnijne-dist-inan-pl
+ std: mëjnijne
+ paradigm: uninfl
+
+-lexeme
+ lex: mëjnï
+ stem: .mëjnï.
+ trans_en: DIST.INAN
+ gloss: DIST.INAN
+ gramm: det
+ id: mejni-dist-inan
+ std: mëjnï
+ paradigm: uninfl
 
 -lexeme
  lex: mëkïsantomo
