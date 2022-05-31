@@ -109,19 +109,6 @@
   id: t3
  paradigm: v_suff
 
--paradigm: v_tr_nmlz
- -flex: <.>.se|mï
-  gramm: ptcp,nmlz
-  gloss: PTCP|NMLZ
-  id: septcp,minmlz
- paradigm: v_nmlz_pre
-
--paradigm: v_nmlz_pre
- -flex: ta.//t.
-  gramm: 3
-  gloss: 3P
-  id: t3
-
 -paradigm: v_suff
  -flex: .pëti<.>//.pëj<.>
   gramm: plur
@@ -152,15 +139,6 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
- -flex: .në<.>
-  gramm: inf
-  gloss: INF
-  id: neinf
- -flex: .ni<.>
-  gramm: n
-  gloss: NMLZ
-  id: ninmlz
-  paradigm: noun
  -flex: .se<.>//.che.<.>
   gramm: pst
   gloss: PST
@@ -178,10 +156,6 @@
   gloss: DES
   id: podes
   paradigm: n_suff1
- -flex: .topo//.toj
-  gramm: nmlz
-  gloss: CIRC.NMLZ
-  id: toponmlz
  -flex: .tane
   gramm: cncs
   gloss: CNCS
@@ -195,10 +169,6 @@
   gramm: post
   gloss: POST
   id: tikenepost
- -flex: .kempïnirë
-  gramm: ptcp,nmlz,gno,neg
-  gloss: PTCP.NZR.GNO:NEG
-  id: kempinire
  paradigm: dv_pl
 
 -paradigm: dv_pl
@@ -243,24 +213,7 @@
  paradigm: v_suff
  paradigm: cop_clit
 
--paradigm: cop_clit
- -flex: .poko|no//.poko|n
-  gloss: on.surface|NMLZ
-  gramm: nmlz
-  sep: =
-  id: pekeon,anonmlz
- -flex: .pëkë
-  gloss: on.surface
-  gramm: because
-  id: pekeon
-  sep: =
- -flex: .awë
-  gramm: LEX:yawë:CLIT,loc
-  gloss: LOC
-  sep: =
-  id: yaweloc
-
--paradigm: v_intr
+-paradigm: v_go
  -flex: ij.<.>
   gramm: 3
   gloss: 3
@@ -277,19 +230,20 @@
   gramm:
  paradigm: v_suff
 
--paradigm: aux
- -flex: .tojpe
-  gramm: fut
-  gloss: FUT
-  id: tojpefut
- -flex: .sapë//.saj
-  gramm: pfv
-  gloss: PFV
-  id: sapepfv
- -flex: .se
-  gramm: pst
-  gloss: PST
-  id: sepst
+
+-paradigm: v_intr
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
+
 
 -paradigm: postp
  -flex: më.
@@ -310,6 +264,8 @@
   id: u1
  -flex: .
   gramm:
+
+
 
 -paradigm: adv
  -flex: .jra
