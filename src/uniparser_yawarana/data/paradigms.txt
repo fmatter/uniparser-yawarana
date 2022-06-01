@@ -164,7 +164,7 @@
  -flex: .sarë<.>
   gramm: imn
   gloss: IMN
-  id: sareinm
+  id: sareimn
  -flex: .tïkene
   gramm: post
   gloss: POST
