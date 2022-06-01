@@ -23,6 +23,7 @@ class YawaranaAnalyzer(Analyzer):
         self.paradigmFile = self.base_path / "paradigms.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
         self.cliticFile = self.base_path / "clitics.txt"
+        self.derivFile = self.base_path / "derivations.txt"
         self.load_grammar()
 
     # def del_seg(self, analyses):

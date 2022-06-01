@@ -92,6 +92,11 @@
   gloss: PST
   id: jpepst
 
+-paradigm: v_tr_nmlz
+ -flex: .<.>
+  gramm:
+ deriv-link: V-pe
+
 -paradigm: v_tr
  -flex: .<.>
   gramm:

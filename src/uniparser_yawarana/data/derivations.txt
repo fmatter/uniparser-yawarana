@@ -1,0 +1,7 @@
+-deriv-type: V-pe
+ lex: <0>[.]pe
+ stem: <0>[.]pe
+ paradigm: adv
+ gramm: adv,ess
+ gloss: ESS
+ id: peess
