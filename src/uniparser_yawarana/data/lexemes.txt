@@ -72,6 +72,7 @@
  id: pekeon,anonmlz
  std: pokono
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: sere
@@ -234,6 +235,7 @@
  id: ajpu-heart
  std: ajpu
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kaimo
@@ -244,6 +246,7 @@
  id: kaimo
  std: kaimo
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kampra
@@ -254,6 +257,7 @@
  id: kampra-big
  std: kampra
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: makë
@@ -264,6 +268,7 @@
  id: make-mother
  std: makë
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: maniki
@@ -274,6 +279,7 @@
  id: maniki
  std: maniki
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: nwa
@@ -284,6 +290,7 @@
  id: nwadance
  std: nwa
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: oti
@@ -294,6 +301,7 @@
  id: oti-game-food
  std: oti
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: padrastro
@@ -304,6 +312,7 @@
  id: padrastro-padrastro
  std: padrastro
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: suku
@@ -314,6 +323,7 @@
  id: suku
  std: suku
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: waraijtokon
@@ -324,6 +334,7 @@
  id: waraijtokon-man
  std: waraijtokon
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ëjka
@@ -824,6 +835,7 @@
  id: iwiti-house
  std: ïwïtï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: waimu
@@ -834,6 +846,7 @@
  id: waimu-language
  std: waimu
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: i
@@ -858,6 +871,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: yajtë
+ stem: .yajtë.
+ trans_en: begin
+ gloss: begin
+ gramm: vt
+ id: yajte-begin
+ std: yajtë
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: achi
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -866,6 +890,7 @@
  id: achi-wilderness
  std: achi
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ajpachi
@@ -876,6 +901,7 @@
  id: ajpachi-undergrowth
  std: ajpachi
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ana
@@ -907,6 +933,7 @@
  id: chiyakono-friend
  std: chiyakono
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ejnë
@@ -999,6 +1026,7 @@
  id: konopo-rain
  std: konopo
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kërë
@@ -1159,6 +1187,7 @@
  id: najmo-grandmother
  std: najmo
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: najpï
@@ -1169,6 +1198,7 @@
  id: najpi-grandfather
  std: najpï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: nope
@@ -1189,6 +1219,7 @@
  id: noti-potential-partner
  std: noti
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: okï
@@ -1199,6 +1230,7 @@
  id: oki-chicha
  std: okï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: onono
@@ -1209,6 +1241,7 @@
  id: onono-another
  std: onono
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: sukase
@@ -1292,6 +1325,7 @@
  id: waijta-mouse
  std: waijta
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: wajyakï
@@ -1302,6 +1336,7 @@
  id: wajyaki-happy
  std: wajyakï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: wajyakï
@@ -1323,6 +1358,7 @@
  id: wajyakiti-very-happy
  std: wajyakïtï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: wanene
@@ -1333,6 +1369,7 @@
  id: wanene-aunt
  std: wanene
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: waraijtokomo
@@ -1343,6 +1380,7 @@
  id: waraijtokomo-man
  std: waraijtokomo
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: warë
@@ -1374,6 +1412,7 @@
  id: wiriyamo-woman
  std: wiriyamo
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: wïrë
@@ -1427,6 +1466,7 @@
  id: yutu-forest
  std: yutu
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: yë
@@ -1437,6 +1477,7 @@
  id: ye-tooth
  std: yë
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ëjtë
@@ -1447,6 +1488,7 @@
  id: ejte-house
  std: ëjtë
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ëtïpa
@@ -1479,6 +1521,7 @@
  id: ese-name
  std: ese
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kërëjpë
@@ -1489,6 +1532,7 @@
  id: 02c99f34-5b27-4ff8-819a-dc4a34dca14e
  std: kërëjpë
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: tawani
@@ -1499,6 +1543,7 @@
  id: 041cd4a0-4dca-4c25-8f2f-ebceb2633143
  std: tawani
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ëkëtë
@@ -1529,6 +1574,7 @@
  id: 58bf6d86-1230-4458-997c-15f94ad6fbd6
  std: ëkï
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: përemekï
@@ -1570,6 +1616,7 @@
  id: 763cd0a8-2338-47f6-be83-51c37991b129
  std: yatunë
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: wena
@@ -1580,6 +1627,7 @@
  id: 79766ee2-3962-4bcd-ae1b-bcc332d75e88
  std: wena
  paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kantajnë

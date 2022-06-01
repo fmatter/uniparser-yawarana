@@ -13,3 +13,75 @@
  gramm: n,nmlz
  gloss: CIRC.NMLZ
  id: toponmlz
+
+-deriv-type: V-ri
+ lex: <1>[.]ri
+ stem: <.>[.]ri//<.>[.]0
+ paradigm: noun
+ gramm: n,nmlz
+ gloss: ACT.NMLZ
+ id: rinmlz
+
+-deriv-type: V-septcp
+ lex: <1>[.]se
+ stem: [.]se<.>//[.]che<.>
+ paradigm: adv
+ gramm: adv
+ gloss: PTCP
+ id: septcp
+
+-deriv-type: V-sesup
+ lex: <1>[.]se
+ stem: [.]se<.>//[.]che<.>
+ paradigm: adv
+ gramm: adv
+ gloss: SUP
+ id: septcp
+
+-deriv-type: V-inf
+ lex: <1>[.]në
+ stem: <.>[.]në
+ paradigm: noun
+ gramm: n
+ gloss: INF
+ id: neinf
+
+-deriv-type: V-sape
+ lex: <1>[.]sapë
+ stem: <.>[.]sapë//<.>[.]saj
+ paradigm: noun
+ gramm: n
+ gloss: ABS.NMLZ
+ id: sapenmlz
+
+-deriv-type: V-ni
+ lex: <1>[.]ni
+ stem: <.>[.]sapë
+ paradigm: noun
+ gramm: n
+ gloss: AGT.NMLZ
+ id: ninmlz
+
+-deriv-type: A-mi
+ lex: <1>[.]mï
+ stem: [.]mï<.>
+ paradigm: noun
+ gramm: n
+ gloss: NMLZ
+ id: minmlz
+
+-deriv-type: V-tojpe
+ lex: <1>[.]tojpe
+ stem: [.]tojpe<.>
+ paradigm: adv
+ gramm: adv
+ gloss: PURP
+ id: tojpepurp
+
+-deriv-type: V-tane
+ lex: <1>[.]tane
+ stem: [.]tane<.>
+ paradigm: adv
+ gramm: adv,cncs
+ gloss: CNCS
+ id: tanecncs
