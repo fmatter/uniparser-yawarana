@@ -5,3 +5,11 @@
  gramm: adv,ess
  gloss: ESS
  id: peess
+
+-deriv-type: V-topo
+ lex: <1>[.]topo
+ stem: <.>[.]topo
+ paradigm: noun
+ gramm: n,nmlz
+ gloss: CIRC.NMLZ
+ id: toponmlz

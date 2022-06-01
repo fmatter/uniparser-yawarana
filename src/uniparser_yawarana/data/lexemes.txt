@@ -7,6 +7,7 @@
  id: dt1,nai
  std: ëjnai
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: sujta
@@ -17,6 +18,7 @@
  id: suku,tavbz
  std: sujta
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ëjwenaka
@@ -27,6 +29,7 @@
  id: dt1,wenaka-vomit
  std: ëjwenaka
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: serema
@@ -37,6 +40,7 @@
  id: dt2,yerema
  std: serema
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: nopano
@@ -57,6 +61,7 @@
  id: kaimo,tavbz
  std: kaimota
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: pokono
@@ -77,6 +82,7 @@
  id: dt2,erepiscare
  std: sere
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: sënka
@@ -87,6 +93,7 @@
  id: dt2,enkafinish
  std: sënka
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: tawaja
@@ -487,6 +494,7 @@
  id: asamo
  std: asamo
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: esene
@@ -497,6 +505,7 @@
  id: esene-see-self
  std: esene
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: këyata
@@ -507,6 +516,7 @@
  id: keyata-grow-up
  std: këyata
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: sepamï
@@ -517,6 +527,7 @@
  id: sepami-marry
  std: sepamï
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: sereka
@@ -527,6 +538,7 @@
  id: sereka-tire
  std: sereka
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: enejka
@@ -677,6 +689,7 @@
  id: weseyu
  std: weseyu
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: me
@@ -708,6 +721,7 @@
  id: senejkastay
  std: senejka
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: nwajtë
@@ -718,6 +732,7 @@
  id: nwajtedance
  std: nwajtë
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ti
@@ -738,6 +753,7 @@
  id: wej-cop
  std: wej
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: irë
@@ -839,6 +855,7 @@
  id: waimu-talk
  std: waimu
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: achi
@@ -1295,6 +1312,7 @@
  id: wajyaki-be-happy
  std: wajyakï
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: wajyakïtï
@@ -1387,6 +1405,7 @@
  id: yarika-laugh
  std: yarika
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: yaruwa
@@ -1397,6 +1416,7 @@
  id: yaruwa-laugh
  std: yaruwa
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: yutu
@@ -1437,6 +1457,7 @@
  id: etipa-go-in-group
  std: ëtïpa
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ëni
@@ -1518,6 +1539,7 @@
  id: 5a18649c-d742-45d3-975d-e9618da883bd
  std: përemekï
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: kwase
@@ -1568,6 +1590,7 @@
  id: 93b0a595-e7b7-413e-a88b-9ca8d868dddd
  std: kantajnë
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: pïnika
@@ -1628,6 +1651,7 @@
  id: bcfb197f-800e-48bd-8ec6-664e658aff04
  std: womï
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ënuku
@@ -1638,6 +1662,7 @@
  id: dc33b380-8376-4775-83e2-46bcef401199
  std: ënuku
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: tawejka
@@ -1648,6 +1673,7 @@
  id: efec7abd-f480-462a-9648-e2434e3bee0d
  std: tawejka
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: sa
@@ -1668,6 +1694,7 @@
  id: f90c63ed-bd4c-43b7-b9f9-2709d3ff0ddd
  std: wïnïkï
  paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ewenke
