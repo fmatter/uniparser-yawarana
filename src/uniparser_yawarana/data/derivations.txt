@@ -1,6 +1,6 @@
 -deriv-type: V-pe
- lex: <0>[.]pe
- stem: <0>[.]pe
+ lex: <1>[.]pe
+ stem: <.>[.]pe
  paradigm: adv
  gramm: adv,ess
  gloss: ESS

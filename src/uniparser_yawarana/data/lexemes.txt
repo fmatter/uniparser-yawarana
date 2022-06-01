@@ -1226,7 +1226,7 @@
 
 -lexeme
  lex: tunamï
- stem: .tunamï.
+ stem: .tunamï.|.tunam.
  trans_en: hide
  gloss: hide
  gramm: vt
