@@ -92,6 +92,39 @@
   gloss: PST
   id: jpepst
 
+-paradigm: n_deriv
+ -flex: .<.>
+  gramm:
+
+-paradigm: adv_deriv
+ -flex: .<.>
+  gramm:
+
+-paradigm: v_intr_nmlz
+ -flex: .<.>
+  gramm:
+ deriv-link: V-pe
+ deriv-link: V-topo
+ deriv-link: V-tojpe
+ deriv-link: V-ri
+ deriv-link: V-septcp
+ deriv-link: V-sesup
+ deriv-link: V-inf
+ deriv-link: V-sape
+ deriv-link: V-tane
+
+-paradigm: v_tr_nmlz
+ -flex: .<.>
+  gramm:
+ deriv-link: V-pe
+ deriv-link: V-ri
+ deriv-link: V-tojpe
+ deriv-link: V-septcp
+ deriv-link: V-sesup
+ deriv-link: V-ni
+ deriv-link: V-sape
+ deriv-link: V-tane
+
 -paradigm: v_tr
  -flex: .<.>
   gramm:
@@ -156,11 +189,6 @@
   gloss: DES
   id: podes
   paradigm: n_suff1
- -flex: .tane
-  gramm: cncs
-  gloss: CNCS
-  id: tanecncs
-  paradigm: 
  -flex: .sarë<.>
   gramm: imn
   gloss: IMN
@@ -244,7 +272,6 @@
   gramm:
  paradigm: v_suff
 
-
 -paradigm: postp
  -flex: më.
   gramm: 2
@@ -274,3 +301,4 @@
   id: jraneg
  -flex: .
   gramm
+ deriv-link: A-mi
