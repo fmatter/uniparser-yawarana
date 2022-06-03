@@ -8,10 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Removed
+
+## [0.0.4] -- 2022-06-03
+
+### Added
+* lexical data from the dictionary
 
 ### Changed
 
 ### Removed
+* most of the FLEx lexemes
+* derivational morphology
 
 ## [0.0.3] -- 2022-05-20
 

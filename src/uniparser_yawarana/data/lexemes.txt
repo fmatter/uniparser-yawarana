@@ -127,16 +127,6 @@
  paradigm: adv
 
 -lexeme
- lex: tëijpo
- stem: .tëijpo.
- trans_en: far; long
- gloss: far
- gramm: adv
- id: teijpo-far
- std: tëijpo
- paradigm: adv
-
--lexeme
  lex: chi
  stem: .chi.|.ch.|.chij.
  trans_en: COP
@@ -431,10 +421,10 @@
  stem: .rë.
  trans_en: EMP
  gloss: EMP
- gramm: postp,emp
+ gramm: part,emp
  id: reemp
  std: rë
- paradigm: postp
+ paradigm: uninfl
 
 -lexeme
  lex: ya
@@ -607,17 +597,6 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yëni
- stem: .yëni.
- trans_en: drink
- gloss: drink
- gramm: vt
- id: yeni-drink
- std: yëni
- paradigm: v_tr
- paradigm: v_tr_nmlz
-
--lexeme
  lex: yerema
  stem: .yerema.|.erema.
  trans_en: feed
@@ -631,8 +610,8 @@
 -lexeme
  lex: ma
  stem: .ma.
- trans_en: RESTR
- gloss: RESTR
+ trans_en: RST
+ gloss: RST
  gramm: part
  id: marestr
  std: ma
@@ -893,6 +872,36 @@
  paradigm: uninfl
 
 -lexeme
+ lex: akërë
+ stem: .akërë.
+ trans_en: with
+ gloss: with
+ gramm: postp
+ id: akere-with
+ std: akërë
+ paradigm: postp
+
+-lexeme
+ lex: apëkë
+ stem: .apëkë.
+ trans_en: that’s why
+ gloss: that’s.why
+ gramm: part
+ id: apeke-thats-why
+ std: apëkë
+ paradigm: uninfl
+
+-lexeme
+ lex: wëra
+ stem: .wëra.|.wora.|.wara.
+ trans_en: like
+ gloss: like
+ gramm: postp
+ id: wera-like
+ std: wëra
+ paradigm: postp
+
+-lexeme
  lex: achi
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -1071,6 +1080,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: këjma
+ stem: .këjma.
+ trans_en: hunt
+ gloss: hunt
+ gramm: vt
+ id: kejma-hunt
+ std: këjma
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: kërë
  stem: .kërë.
  trans_en: PROX.ANIM
@@ -1089,6 +1109,17 @@
  id: keresantomo-prox-anim-pl
  std: kërësantomo
  paradigm: uninfl
+
+-lexeme
+ lex: kïmïy
+ stem: .kïmïy.|.kïmïi.
+ trans_en: chili
+ gloss: chili
+ gramm: n
+ id: kimiy-chili
+ std: kïmïy
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: michisantomo
@@ -1254,6 +1285,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: nepï
+ stem: .nepï.
+ trans_en: bring
+ gloss: bring
+ gramm: vt
+ id: nepi-bring
+ std: nepï
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: nope
  stem: .nope.
  trans_en: good
@@ -1308,6 +1350,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pakuri
+ stem: .pakuri.
+ trans_en: arrow.tip
+ gloss: arrow.tip
+ gramm: n
+ id: pakuri-arrow-tip
+ std: pakuri
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: papa
  stem: .papa.
  trans_en: father
@@ -1315,6 +1368,50 @@
  gramm: n
  id: papa-father
  std: papa
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pata
+ stem: .pata.
+ trans_en: axe
+ gloss: axe
+ gramm: n
+ id: pata-axe
+ std: pata
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pata
+ stem: .pata.
+ trans_en: village
+ gloss: village
+ gramm: n
+ id: pata-village
+ std: pata
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pipi
+ stem: .pipi.
+ trans_en: younger.brother.of.woman
+ gloss: younger.brother.of.woman
+ gramm: n
+ id: pipi-younger-brother-of-woman
+ std: pipi
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: sakara
+ stem: .sakara.
+ trans_en: hoplias.malabaricus
+ gloss: hoplias.malabaricus
+ gramm: n
+ id: sakara-hoplias-malabaricus
+ std: sakara
  paradigm: noun
  paradigm: n_deriv
 
@@ -1327,6 +1424,28 @@
  id: sukase-all
  std: sukase
  paradigm: adv
+
+-lexeme
+ lex: sukutaka
+ stem: .sukutaka.
+ trans_en: yucuta
+ gloss: yucuta
+ gramm: n
+ id: sukutaka-yucuta
+ std: sukutaka
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tapa
+ stem: .tapa.
+ trans_en: beat
+ gloss: beat
+ gramm: vt
+ id: tapa-beat
+ std: tapa
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: taro
@@ -1351,7 +1470,7 @@
 
 -lexeme
  lex: tejwetunu
- stem: .tejwetunu.
+ stem: .tejwetunu.|.tejetum.
  trans_en: sick
  gloss: sick
  gramm: n
@@ -1381,6 +1500,16 @@
  std: tu
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: tëijpo
+ stem: .tëijpo.|.tëijpë.
+ trans_en: far
+ gloss: far
+ gramm: adv
+ id: teijpo-far
+ std: tëijpo
+ paradigm: adv
 
 -lexeme
  lex: tëwï
@@ -1490,6 +1619,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: weroro
+ stem: .weroro.
+ trans_en: dog
+ gloss: dog
+ gramm: n
+ id: weroro-dog
+ std: weroro
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: wiriyamo
  stem: .wiriyamo.|.wirijyamo.|.uriyamo.|.wurijyam.
  trans_en: woman
@@ -1520,6 +1660,17 @@
  std: yakarama
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yakono
+ stem: .yakono.
+ trans_en: younger.sister.of.woman
+ gloss: younger.sister.of.woman
+ gramm: n
+ id: yakono-younger-sister-of-woman
+ std: yakono
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: yakuri
@@ -1555,6 +1706,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: yeme
+ stem: .yeme.
+ trans_en: eat.(fruits,.eggs,.soup)
+ gloss: eat.(fruits,.eggs,.soup)
+ gramm: vt
+ id: yeme-eat-fruits-eggs-soup
+ std: yeme
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: yojtë
  stem: .yojtë.
  trans_en: fish.with.hook
@@ -1562,6 +1724,17 @@
  gramm: vt
  id: yojte-fish-with-hook
  std: yojtë
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yokï
+ stem: .yokï.
+ trans_en: eat.(starch)
+ gloss: eat.(starch)
+ gramm: vt
+ id: yoki-eat-starch
+ std: yokï
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -1588,6 +1761,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yëni
+ stem: .yëni.|.yeni.
+ trans_en: drink
+ gloss: drink
+ gramm: vt
+ id: yeni-drink
+ std: yëni
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: ëjtë
  stem: .ëjtë.
  trans_en: house
@@ -1597,6 +1781,16 @@
  std: ëjtë
  paradigm: noun
  paradigm: n_deriv
+
+-lexeme
+ lex: ëmpare
+ stem: .ëmpare.|.umparë.
+ trans_en: already
+ gloss: already
+ gramm: adv
+ id: empare-already
+ std: ëmpare
+ paradigm: adv
 
 -lexeme
  lex: ëtïpa
