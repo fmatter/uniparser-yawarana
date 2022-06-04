@@ -112,6 +112,7 @@
  deriv-link: V-inf
  deriv-link: V-sape
  deriv-link: V-tane
+ deriv-link: V-jpë
 
 -paradigm: v_tr_nmlz
  -flex: .<.>
@@ -124,6 +125,7 @@
  deriv-link: V-ni
  deriv-link: V-sape
  deriv-link: V-tane
+ deriv-link: V-jpë
 
 -paradigm: v_tr
  -flex: .<.>

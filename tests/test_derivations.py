@@ -20,7 +20,6 @@ def pick_analysis(anas, good_gloss):
 def run_polysemy_test(forms, parser):
     for form, data in forms:
         analyses = parser.analyze_words(form)
-        print(analyses)
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)
             assert tag in analysis.gramm
@@ -46,12 +45,31 @@ def test_ri(parser):
         parser=parser,
     )
 
+
 def test_ptcp(parser):
     run_polysemy_test(
         forms=[
-            ("wïnïjse", {"SUP": "adv", "PTCP": "adv", "PST": "vi"}),  # intransitive 'sleep'
-            ("këyamase", {"SUP": "adv", "PTCP": "adv", "PST": "vt"}),  # transitive 'create'
+            (
+                "wïnïjse",
+                {"SUP": "adv", "PTCP": "adv", "PST": "vi"},
+            ),  # intransitive 'sleep'
+            (
+                "këyamase",
+                {"SUP": "adv", "PTCP": "adv", "PST": "vt"},
+            ),  # transitive 'create'
             ("inche", {"SUP": "adv", "PTCP": "adv", "PST": "vt"}),  # transitive 'see'
         ],
         parser=parser,
     )
+
+
+def test_sapë(parser):
+    run_polysemy_test(forms=[("asamosapë", {"PFV": "vi", "NMLZ": "n"})], parser=parser)
+
+def test_jpë(parser):
+    forms = [("tujpë", {"PST": "vt", "NMLZ": "n"})]
+    run_polysemy_test(forms, parser)
+
+def test_unamb_derivs(parser):
+    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"})]
+    run_polysemy_test(forms, parser)
