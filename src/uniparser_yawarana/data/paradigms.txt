@@ -172,7 +172,7 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
- -flex: .se<.>//.che.<.>
+ -flex: .se<.>//.che<.>
   gramm: pst
   gloss: PST
   id: sepst
