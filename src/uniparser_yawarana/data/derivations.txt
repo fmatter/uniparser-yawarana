@@ -50,7 +50,7 @@
 
 -deriv-type: V-topo
  lex: <1>[.]topo
- stem: <.>[.]topo
+ stem: <.>[.]topo//<.>[.]toj
  paradigm: noun
  gramm: n
  gloss: CIRC.NMLZ

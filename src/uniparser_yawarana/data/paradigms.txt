@@ -186,6 +186,10 @@
   gramm: prog,intr
   gloss: PROG.INTR
   id: tepeke
+ -flex: .pëkë<.>
+  gramm: prog
+  gloss: PROG
+  id: pekeprog
  -flex: .po<.>
   gramm: des
   gloss: DES
