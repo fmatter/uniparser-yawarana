@@ -1,22 +1,11 @@
 -lexeme
  lex: ëjnai
  stem: .ëj&nai.
- trans_en: make self
- gloss: DETRZ&make
+ trans_en: make.self
+ gloss: DETRZ&do
  gramm: vi
- id: dt1,nai
+ id: dt1,nai-do
  std: ëjnai
- paradigm: v_intr
- paradigm: v_intr_nmlz
-
--lexeme
- lex: sujta
- stem: .suj&ta.
- trans_en: urinate
- gloss: urine&VBZ
- gramm: vi
- id: suku,tavbz
- std: sujta
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
@@ -43,31 +32,9 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: kaimota
- stem: .kaimo&ta.
- trans_en: hunt
- gloss: game&VBZ
- gramm: vi
- id: kaimo,tavbz
- std: kaimota
- paradigm: v_intr
- paradigm: v_intr_nmlz
-
--lexeme
- lex: pokono
- stem: .poko&no.
- trans_en: because
- gloss: on.surface&NMLZ
- gramm: n
- id: pekeon,anonmlz
- std: pokono
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: sere
  stem: .s&ere.
- trans_en: become scared
+ trans_en: become.scared
  gloss: DETRZ&scare
  gramm: vi
  id: dt2,erepiscare
@@ -95,6 +62,39 @@
  id: tawara-too,janeg
  std: tawaja
  paradigm: adv
+
+-lexeme
+ lex: sujta
+ stem: .suj&ta.
+ trans_en: urinate
+ gloss: urine&VBZ
+ gramm: vi
+ id: suku,tavbz
+ std: sujta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kaimota
+ stem: .kaimo&ta.
+ trans_en: hunt
+ gloss: game&VBZ
+ gramm: vi
+ id: kaimo,tavbz
+ std: kaimota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: pokono
+ stem: .poko&no.
+ trans_en: because
+ gloss: on.surface&NMLZ
+ gramm: n
+ id: pekeon,anonmlz
+ std: pokono
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: enijpëtërë
