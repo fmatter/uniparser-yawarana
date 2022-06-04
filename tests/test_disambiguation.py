@@ -5,22 +5,22 @@ def parse_ambig(ambig, parser):
     )
 
 
-def test_wejsapë(parser):
-    anas, anas2 = parse_ambig("yaka wejsapë", parser)
-    assert len(anas[1]) == 1
-    assert len(anas2[1]) == 3
+# def test_wejsapë(parser):
+#     anas, anas2 = parse_ambig("yaka wejsapë", parser)
+#     assert len(anas[1]) == 1
+#     assert len(anas2[1]) == 3
 
 
-def test_taro(parser):
-    anas, anas2 = parse_ambig("wïrë taro", parser)
-    assert len(anas[1]) == 2
-    assert len(anas2[1]) == 3
+# def test_taro(parser):
+#     anas, anas2 = parse_ambig("wïrë taro", parser)
+#     assert len(anas[1]) == 2
+#     assert len(anas2[1]) == 3
 
 
-def test_të(parser):
-    anas, anas2 = parse_ambig("ana të", parser)
-    assert len(anas[1]) == 2
-    assert len(anas2[1]) == 3
+# def test_të(parser):
+#     anas, anas2 = parse_ambig("ana të", parser)
+#     assert len(anas[1]) == 2
+#     assert len(anas2[1]) == 3
 
 
 def test_ma(parser):

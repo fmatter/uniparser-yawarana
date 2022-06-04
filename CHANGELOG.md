@@ -8,10 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Removed
+
+## [0.0.4] -- 2022-06-03
+
+### Added
+* lexical data from the dictionary
 
 ### Changed
 
 ### Removed
+* most of the FLEx lexemes
+* derivational morphology
 
 ## [0.0.3] -- 2022-05-20
 
@@ -45,7 +55,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * initial release
 
-[Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.3...HEAD
+[Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.4...HEAD
+[0.0.4]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.4
 [0.0.3]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.3
 [0.0.2]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.2
 [0.0.1]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.1
