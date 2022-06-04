@@ -101,6 +101,14 @@
  gloss: NMLZ
  id: minmlz
 
+-deriv-type: A-ano
+ lex: <1>[.]no
+ stem: [.]no<.>
+ paradigm: noun
+ gramm: n
+ gloss: NMLZ
+ id: anonmlz
+
 
 
 
