@@ -71,7 +71,7 @@ def test_jpë(parser):
     run_polysemy_test(forms, parser)
 
 def test_unamb_derivs(parser):
-    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"}), ("yarikatopo", {"NMLZ": "n"})]
+    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"}), ("yarikatopo", {"NMLZ": "n"}), ("wejtane", {"CNCS": "adv"})]
     run_polysemy_test(forms, parser)
     forms = [("munemï", {"NMLZ": "n"}), ("mïjnano", {"NMLZ": "n"})]
     run_polysemy_test(forms, parser)
