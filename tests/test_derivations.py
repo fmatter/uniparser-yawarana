@@ -22,7 +22,7 @@ def run_polysemy_test(forms, parser):
         analyses = parser.analyze_words(form)
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)
-            assert tag in analysis.gramm
+            assert tag in analysis.gramm.split(",")
 
 
 def test_tojpe(parser):
@@ -71,5 +71,7 @@ def test_jpë(parser):
     run_polysemy_test(forms, parser)
 
 def test_unamb_derivs(parser):
-    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"})]
+    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"}), ("yarikatopo", {"NMLZ": "n"})]
+    run_polysemy_test(forms, parser)
+    forms = [("munemï", {"NMLZ": "n"})]
     run_polysemy_test(forms, parser)

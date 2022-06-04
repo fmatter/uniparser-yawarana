@@ -1193,6 +1193,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: mune
+ stem: .mune.
+ trans_en: bulbous
+ gloss: bulbous
+ gramm: adv
+ id: mune-bulbous
+ std: mune
+ paradigm: adv
+
+-lexeme
  lex: mëjnijne
  stem: .mëjnijne.
  trans_en: DIST.INAN.PL
