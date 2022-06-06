@@ -27,7 +27,7 @@
  stem: [.]jpë<.>
  paradigm: noun
  gramm: n
- gloss: NMLZ
+ gloss: PST.ACNMLZ
  id: jpenmlz
 
 -deriv-type: V-sape
