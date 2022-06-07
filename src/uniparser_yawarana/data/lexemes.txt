@@ -2003,6 +2003,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: yare-bring
+ stem: .yarë.
+ trans_en: bring
+ gloss: bring
+ gramm: vt
+ id: yare-bring
+ std: yarë
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: yawanka-kill
  stem: .yawanka.
  trans_en: kill
