@@ -1,5 +1,5 @@
 -lexeme
- lex: ëjnai-make.self
+ lex: dt1+nai-do
  stem: .ëj&nai.
  trans_en: make.self
  gloss: DETRZ&do
@@ -10,7 +10,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ëjwenaka-vomit
+ lex: dt1+wenaka-vomit
  stem: .ëj&wenaka.
  trans_en: vomit
  gloss: DETRZ&vomit
@@ -21,7 +21,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: serema-eat
+ lex: dt2+yerema
  stem: .s&erema.
  trans_en: eat
  gloss: DETRZ&feed
@@ -32,7 +32,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: sere-become.scared
+ lex: dt2+erepiscare
  stem: .s&ere.
  trans_en: become.scared
  gloss: DETRZ&scare
@@ -43,7 +43,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: sënka-finish
+ lex: dt2+enkafinish
  stem: .s&ënka.
  trans_en: finish
  gloss: DETRZ&finish
@@ -54,7 +54,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ëjnëmë-remain
+ lex: dt1+neme-leave
  stem: .ëj&nëmë.
  trans_en: remain
  gloss: DETRZ&leave
@@ -65,7 +65,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: tawaja-not.like.that
+ lex: tawara-too+janeg
  stem: .tawa&ja.
  trans_en: not.like.that
  gloss: too&NEG
@@ -75,7 +75,7 @@
  paradigm: adv
 
 -lexeme
- lex: sujta-urinate
+ lex: suku+tavbz
  stem: .suj&ta.
  trans_en: urinate
  gloss: urine&VBZ
@@ -86,7 +86,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: kaimota-hunt
+ lex: kaimo+tavbz
  stem: .kaimo&ta.
  trans_en: hunt
  gloss: game&VBZ
@@ -97,7 +97,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: pokono-because
+ lex: pekeon+anonmlz
  stem: .poko&no.
  trans_en: because
  gloss: on.surface&NMLZ
@@ -108,7 +108,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: enijpëtërë-one
+ lex: enijpetere-one
  stem: .enijpëtërë.
  trans_en: one
  gloss: one
@@ -118,7 +118,7 @@
  paradigm: adv
 
 -lexeme
- lex: ïmparëjra-long.time
+ lex: imparejra-long-time
  stem: .ïmparëjra.
  trans_en: long.time
  gloss: long.time
@@ -138,7 +138,7 @@
  paradigm: adv
 
 -lexeme
- lex: chi-COP
+ lex: chi-cop
  stem: .chi.|.ch.|.chij.
  trans_en: COP
  gloss: COP
@@ -148,7 +148,7 @@
  paradigm: cop
 
 -lexeme
- lex: perez-Pérez
+ lex: perez-perez
  stem: .perez.
  trans_en: Pérez
  gloss: Pérez
@@ -158,7 +158,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: pïjkë-DIM
+ lex: pijke-dim
  stem: .pïjkë.
  trans_en: DIM
  gloss: DIM
@@ -168,7 +168,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: rafa-Rafel
+ lex: rafa-rafel
  stem: .rafa.
  trans_en: Rafel
  gloss: Rafel
@@ -188,7 +188,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: taji-?
+ lex: taji
  stem: .taji.
  trans_en: ?
  gloss: ?
@@ -208,7 +208,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: kï-oh
+ lex: ki-oh
  stem: .kï.
  trans_en: oh
  gloss: oh
@@ -229,7 +229,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kaimo-game
+ lex: kaimo
  stem: .kaimo.
  trans_en: game
  gloss: game
@@ -251,7 +251,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: makë-mother
+ lex: make-mother
  stem: .makë.
  trans_en: mother
  gloss: mother
@@ -262,7 +262,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: maniki-?
+ lex: maniki
  stem: .maniki.
  trans_en: ?
  gloss: ?
@@ -273,7 +273,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: nwa-dance
+ lex: nwadance
  stem: .nwa.
  trans_en: dance
  gloss: dance
@@ -284,7 +284,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: oti-game.food
+ lex: oti-game-food
  stem: .oti.
  trans_en: game.food
  gloss: game.food
@@ -306,7 +306,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: suku-urine
+ lex: suku
  stem: .suku.|.suj.
  trans_en: urine
  gloss: urine
@@ -328,7 +328,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ëjka-right
+ lex: ejka-right
  stem: .ëjka.|.ënka.
  trans_en: right
  gloss: right
@@ -338,7 +338,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: pïnirë-nothing
+ lex: pinire-nothing
  stem: .pïnirë.
  trans_en: nothing
  gloss: nothing
@@ -358,7 +358,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: anïkï-who
+ lex: aniki-who
  stem: .anïkï.|.aniki.
  trans_en: who
  gloss: who
@@ -368,7 +368,7 @@
  paradigm: pro
 
 -lexeme
- lex: ne-INTS
+ lex: intsne
  stem: .ne.|.n.
  trans_en: INTS
  gloss: INTS
@@ -378,7 +378,7 @@
  paradigm: postp
 
 -lexeme
- lex: pana-DAT
+ lex: panadat
  stem: .pana.
  trans_en: DAT
  gloss: DAT
@@ -388,7 +388,7 @@
  paradigm: postp
 
 -lexeme
- lex: pano-deceased
+ lex: pano
  stem: .pano.|.pan.
  trans_en: deceased
  gloss: deceased
@@ -398,7 +398,7 @@
  paradigm: postp
 
 -lexeme
- lex: pe-ESS
+ lex: esspe
  stem: .pe.
  trans_en: ESS
  gloss: ESS
@@ -408,7 +408,7 @@
  paradigm: postp
 
 -lexeme
- lex: pëkë-on.surface
+ lex: pekeon
  stem: .pëkë.|.poko.
  trans_en: on.surface
  gloss: on.surface
@@ -418,7 +418,7 @@
  paradigm: postp
 
 -lexeme
- lex: pëkëpene-alone
+ lex: pekepene-alone
  stem: .pëkëpene.
  trans_en: alone
  gloss: alone
@@ -428,7 +428,7 @@
  paradigm: postp
 
 -lexeme
- lex: rë-EMP
+ lex: reemp
  stem: .rë.
  trans_en: EMP
  gloss: EMP
@@ -438,7 +438,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: ya-ERG
+ lex: yaerg
  stem: .ya.
  trans_en: ERG
  gloss: ERG
@@ -448,7 +448,7 @@
  paradigm: postp
 
 -lexeme
- lex: ya-OBL
+ lex: yaobl
  stem: .ya.
  trans_en: OBL
  gloss: OBL
@@ -458,7 +458,7 @@
  paradigm: postp
 
 -lexeme
- lex: yawë-LOC
+ lex: yaweloc
  stem: .yawë.|.awë.
  trans_en: LOC
  gloss: LOC
@@ -468,7 +468,7 @@
  paradigm: postp
 
 -lexeme
- lex: yaka-ALL
+ lex: yakaall
  stem: .yaka.
  trans_en: ALL
  gloss: ALL
@@ -478,7 +478,7 @@
  paradigm: postp
 
 -lexeme
- lex: mare-REL.INAN
+ lex: mare-rel-inan
  stem: .mare.
  trans_en: REL.INAN
  gloss: REL.INAN
@@ -488,7 +488,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: asamo-cry
+ lex: asamo
  stem: .asamo.
  trans_en: cry
  gloss: cry
@@ -499,7 +499,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: esene-see.self
+ lex: esene-see-self
  stem: .esene.|.sene.
  trans_en: see.self
  gloss: see.self
@@ -510,7 +510,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: këyata-grow.up
+ lex: keyata-grow-up
  stem: .këyata.|.këyeta.|.këyëta.
  trans_en: grow.up
  gloss: grow.up
@@ -521,7 +521,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: sepamï-marry
+ lex: sepami-marry
  stem: .sepamï.|.sepan.
  trans_en: marry
  gloss: marry
@@ -543,7 +543,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: enejka-watch
+ lex: enejka
  stem: .enejka.
  trans_en: watch
  gloss: watch
@@ -565,7 +565,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: këyama-create
+ lex: keyama-create
  stem: .këyama.
  trans_en: create
  gloss: create
@@ -576,7 +576,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: maijtë-go.IMP
+ lex: maijte-go-imp
  stem: .maijtë.
  trans_en: go.IMP
  gloss: go.IMP
@@ -608,7 +608,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yerema-feed
+ lex: yerema
  stem: .yerema.|.erema.
  trans_en: feed
  gloss: feed
@@ -619,7 +619,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: ma-RST
+ lex: marestr
  stem: .ma.
  trans_en: RST
  gloss: RST
@@ -629,7 +629,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: të-LOC
+ lex: teloc
  stem: .të.
  trans_en: LOC
  gloss: LOC
@@ -639,7 +639,7 @@
  paradigm: postp
 
 -lexeme
- lex: erepï-scare
+ lex: erepiscare
  stem: .erepï.|.erej.|.ere.
  trans_en: scare
  gloss: scare
@@ -650,7 +650,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: tojpa-hit
+ lex: tojpahit
  stem: .tojpa.
  trans_en: hit
  gloss: hit
@@ -661,7 +661,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: pojtë-want
+ lex: pojtewant
  stem: .pojtë.
  trans_en: want
  gloss: want
@@ -672,7 +672,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: weseyu-become mad
+ lex: weseyu
  stem: .weseyu.
  trans_en: become mad
  gloss: become.mad
@@ -683,7 +683,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: me-POL
+ lex: me-pol
  stem: .me.
  trans_en: POL
  gloss: POL
@@ -693,7 +693,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: yënka-finish
+ lex: enkafinish
  stem: .yënka.|.ënka.
  trans_en: finish
  gloss: finish
@@ -704,7 +704,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: senejka-remain
+ lex: senejkastay
  stem: .senejka.
  trans_en: remain
  gloss: remain
@@ -715,7 +715,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: nwajtë-dance
+ lex: nwajtedance
  stem: .nwajtë.
  trans_en: dance
  gloss: dance
@@ -726,7 +726,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ti-HSY
+ lex: ti-hsy
  stem: .ti.
  trans_en: HSY
  gloss: HSY
@@ -736,7 +736,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: wej-COP
+ lex: wej-cop
  stem: .wej.
  trans_en: COP
  gloss: COP
@@ -747,7 +747,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: irë-DEM
+ lex: ire-dem
  stem: .irë.
  trans_en: DEM
  gloss: DEM
@@ -757,7 +757,7 @@
  paradigm: pro
 
 -lexeme
- lex: marë-still
+ lex: mare-still
  stem: .marë.|.mare.
  trans_en: still
  gloss: still
@@ -767,7 +767,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: të-go
+ lex: te-go
  stem: .të.
  trans_en: go
  gloss: go
@@ -797,7 +797,7 @@
  paradigm: adv
 
 -lexeme
- lex: tawara-too; same
+ lex: tawara-too
  stem: .tawara.|.tawaraij.|.tawura.|.tawa.
  trans_en: too; same
  gloss: too
@@ -807,7 +807,7 @@
  paradigm: adv
 
 -lexeme
- lex: ïwïtï-house
+ lex: iwiti-house
  stem: .ïwïtï.|.ïwïj.
  trans_en: house
  gloss: house
@@ -851,7 +851,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: yajtë-begin
+ lex: yajte-begin
  stem: .yajtë.
  trans_en: begin
  gloss: begin
@@ -862,7 +862,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: makampra-older sister of mother
+ lex: makampra-older-sister-of-mother
  stem: .makampra.
  trans_en: older sister of mother
  gloss: older.sister.of.mother
@@ -873,7 +873,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: takï-CONF
+ lex: taki-conf
  stem: .takï.
  trans_en: CONF
  gloss: CONF
@@ -883,7 +883,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: akërë-with
+ lex: akere-with
  stem: .akërë.
  trans_en: with
  gloss: with
@@ -893,7 +893,7 @@
  paradigm: postp
 
 -lexeme
- lex: apëkë-that’s why
+ lex: apeke-thats-why
  stem: .apëkë.
  trans_en: that’s why
  gloss: that’s.why
@@ -903,7 +903,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: wëra-like
+ lex: wera-like
  stem: .wëra.|.wora.|.wara.
  trans_en: like
  gloss: like
@@ -923,7 +923,7 @@
  paradigm: postp
 
 -lexeme
- lex: ke-INS
+ lex: ke-ins
  stem: .ke.
  trans_en: INS
  gloss: INS
@@ -944,7 +944,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: po-LOC
+ lex: po-loc
  stem: .po.
  trans_en: LOC
  gloss: LOC
@@ -964,7 +964,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: tëwïjna-there.ANA
+ lex: tewijna-there-ana
  stem: .tëwïjna.
  trans_en: there.ANA
  gloss: there.ANA
@@ -985,7 +985,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: awata-SURP
+ lex: awata-surp
  stem: .awata.
  trans_en: SURP
  gloss: SURP
@@ -1006,7 +1006,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ë'ë-yes
+ lex: e-e-yes
  stem: .ë'ë.
  trans_en: yes
  gloss: yes
@@ -1038,7 +1038,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ana-1+3PRO
+ lex: ana-1-3pro
  stem: .ana.
  trans_en: 1+3PRO
  gloss: 1+3PRO
@@ -1081,7 +1081,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ejnë-1+2PRO
+ lex: ejne-1-2pro
  stem: .ejnë.
  trans_en: 1+2PRO
  gloss: 1+2PRO
@@ -1091,7 +1091,7 @@
  paradigm: pro
 
 -lexeme
- lex: eni-PROX.INAN
+ lex: eni-prox-inan
  stem: .eni.|.seni.
  trans_en: PROX.INAN
  gloss: PROX.INAN
@@ -1101,7 +1101,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: enijne-PROX.INAN.PL
+ lex: enijne-prox-inan-pl
  stem: .enijne.
  trans_en: PROX.INAN.PL
  gloss: PROX.INAN.PL
@@ -1111,7 +1111,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: entë-here.LOC
+ lex: ente-here-loc
  stem: .entë.
  trans_en: here.LOC
  gloss: here.LOC
@@ -1132,7 +1132,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: intipijkë-small
+ lex: intipijke-small
  stem: .intipijkë.
  trans_en: small
  gloss: small
@@ -1142,7 +1142,7 @@
  paradigm: adv
 
 -lexeme
- lex: irëjpë-then
+ lex: irejpe-then
  stem: .irëjpë.
  trans_en: then
  gloss: then
@@ -1163,7 +1163,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: ka-Q
+ lex: ka-q
  stem: .ka.
  trans_en: Q
  gloss: Q
@@ -1173,7 +1173,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: ka-take.out
+ lex: ka-take-out
  stem: .ka.
  trans_en: take.out
  gloss: take.out
@@ -1184,7 +1184,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: kawë-high
+ lex: kawe-high
  stem: .kawë.
  trans_en: high
  gloss: high
@@ -1205,7 +1205,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: këjma-hunt
+ lex: kejma-hunt
  stem: .këjma.
  trans_en: hunt
  gloss: hunt
@@ -1216,7 +1216,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: kërë-PROX.ANIM
+ lex: kere-prox-anim
  stem: .kërë.
  trans_en: PROX.ANIM
  gloss: PROX.ANIM
@@ -1226,7 +1226,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: kërësantomo-PROX.ANIM.PL
+ lex: keresantomo-prox-anim-pl
  stem: .kërësantomo.
  trans_en: PROX.ANIM.PL
  gloss: PROX.ANIM.PL
@@ -1236,7 +1236,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: kïmïy-chili
+ lex: kimiy-chili
  stem: .kïmïy.|.kïmïi.
  trans_en: chili
  gloss: chili
@@ -1247,7 +1247,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: michisantomo-MED.INAN.PL
+ lex: michisantomo-med-inan-pl
  stem: .michisantomo.
  trans_en: MED.INAN.PL
  gloss: MED.INAN.PL
@@ -1257,7 +1257,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: michitomo-MED.INAN.PL
+ lex: michitomo-med-inan-pl
  stem: .michitomo.
  trans_en: MED.INAN.PL
  gloss: MED.INAN.PL
@@ -1267,7 +1267,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: michi-MED.ANIM
+ lex: michi-med-anim
  stem: .michi.
  trans_en: MED.ANIM
  gloss: MED.ANIM
@@ -1277,7 +1277,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: misi-MED.INAN
+ lex: misi-med-inan
  stem: .misi.
  trans_en: MED.INAN
  gloss: MED.INAN
@@ -1287,7 +1287,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: monkontomo-2PL.PRO
+ lex: monkontomo-2pl-pro
  stem: .monkontomo.|.mokontomo.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
@@ -1328,7 +1328,7 @@
  paradigm: adv
 
 -lexeme
- lex: mëjkï-DIST.ANIM
+ lex: mejki-dist-anim
  stem: .mëjkï.|.mëkï.
  trans_en: DIST.ANIM
  gloss: DIST.ANIM
@@ -1338,7 +1338,7 @@
  paradigm: pro
 
 -lexeme
- lex: mëjnijne-DIST.INAN.PL
+ lex: mejnijne-dist-inan-pl
  stem: .mëjnijne.
  trans_en: DIST.INAN.PL
  gloss: DIST.INAN.PL
@@ -1348,7 +1348,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: mëjnï-DIST.INAN
+ lex: mejni-dist-inan
  stem: .mëjnï.
  trans_en: DIST.INAN
  gloss: DIST.INAN
@@ -1358,7 +1358,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: mëkïsantomo-DIST.ANIM.PL
+ lex: mekisantomo-dist-anim-pl
  stem: .mëkïsantomo.|.mejkïsantomo.
  trans_en: DIST.ANIM.PL
  gloss: DIST.ANIM.PL
@@ -1368,7 +1368,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: mërë-2PRO
+ lex: mere-2pro
  stem: .mërë.
  trans_en: 2PRO
  gloss: 2PRO
@@ -1378,7 +1378,7 @@
  paradigm: pro
 
 -lexeme
- lex: mërë-MED.INAN
+ lex: mere-med-inan
  stem: .mërë.
  trans_en: MED.INAN
  gloss: MED.INAN
@@ -1388,7 +1388,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: mïjna-there.ALL
+ lex: mijna-there-all
  stem: .mïjna.
  trans_en: there.ALL
  gloss: there.ALL
@@ -1398,7 +1398,7 @@
  paradigm: adv
 
 -lexeme
- lex: mïntë-there.LOC
+ lex: minte-there-loc
  stem: .mïntë.|.mintë.
  trans_en: there.LOC
  gloss: there.LOC
@@ -1419,7 +1419,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: najpï-grandfather
+ lex: najpi-grandfather
  stem: .najpï.
  trans_en: grandfather
  gloss: grandfather
@@ -1430,7 +1430,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: nepï-bring
+ lex: nepi-bring
  stem: .nepï.
  trans_en: bring
  gloss: bring
@@ -1462,7 +1462,7 @@
  paradigm: adv
 
 -lexeme
- lex: noti-potential.partner
+ lex: noti-potential-partner
  stem: .noti.
  trans_en: potential.partner
  gloss: potential.partner
@@ -1473,7 +1473,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: nëmë-leave
+ lex: neme-leave
  stem: .nëmë.
  trans_en: leave
  gloss: leave
@@ -1484,7 +1484,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: okï-chicha
+ lex: oki-chicha
  stem: .okï.
  trans_en: chicha
  gloss: chicha
@@ -1506,7 +1506,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pachi-older.sister.of.woman
+ lex: pachi-older-sister-of-woman
  stem: .pachi.
  trans_en: older.sister.of.woman
  gloss: older.sister.of.woman
@@ -1517,7 +1517,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pakuri-arrow.tip
+ lex: pakuri-arrow-tip
  stem: .pakuri.
  trans_en: arrow.tip
  gloss: arrow.tip
@@ -1561,7 +1561,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pinchi-HES
+ lex: pinchi-hes
  stem: .pinchi.
  trans_en: HES
  gloss: HES
@@ -1571,7 +1571,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: pipi-younger.brother.of.woman
+ lex: pipi-younger-brother-of-woman
  stem: .pipi.
  trans_en: younger.brother.of.woman
  gloss: younger.brother.of.woman
@@ -1592,7 +1592,7 @@
  paradigm: postp
 
 -lexeme
- lex: sakara-hoplias.malabaricus
+ lex: sakara-hoplias-malabaricus
  stem: .sakara.
  trans_en: hoplias.malabaricus
  gloss: hoplias.malabaricus
@@ -1603,7 +1603,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: sere-bitter.manioc
+ lex: sere-bitter-manioc
  stem: .sere.
  trans_en: bitter.manioc
  gloss: bitter.manioc
@@ -1635,7 +1635,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: sëma-die
+ lex: sema-die
  stem: .sëma.
  trans_en: die
  gloss: die
@@ -1689,7 +1689,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: toto-non-Indian
+ lex: toto-non-indian
  stem: .toto.
  trans_en: non-Indian
  gloss: non-Indian
@@ -1711,7 +1711,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: tunamï-hide
+ lex: tunami-hide
  stem: .tunamï.|.tunam.
  trans_en: hide
  gloss: hide
@@ -1733,7 +1733,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: tëijpo-far
+ lex: teijpo-far
  stem: .tëijpo.|.tëijpë.
  trans_en: far
  gloss: far
@@ -1743,7 +1743,7 @@
  paradigm: adv
 
 -lexeme
- lex: tëjta-hollow
+ lex: tejta-hollow
  stem: .tëjta.
  trans_en: hollow
  gloss: hollow
@@ -1754,7 +1754,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: tëwï-3PRO
+ lex: tewi-3pro
  stem: .tëwï.
  trans_en: 3PRO
  gloss: 3PRO
@@ -1764,7 +1764,7 @@
  paradigm: pro
 
 -lexeme
- lex: tëwïsantomo-3PRO.PL
+ lex: tewisantomo-3pro-pl
  stem: .tëwïsantomo.
  trans_en: 3PRO.PL
  gloss: 3PRO.PL
@@ -1785,7 +1785,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: waijtë-head
+ lex: waijte-head
  stem: .waijtë.
  trans_en: head
  gloss: head
@@ -1796,7 +1796,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wajyakï-happy
+ lex: wajyaki-happy
  stem: .wajyakï.
  trans_en: happy
  gloss: happy
@@ -1807,7 +1807,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wajyakï-be.happy
+ lex: wajyaki-be-happy
  stem: .wajyakï.
  trans_en: be.happy
  gloss: be.happy
@@ -1818,7 +1818,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: wajyakïtï-very.happy
+ lex: wajyakiti-very-happy
  stem: .wajyakïtï.
  trans_en: very.happy
  gloss: very.happy
@@ -1862,7 +1862,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: warë-thus
+ lex: ware-thus
  stem: .warë.|.enwarë.|.nwarë.|.nwa.|.wa.
  trans_en: thus
  gloss: thus
@@ -1872,7 +1872,7 @@
  paradigm: adv
 
 -lexeme
- lex: wasayi-attalea.maripa
+ lex: wasayi-attalea-maripa
  stem: .wasayi.|.wasai.
  trans_en: attalea.maripa
  gloss: attalea.maripa
@@ -1894,7 +1894,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: wepï-come
+ lex: wepi-come
  stem: .wepï.|.wej.
  trans_en: come
  gloss: come
@@ -1927,7 +1927,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wïrë-1PRO
+ lex: wire-1pro
  stem: .wïrë.|.urë.
  trans_en: 1PRO
  gloss: 1PRO
@@ -1948,7 +1948,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yakono-younger.sister.of.woman
+ lex: yakono-younger-sister-of-woman
  stem: .yakono.
  trans_en: younger.sister.of.woman
  gloss: younger.sister.of.woman
@@ -1970,7 +1970,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: yanë-mother
+ lex: yane-mother
  stem: .yanë.
  trans_en: mother
  gloss: mother
@@ -2014,7 +2014,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yeme-eat.(fruits,.eggs,.soup)
+ lex: yeme-eat-fruits-eggs-soup
  stem: .yeme.
  trans_en: eat.(fruits,.eggs,.soup)
  gloss: eat.(fruits,.eggs,.soup)
@@ -2025,7 +2025,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yojtë-fish.with.hook
+ lex: yojte-fish-with-hook
  stem: .yojtë.
  trans_en: fish.with.hook
  gloss: fish.with.hook
@@ -2036,7 +2036,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yokï-eat.(starch)
+ lex: yoki-eat-starch
  stem: .yokï.
  trans_en: eat.(starch)
  gloss: eat.(starch)
@@ -2058,7 +2058,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: yë-tooth
+ lex: ye-tooth
  stem: .yë.
  trans_en: tooth
  gloss: tooth
@@ -2069,7 +2069,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: yëni-drink
+ lex: yeni-drink
  stem: .yëni.|.yeni.
  trans_en: drink
  gloss: drink
@@ -2080,7 +2080,7 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yëye-tree
+ lex: yeye-tree
  stem: .yëye.
  trans_en: tree
  gloss: tree
@@ -2091,7 +2091,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ëjpïna-often
+ lex: ejpina-often
  stem: .ëjpïna.
  trans_en: often
  gloss: often
@@ -2101,7 +2101,7 @@
  paradigm: adv
 
 -lexeme
- lex: ëjtë-house
+ lex: ejte-house
  stem: .ëjtë.
  trans_en: house
  gloss: house
@@ -2112,7 +2112,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ëjwatë-hammock
+ lex: ejwate-hammock
  stem: .ëjwatë.
  trans_en: hammock
  gloss: hammock
@@ -2123,7 +2123,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ëmpare-already
+ lex: empare-already
  stem: .ëmpare.|.umparë.
  trans_en: already
  gloss: already
@@ -2133,7 +2133,7 @@
  paradigm: adv
 
 -lexeme
- lex: ëtïpa-go.in.group
+ lex: etipa-go-in-group
  stem: .ëtïpa.|.tïpa.|.tipa.
  trans_en: go.in.group
  gloss: go.in.group
@@ -2144,7 +2144,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ëni-drink
+ lex: eni-drink
  stem: .ëni.|.ën.
  trans_en: drink
  gloss: drink
@@ -2166,7 +2166,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kërëjpë-old
+ lex: 02c99f34-5b27-4ff8-819a-dc4a34dca14e
  stem: .kërëjpë.
  trans_en: old
  gloss: old
@@ -2177,7 +2177,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: tawani-darkness
+ lex: 041cd4a0-4dca-4c25-8f2f-ebceb2633143
  stem: .tawani.
  trans_en: darkness
  gloss: darkness
@@ -2188,7 +2188,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ëkëtë-where
+ lex: 07bd51f6-fb85-483e-b0cf-b27e244f61b4
  stem: .ëkëtë.
  trans_en: where
  gloss: where
@@ -2198,7 +2198,7 @@
  paradigm: adv
 
 -lexeme
- lex: neke-CONTRAST
+ lex: 36d6a83f-058a-449a-987f-1cd71d8d37cc
  stem: .neke.
  trans_en: CONTRAST
  gloss: CONTRAST
@@ -2208,7 +2208,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: ëkï-manioc.beer
+ lex: 58bf6d86-1230-4458-997c-15f94ad6fbd6
  stem: .ëkï.
  trans_en: manioc.beer
  gloss: manioc.beer
@@ -2219,7 +2219,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: përemekï-talk
+ lex: 5a18649c-d742-45d3-975d-e9618da883bd
  stem: .përemekï.|.përëmej.|.përemej.|.peremekï.|.peremej.|.ëpëremekï.|.poremekï.
  trans_en: talk
  gloss: talk
@@ -2230,7 +2230,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: kwase-how; why
+ lex: 5e07b708-79a9-4b84-8bb2-8d90daf937b3
  stem: .kwase.|.kwajse.
  trans_en: how; why
  gloss: how
@@ -2240,7 +2240,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: kë-ouch
+ lex: 5fc2465b-ffb2-41f9-b168-18f867a83353
  stem: .kë.
  trans_en: ouch
  gloss: ouch
@@ -2250,7 +2250,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: yatunë-sun; day
+ lex: 763cd0a8-2338-47f6-be83-51c37991b129
  stem: .yatunë.|.yatun.|.yatum.
  trans_en: sun; day
  gloss: sun
@@ -2261,7 +2261,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wena-vomit
+ lex: 79766ee2-3962-4bcd-ae1b-bcc332d75e88
  stem: .wena.
  trans_en: vomit
  gloss: vomit
@@ -2272,7 +2272,7 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kantajnë-sing
+ lex: 93b0a595-e7b7-413e-a88b-9ca8d868dddd
  stem: .kantajnë.
  trans_en: sing
  gloss: sing
@@ -2283,7 +2283,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: pïnika-PROB
+ lex: 97376aaf-48ae-4848-b0b5-80e15dcc0f64
  stem: .pïnika.|.pïnïka.
  trans_en: PROB
  gloss: PROB
@@ -2293,7 +2293,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: parë-and; too
+ lex: a6194807-28a2-45e2-a45f-e335729278fb
  stem: .parë.
  trans_en: and; too
  gloss: and
@@ -2303,7 +2303,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: ëkëjna-where.to
+ lex: a992b4b6-c478-4e4b-9814-670e19682543
  stem: .ëkëjna.
  trans_en: where.to
  gloss: where.to
@@ -2313,7 +2313,7 @@
  paradigm: adv
 
 -lexeme
- lex: soj-ID:dabble
+ lex: b88eb9d8-3039-47c5-b822-a13e422aeb48
  stem: .soj.
  trans_en: ID:dabble
  gloss: ID:dabble
@@ -2323,7 +2323,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: pïrarë-nothing
+ lex: b97a0ed7-7ceb-4cab-83d8-5b30b45d9a59
  stem: .pïrarë.
  trans_en: nothing
  gloss: nothing
@@ -2333,7 +2333,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: womï-enter
+ lex: bcfb197f-800e-48bd-8ec6-664e658aff04
  stem: .womï.|.won.|.wom.
  trans_en: enter
  gloss: enter
@@ -2344,7 +2344,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ënuku-go.up
+ lex: dc33b380-8376-4775-83e2-46bcef401199
  stem: .ënuku.|.ënuj.
  trans_en: go.up
  gloss: go.up
@@ -2355,7 +2355,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: tawejka-to.daylight
+ lex: efec7abd-f480-462a-9648-e2434e3bee0d
  stem: .tawejka.
  trans_en: to.daylight
  gloss: to.daylight
@@ -2366,7 +2366,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: sa-EVAL
+ lex: f3e78ed2-7584-444f-9487-84e46b62362b
  stem: .sa.
  trans_en: EVAL
  gloss: EVAL
@@ -2376,7 +2376,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: wïnïkï-sleep
+ lex: f90c63ed-bd4c-43b7-b9f9-2709d3ff0ddd
  stem: .wïnïkï.|.wïnïj.
  trans_en: sleep
  gloss: sleep
@@ -2387,7 +2387,7 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ewenke-not.know
+ lex: fa238937-9392-4a63-8142-4c56dd4a5c99
  stem: .ewenke.
  trans_en: not.know
  gloss: not.know
@@ -2405,7 +2405,7 @@
  paradigm: pro
 
 -lexeme
- lex: kajkë
+ lex: kaj-say
  stem: kaj&kë.
  trans_en: say it!
  gloss: say&IMP
@@ -2413,7 +2413,7 @@
  paradigm: uninfl
 
 -lexeme
- lex: ïmï
+ lex: ïmï-father
  stem: y&ïmï.
  gloss: LK&father
  id: ylk,imifather

@@ -13,7 +13,7 @@
     },
     {
         "wf": "tajne",
-        "lemma": "ta"
+        "lemma": "taro-say"
     },
     {
         "wf": "kajkë",

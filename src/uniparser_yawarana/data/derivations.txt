@@ -1,13 +1,13 @@
 -deriv-type: V-ri
- lex: <1>[.]ri
+ lex: <1>[.]+rinmlz
  stem: <.>[.]ri//<.>[.]0
  paradigm: noun
  gramm: n,nmlz
- gloss: ACT.NMLZ
+ gloss: ACNNMLZ
  id: rinmlz
 
 -deriv-type: V-septcp
- lex: <1>[.]se
+ lex: <1>[.]+septcp
  stem: [.]se<.>//[.]che<.>
  paradigm: adv
  gramm: adv
@@ -15,7 +15,7 @@
  id: septcp
 
 -deriv-type: V-sesup
- lex: <1>[.]se
+ lex: <1>[.]+septcp
  stem: [.]se<.>//[.]che<.>
  paradigm: adv
  gramm: adv
@@ -23,7 +23,7 @@
  id: septcp
 
 -deriv-type: V-jpë
- lex: <1>[.]jpë
+ lex: <1>[.]+jpenmlz
  stem: [.]jpë<.>
  paradigm: noun
  gramm: n
@@ -31,7 +31,7 @@
  id: jpenmlz
 
 -deriv-type: V-sape
- lex: <1>[.]sapë
+ lex: <1>[.]+sapenmlz
  stem: <.>[.]sapë//<.>[.]saj
  paradigm: noun
  gramm: n
@@ -41,7 +41,7 @@
 
 
 -deriv-type: V-inf
- lex: <1>[.]në
+ lex: <1>[.]+neinf
  stem: <.>[.]në
  paradigm: noun
  gramm: n
@@ -49,7 +49,7 @@
  id: neinf
 
 -deriv-type: V-topo
- lex: <1>[.]topo
+ lex: <1>[.]+toponmlz
  stem: <.>[.]topo//<.>[.]toj
  paradigm: noun
  gramm: n
@@ -57,7 +57,7 @@
  id: toponmlz
 
 -deriv-type: V-ni
- lex: <1>[.]ni
+ lex: <1>[.]+ninmlz
  stem: <.>[.]ni
  paradigm: noun
  gramm: n
@@ -68,7 +68,7 @@
 
 
 -deriv-type: V-tojpe
- lex: <1>[.]tojpe
+ lex: <1>[.]+tojpepurp
  stem: [.]tojpe<.>
  paradigm: adv
  gramm: adv
@@ -76,7 +76,7 @@
  id: tojpepurp
 
 -deriv-type: V-tane
- lex: <1>[.]tane
+ lex: <1>[.]+tanecncs
  stem: [.]tane<.>
  paradigm: adv
  gramm: adv,cncs
@@ -84,7 +84,7 @@
  id: tanecncs
 
 -deriv-type: V-pe
- lex: <1>[.]pe
+ lex: <1>[.]+peess
  stem: <.>[.]pe
  paradigm: adv
  gramm: adv,ess
@@ -94,7 +94,7 @@
 
 
 -deriv-type: A-mi
- lex: <1>[.]mï
+ lex: <1>[.]+minmlz
  stem: [.]mï<.>
  paradigm: noun
  gramm: n
@@ -102,7 +102,7 @@
  id: minmlz
 
 -deriv-type: A-ano
- lex: <1>[.]no
+ lex: <1>[.]+anonmlz
  stem: [.]no<.>
  paradigm: noun
  gramm: n
