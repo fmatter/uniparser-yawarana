@@ -1,8 +1,7 @@
 -deriv-type: V-ri
  lex: [.]+rinmlz
- stem: <.>[.]ri//<.>[.]0
+ stem: [.]ri<.>//[.]0<.>
  paradigm: noun
- gramm: n,nmlz
  gloss: ACNNMLZ
  id: rinmlz
 
@@ -60,7 +59,7 @@
  stem: <.>[.]ni
  paradigm: noun
  gramm: n
- gloss: AGT.NMLZ
+ gloss: AGTNMLZ
  id: ninmlz
 
 -deriv-type: V-semi
@@ -88,7 +87,7 @@
  gloss: CNCS
  id: tanecncs
 
--deriv-type: V-pe
+-deriv-type: N-pe
  lex: [.]+peess
  stem: <.>[.]pe
  paradigm: adv

@@ -1132,6 +1132,16 @@
  paradigm: adv
 
 -lexeme
+ lex: enire-today
+ stem: .enirë.
+ trans_en: today
+ gloss: today
+ gramm: adv
+ id: enire-today
+ std: enirë
+ paradigm: adv
+
+-lexeme
  lex: ini-see
  stem: .ini.|.yini.|.in.
  trans_en: see
@@ -1768,8 +1778,8 @@
 -lexeme
  lex: toto-non-indian
  stem: .toto.
- trans_en: non-Indian
- gloss: non-Indian
+ trans_en: non.Indian
+ gloss: non.Indian
  gramm: n
  id: toto-non-indian
  std: toto

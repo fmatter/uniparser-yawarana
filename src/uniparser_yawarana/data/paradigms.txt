@@ -73,10 +73,6 @@
   gramm: pst
   gloss: PST
   id: jpepst
- -flex: .pe
-  gramm: ess
-  gloss: ESS
-  id: peess
  -flex: .
   gramm:
 
@@ -95,6 +91,7 @@
 -paradigm: n_deriv
  -flex: .<.>
   gramm:
+ deriv-link: N-pe
 
 -paradigm: adv_deriv
  -flex: .<.>
@@ -103,7 +100,6 @@
 -paradigm: v_intr_nmlz
  -flex: .<.>
   gramm:
- deriv-link: V-pe
  deriv-link: V-topo
  deriv-link: V-tojpe
  deriv-link: V-ri
@@ -114,11 +110,11 @@
  deriv-link: V-sape
  deriv-link: V-tane
  deriv-link: V-jpë
+ deriv-link: N-pe
 
 -paradigm: v_tr_nmlz
  -flex: .<.>
   gramm:
- deriv-link: V-pe
  deriv-link: V-ri
  deriv-link: V-tojpe
  deriv-link: V-septcp
@@ -128,6 +124,7 @@
  deriv-link: V-sape
  deriv-link: V-tane
  deriv-link: V-jpë
+ deriv-link: N-pe
 
 -paradigm: v_tr
  -flex: .<.>
