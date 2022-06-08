@@ -69,7 +69,7 @@
  paradigm: noun
  gramm: n
  gloss: PTCP|NMLZ
- id: septcp
+ id: septcp,minmlz
 
 
 -deriv-type: V-tojpe

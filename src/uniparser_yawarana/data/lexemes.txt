@@ -1205,6 +1205,17 @@
  paradigm: adv
 
 -lexeme
+ lex: kojpa-night
+ stem: .kojpa.
+ trans_en: night
+ gloss: night
+ gramm: n
+ id: kojpa-night
+ std: kojpa
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: konopo-rain
  stem: .konopo.
  trans_en: rain
@@ -1316,6 +1327,28 @@
  id: morone-hurting
  std: morone
  paradigm: adv
+
+-lexeme
+ lex: moyochi-spider-sp
+ stem: .moyochi.
+ trans_en: spider.(sp.)
+ gloss: spider.(sp.)
+ gramm: n
+ id: moyochi-spider-sp
+ std: moyochi
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: mujyane-pregnancy
+ stem: .mujyanë.|.mujyam.
+ trans_en: pregnancy
+ gloss: pregnancy
+ gramm: n
+ id: mujyane-pregnancy
+ std: mujyanë
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: muku-child
@@ -1539,6 +1572,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pana-ear
+ stem: .pana.
+ trans_en: ear
+ gloss: ear
+ gramm: n
+ id: pana-ear
+ std: pana
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: papa-father
  stem: .papa.
  trans_en: father
@@ -1568,6 +1612,28 @@
  gramm: n
  id: pata-village
  std: pata
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pataka-come-out
+ stem: .pataka.
+ trans_en: come.out
+ gloss: come.out
+ gramm: vt
+ id: pataka-come-out
+ std: pataka
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: peti-leg
+ stem: .peti.
+ trans_en: leg
+ gloss: leg
+ gramm: n
+ id: peti-leg
+ std: peti
  paradigm: noun
  paradigm: n_deriv
 
@@ -1852,7 +1918,7 @@
 
 -lexeme
  lex: waraijtokomo-man
- stem: .waraijtokomo.
+ stem: .waraijtokomo.|.waraijtokom.
  trans_en: man
  gloss: man
  gramm: n
@@ -1936,6 +2002,17 @@
  std: wiriyamo
  paradigm: noun
  paradigm: n_deriv
+
+-lexeme
+ lex: wejka-fall
+ stem: .wëjka.|.wojka.
+ trans_en: fall
+ gloss: fall
+ gramm: vi
+ id: wejka-fall
+ std: wëjka
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: wire-1pro
@@ -2025,6 +2102,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: yatane-adolescent
+ stem: .yatanë.|.yatam.|.yatan.
+ trans_en: adolescent
+ gloss: adolescent
+ gramm: n
+ id: yatane-adolescent
+ std: yatanë
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: yawanka-kill
  stem: .yawanka.
  trans_en: kill
@@ -2098,6 +2186,17 @@
  gramm: vt
  id: yeni-drink
  std: yëni
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yene-eat-meat
+ stem: .yënë.
+ trans_en: eat.(meat)
+ gloss: eat.(meat)
+ gramm: vt
+ id: yene-eat-meat
+ std: yënë
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
