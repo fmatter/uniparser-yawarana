@@ -1048,6 +1048,17 @@
  paradigm: pro
 
 -lexeme
+ lex: apataka-come-out
+ stem: .apataka.
+ trans_en: come.out
+ gloss: come.out
+ gramm: vi
+ id: apataka-come-out
+ std: apataka
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: aroma-limpet
  stem: .aroma.
  trans_en: limpet

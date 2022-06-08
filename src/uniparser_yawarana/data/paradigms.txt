@@ -109,6 +109,7 @@
  deriv-link: V-ri
  deriv-link: V-septcp
  deriv-link: V-sesup
+ deriv-link: V-semi
  deriv-link: V-inf
  deriv-link: V-sape
  deriv-link: V-tane
@@ -122,6 +123,7 @@
  deriv-link: V-tojpe
  deriv-link: V-septcp
  deriv-link: V-sesup
+ deriv-link: V-semi
  deriv-link: V-ni
  deriv-link: V-sape
  deriv-link: V-tane

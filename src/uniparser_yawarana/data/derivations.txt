@@ -39,7 +39,6 @@
  id: sapenmlz
 
 
-
 -deriv-type: V-inf
  lex: [.]+neinf
  stem: <.>[.]në
@@ -64,7 +63,13 @@
  gloss: AGT.NMLZ
  id: ninmlz
 
-
+-deriv-type: V-semi
+ lex: [.]+septcp+minmlz
+ stem: [.]se|mï<.>//[.]che|mï<.>
+ paradigm: noun
+ gramm: n
+ gloss: PTCP|NMLZ
+ id: septcp
 
 
 -deriv-type: V-tojpe
@@ -92,7 +97,6 @@
  id: peess
 
 
-
 -deriv-type: A-mi
  lex: [.]+minmlz
  stem: [.]mï<.>
@@ -108,7 +112,3 @@
  gramm: n
  gloss: NMLZ
  id: anonmlz
-
-
-
-

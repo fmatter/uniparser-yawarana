@@ -8,7 +8,7 @@ try:
 except ImportError:  # pragma: no cover
     from importlib_resources import files  # pragma: no cover
 
-logging.getLogger(__name__).addHandler(logging.NullHandler())
+log = logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 __author__ = "Florian Matter"
 __email__ = "florianmatter@gmail.com"
@@ -25,19 +25,6 @@ class YawaranaAnalyzer(Analyzer):
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
         self.load_grammar()
-
-    # def del_seg(self, analyses):
-    #     return analyses
-    #     pruned_analyses = []
-    #     for analysis in analyses:
-    #         if (
-    #             analysis.wf in self.bad_segmentations
-    #             and analysis.wfGlossed in self.bad_segmentations[analysis.wf]
-    #         ):
-    #             pass
-    #         else:
-    #             pruned_analyses.append(analysis)
-    #     return pruned_analyses
 
     def analyze_words(
         self, words, cgFile="", format=None, disambiguate=True  # noqa: N803
