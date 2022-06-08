@@ -2427,7 +2427,7 @@
  lex: ïmï-father
  stem: y&ïmï.
  gloss: LK&father
- id: ylk,imifather
+ id: ylk,imi-father
  gramm: n,lk
  paradigm: uninfl
  trans_en: my father
