@@ -189,6 +189,10 @@
   gramm: prog
   gloss: PROG
   id: pekeprog
+ -flex: .ja
+  gloss: NEG
+  gramm: neg
+  id: janeg
  -flex: .po<.>
   gramm: des
   gloss: DES
@@ -219,10 +223,6 @@
   gloss: NEG
   gramm: neg
   id: jraneg
- -flex: .ja
-  gloss: NEG
-  gramm: neg
-  id: janeg
  -flex: .jnari
   gloss: NEG
   gramm: neg

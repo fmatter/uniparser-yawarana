@@ -32,23 +32,23 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: dt2+erepiscare
+ lex: dt2+erepi-scare
  stem: .s&ere.
  trans_en: become.scared
  gloss: DETRZ&scare
  gramm: vi
- id: dt2,erepiscare
+ id: dt2,erepi-scare
  std: sere
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: dt2+enkafinish
+ lex: dt2+enka-finish
  stem: .s&ënka.
  trans_en: finish
  gloss: DETRZ&finish
  gramm: vi
- id: dt2,enkafinish
+ id: dt2,enka-finish
  std: sënka
  paradigm: v_intr
  paradigm: v_intr_nmlz
@@ -660,34 +660,34 @@
  paradigm: postp
 
 -lexeme
- lex: erepiscare
+ lex: erepi-scare
  stem: .erepï.|.erej.|.ere.
  trans_en: scare
  gloss: scare
  gramm: vt
- id: erepiscare
+ id: erepi-scare
  std: erepï
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: tojpahit
+ lex: tojpa-hit
  stem: .tojpa.
  trans_en: hit
  gloss: hit
  gramm: vt
- id: tojpahit
+ id: tojpa-hit
  std: tojpa
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: pojtewant
+ lex: pojte-want
  stem: .pojtë.
  trans_en: want
  gloss: want
  gramm: vt
- id: pojtewant
+ id: pojte-want
  std: pojtë
  paradigm: v_tr
  paradigm: v_tr_nmlz
@@ -714,34 +714,34 @@
  paradigm: uninfl
 
 -lexeme
- lex: enkafinish
+ lex: enka-finish
  stem: .yënka.|.ënka.
  trans_en: finish
  gloss: finish
  gramm: vt
- id: enkafinish
+ id: enka-finish
  std: yënka
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: senejkastay
+ lex: senejka-stay
  stem: .senejka.
  trans_en: remain
  gloss: remain
  gramm: vi
- id: senejkastay
+ id: senejka-stay
  std: senejka
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: nwajtedance
+ lex: nwajte-dance
  stem: .nwajtë.
  trans_en: dance
  gloss: dance
  gramm: vi,vt
- id: nwajtedance
+ id: nwajte-dance
  std: nwajtë
  paradigm: v_intr
  paradigm: v_intr_nmlz
@@ -1080,6 +1080,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: apuni-soap
+ stem: .apuni.
+ trans_en: soap
+ gloss: soap
+ gramm: n
+ id: apuni-soap
+ std: apuni
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: aroma-limpet
  stem: .aroma.
  trans_en: limpet
@@ -1247,6 +1258,17 @@
  paradigm: adv
 
 -lexeme
+ lex: kejkepe-salamander
+ stem: .kejkepe.
+ trans_en: salamander
+ gloss: salamander
+ gramm: n
+ id: kejkepe-salamander
+ std: kejkepe
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: kojpa-night
  stem: .kojpa.
  trans_en: night
@@ -1369,6 +1391,17 @@
  id: morone-hurting
  std: morone
  paradigm: adv
+
+-lexeme
+ lex: moroni-pain
+ stem: .moroni.
+ trans_en: pain
+ gloss: pain
+ gramm: n
+ id: moroni-pain
+ std: moroni
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: moyochi-spider-sp
@@ -1603,6 +1636,28 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pakara-basket
+ stem: .pakara.
+ trans_en: basket
+ gloss: basket
+ gramm: n
+ id: pakara-basket
+ std: pakara
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pakura-coix-lacryma-jobi
+ stem: .pakura.
+ trans_en: Coix.lacryma.jobi
+ gloss: Coix.lacryma.jobi
+ gramm: n
+ id: pakura-coix-lacryma-jobi
+ std: pakura
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: pakuri-arrow-tip
  stem: .pakuri.
  trans_en: arrow.tip
@@ -1785,16 +1840,6 @@
  std: taro
  paradigm: v_tr
  paradigm: v_tr_nmlz
-
--lexeme
- lex: tejpore-tasty
- stem: .tejpore.
- trans_en: tasty
- gloss: tasty
- gramm: adv
- id: tejpore-tasty
- std: tejpore
- paradigm: adv
 
 -lexeme
  lex: tejwetunu-sick

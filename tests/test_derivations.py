@@ -1,7 +1,3 @@
-def parse_1(str, parser):
-    return parser.analyze_words(str)[0]
-
-
 def eliminate_analysis(anas, bad_glosses):
     for ana in anas:
         for gloss in bad_glosses:
@@ -67,12 +63,19 @@ def test_ptcp(parser):
 def test_sapë(parser):
     run_polysemy_test(forms=[("asamosapë", {"PFV": "vi", "NMLZ": "n"})], parser=parser)
 
+
 def test_jpë(parser):
     forms = [("tujpë", {"PST": "vt", "NMLZ": "n"})]
     run_polysemy_test(forms, parser)
 
+
 def test_unamb_derivs(parser):
-    forms = [("asamonë", {"INF": "n"}), ("tuni", {"AGT.NMLZ": "n"}), ("yarikatopo", {"NMLZ": "n"}), ("wejtane", {"CNCS": "adv"})]
+    forms = [
+        ("asamonë", {"INF": "n"}),
+        ("tuni", {"AGT.NMLZ": "n"}),
+        ("yarikatopo", {"NMLZ": "n"}),
+        ("wejtane", {"CNCS": "adv"}),
+    ]
     run_polysemy_test(forms, parser)
     forms = [("munemï", {"NMLZ": "n"}), ("mïjnano", {"NMLZ": "n"})]
     run_polysemy_test(forms, parser)
