@@ -23,6 +23,7 @@ def run_polysemy_test(forms, parser):
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)
             assert tag in analysis.gramm.split(",")
+            print(tag, analysis)
 
 
 def test_tojpe(parser):

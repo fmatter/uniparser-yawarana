@@ -108,6 +108,27 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: metej-thin+readvz
+ stem: .mëtëj&ye.
+ trans_en: thin
+ gloss: thin&ADVZ
+ gramm: adv
+ id: metej-thin,readvz
+ std: mëtëjye
+ paradigm: adv
+
+-lexeme
+ lex: metej-thin+tavbz
+ stem: .mëtë&ta.
+ trans_en: thin
+ gloss: thin&VBZ
+ gramm: vi
+ id: metej-thin,tavbz
+ std: mëtëta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: enijpetere-one
  stem: .enijpëtërë.
  trans_en: one
@@ -1081,6 +1102,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: chiramu-mange
+ stem: .chiramu.
+ trans_en: mange
+ gloss: mange
+ gramm: n
+ id: chiramu-mange
+ std: chiramu
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: chiyakono-friend
  stem: .chiyakono.|.chiyakon.|.chiyakom.
  trans_en: friend
@@ -1626,12 +1658,12 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pataka-come-out
+ lex: pataka-take-out
  stem: .pataka.
- trans_en: come.out
- gloss: come.out
+ trans_en: take.out
+ gloss: take.out
  gramm: vt
- id: pataka-come-out
+ id: pataka-take-out
  std: pataka
  paradigm: v_tr
  paradigm: v_tr_nmlz

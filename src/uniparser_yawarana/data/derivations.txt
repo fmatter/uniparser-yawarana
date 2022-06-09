@@ -1,7 +1,7 @@
 -deriv-type: V-ri
  lex: [.]+rinmlz
  stem: [.]ri<.>//[.]0<.>
- paradigm: noun
+ paradigm: uninfl
  gloss: ACNNMLZ
  id: rinmlz
 
