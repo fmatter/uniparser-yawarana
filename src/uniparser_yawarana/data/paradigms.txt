@@ -157,6 +157,10 @@
   gloss: IMP
   gramm: imp
   id: keimp
+ -flex: .jrama
+  gloss: PROH
+  gramm: proh
+  id: jramaproh
  -flex: .ta
   gloss: MOTIMP
   gramm: motimp
@@ -182,12 +186,12 @@
   gloss: FUT
   id: tojpefut
  -flex: .tëpëkë<.>
-  gramm: prog,intr
+  gramm: prog
   gloss: PROG.INTR
   id: tepeke
  -flex: .pëkë<.>
   gramm: prog
-  gloss: PROG
+  gloss: PROG.TR
   id: pekeprog
  -flex: .ja
   gloss: NEG
