@@ -1065,17 +1065,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ajpachika-weed
- stem: .ajpachika.
- trans_en: weed
- gloss: weed
- gramm: vt
- std: ajpachika
- id: ajpachika-weed
- paradigm: v_tr
- paradigm: v_tr_nmlz
-
--lexeme
  lex: ana-1-3pro
  stem: .ana.
  trans_en: 1+3PRO
@@ -2415,7 +2404,7 @@
 -lexeme
  lex: 02c99f34-5b27-4ff8-819a-dc4a34dca14e
  stem: .kërëjpë.
- trans_en: ['old']
+ trans_en: old
  gloss: old
  gramm: n
  std: kërëjpë
@@ -2426,7 +2415,7 @@
 -lexeme
  lex: 041cd4a0-4dca-4c25-8f2f-ebceb2633143
  stem: .tawani.
- trans_en: ['darkness']
+ trans_en: darkness
  gloss: darkness
  gramm: n
  std: tawani
@@ -2437,7 +2426,7 @@
 -lexeme
  lex: 07bd51f6-fb85-483e-b0cf-b27e244f61b4
  stem: .ëkëtë.
- trans_en: ['where']
+ trans_en: where
  gloss: where
  gramm: adv
  std: ëkëtë
@@ -2447,7 +2436,7 @@
 -lexeme
  lex: 36d6a83f-058a-449a-987f-1cd71d8d37cc
  stem: .neke.
- trans_en: ['CONTRAST']
+ trans_en: CONTRAST
  gloss: CONTRAST
  gramm: part
  std: neke
@@ -2457,7 +2446,7 @@
 -lexeme
  lex: 58bf6d86-1230-4458-997c-15f94ad6fbd6
  stem: .ëkï.
- trans_en: ['manioc.beer']
+ trans_en: manioc.beer
  gloss: manioc.beer
  gramm: n
  std: ëkï
@@ -2468,7 +2457,7 @@
 -lexeme
  lex: 5a18649c-d742-45d3-975d-e9618da883bd
  stem: .përemekï.|.përëmej.|.përemej.|.peremekï.|.peremej.|.ëpëremekï.|.poremekï.
- trans_en: ['talk']
+ trans_en: talk
  gloss: talk
  gramm: vi
  std: përemekï
@@ -2479,7 +2468,7 @@
 -lexeme
  lex: 5e07b708-79a9-4b84-8bb2-8d90daf937b3
  stem: .kwase.|.kwajse.
- trans_en: ['how', 'why']
+ trans_en: how/why
  gloss: how
  gramm: qpro
  std: kwase
@@ -2489,7 +2478,7 @@
 -lexeme
  lex: 5fc2465b-ffb2-41f9-b168-18f867a83353
  stem: .kë.
- trans_en: ['ouch']
+ trans_en: ouch
  gloss: ouch
  gramm: intj
  std: kë
@@ -2499,7 +2488,7 @@
 -lexeme
  lex: 763cd0a8-2338-47f6-be83-51c37991b129
  stem: .yatunë.|.yatun.|.yatum.
- trans_en: ['sun', 'day']
+ trans_en: sun/day
  gloss: sun
  gramm: n
  std: yatunë
@@ -2508,20 +2497,9 @@
  paradigm: n_deriv
 
 -lexeme
- lex: 79766ee2-3962-4bcd-ae1b-bcc332d75e88
- stem: .wena.
- trans_en: ['vomit']
- gloss: vomit
- gramm: n
- std: wena
- id: 79766ee2-3962-4bcd-ae1b-bcc332d75e88
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: 93b0a595-e7b7-413e-a88b-9ca8d868dddd
  stem: .kantajnë.
- trans_en: ['sing']
+ trans_en: sing
  gloss: sing
  gramm: vi
  std: kantajnë
@@ -2532,7 +2510,7 @@
 -lexeme
  lex: 97376aaf-48ae-4848-b0b5-80e15dcc0f64
  stem: .pïnika.|.pïnïka.
- trans_en: ['PROB']
+ trans_en: PROB
  gloss: PROB
  gramm: part
  std: pïnika
@@ -2542,7 +2520,7 @@
 -lexeme
  lex: a6194807-28a2-45e2-a45f-e335729278fb
  stem: .parë.
- trans_en: ['and', 'too']
+ trans_en: and/too
  gloss: and
  gramm: coord
  std: parë
@@ -2552,7 +2530,7 @@
 -lexeme
  lex: a992b4b6-c478-4e4b-9814-670e19682543
  stem: .ëkëjna.
- trans_en: ['where.to']
+ trans_en: where.to
  gloss: where.to
  gramm: adv
  std: ëkëjna
@@ -2562,7 +2540,7 @@
 -lexeme
  lex: b88eb9d8-3039-47c5-b822-a13e422aeb48
  stem: .soj.
- trans_en: ['ID:dabble']
+ trans_en: ID:dabble
  gloss: ID:dabble
  gramm: ideo
  std: soj
@@ -2572,7 +2550,7 @@
 -lexeme
  lex: b97a0ed7-7ceb-4cab-83d8-5b30b45d9a59
  stem: .pïrarë.
- trans_en: ['nothing']
+ trans_en: nothing
  gloss: nothing
  gramm: part
  std: pïrarë
@@ -2582,7 +2560,7 @@
 -lexeme
  lex: bcfb197f-800e-48bd-8ec6-664e658aff04
  stem: .womï.|.won.|.wom.
- trans_en: ['enter']
+ trans_en: enter
  gloss: enter
  gramm: vi
  std: womï
@@ -2593,7 +2571,7 @@
 -lexeme
  lex: dc33b380-8376-4775-83e2-46bcef401199
  stem: .ënuku.|.ënuj.
- trans_en: ['go.up']
+ trans_en: go.up
  gloss: go.up
  gramm: vi
  std: ënuku
@@ -2604,7 +2582,7 @@
 -lexeme
  lex: efec7abd-f480-462a-9648-e2434e3bee0d
  stem: .tawejka.
- trans_en: ['to.daylight']
+ trans_en: to.daylight
  gloss: to.daylight
  gramm: vi
  std: tawejka
@@ -2615,7 +2593,7 @@
 -lexeme
  lex: f3e78ed2-7584-444f-9487-84e46b62362b
  stem: .sa.
- trans_en: ['EVAL']
+ trans_en: EVAL
  gloss: EVAL
  gramm: part
  std: sa
@@ -2625,7 +2603,7 @@
 -lexeme
  lex: f90c63ed-bd4c-43b7-b9f9-2709d3ff0ddd
  stem: .wïnïkï.|.wïnïj.
- trans_en: ['sleep']
+ trans_en: sleep
  gloss: sleep
  gramm: vi
  std: wïnïkï
@@ -2636,7 +2614,7 @@
 -lexeme
  lex: fa238937-9392-4a63-8142-4c56dd4a5c99
  stem: .ewenke.
- trans_en: ['not.know']
+ trans_en: not.know
  gloss: not.know
  gramm: postp
  std: ewenke
