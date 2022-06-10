@@ -1,0 +1,17 @@
+DELIMITERS = "<SENT_BOUNDARY>";
+
+LIST verbal = ipfv;
+
+SECTION #auxiliaries
+REMOVE ("wepï") IF (*-1 verbal); # remove forms of wepï 'come' homophonous with chi 'COP' when preceded by a verbal form
+
+SECTION #clitics and verbs
+REMOVE ("të" postp) IF (NEGATE -1 (n)); # të can be verbal të-∅ or postpositional =të; exclude the latter if not preceded by a noun
+REMOVE ("ma" vt) IF (-1 ("tawara")); # ma can be verbal ma-∅ or RESTR ma; tawara ma is always all=RESTR
+REMOVE ("yaka" vt ipfv); # yaka 'excavate' does not occur zero-marked in the corpus
+
+SECTION #other clitic homophones
+REMOVE ("yaka" n) IF (-1 (n)); # yaka is also 'deer' or 'excavate', but if we're after a noun it's probably the postposition
+
+SECTION # misc
+REMOVE ("aro" n) IF (-1 ("wïrë")); # wïrë taro is not 'I, his/her own rice'...

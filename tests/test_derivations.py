@@ -35,9 +35,9 @@ def test_tojpe(parser):
 def test_ri(parser):
     run_polysemy_test(
         forms=[
-            ("yaruwari", {"NMLZ": "n", "IPFV": "vi"}),  # intransitive 'laugh'
-            ("iniri", {"NMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
-            ("ini", {"NMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
+            ("yaruwari", {"ACNMLZ": "n", "IPFV": "vi"}),  # intransitive 'laugh'
+            ("iniri", {"ACNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
+            ("ini", {"ACNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
         ],
         parser=parser,
     )
@@ -72,7 +72,7 @@ def test_jpë(parser):
 def test_unamb_derivs(parser):
     forms = [
         ("asamonë", {"INF": "n"}),
-        ("tuni", {"AGT.NMLZ": "n"}),
+        ("tuni", {"AGTNMLZ": "n"}),
         ("yarikatopo", {"NMLZ": "n"}),
         ("wejtane", {"CNCS": "adv"}),
     ]

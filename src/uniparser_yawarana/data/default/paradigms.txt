@@ -197,11 +197,6 @@
   gloss: NEG
   gramm: neg
   id: janeg
- -flex: .po<.>
-  gramm: des
-  gloss: DES
-  id: podes
-  paradigm: n_suff1
  -flex: .sarë<.>
   gramm: imn
   gloss: IMN

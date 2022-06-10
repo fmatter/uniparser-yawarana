@@ -16,8 +16,12 @@ __version__ = "0.0.5.dev"
 
 
 class YawaranaAnalyzer(Analyzer):
-    def __init__(self, verbose_grammar=False):
-        self.base_path = files("uniparser_yawarana") / "data"
+    def __init__(self, etymologize = False, verbose_grammar=False):
+        if etymologize:
+            mode = "etym"
+        else:
+            mode = "default"
+        self.base_path = files("uniparser_yawarana") / "data" / mode
         super().__init__(verbose_grammar=verbose_grammar)
         self.lexFile = self.base_path / "lexemes.txt"
         self.paradigmFile = self.base_path / "paradigms.txt"

@@ -1,0 +1,22 @@
+[
+    {
+        "wf": "yawë",
+        "gramm": ".*lk.*"
+    },
+    {
+        "wf": "makë",
+        "gramm": "ma"
+    },
+    {
+        "wf": "tujpe",
+        "lemma": "u"
+    },
+    {
+        "wf": "tajne",
+        "lemma": "taro-say"
+    },
+    {
+        "wf": "kajkë",
+        "lemma": "kapï"
+    }
+]

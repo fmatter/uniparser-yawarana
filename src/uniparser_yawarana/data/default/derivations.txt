@@ -9,7 +9,7 @@
  lex: [.]+septcp
  stem: [.]se<.>//[.]che<.>
  paradigm: adv
- gramm: adv
+ gramm: adv,ptcp
  gloss: PTCP
  id: septcp
 
@@ -17,7 +17,7 @@
  lex: [.]+septcp
  stem: [.]se<.>//[.]che<.>
  paradigm: adv
- gramm: adv
+ gramm: adv,sup
  gloss: SUP
  id: septcp
 
@@ -40,7 +40,7 @@
 
 -deriv-type: V-inf
  lex: [.]+neinf
- stem: <.>[.]në
+ stem: <.>[.]në//<.>[.]të
  paradigm: noun
  gramm: n
  gloss: INF
@@ -75,7 +75,7 @@
  lex: [.]+tojpepurp
  stem: [.]tojpe<.>
  paradigm: adv
- gramm: adv
+ gramm: adv,purp
  gloss: PURP
  id: tojpepurp
 
@@ -111,3 +111,10 @@
  gramm: n
  gloss: NMLZ
  id: anonmlz
+
+
+ -flex: .po<.>
+  gramm: des
+  gloss: DES
+  id: podes
+  paradigm: n_suff1

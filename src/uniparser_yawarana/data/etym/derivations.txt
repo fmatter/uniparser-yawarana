@@ -1,0 +1,120 @@
+-deriv-type: V-ri
+ lex: [.]+rinmlz
+ stem: [.]ri<.>//[.]0<.>
+ paradigm: uninfl
+ gloss: ACNNMLZ
+ id: rinmlz
+
+-deriv-type: V-septcp
+ lex: [.]+septcp
+ stem: [.]se<.>//[.]che<.>
+ paradigm: adv
+ gramm: adv,ptcp
+ gloss: PTCP
+ id: septcp
+
+-deriv-type: V-sesup
+ lex: [.]+septcp
+ stem: [.]se<.>//[.]che<.>
+ paradigm: adv
+ gramm: adv,sup
+ gloss: SUP
+ id: septcp
+
+-deriv-type: V-jpë
+ lex: [.]+jpenmlz
+ stem: [.]jpë<.>
+ paradigm: noun
+ gramm: n
+ gloss: PST.ACNMLZ
+ id: jpenmlz
+
+-deriv-type: V-sape
+ lex: [.]+sapenmlz
+ stem: <.>[.]sapë//<.>[.]saj
+ paradigm: noun
+ gramm: n
+ gloss: ABS.NMLZ
+ id: sapenmlz
+
+
+-deriv-type: V-inf
+ lex: [.]+neinf
+ stem: <.>[.]në//<.>[.]të
+ paradigm: noun
+ gramm: n
+ gloss: INF
+ id: neinf
+
+-deriv-type: V-topo
+ lex: [.]+toponmlz
+ stem: <.>[.]topo//<.>[.]toj
+ paradigm: noun
+ gramm: n
+ gloss: CIRC.NMLZ
+ id: toponmlz
+
+-deriv-type: V-ni
+ lex: [.]+ninmlz
+ stem: <.>[.]ni
+ paradigm: noun
+ gramm: n
+ gloss: AGTNMLZ
+ id: ninmlz
+
+-deriv-type: V-semi
+ lex: [.]+septcp+minmlz
+ stem: [.]se|mï<.>//[.]che|mï<.>
+ paradigm: noun
+ gramm: n
+ gloss: PTCP|NMLZ
+ id: septcp,minmlz
+
+
+-deriv-type: V-tojpe
+ lex: [.]+tojpepurp
+ stem: [.]tojpe<.>
+ paradigm: adv
+ gramm: adv,purp
+ gloss: PURP
+ id: tojpepurp
+
+-deriv-type: V-tane
+ lex: [.]+tanecncs
+ stem: [.]tane<.>
+ paradigm: adv
+ gramm: adv,cncs
+ gloss: CNCS
+ id: tanecncs
+
+-deriv-type: N-pe
+ lex: [.]+peess
+ stem: <.>[.]pe
+ paradigm: adv
+ gramm: adv,ess
+ gloss: ESS
+ id: peess
+
+
+-deriv-type: A-mi
+ lex: [.]+minmlz
+ stem: [.]mï<.>
+ paradigm: noun
+ gramm: n
+ gloss: NMLZ
+ id: minmlz
+
+-deriv-type: A-ano
+ lex: [.]+anonmlz
+ stem: [.]no<.>
+ paradigm: noun
+ gramm: n
+ gloss: NMLZ
+ id: anonmlz
+
+
+ -flex: .po<.>
+  gramm: des
+  gloss: DES
+  id: podes
+  paradigm: n_suff1

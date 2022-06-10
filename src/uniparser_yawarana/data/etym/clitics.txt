@@ -1,0 +1,48 @@
+-clitic
+ lex: pïnirë
+ stem: pïnirë
+ trans_en: NEG
+ type: en
+ gloss: NEG
+ gramm: neg
+ id: negpin
+-clitic
+ lex: yaka
+ stem: yaka
+ trans_en: ILL
+ type: en
+ gloss: ILL
+ gramm: ill
+ id: yaka
+-clitic
+ lex: pana
+ stem: pana
+ trans_en: ALL
+ type: en
+ gloss: ALL
+ gramm: all
+ id: pana
+-clitic
+ lex: të
+ stem: të
+ trans_en: LOC
+ type: en
+ gloss: LOC
+ gramm: loc
+ id: teloc
+-clitic
+ lex: ma
+ stem: ma
+ trans_en: RESTR
+ type: en
+ gloss: RESTR
+ gramm: restr
+ id: ma
+-clitic
+ lex: rë
+ stem: rë
+ trans_en: EMP
+ type: en
+ gloss: EMP
+ gramm: emp
+ id: reemp
