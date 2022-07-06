@@ -1049,6 +1049,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: sukuri-silently
+ stem: .sukuri.
+ trans_en: silently
+ gloss: silently
+ gramm: adv
+ std: sukuri
+ id: sukuri-silently
+ paradigm: adv
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness

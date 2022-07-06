@@ -36,7 +36,7 @@
  paradigm: n_suff1
 
 -paradigm: n_suff1
- -flex: .ru<.>//.ri<.>//.i<.>
+ -flex: .ru<.>//.ri<.>//.i<.>//.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
