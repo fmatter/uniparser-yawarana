@@ -135,6 +135,15 @@
  paradigm: adv
 
 -lexeme
+ lex: kojpa-ye-at-night
+ stem: .kojpaye.
+ trans_en: at night
+ gloss: night.PERL
+ gramm: adv
+ std: kojpaye
+ paradigm: adv
+
+-lexeme
  lex: enijpetere-one
  stem: .enijpëtërë.
  trans_en: one
@@ -1050,6 +1059,17 @@
  std: penajrë
  id: penajre-before
  paradigm: adv
+
+-lexeme
+ lex: esejte-call
+ stem: .esejtë.|.sejtë.
+ trans_en: call
+ gloss: call
+ gramm: vt
+ std: esejtë
+ id: esejte-call
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: achi-wilderness
@@ -2291,6 +2311,16 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: yumpe-fairly
+ stem: .yumpe.
+ trans_en: fairly; much
+ gloss: fairly
+ gramm: adv
+ std: yumpe
+ id: yumpe-fairly
+ paradigm: adv
+
+-lexeme
  lex: yutu-forest
  stem: .yutu.
  trans_en: forest
@@ -2342,6 +2372,17 @@
  gramm: n
  std: yëye
  id: yeye-tree
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: yipi-mountain
+ stem: .yïpï.
+ trans_en: mountain
+ gloss: mountain
+ gramm: n
+ std: yïpï
+ id: yipi-mountain
  paradigm: noun
  paradigm: n_deriv
 
