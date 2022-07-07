@@ -265,6 +265,10 @@
   gramm: LEX:pekeon:about
   id: pekeon,anonmlz
   sep: =
+ -flex: .ripo
+  gloss: CNTF
+  gramm: cntf
+  id: ripocntf
 
 -paradigm: v_go
  -flex: ij.<.>
