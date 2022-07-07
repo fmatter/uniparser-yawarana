@@ -3,6 +3,7 @@
  stem: [.]ri<.>//[.]0<.>
  paradigm: uninfl
  gloss: ACNNMLZ
+ gramm: n
  id: rinmlz
 
 -deriv-type: V-septcp

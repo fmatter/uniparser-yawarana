@@ -8,7 +8,7 @@ def eliminate_analysis(anas, bad_glosses):
 
 def test_se(parser):
     for ana in parser.analyze_words("sujtase"):
-        if ana.lemma == "sujta+septcp":
+        if ana.lemma == "sujta&septcp":
             assert "adv" in ana.gramm.split(",")
         elif ana.lemma == "sujta-urinate":
             assert "vi" in ana.gramm.split(",")
@@ -34,7 +34,6 @@ def run_polysemy_test(forms, parser):
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)
             assert tag in analysis.gramm.split(",")
-            print(tag, analysis)
 
 def test_tojpe(parser):
     run_polysemy_test(
@@ -49,9 +48,9 @@ def test_tojpe(parser):
 def test_ri(parser):
     run_polysemy_test(
         forms=[
-            ("yaruwari", {"ACNMLZ": "n", "IPFV": "vi"}),  # intransitive 'laugh'
-            ("iniri", {"ACNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
-            ("ini", {"ACNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
+            ("yaruwari", {"ACNNMLZ": "n", "IPFV": "vi"}),  # intransitive 'laugh'
+            ("iniri", {"ACNNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
+            ("ini", {"ACNNMLZ": "n", "IPFV": "vt"}),  # transitive 'see'
         ],
         parser=parser,
     )
