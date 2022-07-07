@@ -1042,6 +1042,16 @@
  paradigm: adv
 
 -lexeme
+ lex: penajre-before
+ stem: .penajrë.|.penarë.
+ trans_en: before
+ gloss: before
+ gramm: adv
+ std: penajrë
+ id: penajre-before
+ paradigm: adv
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness
