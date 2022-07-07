@@ -23,11 +23,14 @@ class YawaranaAnalyzer(Analyzer):
             mode = "default"
         self.base_path = files("uniparser_yawarana") / "data" / mode
         super().__init__(verbose_grammar=verbose_grammar)
+        self.flattenSubwords=True
         self.lexFile = self.base_path / "lexemes.txt"
         self.paradigmFile = self.base_path / "paradigms.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
+        self.lexRulesFile = self.base_path / "lex_rules.txt"
+        print(self.flattenSubwords)
         self.load_grammar()
 
     def analyze_words(

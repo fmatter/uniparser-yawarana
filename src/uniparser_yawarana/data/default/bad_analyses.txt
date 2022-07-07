@@ -18,5 +18,9 @@
     {
         "wf": "kajkë",
         "lemma": "kapï"
+    },
+    {
+        "wf": "chipëkë",
+        "gramm": ".*prog.*"
     }
 ]

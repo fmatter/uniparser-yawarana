@@ -135,17 +135,6 @@
  paradigm: adv
 
 -lexeme
- lex: poko-no-because
- stem: .poko&no.
- trans_en: because
- gloss: on.surface&NMLZ
- gramm: n
- std: pokono
- id: anonmlz,pekeon
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: enijpetere-one
  stem: .enijpëtërë.
  trans_en: one
@@ -448,8 +437,8 @@
 -lexeme
  lex: pekeon
  stem: .pëkë.|.poko.
- trans_en: on.surface
- gloss: on.surface
+ trans_en: about
+ gloss: about
  gramm: postp,loc
  std: pëkë
  id: pekeon
@@ -1241,6 +1230,16 @@
  id: ita-hear
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: iyajtepe-before
+ stem: .iyajtëpe.
+ trans_en: before
+ gloss: before
+ gramm: adv
+ std: iyajtëpe
+ id: iyajtepe-before
+ paradigm: adv
 
 -lexeme
  lex: ka-q
