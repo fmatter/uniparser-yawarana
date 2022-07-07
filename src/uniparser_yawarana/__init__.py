@@ -39,7 +39,10 @@ class YawaranaAnalyzer(Analyzer):
             format=format,
             disambiguate=disambiguate,
         )
+        all_analyses = [x for x in all_analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
         for x in all_analyses:
-            if "=" in x.wfGlossed:
-                x.lemma = x.lemma.replace("+", ",")
+            pass
+            # print("jrama" in x.wf and "proh" in x.gramm)
+            # if "=" in x.wfGlossed:
+            #     x.lemma = x.lemma.replace("+", ",")
         return all_analyses
