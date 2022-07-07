@@ -6,11 +6,26 @@ def eliminate_analysis(anas, bad_glosses):
         return ana
 
 
+def test_se(parser):
+    for ana in parser.analyze_words("sujtase"):
+        if ana.lemma == "sujta+septcp":
+            assert "adv" in ana.gramm.split(",")
+        elif ana.lemma == "sujta-urinate":
+            assert "vi" in ana.gramm.split(",")
+        else:
+            raise ValueError(ana)
+
+
+
+
 def pick_analysis(anas, good_gloss):
     for ana in anas:
         if good_gloss in ana.gloss:
             return ana
     return None
+
+
+
 
 
 def run_polysemy_test(forms, parser):
@@ -20,7 +35,6 @@ def run_polysemy_test(forms, parser):
             analysis = pick_analysis(analyses, gloss)
             assert tag in analysis.gramm.split(",")
             print(tag, analysis)
-
 
 def test_tojpe(parser):
     run_polysemy_test(

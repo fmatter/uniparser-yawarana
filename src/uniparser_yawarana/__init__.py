@@ -39,4 +39,7 @@ class YawaranaAnalyzer(Analyzer):
             format=format,
             disambiguate=disambiguate,
         )
+        for x in all_analyses:
+            if "=" in x.wfGlossed:
+                x.lemma = x.lemma.replace("+", ",")
         return all_analyses

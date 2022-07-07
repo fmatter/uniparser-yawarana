@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * some morphology and lexemes
 
 ### Changed
+* replacing `+` in `lemma` with `,` when `=` is in `wfGlossed`
 
 ### Removed
 
