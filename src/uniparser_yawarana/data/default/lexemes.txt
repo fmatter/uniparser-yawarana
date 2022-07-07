@@ -2640,6 +2640,14 @@
  paradigm: pro
 
 -lexeme
+ lex: ta&toj
+ stem: .taj&toj.
+ trans_en: say-CIRC.NMLZ
+ gloss: say&CIRC.NMLZ
+ gramm: n
+ paradigm: n
+
+-lexeme
  lex: kaj-say
  stem: kaj&kë.
  trans_en: say it!

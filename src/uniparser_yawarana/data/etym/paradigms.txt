@@ -115,6 +115,7 @@
 -paradigm: v_tr_nmlz
  -flex: .<.>
   gramm:
+ deriv-link: V-topo
  deriv-link: V-ri
  deriv-link: V-tojpe
  deriv-link: V-septcp
