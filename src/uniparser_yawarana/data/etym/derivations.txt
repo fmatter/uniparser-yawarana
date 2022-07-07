@@ -25,7 +25,7 @@
 -deriv-type: V-jpë
  lex: [.]&jpenmlz
  stem: [.]jpë<.>
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: PST.ACNNMLZ
  id: jpenmlz
@@ -33,7 +33,7 @@
 -deriv-type: V-sape
  lex: [.]&sapenmlz
  stem: <.>[.]sapë//<.>[.]saj
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: ABS.NMLZ
  id: sapenmlz
@@ -42,7 +42,7 @@
 -deriv-type: V-inf
  lex: [.]&neinf
  stem: <.>[.]në//<.>[.]të
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: INF
  id: neinf
@@ -50,15 +50,15 @@
 -deriv-type: V-topo
  lex: [.]&toponmlz
  stem: <.>[.]topo//<.>[.]toj
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: CIRC.NMLZ
  id: toponmlz
 
 -deriv-type: V-ni
  lex: [.]&ninmlz
- stem: <.>[.]ni
- paradigm: noun
+ stem: [.]ni<.>
+ paradigm: nmlz
  gramm: n
  gloss: AGTNMLZ
  id: ninmlz
@@ -66,7 +66,7 @@
 -deriv-type: V-semi
  lex: [.]&septcp&minmlz
  stem: [.]se|mï<.>//[.]che|mï<.>
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: PTCP|NMLZ
  id: septcp,minmlz
@@ -100,7 +100,7 @@
 -deriv-type: A-mi
  lex: [.]&minmlz
  stem: [.]mï<.>
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: NMLZ
  id: minmlz
@@ -108,7 +108,7 @@
 -deriv-type: A-ano
  lex: [.]&anonmlz
  stem: [.]no<.>
- paradigm: noun
+ paradigm: nmlz
  gramm: n
  gloss: NMLZ
  id: anonmlz

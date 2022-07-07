@@ -18,11 +18,5 @@
     {
         "wf": "kajkë",
         "lemma": "kapï"
-    },
-    {
-        "gloss": ".*PST.ACNMLZ-PERT"
-    },
-    {
-        "gloss": ".*PERT.*CIRC.NMLZ"
     }
 ]

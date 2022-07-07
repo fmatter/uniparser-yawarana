@@ -97,6 +97,14 @@
  -flex: .<.>
   gramm:
 
+-paradigm: nmlz
+ -flex: .
+  gramm: 
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
+    
 -paradigm: v_intr_nmlz
  -flex: .<.>
   gramm:
