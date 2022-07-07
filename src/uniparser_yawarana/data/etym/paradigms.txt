@@ -260,7 +260,7 @@
   gramm: LEX:pekeon:about
   id: pekeon
   sep: =
- -flex: .poko|no
+ -flex: .poko|no//.poko|n
   gloss: about|NMLZ
   gramm: LEX:pekeon:about
   id: pekeon,anonmlz
