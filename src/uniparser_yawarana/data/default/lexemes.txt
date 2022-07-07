@@ -1072,6 +1072,16 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: tarine-fast
+ stem: .tarine.
+ trans_en: fast
+ gloss: fast
+ gramm: adv
+ std: tarine
+ id: tarine-fast
+ paradigm: adv
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness

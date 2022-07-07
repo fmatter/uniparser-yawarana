@@ -302,25 +302,33 @@
  paradigm: v_suff
 
 -paradigm: postp
- -flex: më.
+ -flex: më.<.>
   gramm: 2
   gloss: 2
   id: me2
- -flex: t.
+ -flex: t.<.>
   gramm: 3
   gloss: 3
   id: i3
- -flex: y.
+ -flex: y.<.>
   gramm: lk
   gloss: LK
   id: ylk
- -flex: u.
+ -flex: u.<.>
   gramm: 1
   gloss: 1
   id: u1
- -flex: .
+ -flex: .<.>
   gramm:
  deriv-link: A-ano
+ paradigm: postp-suff
+
+-paradigm: postp-suff
+ -flex: .
+  gramm:
+ -flex: .jra
+  gramm: neg
+  gloss: NEG
 
 
 
