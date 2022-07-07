@@ -1082,6 +1082,26 @@
  paradigm: adv
 
 -lexeme
+ lex: aaa-ah
+ stem: .aaa.
+ trans_en: ah
+ gloss: ah
+ gramm: intj
+ std: aaa
+ id: aaa-ah
+ paradigm: uninfl
+
+-lexeme
+ lex: mmm-yeah
+ stem: .mmm.
+ trans_en: yeah
+ gloss: yeah
+ gramm: intj
+ std: mmm
+ id: mmm-yeah
+ paradigm: uninfl
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -1123,6 +1143,16 @@
  id: apataka-come-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: apo-later
+ stem: .apo.
+ trans_en: later; meanwhile
+ gloss: later
+ gramm: adv
+ std: apo
+ id: apo-later
+ paradigm: adv
 
 -lexeme
  lex: apuni-soap
@@ -1897,6 +1927,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: takono-other
+ stem: .takono.
+ trans_en: other
+ gloss: other
+ gramm: n
+ std: takono
+ id: takono-other
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: tapa-beat
  stem: .tapa.
  trans_en: beat
@@ -1917,6 +1958,17 @@
  id: taro-say
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: tawa-nyctidromus-albicollis
+ stem: .tawa.
+ trans_en: nyctidromus albicollis
+ gloss: nyctidromus.albicollis
+ gramm: n
+ std: tawa
+ id: tawa-nyctidromus-albicollis
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: tejwetunu-sick
@@ -2724,10 +2776,28 @@
  paradigm: uninfl
 
 -lexeme
- lex: ïmï-father
+ lex: imi-father
  stem: y&ïmï.
  gloss: LK&father
  id: ylk,imi-father
  gramm: n,lk
  paradigm: uninfl
  trans_en: my father
+
+-lexeme
+ lex: imi-father
+ stem: ëmo.
+ gloss: 2;father
+ id: imi-father
+ gramm: n,2
+ paradigm: uninfl
+ trans_en: your father
+
+-lexeme
+ lex: imi-father
+ stem: imu.
+ gloss: 3;father
+ id: imi-father
+ gramm: n,3
+ paradigm: uninfl
+ trans_en: his/her father
