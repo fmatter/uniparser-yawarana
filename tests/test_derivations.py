@@ -21,6 +21,7 @@ def test_se(parser):
 def pick_analysis(anas, good_gloss):
     for ana in anas:
         if good_gloss in ana.gloss:
+            print(f"good analysis for {good_gloss}:", ana,)
             return ana
     return None
 
@@ -78,9 +79,11 @@ def test_sapë(parser):
 
 
 def test_jpë(parser):
-    forms = [("tujpë", {"PST": "vt", "NMLZ": "n"})]
-    run_polysemy_test(forms, parser)
-
+    for ana in parser.analyze_words("tujpë"):
+        if "PST.ACNNMLZ" in ana.gloss:
+            assert "n" in ana.gramm.split(",")
+        else:
+            assert "vt" in ana.gramm.split(",")
 
 def test_unamb_derivs(parser):
     forms = [
