@@ -2657,6 +2657,22 @@
  paradigm: uninfl
 
 -lexeme
+ lex: echi-be
+ stem: sejkë.
+ trans_en: be!
+ gloss: be.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: wepi-come
+ stem: sejkë.
+ trans_en: come!
+ gloss: come.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
  lex: ïmï-father
  stem: y&ïmï.
  gloss: LK&father
