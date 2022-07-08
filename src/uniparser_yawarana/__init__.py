@@ -30,7 +30,6 @@ class YawaranaAnalyzer(Analyzer):
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
         self.lexRulesFile = self.base_path / "lex_rules.txt"
-        print(self.flattenSubwords)
         self.load_grammar()
 
     def analyze_words(
