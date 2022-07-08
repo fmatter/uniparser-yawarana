@@ -92,6 +92,7 @@
  -flex: .<.>
   gramm:
  deriv-link: N-pe
+ deriv-link: N-ke
 
 -paradigm: adv_deriv
  -flex: .<.>

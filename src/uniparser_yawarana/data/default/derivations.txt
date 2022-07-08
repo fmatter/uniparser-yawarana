@@ -96,6 +96,13 @@
  gloss: ESS
  id: peess
 
+-deriv-type: N-ke
+ lex: [.]&keprop
+ stem: <.>[.]ke
+ paradigm: adv
+ gramm: adv,prop
+ gloss: PREP
+ id: keprop
 
 -deriv-type: A-mi
  lex: [.]&minmlz
