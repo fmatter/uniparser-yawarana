@@ -252,24 +252,55 @@
   id: u1
  -flex: .<.>
   gramm:
- paradigm: v_suff
- paradigm: cop_clit
+ paradigm: cop_suff
+
+-paradigm: cop_suff
+ -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
+  gramm: ipfv
+  gloss: IPFV
+  id: riipfv
+  paradigm: cop_clit
+ -flex: .ja
+  gloss: NEG
+  gramm: neg
+  id: janeg
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .jpë<.>
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .sapë<.>//.saj<.>
+  gramm: pfv
+  gloss: PFV
+  id: sapepfv
+ -flex: .se<.>//.che<.>
+  gramm: pst
+  gloss: PST
+  id: sepst
+ -flex: .tojpe<.>
+  gramm: fut
+  gloss: FUT
+  id: tojpefut
+ paradigm: dv_pl
 
 -paradigm: cop_clit
- -flex: .0|pëkë
-  gloss: ACNNMLZ|about
+ -flex: .pëkë
+  gloss: about
   gramm: LEX:pekeon:about
-  id: rinmlz,pekeon
+  id: pekeon
   sep: =
- -flex: .0|poko|no//.0|poko|n
-  gloss: ACNNMLZ|about|NMLZ
+ -flex: .poko|no//.poko|n
+  gloss: about|NMLZ
   gramm: LEX:pekeon:about
-  id: rinmlz,pekeon,anonmlz
+  id: pekeon,anonmlz
   sep: =
- -flex: .0|yawë
-  gloss: ACNNMLZ|LOC.TEMP
+ -flex: .yawë
+  gloss: LOC.TEMP
   gramm: LEX:yaweloc:loc
-  id: rinmlz,yaweloc
+  id: yaweloc
   sep: =
  -flex: .ripo
   gloss: CNTF
