@@ -792,7 +792,7 @@
 
 -lexeme
  lex: ati-what
- stem: .ati.
+ stem: .ati.|.ajti.
  trans_en: what
  gloss: what
  gramm: qpro
@@ -1144,6 +1144,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: ami-unidentified-plant
+ stem: .amï.
+ trans_en: unidentified plant
+ gloss: unidentified.plant
+ gramm: n
+ std: amï
+ id: ami-unidentified-plant
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: ana-1-3pro
  stem: .ana.
  trans_en: 1+3PRO
@@ -1152,6 +1163,39 @@
  std: ana
  id: ana-1-3pro
  paradigm: pro
+
+-lexeme
+ lex: anoto-annatto
+ stem: .anoto.
+ trans_en: annatto
+ gloss: annatto
+ gramm: n
+ std: anoto
+ id: anoto-annatto
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: anta-island
+ stem: .anta.
+ trans_en: island
+ gloss: island
+ gramm: n
+ std: anta
+ id: anta-island
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ante-fish-hook
+ stem: .antë.
+ trans_en: fish hook
+ gloss: fish.hook
+ gramm: n
+ std: antë
+ id: ante-fish-hook
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: apataka-come-out
@@ -1186,6 +1230,38 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: arajmate-dangerous
+ stem: .arajmatë.
+ trans_en: dangerous
+ gloss: dangerous
+ gramm: adv
+ std: arajmatë
+ id: arajmate-dangerous
+ paradigm: adv
+
+-lexeme
+ lex: arina-trembler
+ stem: .arina.
+ trans_en: trembler
+ gloss: trembler
+ gramm: n
+ std: arina
+ id: arina-trembler
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: aro-rice
+ stem: .aro.
+ trans_en: rice
+ gloss: rice
+ gramm: n
+ std: aro
+ id: aro-rice
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: aroma-limpet
  stem: .aroma.
  trans_en: limpet
@@ -1197,6 +1273,27 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: aropoko-ball-game
+ stem: .aropoko.
+ trans_en: ball game
+ gloss: ball.game
+ gramm: n
+ std: aropoko
+ id: aropoko-ball-game
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: asakontompene-four
+ stem: .asakontompene.
+ trans_en: four
+ gloss: four
+ gramm: adv
+ std: asakontompene
+ id: asakontompene-four
+ paradigm: adv
+
+-lexeme
  lex: asake-two
  stem: .asakë.
  trans_en: two
@@ -1205,6 +1302,17 @@
  std: asakë
  id: asake-two
  paradigm: adv
+
+-lexeme
+ lex: asuka-sugar
+ stem: .asuka.
+ trans_en: sugar
+ gloss: sugar
+ gramm: n
+ std: asuka
+ id: asuka-sugar
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: chika-bite
@@ -1218,6 +1326,28 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: chipiyu-fungus-sp
+ stem: .chipiyu.
+ trans_en: fungus.sp
+ gloss: fungus.sp
+ gramm: n
+ std: chipiyu
+ id: chipiyu-fungus-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chipoti-hair
+ stem: .chipoti.
+ trans_en: hair; feather
+ gloss: hair
+ gramm: n
+ std: chipoti
+ id: chipoti-hair
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: chiramu-mange
  stem: .chiramu.
  trans_en: mange
@@ -1225,6 +1355,28 @@
  gramm: n
  std: chiramu
  id: chiramu-mange
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chiri-wild-pineapple
+ stem: .chiri.
+ trans_en: wild pineapple
+ gloss: wild.pineapple
+ gramm: n
+ std: chiri
+ id: chiri-wild-pineapple
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chiri-titi-monkey
+ stem: .chiri.
+ trans_en: titi monkey
+ gloss: titi.monkey
+ gramm: n
+ std: chiri
+ id: chiri-titi-monkey
  paradigm: noun
  paradigm: n_deriv
 
@@ -1251,7 +1403,7 @@
 
 -lexeme
  lex: eni-prox-inan
- stem: .eni.|.seni.
+ stem: .eni.|.seni.|.en.
  trans_en: PROX.INAN
  gloss: PROX.INAN
  gramm: det
@@ -1268,6 +1420,17 @@
  std: enijne
  id: enijne-prox-inan-pl
  paradigm: uninfl
+
+-lexeme
+ lex: entono-from-here
+ stem: .entono.
+ trans_en: from here
+ gloss: from.here
+ gramm: n
+ std: entono
+ id: entono-from-here
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: ente-here-loc
@@ -1288,6 +1451,59 @@
  std: enirë
  id: enire-today
  paradigm: adv
+
+-lexeme
+ lex: epe-escape
+ stem: .epe.
+ trans_en: escape; hide and seek
+ gloss: escape
+ gramm: vi
+ std: epe
+ id: epe-escape
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: eretapi-cultivated-plant
+ stem: .eretapi.
+ trans_en: cultivated plant
+ gloss: cultivated.plant
+ gramm: n
+ std: eretapi
+ id: eretapi-cultivated-plant
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ewine-here-all
+ stem: .ewinë.
+ trans_en: here.ALL
+ gloss: here.ALL
+ gramm: adv
+ std: ewinë
+ id: ewine-here-all
+ paradigm: adv
+
+-lexeme
+ lex: ijpu-summit
+ stem: .ijpu.
+ trans_en: summit
+ gloss: summit
+ gramm: n
+ std: ijpu
+ id: ijpu-summit
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: inawe-have
+ stem: .inawë.
+ trans_en: have
+ gloss: have
+ gramm: postp
+ std: inawë
+ id: inawe-have
+ paradigm: postp
 
 -lexeme
  lex: ini-see
@@ -1542,7 +1758,7 @@
 
 -lexeme
  lex: monkontomo-2pl-pro
- stem: .monkontomo.|.mokontomo.
+ stem: .monkontomo.|.mokontomo.|.mëkontomo.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
  gramm: pn
@@ -2119,7 +2335,7 @@
 
 -lexeme
  lex: tewisantomo-3pro-pl
- stem: .tëwïsantomo.
+ stem: .tëwïsantomo.|.tëwïsanton.
  trans_en: 3PRO.PL
  gloss: 3PRO.PL
  gramm: pn
@@ -2217,7 +2433,7 @@
 
 -lexeme
  lex: ware-thus
- stem: .warë.|.enwarë.|.nwarë.|.nwa.|.wa.
+ stem: .warë.|.enwarë.|.nwarë.|.nwa.|.wa.|.ënwarë.
  trans_en: thus
  gloss: thus
  gramm: adv
@@ -2607,6 +2823,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: 019e3a0a-dcf9-4366-8a84-0d0120aa5bef
+ stem: .kërëmu.
+ trans_en: vulture
+ gloss: vulture
+ gramm: n
+ std: kërëmu
+ id: 019e3a0a-dcf9-4366-8a84-0d0120aa5bef
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: 02c99f34-5b27-4ff8-819a-dc4a34dca14e
  stem: .kërëjpë.
  trans_en: old
@@ -2629,6 +2856,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: 05d76a65-1c03-423a-8330-67167494b852
+ stem: .papera.
+ trans_en: paper/studies
+ gloss: paper
+ gramm: n
+ std: papera
+ id: 05d76a65-1c03-423a-8330-67167494b852
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: 07bd51f6-fb85-483e-b0cf-b27e244f61b4
  stem: .ëkëtë.
  trans_en: where
@@ -2639,6 +2877,80 @@
  paradigm: adv
 
 -lexeme
+ lex: 0c390891-6179-41db-9e82-293fdf319a63
+ stem: .koropicha.
+ trans_en: mushroom.sp
+ gloss: mushroom.sp
+ gramm: n
+ std: koropicha
+ id: 0c390891-6179-41db-9e82-293fdf319a63
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 0c5767dc-3d72-44d9-bce8-956199b2f504
+ stem: .kaimarë.
+ trans_en: slow
+ gloss: slow
+ gramm: adv
+ std: kaimarë
+ id: 0c5767dc-3d72-44d9-bce8-956199b2f504
+ paradigm: adv
+
+-lexeme
+ lex: 1b69f7da-6b7c-4ed8-bf08-e688bb6ee79e
+ stem: .pore.
+ trans_en: leg
+ gloss: leg
+ gramm: n
+ std: pore
+ id: 1b69f7da-6b7c-4ed8-bf08-e688bb6ee79e
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 2019268f-49d4-46f6-8757-97b27a472727
+ stem: .narë.
+ trans_en: ASRT
+ gloss: ASRT
+ gramm: part
+ std: narë
+ id: 2019268f-49d4-46f6-8757-97b27a472727
+ paradigm: uninfl
+
+-lexeme
+ lex: 2cb1b964-bfd7-4c1d-b43a-aef78406e99b
+ stem: .pota.
+ trans_en: mouth/shore
+ gloss: mouth
+ gramm: n
+ std: pota
+ id: 2cb1b964-bfd7-4c1d-b43a-aef78406e99b
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 341c68b1-7cc9-4ef1-8f98-bca221925d02
+ stem: .chapïtï.|.chapïj.|.chapëj.|.chapïti.|.chapëti.|.achapëti.|.achapïti.
+ trans_en: scream
+ gloss: scream
+ gramm: vi
+ std: chapïtï
+ id: 341c68b1-7cc9-4ef1-8f98-bca221925d02
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: 345ea590-ac66-4c65-a7d1-e9cc0298c2d4
+ stem: .poo.
+ trans_en: tsk
+ gloss: tsk
+ gramm: intj
+ std: poo
+ id: 345ea590-ac66-4c65-a7d1-e9cc0298c2d4
+ paradigm: uninfl
+
+-lexeme
  lex: 36d6a83f-058a-449a-987f-1cd71d8d37cc
  stem: .neke.
  trans_en: CONTRAST
@@ -2647,6 +2959,71 @@
  std: neke
  id: 36d6a83f-058a-449a-987f-1cd71d8d37cc
  paradigm: uninfl
+
+-lexeme
+ lex: 3dffb6ea-44bf-4ad9-ac17-0463b07a5b9a
+ stem: .ëpi.
+ trans_en: cure
+ gloss: cure
+ gramm: n
+ std: ëpi
+ id: 3dffb6ea-44bf-4ad9-ac17-0463b07a5b9a
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 4658d54e-a027-4c1c-8728-fb7d68427fb9
+ stem: .kanawa.
+ trans_en: canoe
+ gloss: canoe
+ gramm: n
+ std: kanawa
+ id: 4658d54e-a027-4c1c-8728-fb7d68427fb9
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 4c3182e5-3803-4c5c-9c19-57cf3d18b4a4
+ stem: .ësëwë.|.sëwë.
+ trans_en: stab.self
+ gloss: stab.self
+ gramm: vi
+ std: ësëwë
+ id: 4c3182e5-3803-4c5c-9c19-57cf3d18b4a4
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: 4c346666-18de-4ff6-b26a-a581153e4d5f
+ stem: .tëpu.
+ trans_en: rock
+ gloss: rock
+ gramm: n
+ std: tëpu
+ id: 4c346666-18de-4ff6-b26a-a581153e4d5f
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 5078e6e4-e2ee-49ad-8d89-d59d13f379a1
+ stem: .enijpëtë.|.enijpoto.
+ trans_en: one
+ gloss: one
+ gramm: adv
+ std: enijpëtë
+ id: 5078e6e4-e2ee-49ad-8d89-d59d13f379a1
+ paradigm: adv
+
+-lexeme
+ lex: 587df19c-4c17-4861-8fca-fcabc2467305
+ stem: .yapijtomo.|.yapijtom.|.yapijton.
+ trans_en: old
+ gloss: old
+ gramm: n
+ std: yapijtomo
+ id: 587df19c-4c17-4861-8fca-fcabc2467305
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: 58bf6d86-1230-4458-997c-15f94ad6fbd6
@@ -2671,6 +3048,28 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: 5ab1aa95-6556-44ae-bd16-621d194e7326
+ stem: .araya.
+ trans_en: spider
+ gloss: spider
+ gramm: n
+ std: araya
+ id: 5ab1aa95-6556-44ae-bd16-621d194e7326
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 5d89dcb3-31fe-4383-95be-abe8055cd75c
+ stem: .yawano.
+ trans_en: knowledge
+ gloss: knowledge
+ gramm: n
+ std: yawano
+ id: 5d89dcb3-31fe-4383-95be-abe8055cd75c
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: 5e07b708-79a9-4b84-8bb2-8d90daf937b3
  stem: .kwase.|.kwajse.
  trans_en: how/why
@@ -2691,6 +3090,48 @@
  paradigm: uninfl
 
 -lexeme
+ lex: 62d16d71-ea6f-446d-874e-e5ef08d09308
+ stem: .umparë.|.ïmparë.|.ëmpare.|.ëmparë.
+ trans_en: already
+ gloss: already
+ gramm: part
+ std: umparë
+ id: 62d16d71-ea6f-446d-874e-e5ef08d09308
+ paradigm: uninfl
+
+-lexeme
+ lex: 723345ea-51e0-4b03-aa19-bfc69738b7a8
+ stem: .ëkëi.|.ëkëij.|.ëkëy.
+ trans_en: snake
+ gloss: snake
+ gramm: n
+ std: ëkëi
+ id: 723345ea-51e0-4b03-aa19-bfc69738b7a8
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 731c9d57-5510-4f21-95bd-c6c357b94eee
+ stem: .ëʼë.|.ë'ë.|.ë’ë.
+ trans_en: yes
+ gloss: yes
+ gramm: part
+ std: ëʼë
+ id: 731c9d57-5510-4f21-95bd-c6c357b94eee
+ paradigm: uninfl
+
+-lexeme
+ lex: 73508237-6c84-4610-ac40-d7fffe59ba45
+ stem: .yaʼra.|.ya'ra.
+ trans_en: grandchild
+ gloss: grandchild
+ gramm: n
+ std: yaʼra
+ id: 73508237-6c84-4610-ac40-d7fffe59ba45
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: 763cd0a8-2338-47f6-be83-51c37991b129
  stem: .yatunë.|.yatun.|.yatum.
  trans_en: sun/day
@@ -2698,6 +3139,60 @@
  gramm: n
  std: yatunë
  id: 763cd0a8-2338-47f6-be83-51c37991b129
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 80a38100-6fa7-4be9-baa6-c4463991015e
+ stem: .kayakani.
+ trans_en: crab
+ gloss: crab
+ gramm: n
+ std: kayakani
+ id: 80a38100-6fa7-4be9-baa6-c4463991015e
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 8a760fc9-cdde-402f-8769-fb8d11130210
+ stem: .yamore.
+ trans_en: shaman
+ gloss: shaman
+ gramm: n
+ std: yamore
+ id: 8a760fc9-cdde-402f-8769-fb8d11130210
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: 8a9d2392-c397-4851-85b2-01b3d01a75a1
+ stem: .petomyakërë.
+ trans_en: three
+ gloss: three
+ gramm: adv
+ std: petomyakërë
+ id: 8a9d2392-c397-4851-85b2-01b3d01a75a1
+ paradigm: adv
+
+-lexeme
+ lex: 8f2b723f-58a1-4154-ae8f-c65c5caad2f0
+ stem: .wë.|.wo.
+ trans_en: kill
+ gloss: kill
+ gramm: vt
+ std: wë
+ id: 8f2b723f-58a1-4154-ae8f-c65c5caad2f0
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: 9040b27b-87c0-48c9-be00-e27b2e1333aa
+ stem: .kamicha.
+ trans_en: clothing
+ gloss: clothing
+ gramm: n
+ std: kamicha
+ id: 9040b27b-87c0-48c9-be00-e27b2e1333aa
  paradigm: noun
  paradigm: n_deriv
 
@@ -2723,6 +3218,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: a0256baa-87df-424e-8cf6-2220171fbc24
+ stem: .sejpëti.|.sejpëj.|.esejpëti.
+ trans_en: dream
+ gloss: dream
+ gramm: vi
+ std: sejpëti
+ id: a0256baa-87df-424e-8cf6-2220171fbc24
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: a6194807-28a2-45e2-a45f-e335729278fb
  stem: .parë.
  trans_en: and/too
@@ -2733,6 +3239,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: a64b13ec-f863-4853-bff4-f1ec03f1d72f
+ stem: .sayu.
+ trans_en: salt
+ gloss: salt
+ gramm: n
+ std: sayu
+ id: a64b13ec-f863-4853-bff4-f1ec03f1d72f
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: a992b4b6-c478-4e4b-9814-670e19682543
  stem: .ëkëjna.
  trans_en: where.to
@@ -2741,6 +3258,28 @@
  std: ëkëjna
  id: a992b4b6-c478-4e4b-9814-670e19682543
  paradigm: adv
+
+-lexeme
+ lex: b62f2759-d3c7-423f-935c-1d8ac53b311d
+ stem: .mui.|.muiri.
+ trans_en: husk
+ gloss: husk
+ gramm: n
+ std: mui
+ id: b62f2759-d3c7-423f-935c-1d8ac53b311d
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: b780720a-05df-44fb-8326-647e5f495325
+ stem: .tanapï.
+ trans_en: soft.drink
+ gloss: soft.drink
+ gramm: n
+ std: tanapï
+ id: b780720a-05df-44fb-8326-647e5f495325
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: b88eb9d8-3039-47c5-b822-a13e422aeb48
@@ -2763,6 +3302,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: b9f2a152-27de-4faf-b568-df5c1a1ca85c
+ stem: .tëk.
+ trans_en: hit
+ gloss: hit
+ gramm: ideo
+ std: tëk
+ id: b9f2a152-27de-4faf-b568-df5c1a1ca85c
+ paradigm: uninfl
+
+-lexeme
  lex: bcfb197f-800e-48bd-8ec6-664e658aff04
  stem: .womï.|.won.|.wom.
  trans_en: enter
@@ -2774,6 +3323,60 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: c0381d53-386d-4a2e-a1f7-b9ddb73a6a66
+ stem: .yawarana.|.Yawarana.
+ trans_en: Yawarana
+ gloss: Yawarana
+ gramm: n
+ std: yawarana
+ id: c0381d53-386d-4a2e-a1f7-b9ddb73a6a66
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: d12e1f3b-12d5-4dae-b5a9-db440d6bf7bf
+ stem: .racha.
+ trans_en: blow.gun
+ gloss: blow.gun
+ gramm: n
+ std: racha
+ id: d12e1f3b-12d5-4dae-b5a9-db440d6bf7bf
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: d5876dfe-6502-4008-a3c6-2478f6d130b2
+ stem: .pupuri.
+ trans_en: palm.sp
+ gloss: palm.sp
+ gramm: n
+ std: pupuri
+ id: d5876dfe-6502-4008-a3c6-2478f6d130b2
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: d6325fa7-e8b2-4c48-b29a-47e40c9ba787
+ stem: .takune.
+ trans_en: lazy
+ gloss: lazy
+ gramm: adv
+ std: takune
+ id: d6325fa7-e8b2-4c48-b29a-47e40c9ba787
+ paradigm: adv
+
+-lexeme
+ lex: d6fc6362-0f18-4b8e-b23f-0f42a1d633ef
+ stem: .tajromini.|.tajromin.
+ trans_en: bad.news
+ gloss: bad.news
+ gramm: n
+ std: tajromini
+ id: d6fc6362-0f18-4b8e-b23f-0f42a1d633ef
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: dc33b380-8376-4775-83e2-46bcef401199
  stem: .ënuku.|.ënuj.
  trans_en: go.up
@@ -2783,6 +3386,50 @@
  id: dc33b380-8376-4775-83e2-46bcef401199
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: ddfd3841-ca49-407a-87e6-0a268a1ab62d
+ stem: .wajto.
+ trans_en: fire
+ gloss: fire
+ gramm: n
+ std: wajto
+ id: ddfd3841-ca49-407a-87e6-0a268a1ab62d
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: e1b1ffac-d11c-4423-b314-817a38f0ecca
+ stem: .karakachi.
+ trans_en: ring.worm
+ gloss: ring.worm
+ gramm: n
+ std: karakachi
+ id: e1b1ffac-d11c-4423-b314-817a38f0ecca
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: e6f705ef-7f25-4c05-9132-176a91b1ba69
+ stem: .ëtunë.
+ trans_en: history
+ gloss: history
+ gramm: n
+ std: ëtunë
+ id: e6f705ef-7f25-4c05-9132-176a91b1ba69
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ef5c051f-d59f-483c-b927-8d95082f19bf
+ stem: .waraijtë.|.waraijto.
+ trans_en: husband/male
+ gloss: husband
+ gramm: n
+ std: waraijtë
+ id: ef5c051f-d59f-483c-b927-8d95082f19bf
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: efec7abd-f480-462a-9648-e2434e3bee0d
@@ -2804,6 +3451,17 @@
  std: sa
  id: f3e78ed2-7584-444f-9487-84e46b62362b
  paradigm: uninfl
+
+-lexeme
+ lex: f8ec2208-d0f4-4701-a02c-025dae686302
+ stem: .mañuku.
+ trans_en: manioc.meal
+ gloss: manioc.meal
+ gramm: n
+ std: mañuku
+ id: f8ec2208-d0f4-4701-a02c-025dae686302
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: f90c63ed-bd4c-43b7-b9f9-2709d3ff0ddd
@@ -2869,7 +3527,7 @@
 
 -lexeme
  lex: imi-father
- stem: ëmo.
+ stem: ëmo.//ëmë.
  gloss: 2;father
  id: imi-father
  gramm: n,2
