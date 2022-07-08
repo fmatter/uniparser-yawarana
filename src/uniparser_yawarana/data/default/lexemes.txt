@@ -1527,6 +1527,16 @@
  paradigm: adv
 
 -lexeme
+ lex: intompijke-small
+ stem: .intompijkë.
+ trans_en: small
+ gloss: small
+ gramm: adv
+ std: intompijkë
+ id: intompijke-small
+ paradigm: adv
+
+-lexeme
  lex: iriyawe-then
  stem: .iriyawë.
  trans_en: then
@@ -1568,6 +1578,16 @@
  paradigm: adv
 
 -lexeme
+ lex: jwaka-ill-aq
+ stem: .jwaka.
+ trans_en: ILL.AQ; LOC.AQ
+ gloss: ILL.AQ
+ gramm: postp
+ std: jwaka
+ id: jwaka-ill-aq
+ paradigm: postp
+
+-lexeme
  lex: ka-q
  stem: .ka.
  trans_en: Q
@@ -1589,6 +1609,39 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: kamere-lightning
+ stem: .kamere.
+ trans_en: lightning
+ gloss: lightning
+ gramm: n
+ std: kamere
+ id: kamere-lightning
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kamwiyajka-change
+ stem: .kamwiyajka.
+ trans_en: change
+ gloss: change
+ gramm: vt
+ std: kamwiyajka
+ id: kamwiyajka-change
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: kapau-dasypus-novemcinctus
+ stem: .kapau.
+ trans_en: dasypus novemcinctus
+ gloss: dasypus.novemcinctus
+ gramm: n
+ std: kapau
+ id: kapau-dasypus-novemcinctus
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: ka-take-out
  stem: .ka.
  trans_en: take out
@@ -1600,6 +1653,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: kasajpe-fruit-pit
+ stem: .kasajpë.
+ trans_en: fruit pit
+ gloss: fruit.pit
+ gramm: n
+ std: kasajpë
+ id: kasajpe-fruit-pit
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: kawe-high
  stem: .kawë.
  trans_en: high
@@ -1608,6 +1672,28 @@
  std: kawë
  id: kawe-high
  paradigm: adv
+
+-lexeme
+ lex: kaya-barbasco
+ stem: .kaya.
+ trans_en: barbasco
+ gloss: barbasco
+ gramm: n
+ std: kaya
+ id: kaya-barbasco
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kaya-gourd
+ stem: .kaya.
+ trans_en: gourd
+ gloss: gourd
+ gramm: n
+ std: kaya
+ id: kaya-gourd
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: kejkepe-salamander
@@ -1643,6 +1729,61 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: korokoro-c
+ stem: .korokoro.
+ trans_en: C.
+ gloss: C.
+ gramm: n
+ std: korokoro
+ id: korokoro-c
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuru-prochilodus-mariae
+ stem: .kuru.
+ trans_en: prochilodus mariae
+ gloss: prochilodus.mariae
+ gramm: n
+ std: kuru
+ id: kuru-prochilodus-mariae
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuruwa-coroba-palm
+ stem: .kuruwa.
+ trans_en: coroba palm
+ gloss: coroba.palm
+ gramm: n
+ std: kuruwa
+ id: kuruwa-coroba-palm
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuya-tree-sp
+ stem: .kuya.
+ trans_en: tree.sp
+ gloss: tree.sp
+ gramm: n
+ std: kuya
+ id: kuya-tree-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuyuwi-bird-sp
+ stem: .kuyuwi.
+ trans_en: bird.sp
+ gloss: bird.sp
+ gramm: n
+ std: kuyuwi
+ id: kuyuwi-bird-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: kejma-hunt
  stem: .këjma.
  trans_en: hunt
@@ -1674,6 +1815,28 @@
  paradigm: uninfl
 
 -lexeme
+ lex: keta-stink
+ stem: .këta.
+ trans_en: stink
+ gloss: stink
+ gramm: vi
+ std: këta
+ id: keta-stink
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: ketejwate-cotton
+ stem: .këtëjwatë.
+ trans_en: cotton
+ gloss: cotton
+ gramm: n
+ std: këtëjwatë
+ id: ketejwate-cotton
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: kimiy-chili
  stem: .kïmïy.|.kïmïi.
  trans_en: chili
@@ -1696,6 +1859,61 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: majawa-m
+ stem: .majawa.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: majawa
+ id: majawa-m
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: majpe-m
+ stem: .majpë.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: majpë
+ id: majpe-m
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: maka-ceiba-pentandra
+ stem: .maka.
+ trans_en: ceiba pentandra
+ gloss: ceiba.pentandra
+ gramm: n
+ std: maka
+ id: maka-ceiba-pentandra
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: makarike-cayman
+ stem: .makarikë.
+ trans_en: cayman
+ gloss: cayman
+ gramm: n
+ std: makarikë
+ id: makarike-cayman
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: makuyupi-catfish-sp
+ stem: .makuyupi.
+ trans_en: catfish.sp
+ gloss: catfish.sp
+ gramm: n
+ std: makuyupi
+ id: makuyupi-catfish-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: mapara-chicken
  stem: .mapara.
  trans_en: chicken
@@ -1703,6 +1921,28 @@
  gramm: n
  std: mapara
  id: mapara-chicken
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ma-throw
+ stem: .ma.
+ trans_en: throw
+ gloss: throw
+ gramm: vt
+ std: ma
+ id: ma-throw
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: mayawaka-m
+ stem: .mayawaka.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: mayawaka
+ id: mayawaka-m
  paradigm: noun
  paradigm: n_deriv
 
@@ -1757,8 +1997,30 @@
  paradigm: uninfl
 
 -lexeme
+ lex: mone-vagina
+ stem: .mone.
+ trans_en: vagina
+ gloss: vagina
+ gramm: n
+ std: mone
+ id: mone-vagina
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: moneka-girl-voc
+ stem: .moneka.
+ trans_en: girl.VOC
+ gloss: girl.VOC
+ gramm: n
+ std: moneka
+ id: moneka-girl-voc
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: monkontomo-2pl-pro
- stem: .monkontomo.|.mokontomo.|.mëkontomo.
+ stem: .monkontomo.|.mokontomo.|.mëkontomo.|.montomo.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
  gramm: pn
@@ -1784,6 +2046,17 @@
  gramm: n
  std: moroni
  id: moroni-pain
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: morono-poison
+ stem: .morono.
+ trans_en: poison
+ gloss: poison
+ gramm: n
+ std: morono
+ id: morono-poison
  paradigm: noun
  paradigm: n_deriv
 
@@ -1829,6 +2102,17 @@
  std: mune
  id: mune-bulbous
  paradigm: adv
+
+-lexeme
+ lex: munta-budding
+ stem: .munta.
+ trans_en: budding
+ gloss: budding
+ gramm: vi
+ std: munta
+ id: munta-budding
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: mejki-dist-anim
@@ -1911,6 +2195,17 @@
  paradigm: adv
 
 -lexeme
+ lex: mira-priodontes-maximus
+ stem: .mïra.
+ trans_en: priodontes maximus
+ gloss: priodontes.maximus
+ gramm: n
+ std: mïra
+ id: mira-priodontes-maximus
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: najmo-grandmother
  stem: .najmo.|.najmu.
  trans_en: grandmother
@@ -1929,6 +2224,17 @@
  gramm: n
  std: najpï
  id: najpi-grandfather
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: nata-door
+ stem: .nata.
+ trans_en: door
+ gloss: door
+ gramm: n
+ std: nata
+ id: nata-door
  paradigm: noun
  paradigm: n_deriv
 
@@ -1965,6 +2271,17 @@
  paradigm: adv
 
 -lexeme
+ lex: noro-parrot-sp
+ stem: .noro.
+ trans_en: parrot.sp
+ gloss: parrot.sp
+ gramm: n
+ std: noro
+ id: noro-parrot-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: noti-potential-partner
  stem: .noti.
  trans_en: potential partner; cross cousin
@@ -1983,6 +2300,28 @@
  gramm: vt
  std: nëmë
  id: neme-leave
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: ochi-o
+ stem: .ochi.
+ trans_en: O.
+ gloss: O.
+ gramm: n
+ std: ochi
+ id: ochi-o
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ojpa-give-drink
+ stem: .ojpa.
+ trans_en: give drink
+ gloss: give.drink
+ gramm: vt
+ std: ojpa
+ id: ojpa-give-drink
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -2009,6 +2348,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: orojyamo-evil-being
+ stem: .orojyamo.
+ trans_en: evil being
+ gloss: evil.being
+ gramm: n
+ std: orojyamo
+ id: orojyamo-evil-being
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: pachi-older-sister-of-woman
  stem: .pachi.
  trans_en: older sister of woman
@@ -2016,6 +2366,28 @@
  gramm: n
  std: pachi
  id: pachi-older-sister-of-woman
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: paijku-p
+ stem: .paijku.
+ trans_en: P.
+ gloss: P.
+ gramm: n
+ std: paijku
+ id: paijku-p
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: paka-cow
+ stem: .paka.
+ trans_en: cow
+ gloss: cow
+ gramm: n
+ std: paka
+ id: paka-cow
  paradigm: noun
  paradigm: n_deriv
 
@@ -2075,6 +2447,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: parujpe-broth
+ stem: .parujpë.
+ trans_en: broth
+ gloss: broth
+ gramm: n
+ std: parujpë
+ id: parujpe-broth
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: pata-axe
  stem: .pata.
  trans_en: axe
@@ -2108,6 +2491,38 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: pene-piranha
+ stem: .pene.
+ trans_en: piranha
+ gloss: piranha
+ gramm: n
+ std: pene
+ id: pene-piranha
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pepoye-above-perl
+ stem: .pepoye.
+ trans_en: above.PERL
+ gloss: above.PERL
+ gramm: postp
+ std: pepoye
+ id: pepoye-above-perl
+ paradigm: postp
+
+-lexeme
+ lex: pe-palm-sp
+ stem: .pe.
+ trans_en: palm.sp
+ gloss: palm.sp
+ gramm: n
+ std: pe
+ id: pe-palm-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: peti-leg
  stem: .peti.
  trans_en: leg
@@ -2117,6 +2532,39 @@
  id: peti-leg
  paradigm: noun
  paradigm: n_deriv
+
+-lexeme
+ lex: peye-turtle-sp
+ stem: .peye.
+ trans_en: turtle.sp
+ gloss: turtle.sp
+ gramm: n
+ std: peye
+ id: peye-turtle-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: picha-capuchin-monkey
+ stem: .picha.
+ trans_en: capuchin monkey
+ gloss: capuchin.monkey
+ gramm: n
+ std: picha
+ id: picha-capuchin-monkey
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pika-peel
+ stem: .pika.
+ trans_en: peel
+ gloss: peel
+ gramm: vt
+ std: pika
+ id: pika-peel
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
 
 -lexeme
  lex: pinchi-hes
@@ -2140,6 +2588,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: poroko-basket-sp
+ stem: .poroko.
+ trans_en: basket.sp
+ gloss: basket.sp
+ gramm: n
+ std: poroko
+ id: poroko-basket-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: poye-above
  stem: .poye.
  trans_en: above
@@ -2150,6 +2609,49 @@
  paradigm: postp
 
 -lexeme
+ lex: pimi-neck
+ stem: .pïmï.
+ trans_en: neck
+ gloss: neck
+ gramm: n
+ std: pïmï
+ id: pimi-neck
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pirika-endure
+ stem: .pïrïka.
+ trans_en: endure
+ gloss: endure
+ gramm: vt
+ std: pïrïka
+ id: pirika-endure
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: romoye-downriver
+ stem: .romoye.
+ trans_en: downriver
+ gloss: downriver
+ gramm: adv
+ std: romoye
+ id: romoye-downriver
+ paradigm: adv
+
+-lexeme
+ lex: rotoro-doctor
+ stem: .rotoro.
+ trans_en: doctor
+ gloss: doctor
+ gramm: n
+ std: rotoro
+ id: rotoro-doctor
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: sakara-hoplias-malabaricus
  stem: .sakara.
  trans_en: hoplias malabaricus
@@ -2157,6 +2659,61 @@
  gramm: n
  std: sakara
  id: sakara-hoplias-malabaricus
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: saku-sweet-potato
+ stem: .saku.
+ trans_en: sweet potato
+ gloss: sweet.potato
+ gramm: n
+ std: saku
+ id: saku-sweet-potato
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: samo-cry
+ stem: .samo.
+ trans_en: cry
+ gloss: cry
+ gramm: vi
+ std: samo
+ id: samo-cry
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: sampu-black-piranha
+ stem: .sampu.
+ trans_en: black piranha
+ gloss: black.piranha
+ gramm: n
+ std: sampu
+ id: sampu-black-piranha
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: sapara-heavy-pot
+ stem: .sapara.
+ trans_en: heavy pot
+ gloss: heavy.pot
+ gramm: n
+ std: sapara
+ id: sapara-heavy-pot
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: sawo-rapids
+ stem: .sawo.
+ trans_en: rapids
+ gloss: rapids
+ gramm: n
+ std: sawo
+ id: sawo-rapids
  paradigm: noun
  paradigm: n_deriv
 
@@ -2193,6 +2750,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: surukupi-fish-sp
+ stem: .surukupi.
+ trans_en: fish.sp
+ gloss: fish.sp
+ gramm: n
+ std: surukupi
+ id: surukupi-fish-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: sema-die
  stem: .sëma.
  trans_en: die
@@ -2204,8 +2772,40 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: tajme-ugly
+ stem: .tajme.
+ trans_en: ugly
+ gloss: ugly
+ gramm: adv
+ std: tajme
+ id: tajme-ugly
+ paradigm: adv
+
+-lexeme
+ lex: tajnomo-piaroa
+ stem: .tajnomo.
+ trans_en: Piaroa
+ gloss: Piaroa
+ gramm: n
+ std: tajnomo
+ id: tajnomo-piaroa
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tajropo-have-fever
+ stem: .tajropo.
+ trans_en: have fever
+ gloss: have.fever
+ gramm: vi
+ std: tajropo
+ id: tajropo-have-fever
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: takono-other
- stem: .takono.
+ stem: .takono.|.takon.
  trans_en: other
  gloss: other
  gramm: n
@@ -2248,6 +2848,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: teijpo-far
+ stem: .teijpo.
+ trans_en: far; long
+ gloss: far
+ gramm: adv
+ std: teijpo
+ id: teijpo-far
+ paradigm: adv
+
+-lexeme
  lex: tejwetunu-sick
  stem: .tejwetunu.|.tejetum.
  trans_en: sick
@@ -2255,6 +2865,28 @@
  gramm: n
  std: tejwetunu
  id: tejwetunu-sick
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tonko-play
+ stem: .tonko.
+ trans_en: play
+ gloss: play
+ gramm: vi
+ std: tonko
+ id: tonko-play
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: torote-cemetery
+ stem: .torotë.
+ trans_en: cemetery
+ gloss: cemetery
+ gramm: n
+ std: torotë
+ id: torote-cemetery
  paradigm: noun
  paradigm: n_deriv
 
@@ -2268,6 +2900,26 @@
  id: toto-non-indian
  paradigm: noun
  paradigm: n_deriv
+
+-lexeme
+ lex: tuj-fall
+ stem: .tuj.
+ trans_en: fall
+ gloss: fall
+ gramm: ideo
+ std: tuj
+ id: tuj-fall
+ paradigm: uninfl
+
+-lexeme
+ lex: tujnaka-iller
+ stem: .tujnaka.
+ trans_en: iller
+ gloss: iller
+ gramm: adv
+ std: tujnaka
+ id: tujnaka-iller
+ paradigm: adv
 
 -lexeme
  lex: tuna-water
@@ -2301,16 +2953,6 @@
  id: tu-give
  paradigm: v_tr
  paradigm: v_tr_nmlz
-
--lexeme
- lex: teijpo-far
- stem: .tëijpo.|.tëijpë.
- trans_en: far; long
- gloss: far
- gramm: adv
- std: tëijpo
- id: teijpo-far
- paradigm: adv
 
 -lexeme
  lex: tejta-hollow
@@ -2433,7 +3075,7 @@
 
 -lexeme
  lex: ware-thus
- stem: .warë.|.enwarë.|.nwarë.|.nwa.|.wa.|.ënwarë.
+ stem: .warë.|.enwarë.|.nwarë.|.nwa.|.wa.|.ënwarë.|.uwarë.
  trans_en: thus
  gloss: thus
  gramm: adv
@@ -2683,7 +3325,7 @@
 
 -lexeme
  lex: ye-tooth
- stem: .yë.
+ stem: .yë.|.ye.
  trans_en: tooth
  gloss: tooth
  gramm: n
@@ -3492,6 +4134,925 @@
  gramm: n
  std: racha
  id: racha-blow-gun
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pima-love
+ stem: .pïma.
+ trans_en: love
+ gloss: love
+ gramm: vt
+ std: pïma
+ id: pima-love
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: peru-toad
+ stem: .përu.
+ trans_en: toad
+ gloss: toad
+ gramm: n
+ std: përu
+ id: peru-toad
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: punu-flesh
+ stem: .punu.
+ trans_en: flesh
+ gloss: flesh
+ gramm: n
+ std: punu
+ id: punu-flesh
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kanajmunu-hill
+ stem: .kanajmunu.|.kanajmun.
+ trans_en: hill
+ gloss: hill
+ gramm: n
+ std: kanajmunu
+ id: kanajmunu-hill
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: rujruku-wild-grape
+ stem: .rujruku.
+ trans_en: wild.grape
+ gloss: wild.grape
+ gramm: n
+ std: rujruku
+ id: rujruku-wild-grape
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kune-heat
+ stem: .kunë.
+ trans_en: heat/cook
+ gloss: heat
+ gramm: vt
+ std: kunë
+ id: kune-heat
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: kawai-tobacco
+ stem: .kawai.|.kawaij.
+ trans_en: tobacco
+ gloss: tobacco
+ gramm: n
+ std: kawai
+ id: kawai-tobacco
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kasawoko-ant-sp
+ stem: .kasawoko.
+ trans_en: ant.sp
+ gloss: ant.sp
+ gramm: n
+ std: kasawoko
+ id: kasawoko-ant-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: karakapusa-shotgun
+ stem: .karakapusa.
+ trans_en: shotgun
+ gloss: shotgun
+ gramm: n
+ std: karakapusa
+ id: karakapusa-shotgun
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: maraka-maraca
+ stem: .maraka.
+ trans_en: maraca
+ gloss: maraca
+ gramm: n
+ std: maraka
+ id: maraka-maraca
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chikii-small-bird
+ stem: .chïkïi.
+ trans_en: small.bird
+ gloss: small.bird
+ gramm: n
+ std: chïkïi
+ id: chikii-small-bird
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chej-pull-out
+ stem: .chej.
+ trans_en: pull.out
+ gloss: pull.out
+ gramm: ideo
+ std: chej
+ id: chej-pull-out
+ paradigm: uninfl
+
+-lexeme
+ lex: am-um
+ stem: .am.
+ trans_en: um
+ gloss: um
+ gramm: intj
+ std: am
+ id: am-um
+ paradigm: uninfl
+
+-lexeme
+ lex: romana-down-river
+ stem: .romana.|.romona.
+ trans_en: down.river
+ gloss: down.river
+ gramm: adv
+ std: romana
+ id: romana-down-river
+ paradigm: adv
+
+-lexeme
+ lex: mara-potion
+ stem: .mara.
+ trans_en: potion
+ gloss: potion
+ gramm: n
+ std: mara
+ id: mara-potion
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: iij-oh
+ stem: .iij.
+ trans_en: oh
+ gloss: oh
+ gramm: intj
+ std: iij
+ id: iij-oh
+ paradigm: uninfl
+
+-lexeme
+ lex: mesuku-blood
+ stem: .mesuku.
+ trans_en: blood
+ gloss: blood
+ gramm: n
+ std: mesuku
+ id: mesuku-blood
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: raimoto-spear
+ stem: .raimoto.
+ trans_en: spear
+ gloss: spear
+ gramm: n
+ std: raimoto
+ id: raimoto-spear
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: poj-wow
+ stem: .poj.
+ trans_en: wow
+ gloss: wow
+ gramm: intj
+ std: poj
+ id: poj-wow
+ paradigm: uninfl
+
+-lexeme
+ lex: nachi-corn
+ stem: .nachi.
+ trans_en: corn
+ gloss: corn
+ gramm: n
+ std: nachi
+ id: nachi-corn
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: najwata-port
+ stem: .najwata.
+ trans_en: port
+ gloss: port
+ gramm: n
+ std: najwata
+ id: najwata-port
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tej-darn
+ stem: .tej.|.tij.
+ trans_en: darn
+ gloss: darn
+ gramm: intj
+ std: tej
+ id: tej-darn
+ paradigm: uninfl
+
+-lexeme
+ lex: supara-machete
+ stem: .supara.
+ trans_en: machete
+ gloss: machete
+ gramm: n
+ std: supara
+ id: supara-machete
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tapitu-palm-sp
+ stem: .tapitu.
+ trans_en: palm.sp
+ gloss: palm.sp
+ gramm: n
+ std: tapitu
+ id: tapitu-palm-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: warakaru-monkey-sp
+ stem: .warakaru.
+ trans_en: monkey.sp
+ gloss: monkey.sp
+ gramm: n
+ std: warakaru
+ id: warakaru-monkey-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: yawaka-sow
+ stem: .yawaka.
+ trans_en: sow
+ gloss: sow
+ gramm: vt
+ std: yawaka
+ id: yawaka-sow
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: wichanore-big
+ stem: .wichanorë.
+ trans_en: big
+ gloss: big
+ gramm: adv
+ std: wichanorë
+ id: wichanore-big
+ paradigm: adv
+
+-lexeme
+ lex: wurichi-female
+ stem: .wurichi.
+ trans_en: female
+ gloss: female
+ gramm: n
+ std: wurichi
+ id: wurichi-female
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: wichere-enough
+ stem: .wicherë.|.wïchërë.
+ trans_en: enough/big
+ gloss: enough
+ gramm: adv
+ std: wicherë
+ id: wichere-enough
+ paradigm: adv
+
+-lexeme
+ lex: konare-yesterday
+ stem: .koñarë.
+ trans_en: yesterday
+ gloss: yesterday
+ gramm: adv
+ std: koñarë
+ id: konare-yesterday
+ paradigm: adv
+
+-lexeme
+ lex: karana-sugar-cane
+ stem: .karana.
+ trans_en: sugar.cane
+ gloss: sugar.cane
+ gramm: n
+ std: karana
+ id: karana-sugar-cane
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kayama-pumpkin
+ stem: .kayama.
+ trans_en: pumpkin
+ gloss: pumpkin
+ gramm: n
+ std: kayama
+ id: kayama-pumpkin
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: koroki-stuff
+ stem: .korokï.
+ trans_en: stuff
+ gloss: stuff
+ gramm: n
+ std: korokï
+ id: koroki-stuff
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kujpa-palm-sp
+ stem: .kujpa.
+ trans_en: palm.sp
+ gloss: palm.sp
+ gramm: n
+ std: kujpa
+ id: kujpa-palm-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kujpe-lake
+ stem: .kujpë.
+ trans_en: lake
+ gloss: lake
+ gramm: n
+ std: kujpë
+ id: kujpe-lake
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: arawai-pineapple-sp
+ stem: .arawai.
+ trans_en: pineapple.sp
+ gloss: pineapple.sp
+ gramm: n
+ std: arawai
+ id: arawai-pineapple-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chayi-son
+ stem: .chayi.
+ trans_en: son
+ gloss: son
+ gramm: n
+ std: chayi
+ id: chayi-son
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chikiri-rubber
+ stem: .chikiri.
+ trans_en: rubber
+ gloss: rubber
+ gramm: n
+ std: chikiri
+ id: chikiri-rubber
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pijpe-skin
+ stem: .pijpë.
+ trans_en: skin
+ gloss: skin
+ gramm: n
+ std: pijpë
+ id: pijpe-skin
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: parankana-container
+ stem: .parankana.
+ trans_en: container
+ gloss: container
+ gramm: n
+ std: parankana
+ id: parankana-container
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: oroko-fox
+ stem: .oroko.
+ trans_en: fox
+ gloss: fox
+ gramm: n
+ std: oroko
+ id: oroko-fox
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: rawa-plant-sp
+ stem: .rawa.
+ trans_en: plant.sp
+ gloss: plant.sp
+ gramm: n
+ std: rawa
+ id: rawa-plant-sp
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: manare-sieve
+ stem: .manare.
+ trans_en: sieve
+ gloss: sieve
+ gramm: n
+ std: manare
+ id: manare-sieve
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: manku-mango
+ stem: .manku.
+ trans_en: mango
+ gloss: mango
+ gramm: n
+ std: manku
+ id: manku-mango
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: mati-breast
+ stem: .mati.
+ trans_en: breast
+ gloss: breast
+ gramm: n
+ std: mati
+ id: mati-breast
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: minate-liana
+ stem: .minatë.
+ trans_en: liana
+ gloss: liana
+ gramm: n
+ std: minatë
+ id: minate-liana
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: mojne-salty
+ stem: .mojne.
+ trans_en: salty
+ gloss: salty
+ gramm: adv
+ std: mojne
+ id: mojne-salty
+ paradigm: adv
+
+-lexeme
+ lex: nune-moon
+ stem: .nunë.
+ trans_en: moon
+ gloss: moon
+ gramm: n
+ std: nunë
+ id: nune-moon
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tepi-plant
+ stem: .tëpï.
+ trans_en: plant
+ gloss: plant
+ gramm: n
+ std: tëpï
+ id: tepi-plant
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tururu-slow
+ stem: .tururu.
+ trans_en: slow
+ gloss: slow
+ gramm: ideo
+ std: tururu
+ id: tururu-slow
+ paradigm: uninfl
+
+-lexeme
+ lex: waraimo-yam
+ stem: .waraimo.
+ trans_en: yam
+ gloss: yam
+ gramm: n
+ std: waraimo
+ id: waraimo-yam
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: wanata-gourd
+ stem: .wanata.
+ trans_en: gourd
+ gloss: gourd
+ gramm: n
+ std: wanata
+ id: wanata-gourd
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: wajyama-kiss
+ stem: .wajyama.
+ trans_en: kiss
+ gloss: kiss
+ gramm: vt
+ std: wajyama
+ id: wajyama-kiss
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: tajpii-well
+ stem: .tajpïi.
+ trans_en: well
+ gloss: well
+ gramm: n
+ std: tajpïi
+ id: tajpii-well
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tapotei-big
+ stem: .tapotëi.
+ trans_en: big
+ gloss: big
+ gramm: n
+ std: tapotëi
+ id: tapotei-big
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: tee-oh-dear
+ stem: .tee.
+ trans_en: oh.dear!
+ gloss: oh.dear!
+ gramm: intj
+ std: tee
+ id: tee-oh-dear
+ paradigm: uninfl
+
+-lexeme
+ lex: tawaye-grater
+ stem: .tawaye.
+ trans_en: grater
+ gloss: grater
+ gramm: n
+ std: tawaye
+ id: tawaye-grater
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: yejma-smoke
+ stem: .yëjma.
+ trans_en: smoke
+ gloss: smoke
+ gramm: vt
+ std: yëjma
+ id: yejma-smoke
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yakete-cut
+ stem: .yakëtë.|.yakëj.|.yakë.|.yajkëtë.
+ trans_en: cut
+ gloss: cut
+ gramm: vt
+ std: yakëtë
+ id: yakete-cut
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: wejte-go-down
+ stem: .wëjtë.|.wojtë.
+ trans_en: go.down
+ gloss: go.down
+ gramm: vi
+ std: wëjtë
+ id: wejte-go-down
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: yanaka-help
+ stem: .yanaka.
+ trans_en: help/heal/pay
+ gloss: help
+ gramm: vt
+ std: yanaka
+ id: yanaka-help
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yawani-heart
+ stem: .yawani.|.yawan.
+ trans_en: heart
+ gloss: heart
+ gramm: n
+ std: yawani
+ id: yawani-heart
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kampe-grilled-meat
+ stem: .kampë.
+ trans_en: grilled.meat
+ gloss: grilled.meat
+ gramm: n
+ std: kampë
+ id: kampe-grilled-meat
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kamaya-ara
+ stem: .kamaya.
+ trans_en: ara
+ gloss: ara
+ gramm: n
+ std: kamaya
+ id: kamaya-ara
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kachuna-pants
+ stem: .kachuna.
+ trans_en: pants
+ gloss: pants
+ gramm: n
+ std: kachuna
+ id: kachuna-pants
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kejta-sing
+ stem: .këjta.
+ trans_en: sing
+ gloss: sing
+ gramm: vi
+ std: këjta
+ id: kejta-sing
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kuyara-canoe
+ stem: .kuyara.
+ trans_en: canoe
+ gloss: canoe
+ gramm: n
+ std: kuyara
+ id: kuyara-canoe
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuchi-drink-type
+ stem: .kuchi.
+ trans_en: drink.type
+ gloss: drink.type
+ gramm: n
+ std: kuchi
+ id: kuchi-drink-type
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: koyoweti-navel
+ stem: .koyoweti.
+ trans_en: navel
+ gloss: navel
+ gramm: n
+ std: koyoweti
+ id: koyoweti-navel
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: asakerere-both
+ stem: .asakërërë.
+ trans_en: both
+ gloss: both
+ gramm: adv
+ std: asakërërë
+ id: asakerere-both
+ paradigm: adv
+
+-lexeme
+ lex: aj-meh
+ stem: .aj.
+ trans_en: meh
+ gloss: meh
+ gramm: intj
+ std: aj
+ id: aj-meh
+ paradigm: uninfl
+
+-lexeme
+ lex: ijmo-break
+ stem: .ijmo.
+ trans_en: break
+ gloss: break
+ gramm: vt
+ std: ijmo
+ id: ijmo-break
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: ejturiajte-study
+ stem: .ejturiajtë.
+ trans_en: study
+ gloss: study
+ gramm: vt
+ std: ejturiajtë
+ id: ejturiajte-study
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: chipe-holly-paint
+ stem: .chipë.
+ trans_en: holly.paint
+ gloss: holly.paint
+ gramm: n
+ std: chipë
+ id: chipe-holly-paint
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: potipene-before
+ stem: .potipene.
+ trans_en: before
+ gloss: before
+ gramm: adv
+ std: potipene
+ id: potipene-before
+ paradigm: adv
+
+-lexeme
+ lex: poseti-belly
+ stem: .poseti.|.posej.
+ trans_en: belly
+ gloss: belly
+ gramm: n
+ std: poseti
+ id: poseti-belly
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: poroto-spider-monkey
+ stem: .poroto.
+ trans_en: spider.monkey
+ gloss: spider.monkey
+ gramm: n
+ std: poroto
+ id: poroto-spider-monkey
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: poke-smelly
+ stem: .poke.
+ trans_en: smelly
+ gloss: smelly
+ gramm: adv
+ std: poke
+ id: poke-smelly
+ paradigm: adv
+
+-lexeme
+ lex: poijpe-nail
+ stem: .poijpë.
+ trans_en: nail
+ gloss: nail
+ gramm: n
+ std: poijpë
+ id: poijpe-nail
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: semeki-defend
+ stem: .semekï.|.semej.
+ trans_en: defend/be.stingy.with
+ gloss: defend
+ gramm: vt
+ std: semekï
+ id: semeki-defend
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: sawena-spear
+ stem: .sawena.
+ trans_en: spear
+ gloss: spear
+ gramm: n
+ std: sawena
+ id: sawena-spear
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: sakau-sand
+ stem: .sakau.|.sakawu.
+ trans_en: sand
+ gloss: sand
+ gramm: n
+ std: sakau
+ id: sakau-sand
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: roka-wash
+ stem: .roka.
+ trans_en: wash/arrange
+ gloss: wash
+ gramm: vt
+ std: roka
+ id: roka-wash
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: mariya-knife
+ stem: .mariya.
+ trans_en: knife
+ gloss: knife
+ gramm: n
+ std: mariya
+ id: mariya-knife
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pakira-peccary
+ stem: .pakira.
+ trans_en: peccary
+ gloss: peccary
+ gramm: n
+ std: pakira
+ id: pakira-peccary
  paradigm: noun
  paradigm: n_deriv
 
