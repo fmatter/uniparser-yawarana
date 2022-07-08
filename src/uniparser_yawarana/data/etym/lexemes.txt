@@ -2258,7 +2258,7 @@
 
 -lexeme
  lex: nope-good
- stem: .nope.
+ stem: .nope.|.nop.
  trans_en: good
  gloss: good
  gramm: adv
