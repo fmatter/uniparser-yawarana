@@ -1925,17 +1925,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ma-throw
- stem: .ma.
- trans_en: throw
- gloss: throw
- gramm: vt
- std: ma
- id: ma-throw
- paradigm: v_tr
- paradigm: v_tr_nmlz
-
--lexeme
  lex: mayawaka-m
  stem: .mayawaka.
  trans_en: M.
