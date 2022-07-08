@@ -255,15 +255,20 @@
  paradigm: cop_clit
 
 -paradigm: cop_clit
- -flex: .pëkë
-  gloss: about
+ -flex: .0|pëkë
+  gloss: ACNNMLZ|about
   gramm: LEX:pekeon:about
-  id: pekeon
+  id: rinmlz,pekeon
   sep: =
- -flex: .poko|no//.poko|n
-  gloss: about|NMLZ
+ -flex: .0|poko|no//.0|poko|n
+  gloss: ACNNMLZ|about|NMLZ
   gramm: LEX:pekeon:about
-  id: pekeon,anonmlz
+  id: rinmlz,pekeon,anonmlz
+  sep: =
+ -flex: .0|yawë
+  gloss: ACNNMLZ|LOC.TEMP
+  gramm: LEX:yaweloc:loc
+  id: rinmlz,yaweloc
   sep: =
  -flex: .ripo
   gloss: CNTF

@@ -305,17 +305,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: maniki
- stem: .maniki.
- trans_en: ?
- gloss: ?
- gramm: n
- std: maniki
- id: maniki
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: nwadance
  stem: .nwa.
  trans_en: dance
@@ -1109,6 +1098,37 @@
  paradigm: uninfl
 
 -lexeme
+ lex: katara-hot-sauce
+ stem: .katara.
+ trans_en: hot sauce
+ gloss: hot.sauce
+ gramm: n
+ std: katara
+ id: katara-hot-sauce
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: maniki-rel-anim
+ stem: .manïkï.|.maniki.
+ trans_en: REL.ANIM
+ gloss: REL.ANIM
+ gramm: rel
+ std: manïkï
+ id: maniki-rel-anim
+ paradigm: uninfl
+
+-lexeme
+ lex: arokate-difficult
+ stem: .arokatë.
+ trans_en: difficult
+ gloss: difficult
+ gramm: adv
+ std: arokatë
+ id: arokate-difficult
+ paradigm: adv
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -1182,6 +1202,16 @@
  id: aroma-limpet
  paradigm: noun
  paradigm: n_deriv
+
+-lexeme
+ lex: asake-two
+ stem: .asakë.
+ trans_en: two
+ gloss: two
+ gramm: adv
+ std: asakë
+ id: asake-two
+ paradigm: adv
 
 -lexeme
  lex: chika-bite
@@ -1285,6 +1315,16 @@
  gramm: adv
  std: intipijkë
  id: intipijke-small
+ paradigm: adv
+
+-lexeme
+ lex: iriyawe-then
+ stem: .iriyawë.
+ trans_en: then
+ gloss: then
+ gramm: adv
+ std: iriyawë
+ id: iriyawe-then
  paradigm: adv
 
 -lexeme
@@ -1445,6 +1485,27 @@
  id: kiripi-go-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: mapara-chicken
+ stem: .mapara.
+ trans_en: chicken
+ gloss: chicken
+ gramm: n
+ std: mapara
+ id: mapara-chicken
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: mayi-lets-go
+ stem: .mayi.|.mai.
+ trans_en: let’s go
+ gloss: let’s.go
+ gramm: intj
+ std: mayi
+ id: mayi-lets-go
+ paradigm: uninfl
 
 -lexeme
  lex: michisantomo-med-inan-pl
@@ -2281,6 +2342,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yamane-make
+ stem: .yamanë.|.yaman.
+ trans_en: make
+ gloss: make
+ gramm: vt
+ std: yamanë
+ id: yamane-make
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: yane-mother
  stem: .yanë.
  trans_en: mother
@@ -2484,6 +2556,17 @@
  gramm: n
  std: ëjwatë
  id: ejwate-hammock
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: ekere-jaguar
+ stem: .ëkërë.
+ trans_en: jaguar
+ gloss: jaguar
+ gramm: n
+ std: ëkërë
+ id: ekere-jaguar
  paradigm: noun
  paradigm: n_deriv
 
