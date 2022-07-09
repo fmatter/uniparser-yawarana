@@ -29,6 +29,26 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: yokota-grow-pimple
+ stem: .yokota.
+ trans_en: grow pimple
+ gloss: grow.pimple
+ gramm: vi
+ std: yokota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: yerepunta-become-sick
+ stem: .yerepunta.
+ trans_en: become sick
+ gloss: become.sick
+ gramm: vi
+ std: yerepunta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -3270,6 +3290,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: yerepunu-sick
+ stem: .yerepunu.|.yerepun.
+ trans_en: sick
+ gloss: sick
+ gramm: n
+ std: yerepunu
+ id: yerepunu-sick
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: yojte-fish-with-hook
  stem: .yojtë.
  trans_en: fish with hook
@@ -3279,6 +3310,17 @@
  id: yojte-fish-with-hook
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yoko-pimple
+ stem: .yoko.
+ trans_en: pimple
+ gloss: pimple
+ gramm: n
+ std: yoko
+ id: yoko-pimple
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: yoki-eat-starch
