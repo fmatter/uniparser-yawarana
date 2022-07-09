@@ -1,5 +1,5 @@
 -clitic
- lex: pïnirë
+ lex: negpin
  stem: pïnirë
  trans_en: NEG
  type: en
@@ -23,7 +23,7 @@
  gramm: all
  id: pana
 -clitic
- lex: të
+ lex: teloc
  stem: të
  trans_en: LOC
  type: en
@@ -31,15 +31,15 @@
  gramm: loc
  id: teloc
 -clitic
- lex: ma
+ lex: marestr
  stem: ma
  trans_en: RESTR
  type: en
  gloss: RESTR
  gramm: restr
- id: ma
+ id: marestr
 -clitic
- lex: rë
+ lex: reemp
  stem: rë
  trans_en: EMP
  type: en
