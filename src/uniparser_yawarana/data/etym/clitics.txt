@@ -33,9 +33,9 @@
 -clitic
  lex: marestr
  stem: ma
- trans_en: RESTR
+ trans_en: RST
  type: en
- gloss: RESTR
+ gloss: RST
  gramm: restr
  id: marestr
 -clitic
