@@ -49,6 +49,256 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: wereyta-cloud-over
+ stem: .wereyta.
+ trans_en: cloud over
+ gloss: cloud.over
+ gramm: vi
+ std: wereyta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: wanaputa-grow-savannah-grass
+ stem: .wanaputa.
+ trans_en: grow savannah grass
+ gloss: grow.savannah.grass
+ gramm: vi
+ std: wanaputa
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: sakauta-get-sandy
+ stem: .sakauta.
+ trans_en: get sandy
+ gloss: get.sandy
+ gramm: vi
+ std: sakauta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: rokota-become-crazy
+ stem: .rokota.
+ trans_en: become crazy
+ gloss: become.crazy
+ gramm: vi
+ std: rokota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: punta-form-pulp
+ stem: .punta.
+ trans_en: form pulp
+ gloss: form.pulp
+ gramm: vi
+ std: punta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: piketa-fart
+ stem: .pikëta.
+ trans_en: fart
+ gloss: fart
+ gramm: vi
+ std: pikëta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: pichipichita-form-whitebait
+ stem: .pichipichita.
+ trans_en: form whitebait
+ gloss: form.whitebait
+ gramm: vi
+ std: pichipichita
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: nakita-be-thirsty
+ stem: .nakita.
+ trans_en: be thirsty
+ gloss: be.thirsty
+ gramm: vi
+ std: nakita
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: mukuta-have-son
+ stem: .mukuta.
+ trans_en: have son
+ gloss: have.son
+ gramm: vi
+ std: mukuta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: motota-fill-with-worms
+ stem: .motota.
+ trans_en: fill with worms
+ gloss: fill.with.worms
+ gramm: vi
+ std: motota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: moronta-hurt
+ stem: .moronta.
+ trans_en: hurt
+ gloss: hurt
+ gramm: vi
+ std: moronta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: mesujta-bleed
+ stem: .mesujta.
+ trans_en: bleed
+ gloss: bleed
+ gramm: vi
+ std: mesujta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kereta-ripen
+ stem: .kërëta.
+ trans_en: ripen
+ gloss: ripen
+ gramm: vi
+ std: kërëta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kemuta-emit-pus
+ stem: .këmuta.
+ trans_en: emit pus
+ gloss: emit.pus
+ gramm: vi
+ std: këmuta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: konopota-start-rainy-season
+ stem: .konopota.
+ trans_en: start rainy season
+ gloss: start.rainy.season
+ gramm: vi
+ std: konopota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kawonota-get-high
+ stem: .kawonota.
+ trans_en: get high
+ gloss: get.high
+ gramm: vi
+ std: kawonota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kamparata-grow
+ stem: .kamparata.
+ trans_en: grow; change (voice)
+ gloss: grow
+ gramm: vi
+ std: kamparata
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: chekeyta-fill-with-nits
+ stem: .chëkëyta.
+ trans_en: fill with nits
+ gloss: fill.with.nits
+ gramm: vi
+ std: chëkëyta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: chimichimita-fill-with-worms-dog
+ stem: .chimichimita.
+ trans_en: fill with worms (dog)
+ gloss: fill.with.worms.(dog)
+ gramm: vi
+ std: chimichimita
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: chiketa-get-chiggers
+ stem: .chikëta.
+ trans_en: get chiggers
+ gloss: get.chiggers
+ gramm: vi
+ std: chikëta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: awochita-form-tumor
+ stem: .awochita.
+ trans_en: form tumor
+ gloss: form.tumor
+ gramm: vi
+ std: awochita
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: asereta-have-dry-cough
+ stem: .asereta.
+ trans_en: have dry cough
+ gloss: have.dry.cough
+ gramm: vi
+ std: asereta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: aijkoronota-recover
+ stem: .aijkoronota.
+ trans_en: recover
+ gloss: recover
+ gramm: vi
+ std: aijkoronota
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: ajpachita-overgrows
+ stem: .ajpachita.
+ trans_en: overgrows
+ gloss: overgrows
+ gramm: vi
+ std: ajpachita
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: akita-fill-with-worms
+ stem: .akïta.
+ trans_en: fill with worms
+ gloss: fill.with.worms
+ gramm: vi
+ std: akïta
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -296,13 +546,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kampra-big
- stem: .kampra.
+ lex: kampara-big
+ stem: .kampara.|.kampra.
  trans_en: big
  gloss: big
  gramm: n
- std: kampra
- id: kampra-big
+ std: kampara
+ id: kampara-big
  paradigm: noun
  paradigm: n_deriv
 
@@ -1142,6 +1392,61 @@
  paradigm: adv
 
 -lexeme
+ lex: naki-thirst
+ stem: .naki.
+ trans_en: thirst
+ gloss: thirst
+ gramm: n
+ std: naki
+ id: naki-thirst
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kere-ripe
+ stem: .kërë.
+ trans_en: ripe
+ gloss: ripe
+ gramm: n
+ std: kërë
+ id: kere-ripe
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kemu-pus
+ stem: .këmu.
+ trans_en: pus
+ gloss: pus
+ gramm: n
+ std: këmu
+ id: kemu-pus
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: punu-flesh
+ stem: .punu.|.pun.
+ trans_en: flesh
+ gloss: flesh
+ gramm: n
+ std: punu
+ id: punu-flesh
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: mesuku-blood
+ stem: .mesuku.|.mesuj.
+ trans_en: blood
+ gloss: blood
+ gramm: n
+ std: mesuku
+ id: mesuku-blood
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness
@@ -1153,6 +1458,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: aijkorono-recovered
+ stem: .aijkorono.
+ trans_en: recovered
+ gloss: recovered
+ gramm: n
+ std: aijkorono
+ id: aijkorono-recovered
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: ajpachi-undergrowth
  stem: .ajpachi.
  trans_en: undergrowth
@@ -1160,6 +1476,17 @@
  gramm: n
  std: ajpachi
  id: ajpachi-undergrowth
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: aki-worm
+ stem: .akï.
+ trans_en: worm; maggot
+ gloss: worm
+ gramm: n
+ std: akï
+ id: aki-worm
  paradigm: noun
  paradigm: n_deriv
 
@@ -1324,6 +1651,17 @@
  paradigm: adv
 
 -lexeme
+ lex: asere-dry-cough
+ stem: .asere.
+ trans_en: dry cough
+ gloss: dry.cough
+ gramm: n
+ std: asere
+ id: asere-dry-cough
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: asuka-sugar
  stem: .asuka.
  trans_en: sugar
@@ -1331,6 +1669,17 @@
  gramm: n
  std: asuka
  id: asuka-sugar
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: awochi-tumor
+ stem: .awochi.
+ trans_en: tumor
+ gloss: tumor
+ gramm: n
+ std: awochi
+ id: awochi-tumor
  paradigm: noun
  paradigm: n_deriv
 
@@ -1346,6 +1695,28 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: chike-chigger
+ stem: .chikë.
+ trans_en: chigger
+ gloss: chigger
+ gramm: n
+ std: chikë
+ id: chike-chigger
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chimichimi-worm-dog
+ stem: .chimichimi.
+ trans_en: worm (dog)
+ gloss: worm.(dog)
+ gramm: n
+ std: chimichimi
+ id: chimichimi-worm-dog
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: chipiyu-fungus-sp
  stem: .chipiyu.
  trans_en: fungus.sp
@@ -1353,17 +1724,6 @@
  gramm: n
  std: chipiyu
  id: chipiyu-fungus-sp
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
- lex: chipoti-hair
- stem: .chipoti.
- trans_en: hair; feather
- gloss: hair
- gramm: n
- std: chipoti
- id: chipoti-hair
  paradigm: noun
  paradigm: n_deriv
 
@@ -1408,6 +1768,17 @@
  gramm: n
  std: chiyakono
  id: chiyakono-friend
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: chekey-nit
+ stem: .chëkëy.
+ trans_en: nit
+ gloss: nit
+ gramm: n
+ std: chëkëy
+ id: chekey-nit
  paradigm: noun
  paradigm: n_deriv
 
@@ -1680,6 +2051,17 @@
  gramm: n
  std: kasajpë
  id: kasajpe-fruit-pit
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kawono-high
+ stem: .kawono.|.kawon.
+ trans_en: high
+ gloss: high
+ gramm: n
+ std: kawono
+ id: kawono-high
  paradigm: noun
  paradigm: n_deriv
 
@@ -2049,7 +2431,7 @@
 
 -lexeme
  lex: moroni-pain
- stem: .moroni.
+ stem: .moroni.|.moron.
  trans_en: pain
  gloss: pain
  gramm: n
@@ -2066,6 +2448,17 @@
  gramm: n
  std: morono
  id: morono-poison
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: moto-worm
+ stem: .moto.
+ trans_en: worm
+ gloss: worm
+ gramm: n
+ std: moto
+ id: moto-worm
  paradigm: noun
  paradigm: n_deriv
 
@@ -2565,6 +2958,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pichipichi-whitebait
+ stem: .pichipichi.
+ trans_en: whitebait
+ gloss: whitebait
+ gramm: n
+ std: pichipichi
+ id: pichipichi-whitebait
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: pika-peel
  stem: .pika.
  trans_en: peel
@@ -2574,6 +2978,17 @@
  id: pika-peel
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: pike-fart
+ stem: .pikë.
+ trans_en: fart
+ gloss: fart
+ gramm: n
+ std: pikë
+ id: pike-fart
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: pinchi-hes
@@ -2640,6 +3055,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: roko-crazy
+ stem: .roko.
+ trans_en: crazy
+ gloss: crazy
+ gramm: n
+ std: roko
+ id: roko-crazy
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: romoye-downriver
  stem: .romoye.
  trans_en: downriver
@@ -2668,6 +3094,17 @@
  gramm: n
  std: sakara
  id: sakara-hoplias-malabaricus
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: sakau-sand
+ stem: .sakau.
+ trans_en: sand
+ gloss: sand
+ gramm: n
+ std: sakau
+ id: sakau-sand
  paradigm: noun
  paradigm: n_deriv
 
@@ -3050,6 +3487,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: wanapu-savannah
+ stem: .wanapu.
+ trans_en: savannah
+ gloss: savannah
+ gramm: n
+ std: wanapu
+ id: wanapu-savannah
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
  lex: wanene-aunt
  stem: .wanene.
  trans_en: aunt
@@ -3124,6 +3572,17 @@
  id: wepi-come
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: wereyi-cloud
+ stem: .wereyi.|.werey.
+ trans_en: cloud
+ gloss: cloud
+ gramm: n
+ std: wereyi
+ id: wereyi-cloud
+ paradigm: noun
+ paradigm: n_deriv
 
 -lexeme
  lex: weroro-dog
@@ -4191,17 +4650,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: punu-flesh
- stem: .punu.
- trans_en: flesh
- gloss: flesh
- gramm: n
- std: punu
- id: punu-flesh
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: kanajmunu-hill
  stem: .kanajmunu.|.kanajmun.
  trans_en: hill
@@ -4339,17 +4787,6 @@
  std: iij
  id: iij-oh
  paradigm: uninfl
-
--lexeme
- lex: mesuku-blood
- stem: .mesuku.
- trans_en: blood
- gloss: blood
- gramm: n
- std: mesuku
- id: mesuku-blood
- paradigm: noun
- paradigm: n_deriv
 
 -lexeme
  lex: raimoto-spear
