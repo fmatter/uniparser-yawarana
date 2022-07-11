@@ -340,6 +340,50 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: wereta-sit
+ stem: .were&ta.
+ trans_en: sit; arrive
+ gloss: sit;.arrive
+ gramm: vi
+ std: wereta
+ id: tavbz
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: majta-get-thin
+ stem: .maj&ta.
+ trans_en: get thin
+ gloss: get.thin
+ gramm: vi
+ std: majta
+ id: tavbz
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: wajyata-become-happy
+ stem: .wajya&ta.
+ trans_en: become happy
+ gloss: become.happy
+ gramm: vi
+ std: wajyata
+ id: tavbz
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: warota-work
+ stem: .waro&ta.
+ trans_en: work
+ gloss: work
+ gramm: vi
+ std: warota
+ id: tavbz
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: wenaka-vomit
  stem: .wena&ka.
  trans_en: vomit
