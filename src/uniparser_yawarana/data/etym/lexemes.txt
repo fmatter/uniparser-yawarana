@@ -329,6 +329,17 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: maraijta-get-drunk
+ stem: .maraij&ta.
+ trans_en: get drunk
+ gloss: get.drunk
+ gramm: vi
+ std: maraijta
+ id: tavbz
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: wenaka-vomit
  stem: .wena&ka.
  trans_en: vomit
@@ -5511,17 +5522,6 @@
  gramm: n
  std: sawena
  id: sawena-spear
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
- lex: sakau-sand
- stem: .sakau.|.sakawu.
- trans_en: sand
- gloss: sand
- gramm: n
- std: sakau
- id: sakau-sand
  paradigm: noun
  paradigm: n_deriv
 
