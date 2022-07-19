@@ -339,16 +339,6 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: warota-work
- stem: .warota.
- trans_en: work
- gloss: work
- gramm: vi
- std: warota
- paradigm: v_intr
- paradigm: v_intr_nmlz
-
--lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit

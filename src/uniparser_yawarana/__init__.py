@@ -44,8 +44,13 @@ class YawaranaAnalyzer(Analyzer):
         if isinstance(all_analyses[0], list): # filter wrong analyses of -jrama 'PROH'
             filtered = []
             for analyses in all_analyses:
-                filtered.append([x for x in analyses if not ("jrama" in x.wf and "neg" in x.gramm)])
-            all_analyses = filtered
+                filtered_analysis = [x for x in analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
+                if len(filtered_analysis) == 0:
+                    filtered.append(analyses)
+                else:
+                    filtered.append(filtered_analysis)
         else:
-            all_analyses = [x for x in all_analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
-        return all_analyses
+            filtered = [x for x in all_analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
+            if len(filtered) == 0:
+                return all_analyses
+        return filtered
