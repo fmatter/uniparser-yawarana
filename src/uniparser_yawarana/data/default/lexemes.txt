@@ -805,9 +805,9 @@
 -lexeme
  lex: yaweloc
  stem: .yawë.|.awë.
- trans_en: CTMP
- gloss: CTMP
- gramm: postp,ctmp
+ trans_en: COND
+ gloss: COND
+ gramm: postp,cond
  std: yawë
  id: yaweloc
  paradigm: postp
@@ -815,9 +815,9 @@
 -lexeme
  lex: yaweloc
  stem: .yawë.|.awë.
- trans_en: COND
- gloss: COND
- gramm: postp,cond
+ trans_en: CTMP
+ gloss: CTMP
+ gramm: postp,ctmp
  std: yawë
  id: yaweloc
  paradigm: postp
