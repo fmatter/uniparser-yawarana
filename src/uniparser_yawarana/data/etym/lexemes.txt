@@ -841,6 +841,26 @@
  paradigm: postp
 
 -lexeme
+ lex: yaweloc
+ stem: .yawë.|.awë.
+ trans_en: CTMP
+ gloss: CTMP
+ gramm: postp,ctmp
+ std: yawë
+ id: yaweloc
+ paradigm: postp
+
+-lexeme
+ lex: yaweloc
+ stem: .yawë.|.awë.
+ trans_en: COND
+ gloss: COND
+ gramm: postp,cond
+ std: yawë
+ id: yaweloc
+ paradigm: postp
+
+-lexeme
  lex: yakaall
  stem: .yaka.
  trans_en: ALL
@@ -1548,7 +1568,7 @@
 
 -lexeme
  lex: ajpachi-undergrowth
- stem: .ajpachi.
+ stem: .ajpachi.|.apachi.
  trans_en: undergrowth
  gloss: undergrowth
  gramm: n
@@ -1570,7 +1590,7 @@
 
 -lexeme
  lex: ami-unidentified-plant
- stem: .amï.
+ stem: .amï.|.amë.
  trans_en: unidentified plant
  gloss: unidentified.plant
  gramm: n
@@ -1807,7 +1827,7 @@
 
 -lexeme
  lex: chiramu-mange
- stem: .chiramu.
+ stem: .chiramu.|.chirimu.
  trans_en: mange
  gloss: mange
  gramm: n
@@ -1862,7 +1882,7 @@
 
 -lexeme
  lex: ejne-1-2pro
- stem: .ejnë.
+ stem: .ejnë.|.ej.
  trans_en: 1+2PRO
  gloss: 1+2PRO
  gramm: pn
@@ -2048,7 +2068,7 @@
 
 -lexeme
  lex: jwaka-ill-aq
- stem: .jwaka.
+ stem: .jwaka.|.jwoka.
  trans_en: ILL.AQ; LOC.AQ
  gloss: ILL.AQ
  gramm: postp
@@ -2154,17 +2174,6 @@
  paradigm: adv
 
 -lexeme
- lex: kaya-barbasco
- stem: .kaya.
- trans_en: barbasco
- gloss: barbasco
- gramm: n
- std: kaya
- id: kaya-barbasco
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: kaya-gourd
  stem: .kaya.
  trans_en: gourd
@@ -2172,6 +2181,17 @@
  gramm: n
  std: kaya
  id: kaya-gourd
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: kaya-barbasco
+ stem: .kaya.
+ trans_en: barbasco
+ gloss: barbasco
+ gramm: n
+ std: kaya
+ id: kaya-barbasco
  paradigm: noun
  paradigm: n_deriv
 
@@ -2199,7 +2219,7 @@
 
 -lexeme
  lex: konopo-rain
- stem: .konopo.
+ stem: .konopo.|.kënëpo.
  trans_en: rain
  gloss: rain
  gramm: n
@@ -2406,7 +2426,7 @@
 
 -lexeme
  lex: mayawaka-m
- stem: .mayawaka.
+ stem: .mayawaka.|.mayowaka.
  trans_en: M.
  gloss: M.
  gramm: n
@@ -2417,7 +2437,7 @@
 
 -lexeme
  lex: mayi-lets-go
- stem: .mayi.|.mai.
+ stem: .mayi.|.mae.|.mai.
  trans_en: let’s go
  gloss: let’s.go
  gramm: intj
@@ -2616,7 +2636,7 @@
 
 -lexeme
  lex: mejni-dist-inan
- stem: .mëjnï.
+ stem: .mëjnï.|.mëni.|.monï.|.munï.
  trans_en: DIST.INAN
  gloss: DIST.INAN
  gramm: det
@@ -2938,17 +2958,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pata-axe
- stem: .pata.
- trans_en: axe
- gloss: axe
- gramm: n
- std: pata
- id: pata-axe
- paradigm: noun
- paradigm: n_deriv
-
--lexeme
  lex: pata-village
  stem: .pata.
  trans_en: village
@@ -2956,6 +2965,17 @@
  gramm: n
  std: pata
  id: pata-village
+ paradigm: noun
+ paradigm: n_deriv
+
+-lexeme
+ lex: pata-axe
+ stem: .pata.
+ trans_en: axe
+ gloss: axe
+ gramm: n
+ std: pata
+ id: pata-axe
  paradigm: noun
  paradigm: n_deriv
 
@@ -3026,7 +3046,7 @@
 
 -lexeme
  lex: picha-capuchin-monkey
- stem: .picha.
+ stem: .picha.|.pisa.
  trans_en: capuchin monkey
  gloss: capuchin.monkey
  gramm: n
@@ -3102,7 +3122,7 @@
 
 -lexeme
  lex: poye-above
- stem: .poye.
+ stem: .poye.|.poe.|.poy.
  trans_en: above
  gloss: above
  gramm: postp
@@ -3145,7 +3165,7 @@
 
 -lexeme
  lex: romoye-downriver
- stem: .romoye.
+ stem: .romoye.|.romo yaye.
  trans_en: downriver
  gloss: downriver
  gramm: adv
@@ -3199,7 +3219,7 @@
 
 -lexeme
  lex: samo-cry
- stem: .samo.
+ stem: .samo.|.asamo.
  trans_en: cry
  gloss: cry
  gramm: vi
@@ -3232,7 +3252,7 @@
 
 -lexeme
  lex: sawo-rapids
- stem: .sawo.
+ stem: .sawo.|.sawë.
  trans_en: rapids
  gloss: rapids
  gramm: n
@@ -3286,7 +3306,7 @@
 
 -lexeme
  lex: sema-die
- stem: .sëma.
+ stem: .sëma.|.ësëma.
  trans_en: die
  gloss: die
  gramm: vi
@@ -3383,7 +3403,7 @@
 
 -lexeme
  lex: tejwetunu-sick
- stem: .tejwetunu.|.tejetum.
+ stem: .tejwetunu.|.tejetunu.|.tejetum.
  trans_en: sick
  gloss: sick
  gramm: n
@@ -3577,7 +3597,7 @@
 
 -lexeme
  lex: wanene-aunt
- stem: .wanene.
+ stem: .wanene.|.wanëne.
  trans_en: aunt
  gloss: aunt
  gramm: n
@@ -3620,7 +3640,7 @@
 
 -lexeme
  lex: wasayi-attalea-maripa
- stem: .wasayi.|.wasai.
+ stem: .wasayi.|.wasay.|.wasai.
  trans_en: attalea maripa
  gloss: attalea.maripa
  gramm: n
@@ -3675,7 +3695,7 @@
 
 -lexeme
  lex: wiriyamo-woman
- stem: .wiriyamo.|.wirijyamo.|.uriyamo.|.wurijyam.|.wurijyamo.|.wurijyan.
+ stem: .wiriyamo.|.uriyamo.|.wirijyamo.|.wurijyam.|.wurijyamo.|.wurijyan.
  trans_en: woman
  gloss: woman
  gramm: n
@@ -3697,7 +3717,7 @@
 
 -lexeme
  lex: wire-1pro
- stem: .wïrë.|.urë.
+ stem: .wïrë.|.urë.|.wërë.
  trans_en: 1PRO
  gloss: 1PRO
  gramm: pn
@@ -3861,7 +3881,7 @@
 
 -lexeme
  lex: yoki-eat-starch
- stem: .yokï.
+ stem: .yokï.|.yojse.
  trans_en: eat (starch)
  gloss: eat.(starch)
  gramm: vt
@@ -3991,7 +4011,7 @@
 
 -lexeme
  lex: empare-already
- stem: .ëmpare.|.umparë.
+ stem: .ëmpare.|.parë.|.umparë.
  trans_en: already
  gloss: already
  gramm: adv

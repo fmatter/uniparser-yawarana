@@ -272,6 +272,10 @@
   gramm: pst
   gloss: PST
   id: jpepst
+ -flex: .jrama
+  gloss: PROH
+  gramm: proh
+  id: jramaproh
  -flex: .sapë<.>//.saj<.>
   gramm: pfv
   gloss: PFV
@@ -298,8 +302,13 @@
   id: pekeon,anonmlz
   sep: =
  -flex: .yawë
-  gloss: LOC.TEMP
-  gramm: LEX:yaweloc:loc
+  gloss: CTMP
+  gramm: LEX:yaweloc:ctmp
+  id: yaweloc
+  sep: =
+ -flex: .yawë
+  gloss: COND
+  gramm: LEX:yaweloc:cond
   id: yaweloc
   sep: =
  -flex: .ripo
