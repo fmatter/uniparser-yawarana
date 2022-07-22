@@ -16,14 +16,14 @@ __version__ = "0.0.5.dev"
 
 
 class YawaranaAnalyzer(Analyzer):
-    def __init__(self, etymologize = False, verbose_grammar=False):
+    def __init__(self, etymologize=False, verbose_grammar=False):
         if etymologize:
             mode = "etym"
         else:
             mode = "default"
         self.base_path = files("uniparser_yawarana") / "data" / mode
         super().__init__(verbose_grammar=verbose_grammar)
-        self.flattenSubwords=True
+        self.flattenSubwords = True
         self.lexFile = self.base_path / "lexemes.txt"
         self.paradigmFile = self.base_path / "paradigms.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
@@ -41,16 +41,20 @@ class YawaranaAnalyzer(Analyzer):
             format=format,
             disambiguate=disambiguate,
         )
-        if isinstance(all_analyses[0], list): # filter wrong analyses of -jrama 'PROH'
+        if isinstance(all_analyses[0], list):  # filter wrong analyses of -jrama 'PROH'
             filtered = []
             for analyses in all_analyses:
-                filtered_analysis = [x for x in analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
+                filtered_analysis = [
+                    x for x in analyses if not ("jrama" in x.wf and "neg" in x.gramm)
+                ]
                 if len(filtered_analysis) == 0:
                     filtered.append(analyses)
                 else:
                     filtered.append(filtered_analysis)
         else:
-            filtered = [x for x in all_analyses if not ("jrama" in x.wf and "neg" in x.gramm)]
+            filtered = [
+                x for x in all_analyses if not ("jrama" in x.wf and "neg" in x.gramm)
+            ]
             if len(filtered) == 0:
                 return all_analyses
         return filtered
