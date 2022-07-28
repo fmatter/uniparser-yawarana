@@ -485,10 +485,20 @@
  lex: kojpa-ye-at-night
  stem: .kojpa&ye.
  trans_en: at night
- gloss: night&PERL
+ gloss: night&ADVZ
  gramm: adv
  std: kojpaye
- id: yeperl,kojpa-night
+ id: yeadvz,kojpa-night
+ paradigm: adv
+
+-lexeme
+ lex: kampra-ke-big
+ stem: .kampra&ke.
+ trans_en: big
+ gloss: big&ADVZ
+ gramm: adv
+ std: kamprake
+ id: keadvz
  paradigm: adv
 
 -lexeme

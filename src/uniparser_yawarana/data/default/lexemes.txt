@@ -448,9 +448,18 @@
  lex: kojpa-ye-at-night
  stem: .kojpaye.
  trans_en: at night
- gloss: night.PERL
+ gloss: night.ADVZ
  gramm: adv
  std: kojpaye
+ paradigm: adv
+
+-lexeme
+ lex: kampra-ke-big
+ stem: .kamprake.
+ trans_en: big
+ gloss: big.ADVZ
+ gramm: adv
+ std: kamprake
  paradigm: adv
 
 -lexeme
