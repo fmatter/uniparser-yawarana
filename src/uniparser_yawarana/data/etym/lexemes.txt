@@ -1906,13 +1906,13 @@
  paradigm: adv
 
 -lexeme
- lex: enire-today
- stem: .enirë.
- trans_en: today
- gloss: today
+ lex: enire-now
+ stem: .enirë.|.eniro.
+ trans_en: now; today
+ gloss: now
  gramm: adv
  std: enirë
- id: enire-today
+ id: enire-now
  paradigm: adv
 
 -lexeme
