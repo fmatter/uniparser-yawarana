@@ -619,7 +619,7 @@
   gramm: 2
   gloss: 2
   id: me2
- -flex: t.<.>
+ -flex: i.<.>
   gramm: 3
   gloss: 3
   id: i3

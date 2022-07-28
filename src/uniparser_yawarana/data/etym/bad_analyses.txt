@@ -22,5 +22,9 @@
     {
         "wf": "chipëkë",
         "gramm": ".*prog.*"
+    },
+    {
+        "wf": "iyawë",
+        "gramm": ".*cond.*"
     }
 ]
