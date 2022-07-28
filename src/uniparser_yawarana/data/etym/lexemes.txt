@@ -609,8 +609,7 @@
  gramm: n
  std: ajpu
  id: ajpu-heart
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: kaimo
@@ -620,8 +619,7 @@
  gramm: n
  std: kaimo
  id: kaimo
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kampara-big
@@ -631,8 +629,7 @@
  gramm: n
  std: kampara
  id: kampara-big
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: make-mother
@@ -642,8 +639,7 @@
  gramm: n
  std: makë
  id: make-mother
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: nwadance
@@ -653,8 +649,7 @@
  gramm: n
  std: nwa
  id: nwadance
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: oti-game-food
@@ -664,8 +659,7 @@
  gramm: n
  std: oti
  id: oti-game-food
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: padrastro-padrastro
@@ -675,8 +669,7 @@
  gramm: n
  std: padrastro
  id: padrastro-padrastro
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: suku-urine
@@ -686,8 +679,7 @@
  gramm: n
  std: suku
  id: suku-urine
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: waraijtokon-man
@@ -697,8 +689,7 @@
  gramm: n
  std: waraijtokon
  id: waraijtokon-man
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: ejka-right
@@ -1196,8 +1187,7 @@
  gramm: n
  std: ïwïtï
  id: iwiti-house
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_0_0
 
 -lexeme
  lex: waimu-language
@@ -1207,8 +1197,7 @@
  gramm: n
  std: waimu
  id: waimu-language
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: i-do
@@ -1251,8 +1240,7 @@
  gramm: n
  std: makampra
  id: makampra-older-sister-of-mother
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: taki-conf
@@ -1322,8 +1310,7 @@
  gramm: n
  std: yawo
  id: yawo-uncle
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: po-loc
@@ -1363,8 +1350,7 @@
  gramm: n
  std: waraij
  id: waraij-thing
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: awata-surp
@@ -1384,8 +1370,7 @@
  gramm: n
  std: wacho
  id: wacho-wife
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: e-e-yes
@@ -1466,8 +1451,7 @@
  gramm: n
  std: katara
  id: katara-hot-sauce
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: maniki-rel-anim
@@ -1497,8 +1481,7 @@
  gramm: n
  std: naki
  id: naki-thirst
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kere-ripe
@@ -1508,8 +1491,7 @@
  gramm: n
  std: kërë
  id: kere-ripe
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kemu-pus
@@ -1519,8 +1501,7 @@
  gramm: n
  std: këmu
  id: kemu-pus
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: punu-flesh
@@ -1530,8 +1511,7 @@
  gramm: n
  std: punu
  id: punu-flesh
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mesuku-blood
@@ -1541,8 +1521,7 @@
  gramm: n
  std: mesuku
  id: mesuku-blood
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: achi-wilderness
@@ -1552,8 +1531,7 @@
  gramm: n
  std: achi
  id: achi-wilderness
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: aijkorono-recovered
@@ -1563,8 +1541,7 @@
  gramm: n
  std: aijkorono
  id: aijkorono-recovered
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ajpachi-undergrowth
@@ -1574,8 +1551,7 @@
  gramm: n
  std: ajpachi
  id: ajpachi-undergrowth
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: aki-worm
@@ -1585,8 +1561,7 @@
  gramm: n
  std: akï
  id: aki-worm
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ami-unidentified-plant
@@ -1596,8 +1571,7 @@
  gramm: n
  std: amï
  id: ami-unidentified-plant
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ana-1-3pro
@@ -1617,8 +1591,7 @@
  gramm: n
  std: anoto
  id: anoto-annatto
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: anta-island
@@ -1628,8 +1601,7 @@
  gramm: n
  std: anta
  id: anta-island
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ante-fish-hook
@@ -1639,8 +1611,7 @@
  gramm: n
  std: antë
  id: ante-fish-hook
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: apataka-come-out
@@ -1671,8 +1642,7 @@
  gramm: n
  std: apuni
  id: apuni-soap
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: arajmate-dangerous
@@ -1692,8 +1662,7 @@
  gramm: n
  std: arina
  id: arina-trembler
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: aro-rice
@@ -1703,8 +1672,7 @@
  gramm: n
  std: aro
  id: aro-rice
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: aroma-limpet
@@ -1714,8 +1682,7 @@
  gramm: n
  std: aroma
  id: aroma-limpet
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: aropoko-ball-game
@@ -1725,8 +1692,7 @@
  gramm: n
  std: aropoko
  id: aropoko-ball-game
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: asakontompene-four
@@ -1756,8 +1722,7 @@
  gramm: n
  std: asere
  id: asere-dry-cough
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: asuka-sugar
@@ -1767,8 +1732,7 @@
  gramm: n
  std: asuka
  id: asuka-sugar
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: awochi-tumor
@@ -1778,8 +1742,7 @@
  gramm: n
  std: awochi
  id: awochi-tumor
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: chika-bite
@@ -1800,8 +1763,7 @@
  gramm: n
  std: chikë
  id: chike-chigger
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chimichimi-worm-dog
@@ -1811,8 +1773,7 @@
  gramm: n
  std: chimichimi
  id: chimichimi-worm-dog
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chipiyu-fungus-sp
@@ -1822,8 +1783,7 @@
  gramm: n
  std: chipiyu
  id: chipiyu-fungus-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chiramu-mange
@@ -1833,8 +1793,7 @@
  gramm: n
  std: chiramu
  id: chiramu-mange
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chiri-wild-pineapple
@@ -1844,8 +1803,7 @@
  gramm: n
  std: chiri
  id: chiri-wild-pineapple
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chiri-titi-monkey
@@ -1855,8 +1813,7 @@
  gramm: n
  std: chiri
  id: chiri-titi-monkey
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chiyakono-friend
@@ -1866,8 +1823,7 @@
  gramm: n
  std: chiyakono
  id: chiyakono-friend
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chekey-nit
@@ -1877,8 +1833,7 @@
  gramm: n
  std: chëkëy
  id: chekey-nit
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: ejne-1-2pro
@@ -1918,8 +1873,7 @@
  gramm: n
  std: entono
  id: entono-from-here
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ente-here-loc
@@ -1960,8 +1914,7 @@
  gramm: n
  std: eretapi
  id: eretapi-cultivated-plant
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ewine-here-all
@@ -1981,8 +1934,7 @@
  gramm: n
  std: ijpu
  id: ijpu-summit
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: inawe-have
@@ -2094,8 +2046,7 @@
  gramm: n
  std: kaimo
  id: kaimo-game
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kamere-lightning
@@ -2105,8 +2056,7 @@
  gramm: n
  std: kamere
  id: kamere-lightning
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kamwiyajka-change
@@ -2127,8 +2077,7 @@
  gramm: n
  std: kapau
  id: kapau-dasypus-novemcinctus
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: ka-take-out
@@ -2149,8 +2098,7 @@
  gramm: n
  std: kasajpë
  id: kasajpe-fruit-pit
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kawono-high
@@ -2160,8 +2108,7 @@
  gramm: n
  std: kawono
  id: kawono-high
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kawe-high
@@ -2181,8 +2128,7 @@
  gramm: n
  std: kaya
  id: kaya-gourd
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kaya-barbasco
@@ -2192,8 +2138,7 @@
  gramm: n
  std: kaya
  id: kaya-barbasco
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kejkepe-salamander
@@ -2203,8 +2148,7 @@
  gramm: n
  std: kejkepe
  id: kejkepe-salamander
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kojpa-night
@@ -2214,8 +2158,7 @@
  gramm: n
  std: kojpa
  id: kojpa-night
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: konopo-rain
@@ -2225,8 +2168,7 @@
  gramm: n
  std: konopo
  id: konopo-rain
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: korokoro-c
@@ -2236,8 +2178,7 @@
  gramm: n
  std: korokoro
  id: korokoro-c
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kuru-prochilodus-mariae
@@ -2247,8 +2188,7 @@
  gramm: n
  std: kuru
  id: kuru-prochilodus-mariae
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kuruwa-coroba-palm
@@ -2258,8 +2198,7 @@
  gramm: n
  std: kuruwa
  id: kuruwa-coroba-palm
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kuya-tree-sp
@@ -2269,8 +2208,7 @@
  gramm: n
  std: kuya
  id: kuya-tree-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kuyuwi-bird-sp
@@ -2280,8 +2218,7 @@
  gramm: n
  std: kuyuwi
  id: kuyuwi-bird-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kejma-hunt
@@ -2333,8 +2270,7 @@
  gramm: n
  std: këtëjwatë
  id: ketejwate-cotton
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kimiy-chili
@@ -2344,8 +2280,7 @@
  gramm: n
  std: kïmïy
  id: kimiy-chili
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kiripi-go-out
@@ -2366,8 +2301,7 @@
  gramm: n
  std: majawa
  id: majawa-m
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: majpe-m
@@ -2377,8 +2311,7 @@
  gramm: n
  std: majpë
  id: majpe-m
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: maka-ceiba-pentandra
@@ -2388,8 +2321,7 @@
  gramm: n
  std: maka
  id: maka-ceiba-pentandra
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: makarike-cayman
@@ -2399,8 +2331,7 @@
  gramm: n
  std: makarikë
  id: makarike-cayman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: makuyupi-catfish-sp
@@ -2410,8 +2341,7 @@
  gramm: n
  std: makuyupi
  id: makuyupi-catfish-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mapara-chicken
@@ -2421,8 +2351,7 @@
  gramm: n
  std: mapara
  id: mapara-chicken
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mayawaka-m
@@ -2432,8 +2361,7 @@
  gramm: n
  std: mayawaka
  id: mayawaka-m
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mayi-lets-go
@@ -2493,8 +2421,7 @@
  gramm: n
  std: mone
  id: mone-vagina
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: moneka-girl-voc
@@ -2504,8 +2431,7 @@
  gramm: n
  std: moneka
  id: moneka-girl-voc
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: monkontomo-2pl-pro
@@ -2535,8 +2461,7 @@
  gramm: n
  std: moroni
  id: moroni-pain
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: morono-poison
@@ -2546,8 +2471,7 @@
  gramm: n
  std: morono
  id: morono-poison
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: moto-worm
@@ -2557,8 +2481,7 @@
  gramm: n
  std: moto
  id: moto-worm
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: moyochi-spider-sp
@@ -2568,8 +2491,7 @@
  gramm: n
  std: moyochi
  id: moyochi-spider-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mujyane-pregnancy
@@ -2579,8 +2501,7 @@
  gramm: n
  std: mujyanë
  id: mujyane-pregnancy
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: muku-child
@@ -2590,8 +2511,7 @@
  gramm: n
  std: muku
  id: muku-child
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mune-bulbous
@@ -2702,8 +2622,7 @@
  gramm: n
  std: mïra
  id: mira-priodontes-maximus
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: najmo-grandmother
@@ -2713,8 +2632,7 @@
  gramm: n
  std: najmo
  id: najmo-grandmother
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_old_ri_0
 
 -lexeme
  lex: najpi-grandfather
@@ -2724,8 +2642,7 @@
  gramm: n
  std: najpï
  id: najpi-grandfather
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: nata-door
@@ -2735,8 +2652,7 @@
  gramm: n
  std: nata
  id: nata-door
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: nepi-bring
@@ -2757,8 +2673,7 @@
  gramm: n
  std: nono
  id: nono-earth
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: nope-good
@@ -2778,8 +2693,7 @@
  gramm: n
  std: noro
  id: noro-parrot-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: noti-potential-partner
@@ -2789,8 +2703,7 @@
  gramm: n
  std: noti
  id: noti-potential-partner
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: neme-leave
@@ -2811,8 +2724,7 @@
  gramm: n
  std: ochi
  id: ochi-o
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ojpa-give-drink
@@ -2833,8 +2745,7 @@
  gramm: n
  std: okï
  id: oki-chicha
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: onono-another
@@ -2844,8 +2755,7 @@
  gramm: n
  std: onono
  id: onono-another
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: orojyamo-evil-being
@@ -2855,8 +2765,7 @@
  gramm: n
  std: orojyamo
  id: orojyamo-evil-being
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: pachi-older-sister-of-woman
@@ -2866,8 +2775,7 @@
  gramm: n
  std: pachi
  id: pachi-older-sister-of-woman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: paijku-p
@@ -2877,8 +2785,7 @@
  gramm: n
  std: paijku
  id: paijku-p
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: paka-cow
@@ -2888,8 +2795,7 @@
  gramm: n
  std: paka
  id: paka-cow
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pakara-basket
@@ -2899,8 +2805,7 @@
  gramm: n
  std: pakara
  id: pakara-basket
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pakura-coix-lacryma-jobi
@@ -2910,8 +2815,7 @@
  gramm: n
  std: pakura
  id: pakura-coix-lacryma-jobi
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: paku-arrow-tip
@@ -2921,8 +2825,7 @@
  gramm: n
  std: paku
  id: paku-arrow-tip
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pana-ear
@@ -2932,8 +2835,7 @@
  gramm: n
  std: pana
  id: pana-ear
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: papa-father
@@ -2943,8 +2845,7 @@
  gramm: n
  std: papa
  id: papa-father
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: parujpe-broth
@@ -2954,8 +2855,7 @@
  gramm: n
  std: parujpë
  id: parujpe-broth
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pata-village
@@ -2965,8 +2865,7 @@
  gramm: n
  std: pata
  id: pata-village
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pata-axe
@@ -2976,8 +2875,7 @@
  gramm: n
  std: pata
  id: pata-axe
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pataka-take-out
@@ -2998,8 +2896,7 @@
  gramm: n
  std: pene
  id: pene-piranha
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pepoye-above-perl
@@ -3019,8 +2916,7 @@
  gramm: n
  std: pe
  id: pe-palm-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: peti-leg
@@ -3030,8 +2926,7 @@
  gramm: n
  std: peti
  id: peti-leg
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: peye-turtle-sp
@@ -3041,8 +2936,7 @@
  gramm: n
  std: peye
  id: peye-turtle-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: picha-capuchin-monkey
@@ -3052,8 +2946,7 @@
  gramm: n
  std: picha
  id: picha-capuchin-monkey
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pichipichi-whitebait
@@ -3063,8 +2956,7 @@
  gramm: n
  std: pichipichi
  id: pichipichi-whitebait
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pika-peel
@@ -3085,8 +2977,7 @@
  gramm: n
  std: pikë
  id: pike-fart
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pinchi-hes
@@ -3106,8 +2997,7 @@
  gramm: n
  std: pipi
  id: pipi-younger-brother-of-woman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poroko-basket-sp
@@ -3117,8 +3007,7 @@
  gramm: n
  std: poroko
  id: poroko-basket-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poye-above
@@ -3138,8 +3027,7 @@
  gramm: n
  std: pïmï
  id: pimi-neck
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pirika-endure
@@ -3160,8 +3048,7 @@
  gramm: n
  std: roko
  id: roko-crazy
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: romoye-downriver
@@ -3181,8 +3068,7 @@
  gramm: n
  std: rotoro
  id: rotoro-doctor
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sakara-hoplias-malabaricus
@@ -3192,8 +3078,7 @@
  gramm: n
  std: sakara
  id: sakara-hoplias-malabaricus
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sakau-sand
@@ -3203,8 +3088,7 @@
  gramm: n
  std: sakau
  id: sakau-sand
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: saku-sweet-potato
@@ -3214,8 +3098,7 @@
  gramm: n
  std: saku
  id: saku-sweet-potato
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: samo-cry
@@ -3236,8 +3119,7 @@
  gramm: n
  std: sampu
  id: sampu-black-piranha
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sapara-heavy-pot
@@ -3247,8 +3129,7 @@
  gramm: n
  std: sapara
  id: sapara-heavy-pot
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sawo-rapids
@@ -3258,8 +3139,7 @@
  gramm: n
  std: sawo
  id: sawo-rapids
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sere-bitter-manioc
@@ -3269,8 +3149,7 @@
  gramm: n
  std: sere
  id: sere-bitter-manioc
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sukase-all
@@ -3290,8 +3169,7 @@
  gramm: n
  std: sukutaka
  id: sukutaka-yucuta
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: surukupi-fish-sp
@@ -3301,8 +3179,7 @@
  gramm: n
  std: surukupi
  id: surukupi-fish-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sema-die
@@ -3333,8 +3210,7 @@
  gramm: n
  std: tajnomo
  id: tajnomo-piaroa
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tajropo-have-fever
@@ -3355,8 +3231,7 @@
  gramm: n
  std: takono
  id: takono-other
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tapa-beat
@@ -3388,8 +3263,7 @@
  gramm: n
  std: tawa
  id: tawa-nyctidromus-albicollis
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: teijpo-far
@@ -3409,8 +3283,7 @@
  gramm: n
  std: tejwetunu
  id: tejwetunu-sick
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tonko-play
@@ -3431,8 +3304,7 @@
  gramm: n
  std: torotë
  id: torote-cemetery
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: toto-non-indian
@@ -3442,8 +3314,7 @@
  gramm: n
  std: toto
  id: toto-non-indian
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tuj-fall
@@ -3473,8 +3344,7 @@
  gramm: n
  std: tuna
  id: tuna-water
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tunami-hide
@@ -3506,8 +3376,7 @@
  gramm: n
  std: tëjta
  id: tejta-hollow
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tewi-3pro
@@ -3537,8 +3406,7 @@
  gramm: n
  std: waijta
  id: waijta-mouse
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: waijte-head
@@ -3548,8 +3416,7 @@
  gramm: n
  std: waijtë
  id: waijte-head
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wajyaki-happy
@@ -3559,8 +3426,7 @@
  gramm: n
  std: wajyakï
  id: wajyaki-happy
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wajyaki-be-happy
@@ -3581,8 +3447,7 @@
  gramm: n
  std: wajyakïtï
  id: wajyakiti-very-happy
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wanapu-savannah
@@ -3592,8 +3457,7 @@
  gramm: n
  std: wanapu
  id: wanapu-savannah
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wanene-aunt
@@ -3603,8 +3467,7 @@
  gramm: n
  std: wanene
  id: wanene-aunt
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: waraijtokomo-man
@@ -3614,8 +3477,7 @@
  gramm: n
  std: waraijtokomo
  id: waraijtokomo-man
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: warota-work
@@ -3646,8 +3508,7 @@
  gramm: n
  std: wasayi
  id: wasayi-attalea-maripa
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wena-vomit
@@ -3657,8 +3518,7 @@
  gramm: n
  std: wena
  id: wena-vomit
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wepi-come
@@ -3679,8 +3539,7 @@
  gramm: n
  std: wereyi
  id: wereyi-cloud
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: weroro-dog
@@ -3690,8 +3549,7 @@
  gramm: n
  std: weroro
  id: weroro-dog
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wiriyamo-woman
@@ -3701,8 +3559,7 @@
  gramm: n
  std: wiriyamo
  id: wiriyamo-woman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wejka-fall
@@ -3744,8 +3601,7 @@
  gramm: n
  std: yakono
  id: yakono-younger-sister-of-woman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yaku-agouti
@@ -3755,8 +3611,7 @@
  gramm: n
  std: yaku
  id: yaku-agouti
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yamane-make
@@ -3777,8 +3632,7 @@
  gramm: n
  std: yanë
  id: yane-mother
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yarika-laugh
@@ -3821,8 +3675,7 @@
  gramm: n
  std: yatanë
  id: yatane-adolescent
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yawanka-kill
@@ -3854,8 +3707,7 @@
  gramm: n
  std: yerepunu
  id: yerepunu-sick
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yojte-fish-with-hook
@@ -3876,8 +3728,7 @@
  gramm: n
  std: yoko
  id: yoko-pimple
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yoki-eat-starch
@@ -3908,8 +3759,7 @@
  gramm: n
  std: yutu
  id: yutu-forest
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: ye-tooth
@@ -3919,8 +3769,7 @@
  gramm: n
  std: yë
  id: ye-tooth
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yeni-drink
@@ -3952,8 +3801,7 @@
  gramm: n
  std: yëye
  id: yeye-tree
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yipi-mountain
@@ -3963,8 +3811,7 @@
  gramm: n
  std: yïpï
  id: yipi-mountain
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: ejpina-often
@@ -3984,8 +3831,7 @@
  gramm: n
  std: ëjtë
  id: ejte-house
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ejwate-hammock
@@ -3995,8 +3841,7 @@
  gramm: n
  std: ëjwatë
  id: ejwate-hammock
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ekere-jaguar
@@ -4006,8 +3851,7 @@
  gramm: n
  std: ëkërë
  id: ekere-jaguar
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: empare-already
@@ -4049,8 +3893,7 @@
  gramm: n
  std: ese
  id: ese-name
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ti_0
 
 -lexeme
  lex: kapu-sky
@@ -4060,8 +3903,7 @@
  gramm: n
  std: kapu
  id: kapu-sky
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: enuku-go-up
@@ -4082,8 +3924,7 @@
  gramm: n
  std: ëkï
  id: eki-manioc-beer
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ekete-where
@@ -4123,8 +3964,7 @@
  gramm: n
  std: yatunë
  id: yatune-sun
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pirare-nothing
@@ -4155,8 +3995,7 @@
  gramm: n
  std: tawani
  id: tawani-darkness
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kantajne-sing
@@ -4198,8 +4037,7 @@
  gramm: n
  std: kërëjpë
  id: kerejpe-old
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: neke-contrast
@@ -4302,8 +4140,7 @@
  gramm: n
  std: yawarana
  id: yawarana-yawarana
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tepu-rock
@@ -4313,8 +4150,7 @@
  gramm: n
  std: tëpu
  id: tepu-rock
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: nare-asrt
@@ -4334,8 +4170,7 @@
  gramm: n
  std: ëpi
  id: epi-cure
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ee-yes
@@ -4355,8 +4190,7 @@
  gramm: n
  std: waraijtë
  id: waraijte-husband
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kanawa-canoe
@@ -4366,8 +4200,7 @@
  gramm: n
  std: kanawa
  id: kanawa-canoe
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: enijpete-one
@@ -4387,8 +4220,7 @@
  gramm: n
  std: ëtunë
  id: etune-history
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: ekei-snake
@@ -4398,8 +4230,7 @@
  gramm: n
  std: ëkëi
  id: ekei-snake
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: tajromini-bad-news
@@ -4409,8 +4240,7 @@
  gramm: n
  std: tajromini
  id: tajromini-bad-news
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: manuku-manioc-meal
@@ -4420,8 +4250,7 @@
  gramm: n
  std: mañuku
  id: manuku-manioc-meal
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: keremu-vulture
@@ -4431,8 +4260,7 @@
  gramm: n
  std: kërëmu
  id: keremu-vulture
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: umpare-already
@@ -4452,8 +4280,7 @@
  gramm: n
  std: yaʼra
  id: yara-grandchild
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sayu-salt
@@ -4463,8 +4290,7 @@
  gramm: n
  std: sayu
  id: sayu-salt
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: papera-paper
@@ -4474,8 +4300,7 @@
  gramm: n
  std: papera
  id: papera-paper
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yapijtomo-old
@@ -4485,8 +4310,7 @@
  gramm: n
  std: yapijtomo
  id: yapijtomo-old
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chapiti-scream
@@ -4517,8 +4341,7 @@
  gramm: n
  std: mui
  id: mui-husk
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poo-tsk
@@ -4538,8 +4361,7 @@
  gramm: n
  std: tanapï
  id: tanapi-soft-drink
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: sejpeti-dream
@@ -4570,8 +4392,7 @@
  gramm: n
  std: yawano
  id: yawano-knowledge
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kayakani-crab
@@ -4581,8 +4402,7 @@
  gramm: n
  std: kayakani
  id: kayakani-crab
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: karakachi-ring-worm
@@ -4592,8 +4412,7 @@
  gramm: n
  std: karakachi
  id: karakachi-ring-worm
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pore-leg
@@ -4603,8 +4422,7 @@
  gramm: n
  std: pore
  id: pore-leg
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pupuri-palm-sp
@@ -4614,8 +4432,7 @@
  gramm: n
  std: pupuri
  id: pupuri-palm-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: araya-spider
@@ -4625,8 +4442,7 @@
  gramm: n
  std: araya
  id: araya-spider
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: kaimare-slow
@@ -4657,8 +4473,7 @@
  gramm: n
  std: wajto
  id: wajto-fire
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yamore-shaman
@@ -4668,8 +4483,7 @@
  gramm: n
  std: yamore
  id: yamore-shaman
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tek-hit
@@ -4689,8 +4503,7 @@
  gramm: n
  std: kamicha
  id: kamicha-clothing
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: koropicha-mushroom-sp
@@ -4700,8 +4513,7 @@
  gramm: n
  std: koropicha
  id: koropicha-mushroom-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pota-mouth
@@ -4711,8 +4523,7 @@
  gramm: n
  std: pota
  id: pota-mouth
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: racha-blow-gun
@@ -4722,8 +4533,7 @@
  gramm: n
  std: racha
  id: racha-blow-gun
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pima-love
@@ -4744,8 +4554,7 @@
  gramm: n
  std: përu
  id: peru-toad
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kanajmunu-hill
@@ -4755,8 +4564,7 @@
  gramm: n
  std: kanajmunu
  id: kanajmunu-hill
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: rujruku-wild-grape
@@ -4766,8 +4574,7 @@
  gramm: n
  std: rujruku
  id: rujruku-wild-grape
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kune-heat
@@ -4788,8 +4595,7 @@
  gramm: n
  std: kawai
  id: kawai-tobacco
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kasawoko-ant-sp
@@ -4799,8 +4605,7 @@
  gramm: n
  std: kasawoko
  id: kasawoko-ant-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: karakapusa-shotgun
@@ -4810,8 +4615,7 @@
  gramm: n
  std: karakapusa
  id: karakapusa-shotgun
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: maraka-maraca
@@ -4821,8 +4625,7 @@
  gramm: n
  std: maraka
  id: maraka-maraca
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chikii-small-bird
@@ -4832,8 +4635,7 @@
  gramm: n
  std: chïkïi
  id: chikii-small-bird
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chej-pull-out
@@ -4873,8 +4675,7 @@
  gramm: n
  std: mara
  id: mara-potion
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: iij-oh
@@ -4894,8 +4695,7 @@
  gramm: n
  std: raimoto
  id: raimoto-spear
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poj-wow
@@ -4915,8 +4715,7 @@
  gramm: n
  std: nachi
  id: nachi-corn
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: najwata-port
@@ -4926,8 +4725,7 @@
  gramm: n
  std: najwata
  id: najwata-port
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tej-darn
@@ -4947,8 +4745,7 @@
  gramm: n
  std: supara
  id: supara-machete
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tapitu-palm-sp
@@ -4958,8 +4755,7 @@
  gramm: n
  std: tapitu
  id: tapitu-palm-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: warakaru-monkey-sp
@@ -4969,8 +4765,7 @@
  gramm: n
  std: warakaru
  id: warakaru-monkey-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yawaka-sow
@@ -5001,8 +4796,7 @@
  gramm: n
  std: wurichi
  id: wurichi-female
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wichere-enough
@@ -5032,8 +4826,7 @@
  gramm: n
  std: karana
  id: karana-sugar-cane
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kayama-pumpkin
@@ -5043,8 +4836,7 @@
  gramm: n
  std: kayama
  id: kayama-pumpkin
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: koroki-stuff
@@ -5054,8 +4846,7 @@
  gramm: n
  std: korokï
  id: koroki-stuff
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kujpa-palm-sp
@@ -5065,8 +4856,7 @@
  gramm: n
  std: kujpa
  id: kujpa-palm-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kujpe-lake
@@ -5076,8 +4866,7 @@
  gramm: n
  std: kujpë
  id: kujpe-lake
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: arawai-pineapple-sp
@@ -5087,8 +4876,7 @@
  gramm: n
  std: arawai
  id: arawai-pineapple-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: chayi-son
@@ -5098,8 +4886,7 @@
  gramm: n
  std: chayi
  id: chayi-son
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: chikiri-rubber
@@ -5109,8 +4896,7 @@
  gramm: n
  std: chikiri
  id: chikiri-rubber
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pijpe-skin
@@ -5120,8 +4906,7 @@
  gramm: n
  std: pijpë
  id: pijpe-skin
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: parankana-container
@@ -5131,8 +4916,7 @@
  gramm: n
  std: parankana
  id: parankana-container
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: oroko-fox
@@ -5142,8 +4926,7 @@
  gramm: n
  std: oroko
  id: oroko-fox
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_v_new_ri_0
 
 -lexeme
  lex: rawa-plant-sp
@@ -5153,8 +4936,7 @@
  gramm: n
  std: rawa
  id: rawa-plant-sp
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: manare-sieve
@@ -5164,8 +4946,7 @@
  gramm: n
  std: manare
  id: manare-sieve
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: manku-mango
@@ -5175,8 +4956,7 @@
  gramm: n
  std: manku
  id: manku-mango
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mati-breast
@@ -5186,8 +4966,7 @@
  gramm: n
  std: mati
  id: mati-breast
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: minate-liana
@@ -5197,8 +4976,7 @@
  gramm: n
  std: minatë
  id: minate-liana
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: mojne-salty
@@ -5218,8 +4996,7 @@
  gramm: n
  std: nunë
  id: nune-moon
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tepi-plant
@@ -5229,8 +5006,7 @@
  gramm: n
  std: tëpï
  id: tepi-plant
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tururu-slow
@@ -5250,8 +5026,7 @@
  gramm: n
  std: waraimo
  id: waraimo-yam
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wanata-gourd
@@ -5261,8 +5036,7 @@
  gramm: n
  std: wanata
  id: wanata-gourd
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: wajyama-kiss
@@ -5283,8 +5057,7 @@
  gramm: n
  std: tajpïi
  id: tajpii-well
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tapotei-big
@@ -5294,8 +5067,7 @@
  gramm: n
  std: tapotëi
  id: tapotei-big
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tee-oh-dear
@@ -5315,8 +5087,7 @@
  gramm: n
  std: tawaye
  id: tawaye-grater
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: yejma-smoke
@@ -5370,8 +5141,7 @@
  gramm: n
  std: yawani
  id: yawani-heart
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kampe-grilled-meat
@@ -5381,8 +5151,7 @@
  gramm: n
  std: kampë
  id: kampe-grilled-meat
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kamaya-ara
@@ -5392,8 +5161,7 @@
  gramm: n
  std: kamaya
  id: kamaya-ara
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kachuna-pants
@@ -5403,8 +5171,7 @@
  gramm: n
  std: kachuna
  id: kachuna-pants
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kejta-sing
@@ -5425,8 +5192,7 @@
  gramm: n
  std: kuyara
  id: kuyara-canoe
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: kuchi-drink-type
@@ -5436,8 +5202,7 @@
  gramm: n
  std: kuchi
  id: kuchi-drink-type
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: koyoweti-navel
@@ -5447,8 +5212,7 @@
  gramm: n
  std: koyoweti
  id: koyoweti-navel
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: asakerere-both
@@ -5500,8 +5264,7 @@
  gramm: n
  std: chipë
  id: chipe-holly-paint
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: potipene-before
@@ -5521,8 +5284,7 @@
  gramm: n
  std: poseti
  id: poseti-belly
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poroto-spider-monkey
@@ -5532,8 +5294,7 @@
  gramm: n
  std: poroto
  id: poroto-spider-monkey
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: poke-smelly
@@ -5553,8 +5314,7 @@
  gramm: n
  std: poijpë
  id: poijpe-nail
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: semeki-defend
@@ -5575,8 +5335,7 @@
  gramm: n
  std: sawena
  id: sawena-spear
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: roka-wash
@@ -5597,8 +5356,7 @@
  gramm: n
  std: mariya
  id: mariya-knife
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: pakira-peccary
@@ -5608,8 +5366,7 @@
  gramm: n
  std: pakira
  id: pakira-peccary
- paradigm: noun
- paradigm: n_deriv
+ paradigm: noun_c_new_ri_0
 
 -lexeme
  lex: tajne

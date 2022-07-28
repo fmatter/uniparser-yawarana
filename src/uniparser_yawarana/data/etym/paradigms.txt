@@ -1,61 +1,72 @@
--paradigm: noun
+-paradigm: noun_pref_new_v
  -flex: y.<.>
   gloss: LK
   gramm: lk
   id: ylk
- -flex: i.<.>//t.<.>
-  gramm: 3,poss
-  gloss: 3
-  id: i3
- -flex: u.<.>
-  gloss: 1
-  gramm: 1,poss
-  id: u1
- -flex: më.<.>
-  gloss: 2
-  gramm: 2,poss
-  id: me2
  -flex: më|y.<.>
   gloss: 2|LK
   gramm: 2,poss,lk
   id: me2,ylk
- -flex: a.<.>//o.<.>
-  gloss: 2
-  gramm: 2,poss
-  id: a2
+ -flex: u|y.<.>
+  gloss: 1|LK
+  gramm: 1,poss
+  id: u1,ylk
+ -flex: t.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_pref_old_v
+ -flex: y.<.>
+  gloss: LK
+  gramm: lk
+  id: ylk
  -flex: a|y.<.>
   gloss: 2|LK
-  gramm: 2,poss
+  gramm: 2,poss,lk
   id: a2,ylk
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1,poss
   id: u1,ylk
- -flex: .<.>
-  gramm:
- paradigm: n_suff1
+ -flex: t.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
 
--paradigm: n_suff1
- -flex: .ru<.>//.ri<.>//.i<.>//.0<.>
-  gloss: PERT
-  gramm: pert
-  id: rupert
- -flex: .ti
-  gloss: PERT
-  gramm: pert
-  id: tipert
- -flex: .të
-  gloss: NPERT
-  gramm: npert
-  id: tenpert
- -flex: .pïjkë<.>
-  gramm: dim
-  gloss: DIM
-  id: pijkedim
- -flex: .jra<.>
-  gramm: priv
-  gloss: PRIV
-  id: jraneg
+-paradigm: noun_pref_new_c
+ -flex: më.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: me2
+ -flex: u.<.>
+  gloss: 1
+  gramm: 1,poss
+  id: u1
+ -flex: i.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_pref_old_c
+ -flex: a.<.>//o.<.>//ë.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: a2
+ -flex: u.<.>
+  gloss: 1
+  gramm: 1,poss
+  id: u1
+ -flex: i.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_plural
  -flex: .jne<.>
   gramm: pl
   gloss: PL
@@ -64,17 +75,271 @@
   gramm: pl
   gloss: PL
   id: tomopl
+ -flex: .kontomo<.>//.konton<.>
+  gramm: pl
+  gloss: PL
+  id: kontomopl
  -flex: .<.>
   gramm:
- paradigm: n_suff2
+ paradigm: noun_past
 
--paradigm: n_suff2
+-paradigm: noun_past
  -flex: .jpë
-  gramm: pst
   gloss: PST
+  gramm: pst
   id: jpepst
  -flex: .
+  gramm: 
+
+-paradigm: noun_c_old_ri_të
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_old_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_ri_të
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_new_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_old_ri_0
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_old_c
+ -flex: .<.>
   gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_ri_0
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_new_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_c_old_ti_të
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_old_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_ti_të
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_new_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_old_ti_0
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_old_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_ti_0
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_new_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_c_old_0_të
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_old_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_0_të
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_new_c
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_c_old_0_0
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_old_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_c_new_0_0
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_new_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_ri_të
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_old_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_ri_të
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_new_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_ri_0
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_old_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_ri_0
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_new_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_ti_të
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_old_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_ti_të
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_new_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_ti_0
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_old_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_ti_0
+ -flex: <.>.ti<.>
+  gloss: PERT
+  gramm: pert
+  id: tipert
+  paradigm: noun_pref_new_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_0_të
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_old_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_0_të
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_new_v
+ -flex: .të
+  gloss: NPERT
+  gramm: npert
+  id: tenpert
+  paradigm: noun_plural
+
+-paradigm: noun_v_old_0_0
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_old_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+-paradigm: noun_v_new_0_0
+ -flex: <.>.<.>
+  gramm:
+  paradigm: noun_pref_new_v
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
+
+
 
 -paradigm: uninfl
  -flex: .
