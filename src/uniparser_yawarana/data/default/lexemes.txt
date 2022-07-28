@@ -1495,6 +1495,16 @@
  paradigm: noun_c_new_ri_0
 
 -lexeme
+ lex: se-eval
+ stem: .se.
+ trans_en: EVAL
+ gloss: EVAL
+ gramm: part
+ std: se
+ id: se-eval
+ paradigm: uninfl
+
+-lexeme
  lex: achi-wilderness
  stem: .achi.|.asi.
  trans_en: wilderness
