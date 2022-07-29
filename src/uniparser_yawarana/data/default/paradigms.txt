@@ -623,6 +623,9 @@
   gramm: 3
   gloss: 3
   id: i3
+ -flex: të.<.>
+  gramm: 3
+  gloss: 3
  -flex: y.<.>
   gramm: lk
   gloss: LK

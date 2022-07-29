@@ -16,17 +16,12 @@ def test_se(parser):
             raise ValueError(ana)
 
 
-
-
 def pick_analysis(anas, good_gloss):
     for ana in anas:
         if good_gloss in ana.gloss:
-            print(f"good analysis for {good_gloss}:", ana,)
+            print(f"good analysis for {good_gloss}:", ana)
             return ana
     return None
-
-
-
 
 
 def run_polysemy_test(forms, parser):
@@ -35,6 +30,7 @@ def run_polysemy_test(forms, parser):
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)
             assert tag in analysis.gramm.split(",")
+
 
 def test_tojpe(parser):
     run_polysemy_test(
@@ -84,6 +80,7 @@ def test_jpë(parser):
             assert "n" in ana.gramm.split(",")
         else:
             assert "vt" in ana.gramm.split(",")
+
 
 def test_unamb_derivs(parser):
     forms = [

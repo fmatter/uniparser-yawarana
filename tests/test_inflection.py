@@ -32,7 +32,7 @@ def test_noun_inflection(parser):
     #     assert str(i+1) in form.gloss
 
     print(parse_1("yeseti", parser))
-    
+
     # assert "pert" in parse_1("yeseti", parser).gramm
     # assert "pert" in parse_1("yëri", parser).gramm
     # assert "NPERT" in parse_1("yëtë", parser).gloss
@@ -52,7 +52,8 @@ def test_verb_inflection(parser):
         for i, x in enumerate(verb_set):
             forms = parser.analyze_words(x)
             for form in forms:
-                if gramm not in form.gramm: continue
+                if gramm not in form.gramm:
+                    continue
                 assert form.lemma == lemma
                 assert gloss in form.gloss
                 assert gramm in form.gramm
