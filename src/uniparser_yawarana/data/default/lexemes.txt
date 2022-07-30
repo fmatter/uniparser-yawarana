@@ -435,10 +435,10 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: atapechi
+ lex: atapechi-grab-on
  stem: .atapëchi.//.atapëkï.//.atapïchi.//.atapëj.
- trans_en: 
- gloss: 
+ trans_en: grab on
+ gloss: grab.on
  gramm: vi
  std: atapëchi
  paradigm: v_intr
@@ -485,7 +485,7 @@
  lex: kwa-tojpe-how
  stem: .kwatojpe.
  trans_en: how
- gloss: how
+ gloss: how.PURP
  gramm: adv
  std: kwatojpe
  paradigm: adv
@@ -516,6 +516,15 @@
  gramm: adv
  std: pochine
  paradigm: adv
+
+-lexeme
+ lex: make-pijke-second-mother
+ stem: .makëpïjkë.
+ trans_en: second mother
+ gloss: second.mother
+ gramm: n
+ std: makëpïjkë
+ paradigm: uninfl
 
 -lexeme
  lex: enijpetere-one
