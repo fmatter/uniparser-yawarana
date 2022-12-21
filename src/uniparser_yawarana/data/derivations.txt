@@ -64,7 +64,7 @@
  id: ninmlz
 
 -deriv-type: V-semi
- lex: [.]&septcp&minmlz
+ lex: [.]septcp|minmlz
  stem: [.]se|mï<.>//[.]che|mï<.>
  paradigm: nmlz
  gramm: n

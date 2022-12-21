@@ -92,3 +92,6 @@ def test_unamb_derivs(parser):
     run_polysemy_test(forms, parser)
     forms = [("munemï", {"NMLZ": "n"}), ("mïjnano", {"NMLZ": "n"})]
     run_polysemy_test(forms, parser)
+
+def test_combinations(parser):
+    print(parser.analyze_words(["warotasemï", "warotase", "tarinemï"]))
