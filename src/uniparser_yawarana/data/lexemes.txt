@@ -880,6 +880,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: make-mom
+ stem: .makë.
+ trans_en: mom
+ gloss: mom
+ gramm: n
+ std: makë
+ id: make-mom
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: mapara-chicken
  stem: .mapará.
  trans_en: chicken
@@ -1624,6 +1635,16 @@
  gramm: postp
  std: poye
  id: poye-above
+ paradigm: postp
+
+-lexeme
+ lex: peke-about
+ stem: .pëkë.
+ trans_en: about
+ gloss: about
+ gramm: postp
+ std: pëkë
+ id: peke-about
  paradigm: postp
 
 -lexeme
@@ -2669,3 +2690,103 @@
  std: ya
  id: ya-obl
  paradigm: postp
+
+-lexeme
+ lex: ma-rst
+ stem: .ma.
+ trans_en: nan
+ gloss: RST
+ gramm: part
+ std: ma
+ id: ma-rst
+ paradigm: uninfl
+
+-lexeme
+ lex: re-emp
+ stem: .rë.
+ trans_en: nan
+ gloss: EMP
+ gramm: part
+ std: rë
+ id: re-emp
+ paradigm: uninfl
+
+-lexeme
+ lex: yawe-ctmp
+ stem: .yawë.
+ trans_en: nan
+ gloss: CTMP
+ gramm: part
+ std: yawë
+ id: yawe-ctmp
+ paradigm: uninfl
+
+-lexeme
+ lex: pinika-prob
+ stem: .pïnika.
+ trans_en: nan
+ gloss: PROB
+ gramm: part
+ std: pïnika
+ id: pinika-prob
+ paradigm: uninfl
+
+-lexeme
+ lex: taki-cnfrm
+ stem: .takï.
+ trans_en: nan
+ gloss: CNFRM
+ gramm: part
+ std: takï
+ id: taki-cnfrm
+ paradigm: uninfl
+
+-lexeme
+ lex: tawara-too
+ stem: .tawara.
+ trans_en: nan
+ gloss: too
+ gramm: part
+ std: tawara
+ id: tawara-too
+ paradigm: uninfl
+
+-lexeme
+ lex: chipeke-therefore
+ stem: .chipëkë.
+ trans_en: nan
+ gloss: therefore
+ gramm: part
+ std: chipëkë
+ id: chipeke-therefore
+ paradigm: uninfl
+
+-lexeme
+ lex: chiyawe-when
+ stem: .chiyawë.
+ trans_en: nan
+ gloss: when
+ gramm: part
+ std: chiyawë
+ id: chiyawe-when
+ paradigm: uninfl
+
+-lexeme
+ lex: kwase-how
+ stem: .kwase.
+ trans_en: nan
+ gloss: how
+ gramm: part
+ std: kwase
+ id: kwase-how
+ paradigm: uninfl
+
+-lexeme
+ lex: pirare-neg-exist
+ stem: .pïrarë.
+ trans_en: nan
+ gloss: NEG.EXIST
+ gramm: part
+ std: pïrarë
+ id: pirare-neg-exist
+ paradigm: uninfl
