@@ -8,12 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 * use lexeme IDs for lex entries
-* default and etymologizing modes
 * derivational morphology in `derivations.txt`
 * more morphology and lexemes
 * work on copula
 
 ### Changed
+* fundamental restructuring, data pipeline cleanup
 * more sophisticated noun paradigms
 
 ### Removed

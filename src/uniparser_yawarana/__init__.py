@@ -16,16 +16,12 @@ __version__ = "0.0.5.dev"
 
 
 class YawaranaAnalyzer(Analyzer):
-    def __init__(self, etymologize=False, verbose_grammar=False):
-        if etymologize:
-            mode = "etym"
-        else:
-            mode = "default"
+    def __init__(self, etymologize="add", verbose_grammar=False):
         self.base_path = files("uniparser_yawarana") / "data"
         super().__init__(verbose_grammar=verbose_grammar)
         self.flattenSubwords = True
-        self.lexFile = self.base_path / "lexemes.txt"
         self.paradigmFile = self.base_path / "paradigms.txt"
+        self.lexFile = self.base_path / "lexemes.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
@@ -33,6 +29,7 @@ class YawaranaAnalyzer(Analyzer):
         with open(files("uniparser_yawarana") / "data" / "etym_lookup.yaml", "r") as f:
             self.etym_dict = yaml.load(f, Loader=yaml.SafeLoader)
         self.wfCache = {}
+        self.etymologize_mode = etymologize
         self.load_grammar()
 
     def etymologize(self, ana):
@@ -53,8 +50,11 @@ class YawaranaAnalyzer(Analyzer):
                         etym_gloss = etym_gloss.replace(orig, repl)
                 else:
                     etym_ids.append(_id)
-        self.wfCache[str(ana)] = [("id_etym", ",".join(etym_ids)), ("wfGlossed_etym", etym_obj), ("gloss_etym", etym_gloss)]
-
+        self.wfCache[str(ana)] = [
+            ("id_etym", ",".join(etym_ids)),
+            ("wfGlossed_etym", etym_obj),
+            ("gloss_etym", etym_gloss),
+        ]
 
     def analyze_words(
         self, words, cgFile="", format=None, disambiguate=True  # noqa: N803
@@ -66,12 +66,11 @@ class YawaranaAnalyzer(Analyzer):
             disambiguate=disambiguate,
         )
         for ana in all_analyses:
-            if str(ana) not in self.wfCache:
-                self.etymologize(ana)
-            ana.otherData.extend(self.wfCache[str(ana)])
+            if self.etymologize_mode:
+                if str(ana) not in self.wfCache:
+                    self.etymologize(ana)
+                ana.otherData.extend(self.wfCache[str(ana)])
         return all_analyses
-
-
 
         # if isinstance(all_analyses[0], list):  # filter wrong analyses of -jrama 'PROH'
         #     filtered = []

@@ -324,13 +324,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: chiyakono-friend
- stem: .chiyakono.
+ lex: chiyakono-chiyakon-chiyakom-friend
+ stem: .chiyakono.|.chiyakon.|.chiyakom.
  trans_en: friend
  gloss: friend
  gramm: n
  std: chiyakono
- id: chiyakono-friend
+ id: chiyakono-chiyakon-chiyakom-friend
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -356,13 +356,13 @@
  paradigm: pro
 
 -lexeme
- lex: eni-prox-inan
- stem: .eni.
+ lex: eni-seni-en-prox-inan
+ stem: .eni.|.seni.|.en.
  trans_en: PROX.INAN
  gloss: PROX.INAN
  gramm: det
  std: eni
- id: eni-prox-inan
+ id: eni-seni-en-prox-inan
  paradigm: uninfl
 
 -lexeme
@@ -397,13 +397,13 @@
  paradigm: adv
 
 -lexeme
- lex: enire-now
- stem: .enírë.
+ lex: enire-eniro-now
+ stem: .enírë.|.eniro.
  trans_en: now; today
  gloss: now
  gramm: adv
  std: enírë
- id: enire-now
+ id: enire-eniro-now
  paradigm: adv
 
 -lexeme
@@ -460,13 +460,13 @@
  paradigm: postp
 
 -lexeme
- lex: ini-see
- stem: .ini.
+ lex: ini-in-see
+ stem: .ini.|.in.
  trans_en: see
  gloss: see
  gramm: vt
  std: ini
- id: ini-see
+ id: ini-in-see
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -608,13 +608,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kawono-high
- stem: .kawono.
+ lex: kawono-kawon-high
+ stem: .kawono.|.kawon.
  trans_en: high
  gloss: high
  gramm: n
  std: kawono
- id: kawono-high
+ id: kawono-kawon-high
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -684,13 +684,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ko-brassolis-sophorae
- stem: .ko.
+ lex: ko-kori-brassolis-sophorae
+ stem: .ko.|.korï.
  trans_en: brassolis sophorae
  gloss: brassolis sophorae
  gramm: n
  std: ko
- id: ko-brassolis-sophorae
+ id: ko-kori-brassolis-sophorae
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -803,13 +803,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: kimiy-chili
- stem: .kïmïy.
+ lex: kimiy-kimii-chili
+ stem: .kïmïy.|.kïmïi.
  trans_en: chili
  gloss: chili
  gramm: n
  std: kïmïy
- id: kimiy-chili
+ id: kimiy-kimii-chili
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -902,13 +902,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: mayi-lets-go
- stem: .mayi.
+ lex: mayi-mai-lets-go
+ stem: .mayi.|.mai.
  trans_en: let’s go
  gloss: let’s go
  gramm: intj
  std: mayi
- id: mayi-lets-go
+ id: mayi-mai-lets-go
  paradigm: uninfl
 
 -lexeme
@@ -974,13 +974,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: monkontomo-2pl-pro
- stem: .monkontomo.
+ lex: monkontomo-mokontomo-mekontomo-montomo-mokontom-2pl-pro
+ stem: .monkontomo.|.mokontomo.|.mëkontomo.|.montomo.|.mokontom.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
  gramm: pn
  std: monkontomo
- id: monkontomo-2pl-pro
+ id: monkontomo-mokontomo-mekontomo-montomo-mokontom-2pl-pro
  paradigm: pro
 
 -lexeme
@@ -994,13 +994,13 @@
  paradigm: adv
 
 -lexeme
- lex: moroni-pain
- stem: .moroni.
+ lex: moroni-moron-pain
+ stem: .moroni.|.moron.
  trans_en: pain
  gloss: pain
  gramm: n
  std: moroni
- id: moroni-pain
+ id: moroni-moron-pain
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -1038,13 +1038,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: mujyane-pregnancy
- stem: .mujyanë.
+ lex: mujyane-mujyam-pregnancy
+ stem: .mujyanë.|.mujyam.
  trans_en: pregnancy
  gloss: pregnancy
  gramm: n
  std: mujyanë
- id: mujyane-pregnancy
+ id: mujyane-mujyam-pregnancy
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -1101,13 +1101,13 @@
  paradigm: uninfl
 
 -lexeme
- lex: mejni-dist-inan
- stem: .mëjnï.
+ lex: mejni-meni-dist-inan
+ stem: .mëjnï.|.mënï.
  trans_en: DIST.INAN
  gloss: DIST.INAN
  gramm: det
  std: mëjnï
- id: mejni-dist-inan
+ id: mejni-meni-dist-inan
  paradigm: uninfl
 
 -lexeme
@@ -1205,13 +1205,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: nepi-bring
- stem: .nepï.
+ lex: nepi-nej-bring
+ stem: .nepï.|.nej.
  trans_en: bring
  gloss: bring
  gramm: vt
  std: nepï
- id: nepi-bring
+ id: nepi-nej-bring
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -1227,13 +1227,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: nope-good
- stem: .nope.
+ lex: nope-nop-good
+ stem: .nope.|.nop.
  trans_en: good
  gloss: good
  gramm: adv
  std: nope
- id: nope-good
+ id: nope-nop-good
  paradigm: adv
 
 -lexeme
@@ -1814,13 +1814,13 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: takono-other
- stem: .takono.
+ lex: takono-takon-other
+ stem: .takono.|.takon.
  trans_en: other
  gloss: other
  gramm: n
  std: takono
- id: takono-other
+ id: takono-takon-other
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -1836,13 +1836,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: taro-say
- stem: .taro.
+ lex: taro-taj-ta-say
+ stem: .taro.|.taj.|.ta.
  trans_en: say
  gloss: say
  gramm: vt
  std: taro
- id: taro-say
+ id: taro-taj-ta-say
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -1868,13 +1868,13 @@
  paradigm: adv
 
 -lexeme
- lex: tejwetunu-sick
- stem: .tejwetunu.
+ lex: tejwetunu-tejetum-sick
+ stem: .tejwetunu.|.tejetum.
  trans_en: sick
  gloss: sick
  gramm: n
  std: tejwetunu
- id: tejwetunu-sick
+ id: tejwetunu-tejetum-sick
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -1943,13 +1943,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: tunami-hide
- stem: .tunamï.
+ lex: tunami-tunam-hide
+ stem: .tunamï.|.tunam.
  trans_en: hide
  gloss: hide
  gramm: vt
  std: tunamï
- id: tunami-hide
+ id: tunami-tunam-hide
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -1986,13 +1986,13 @@
  paradigm: pro
 
 -lexeme
- lex: tewisantomo-3pro-pl
- stem: .tëwïsantomo.
+ lex: tewisantomo-tewisanton-3pro-pl
+ stem: .tëwïsantomo.|.tëwïsanton.
  trans_en: 3PRO.PL
  gloss: 3PRO.PL
  gramm: pn
  std: tëwïsantomo
- id: tewisantomo-3pro-pl
+ id: tewisantomo-tewisanton-3pro-pl
  paradigm: pro
 
 -lexeme
@@ -2073,13 +2073,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: waraijtokomo-man
- stem: .waraijtokomo.
+ lex: waraijtokomo-waraijtokom-man
+ stem: .waraijtokomo.|.waraijtokom.
  trans_en: man
  gloss: man
  gramm: n
  std: waraijtokomo
- id: waraijtokomo-man
+ id: waraijtokomo-waraijtokom-man
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2095,23 +2095,23 @@
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ware-thus
- stem: .warë.
+ lex: ware-nware-nwa-wa-enware-uware-thus
+ stem: .warë.|.nwarë.|.nwa.|.wa.|.ënwarë.|.uwarë.
  trans_en: thus
  gloss: thus
  gramm: adv
  std: warë
- id: ware-thus
+ id: ware-nware-nwa-wa-enware-uware-thus
  paradigm: adv
 
 -lexeme
- lex: wasayi-attalea-maripa
- stem: .wasayi.
+ lex: wasayi-wasai-attalea-maripa
+ stem: .wasayi.|.wasai.
  trans_en: attalea maripa
  gloss: attalea maripa
  gramm: n
  std: wasayi
- id: wasayi-attalea-maripa
+ id: wasayi-wasai-attalea-maripa
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2127,24 +2127,24 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wepi-come
- stem: .wepï.
+ lex: wepi-wej-come
+ stem: .wepï.|.wej.
  trans_en: come
  gloss: come
  gramm: vi
  std: wepï
- id: wepi-come
+ id: wepi-wej-come
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: wereyi-cloud
- stem: .wereyi.
+ lex: wereyi-werey-cloud
+ stem: .wereyi.|.werey.
  trans_en: cloud
  gloss: cloud
  gramm: n
  std: wereyi
- id: wereyi-cloud
+ id: wereyi-werey-cloud
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2160,13 +2160,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: wiriyamo-woman
- stem: .wiriyamo.
+ lex: wiriyamo-wurijyam-wurijyamo-wurijyan-woman
+ stem: .wiriyamo.|.wurijyam.|.wurijyamo.|.wurijyan.
  trans_en: woman
  gloss: woman
  gramm: n
  std: wiriyamo
- id: wiriyamo-woman
+ id: wiriyamo-wurijyam-wurijyamo-wurijyan-woman
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2236,13 +2236,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: yamane-make
- stem: .yamanë.
+ lex: yamane-yaman-make
+ stem: .yamanë.|.yaman.
  trans_en: make
  gloss: make
  gramm: vt
  std: yamanë
- id: yamane-make
+ id: yamane-yaman-make
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -2313,13 +2313,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yatane-adolescent
- stem: .yatanë.
+ lex: yatane-yatam-yatan-adolescent
+ stem: .yatanë.|.yatam.|.yatan.
  trans_en: adolescent
  gloss: adolescent
  gramm: n
  std: yatanë
- id: yatane-adolescent
+ id: yatane-yatam-yatan-adolescent
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2346,13 +2346,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yerepunu-sick
- stem: .yerepunu.
+ lex: yerepunu-yerepun-sick
+ stem: .yerepunu.|.yerepun.
  trans_en: sick
  gloss: sick
  gramm: n
  std: yerepunu
- id: yerepunu-sick
+ id: yerepunu-yerepun-sick
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2411,24 +2411,24 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ye-tooth
- stem: .yë.
+ lex: ye-ye-tooth
+ stem: .yë.|.ye.
  trans_en: tooth
  gloss: tooth
  gramm: n
  std: yë
- id: ye-tooth
+ id: ye-ye-tooth
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: yeni-drink
- stem: .yëni.
+ lex: yeni-yeni-drink
+ stem: .yëni.|.yeni.
  trans_en: drink
  gloss: drink
  gramm: vt
  std: yëni
- id: yeni-drink
+ id: yeni-yeni-drink
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -2540,12 +2540,12 @@
  paradigm: n_deriv
 
 -lexeme
- lex: etipa-go-in-group
- stem: .ëtïpa.
+ lex: etipa-tipari-go-in-group
+ stem: .ëtïpa.|.tipari.
  trans_en: go in group
  gloss: go in group
  gramm: vi
  std: ëtïpa
- id: etipa-go-in-group
+ id: etipa-tipari-go-in-group
  paradigm: v_intr
  paradigm: v_intr_nmlz
