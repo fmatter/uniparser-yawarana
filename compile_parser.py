@@ -259,7 +259,10 @@ for comb in product(*noun_class_parameters):
     out += "\n" + npert_dict[comb[2]]
     noun_paradigms.append(out)
 
-paradigms_str = "\n\n".join(noun_paradigms)
+with open("data/noun_paradigms.yaml", "r") as f:
+    manual_noun_paradigms = f.read()
+
+paradigms_str = manual_noun_paradigms + "\n\n".join(noun_paradigms)
 other_paradigms = open("data/paradigms.txt", "r").read()
 
 with open(DATA_PATH / "paradigms.txt", "w") as f:
