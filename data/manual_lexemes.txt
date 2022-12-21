@@ -1,0 +1,58 @@
+-lexeme
+ lex: tajne
+ stem: .ta&jne.
+ trans_en: they
+ gloss: 3&PL
+ gramm: pn
+ paradigm: pro
+
+-lexeme
+ lex: kaj-say
+ stem: kaj&kë.
+ trans_en: say it!
+ gloss: say&IMP
+ gramm: vt,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: echi-be
+ stem: sejkë.
+ trans_en: be!
+ gloss: be.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: wepi-come
+ stem: sejkë.
+ trans_en: come!
+ gloss: come.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: imi-father
+ stem: y&ïmï.
+ gloss: LK&father
+ id: ylk,imi-father
+ gramm: n,lk
+ paradigm: uninfl
+ trans_en: my father
+
+-lexeme
+ lex: imi-father
+ stem: ëmo.//ëmë.
+ gloss: 2;father
+ id: imi-father
+ gramm: n,2
+ paradigm: uninfl
+ trans_en: your father
+
+-lexeme
+ lex: imi-father
+ stem: imu.
+ gloss: 3;father
+ id: imi-father
+ gramm: n,3
+ paradigm: uninfl
+ trans_en: his/her father
