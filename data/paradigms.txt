@@ -1,0 +1,322 @@
+-paradigm: uninfl
+ -flex: .
+  gramm:
+
+-paradigm: pro
+ -flex: .
+  gramm:
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
+
+-paradigm: n_deriv
+ -flex: .<.>
+  gramm:
+ deriv-link: N-pe
+ deriv-link: N-ke
+
+-paradigm: adv_deriv
+ -flex: .<.>
+  gramm:
+
+-paradigm: nmlz
+ -flex: .
+  gramm: 
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
+
+-paradigm: v_intr_nmlz
+ -flex: .<.>
+  gramm:
+ deriv-link: V-topo
+ deriv-link: V-tojpe
+ deriv-link: V-ri
+ deriv-link: V-septcp
+ deriv-link: V-sesup
+ deriv-link: V-semi
+ deriv-link: V-inf
+ deriv-link: V-sape
+ deriv-link: V-tane
+ deriv-link: V-jpë
+ deriv-link: N-pe
+
+-paradigm: v_tr_nmlz
+ -flex: .<.>
+  gramm:
+ deriv-link: V-topo
+ deriv-link: V-ri
+ deriv-link: V-tojpe
+ deriv-link: V-septcp
+ deriv-link: V-sesup
+ deriv-link: V-semi
+ deriv-link: V-ni
+ deriv-link: V-sape
+ deriv-link: V-tane
+ deriv-link: V-jpë
+ deriv-link: N-pe
+
+-paradigm: v_tr
+ -flex: .<.>
+  gramm:
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: ta.<.>
+  gramm: 3P
+  gloss: 3P
+  id: t3
+ paradigm: v_suff
+
+-paradigm: v_suff
+ -flex: .pëti<.>//.pëj<.>
+  gramm: plur
+  gloss: PLUR
+  id: petiplur
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff1
+
+-paradigm: v_suff1
+ -flex: .kë
+  gloss: IMP
+  gramm: imp
+  id: keimp
+ -flex: .jrama
+  gloss: PROH
+  gramm: proh
+  id: jramaproh
+ -flex: .ta
+  gloss: MOTIMP
+  gramm: motimp
+  id: tamotimp
+ -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
+  gramm: ipfv
+  gloss: IPFV
+  id: riipfv
+ -flex: .jpë<.>
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .sapë<.>//.saj<.>
+  gramm: pfv
+  gloss: PFV
+  id: sapepfv
+ -flex: .se<.>//.che<.>
+  gramm: pst
+  gloss: PST
+  id: sepst
+ -flex: .tojpe<.>
+  gramm: fut
+  gloss: FUT
+  id: tojpefut
+ -flex: .tëpëkë<.>
+  gramm: prog
+  gloss: PROG.INTR
+  id: tepeke
+ -flex: .pëkë<.>
+  gramm: prog
+  gloss: PROG.TR
+  id: pekeprog
+ -flex: .ja
+  gloss: NEG
+  gramm: neg
+  id: janeg
+ -flex: .sarë<.>
+  gramm: imn
+  gloss: IMN
+  id: sareimn
+ -flex: .tïkene
+  gramm: post
+  gloss: POST
+  id: tikenepost
+ paradigm: dv_pl
+
+-paradigm: dv_pl
+ -flex: .
+  gramm:
+ -flex: .jne
+  gramm: pl
+  gloss: PL
+  id: jnepl
+ -flex: .kontomo//.konton
+  gramm: pl
+  gloss: PL
+  id: kontomopl
+ -flex: .jra
+  gloss: NEG
+  gramm: neg
+  id: jraneg
+ -flex: .jnari
+  gloss: NEG
+  gramm: neg
+  id: jnarineg
+
+-paradigm: cop
+ -flex: ij.<.>
+  gramm: 3
+  gloss: 3
+  id: i3
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: .<.>
+  gramm:
+ paradigm: cop_suff
+
+-paradigm: cop_suff
+ -flex: .ri<.>//.0<.>//.ru<.>//.rï<.>
+  gramm: ipfv
+  gloss: IPFV
+  id: riipfv
+  paradigm: cop_clit
+ -flex: .ja
+  gloss: NEG
+  gramm: neg
+  id: janeg
+ -flex: .jpë
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .jpë<.>
+  gramm: pst
+  gloss: PST
+  id: jpepst
+ -flex: .jrama
+  gloss: PROH
+  gramm: proh
+  id: jramaproh
+ -flex: .sapë<.>//.saj<.>
+  gramm: pfv
+  gloss: PFV
+  id: sapepfv
+ -flex: .se<.>//.che<.>
+  gramm: pst
+  gloss: PST
+  id: sepst
+ -flex: .tojpe<.>
+  gramm: fut
+  gloss: FUT
+  id: tojpefut
+ paradigm: dv_pl
+
+-paradigm: cop_clit
+ -flex: .pëkë
+  gloss: about
+  gramm: LEX:pekeon:about
+  id: pekeon
+  sep: =
+ -flex: .poko|no//.poko|n
+  gloss: about|NMLZ
+  gramm: LEX:pekeon:about
+  id: pekeon,anonmlz
+  sep: =
+ -flex: .yawë
+  gloss: CTMP
+  gramm: LEX:yaweloc:ctmp
+  id: yaweloc
+  sep: =
+ -flex: .yawë
+  gloss: COND
+  gramm: LEX:yaweloc:cond
+  id: yaweloc
+  sep: =
+ -flex: .ripo
+  gloss: CNTF
+  gramm: cntf
+  id: ripocntf
+
+-paradigm: v_go
+ -flex: ij.<.>
+  gramm: 3
+  gloss: 3
+  id: i3
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
+
+
+-paradigm: v_intr
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: më|y.<.>
+  gloss: 2|LK
+  gramm: 2,poss,lk
+  id: me2,ylk
+ -flex: u|y.<.>
+  gloss: 1|LK
+  gramm: 1,poss
+  id: u1,ylk
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
+
+-paradigm: postp
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: i.<.>//t.<.>
+  gramm: 3
+  gloss: 3
+  id: i3
+ -flex: të.<.>
+  gramm: 3
+  gloss: 3
+ -flex: y.<.>
+  gramm: lk
+  gloss: LK
+  id: ylk
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: .<.>
+  gramm:
+ deriv-link: A-ano
+ paradigm: postp-suff
+
+-paradigm: postp-suff
+ -flex: .
+  gramm:
+ -flex: .jra
+  gramm: neg
+  gloss: NEG
+
+
+
+-paradigm: adv
+ -flex: .jra
+  gloss: NEG
+  gramm: neg
+  id: jraneg
+ -flex: .
+  gramm
+ deriv-link: A-mi
+ deriv-link: A-ano

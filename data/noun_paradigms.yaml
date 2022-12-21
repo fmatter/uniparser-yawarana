@@ -1,0 +1,94 @@
+-paradigm: noun_pref_new_v
+ -flex: y.<.>
+  gloss: LK
+  gramm: lk
+  id: ylk
+ -flex: më|y.<.>
+  gloss: 2|LK
+  gramm: 2,poss,lk
+  id: me2,ylk
+ -flex: u|y.<.>
+  gloss: 1|LK
+  gramm: 1,poss
+  id: u1,ylk
+ -flex: t.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_pref_old_v
+ -flex: y.<.>
+  gloss: LK
+  gramm: lk
+  id: ylk
+ -flex: a|y.<.>
+  gloss: 2|LK
+  gramm: 2,poss,lk
+  id: a2,ylk
+ -flex: u|y.<.>
+  gloss: 1|LK
+  gramm: 1,poss
+  id: u1,ylk
+ -flex: t.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_pref_new_c
+ -flex: më.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: me2
+ -flex: u.<.>
+  gloss: 1
+  gramm: 1,poss
+  id: u1
+ -flex: i.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ -flex: ..<.>
+  gramm:
+ paradigm: noun_plural
+
+-paradigm: noun_pref_old_c
+ -flex: a.<.>//o.<.>//ë.<.>
+  gloss: 2
+  gramm: 2,poss
+  id: a2
+ -flex: u.<.>
+  gloss: 1
+  gramm: 1,poss
+  id: u1
+ -flex: i.<.>
+  gramm: 3,poss
+  gloss: 3
+  id: i3
+ paradigm: noun_plural
+
+-paradigm: noun_plural
+ -flex: .jne<.>
+  gramm: pl
+  gloss: PL
+  id: jnepl
+ -flex: .tomo<.>//.ton<.>
+  gramm: pl
+  gloss: PL
+  id: tomopl
+ -flex: .kontomo<.>//.konton<.>
+  gramm: pl
+  gloss: PL
+  id: kontomopl
+ -flex: .<.>
+  gramm:
+ paradigm: noun_past
+
+-paradigm: noun_past
+ -flex: .jpë
+  gloss: PST
+  gramm: pst
+  id: jpepst
+ -flex: .
+  gramm: 
