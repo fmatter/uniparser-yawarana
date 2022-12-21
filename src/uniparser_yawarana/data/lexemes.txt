@@ -2649,3 +2649,23 @@
  id: etipa-tipari-go-in-group
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: ya-erg
+ stem: .ya.
+ trans_en: nan
+ gloss: ERG
+ gramm: postp
+ std: ya
+ id: ya-erg
+ paradigm: postp
+
+-lexeme
+ lex: ya-obl
+ stem: .ya.
+ trans_en: nan
+ gloss: OBL
+ gramm: postp
+ std: ya
+ id: ya-obl
+ paradigm: postp

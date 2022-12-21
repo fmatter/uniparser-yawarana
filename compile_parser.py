@@ -11,6 +11,9 @@ DATA_PATH = Path("src/uniparser_yawarana/data")
 
 # roots from the FLEx dictionary
 roots = pd.read_csv("data/roots.csv", keep_default_na=False, index_col=0)
+manual_roots = pd.read_csv("data/manual_roots.csv", keep_default_na=False)
+roots = pd.concat([roots, manual_roots])
+print(roots)
 roots["Etym_Gloss"] = roots["Gloss"]
 roots["ID"] = roots.apply(lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis=1)
 # this dict links stem IDs of morphologically complex stems to
