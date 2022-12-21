@@ -85,7 +85,6 @@ derivations = derivations[derivations["Base_Lexeme"].isin(roots.index)]
 # assemble all lexemes
 lexemes = pd.concat([roots, derivations])
 
-
 # the etymological gloss is based on the gloss of the base
 # and the gloss of the derivational affix
 def add_etym_gloss(rec):

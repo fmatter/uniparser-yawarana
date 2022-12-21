@@ -891,6 +891,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: mare-rel-inan
+ stem: .marë.
+ trans_en: REL.INAN
+ gloss: REL.INAN
+ gramm: part
+ std: marë
+ id: mare-rel-inan
+ paradigm: uninfl
+
+-lexeme
  lex: mayawaka-m
  stem: .mayawaka.
  trans_en: M.
@@ -1412,6 +1422,16 @@
  paradigm: postp
 
 -lexeme
+ lex: pano-fmr
+ stem: .pano.
+ trans_en: FMR
+ gloss: FMR
+ gramm: part
+ std: pano
+ id: pano-fmr
+ paradigm: uninfl
+
+-lexeme
  lex: papa-father
  stem: .papá.
  trans_en: father
@@ -1887,6 +1907,16 @@
  id: tejwetunu-tejetum-sick
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: ti-hsy
+ stem: .ti.
+ trans_en: HSY
+ gloss: HSY
+ gramm: part
+ std: ti
+ id: ti-hsy
+ paradigm: uninfl
 
 -lexeme
  lex: tonko-play
