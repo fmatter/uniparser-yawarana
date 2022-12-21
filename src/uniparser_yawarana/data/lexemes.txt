@@ -1402,6 +1402,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pana-dat
+ stem: .pana.
+ trans_en: DAT
+ gloss: DAT
+ gramm: postp
+ std: pana
+ id: pana-dat
+ paradigm: postp
+
+-lexeme
  lex: papa-father
  stem: .papá.
  trans_en: father
@@ -1965,6 +1975,16 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: te-loc
+ stem: .të.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ std: të
+ id: te-loc
+ paradigm: postp
+
+-lexeme
  lex: tejta-hollow
  stem: .tëjta.
  trans_en: hollow
@@ -2116,6 +2136,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: wawe-loc-aq
+ stem: .wawë.
+ trans_en: LOC.AQ
+ gloss: LOC.AQ
+ gramm: postp
+ std: wawë
+ id: wawe-loc-aq
+ paradigm: postp
+
+-lexeme
  lex: wena-vomit
  stem: .wená.
  trans_en: vomit
@@ -2203,6 +2233,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yaka-all
+ stem: .yaka.
+ trans_en: ALL
+ gloss: ALL
+ gramm: postp
+ std: yaka
+ id: yaka-all
+ paradigm: postp
+
+-lexeme
  lex: yakarama-tell
  stem: .yakarama.
  trans_en: tell
@@ -2234,6 +2274,16 @@
  id: yaku-agouti
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: yakere-com
+ stem: .yakërë.
+ trans_en: COM
+ gloss: COM
+ gramm: postp
+ std: yakërë
+ id: yakere-com
+ paradigm: postp
 
 -lexeme
  lex: yamane-yaman-make
@@ -2324,6 +2374,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yate-loc
+ stem: .yatë.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ std: yatë
+ id: yate-loc
+ paradigm: postp
+
+-lexeme
  lex: yawanka-kill
  stem: .yawanka.
  trans_en: kill
@@ -2333,6 +2393,16 @@
  id: yawanka-kill
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yaye-loc
+ stem: .yaye.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ std: yaye
+ id: yaye-loc
+ paradigm: postp
 
 -lexeme
  lex: yeme-eat-fruits-eggs-soup
