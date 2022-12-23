@@ -186,10 +186,6 @@
   gloss: NEG
   gramm: neg
   id: janeg
- -flex: .jpë
-  gramm: pst
-  gloss: PST
-  id: jpepst
  -flex: .jpë<.>
   gramm: pst
   gloss: PST

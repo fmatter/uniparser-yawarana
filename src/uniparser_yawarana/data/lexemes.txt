@@ -302,17 +302,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: chiri-wild-pineapple
- stem: .chiri.
- trans_en: wild pineapple
- gloss: wild pineapple
- gramm: n
- std: chiri
- id: chiri-wild-pineapple
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: chiri-titi-monkey
  stem: .chiri.
  trans_en: titi monkey
@@ -320,6 +309,17 @@
  gramm: n
  std: chiri
  id: chiri-titi-monkey
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: chiri-wild-pineapple
+ stem: .chiri.
+ trans_en: wild pineapple
+ gloss: wild pineapple
+ gramm: n
+ std: chiri
+ id: chiri-wild-pineapple
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -376,6 +376,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: enire-eniro-now
+ stem: .enirë.|.eniro.
+ trans_en: now; today
+ gloss: now
+ gramm: adv
+ std: enirë
+ id: enire-eniro-now
+ paradigm: adv
+
+-lexeme
  lex: entono-from-here
  stem: .entono.
  trans_en: from here
@@ -394,16 +404,6 @@
  gramm: adv
  std: entë
  id: ente-here-loc
- paradigm: adv
-
--lexeme
- lex: enire-eniro-now
- stem: .enírë.|.eniro.
- trans_en: now; today
- gloss: now
- gramm: adv
- std: enírë
- id: enire-eniro-now
  paradigm: adv
 
 -lexeme
@@ -629,17 +629,6 @@
  paradigm: adv
 
 -lexeme
- lex: kaya-gourd
- stem: .kaya.
- trans_en: gourd
- gloss: gourd
- gramm: n
- std: kaya
- id: kaya-gourd
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: kaya-barbasco
  stem: .kaya.
  trans_en: barbasco
@@ -647,6 +636,17 @@
  gramm: n
  std: kaya
  id: kaya-barbasco
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kaya-gourd
+ stem: .kaya.
+ trans_en: gourd
+ gloss: gourd
+ gramm: n
+ std: kaya
+ id: kaya-gourd
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -892,11 +892,11 @@
 
 -lexeme
  lex: mapara-chicken
- stem: .mapará.
+ stem: .mapara.
  trans_en: chicken
  gloss: chicken
  gramm: n
- std: mapará
+ std: mapara
  id: mapara-chicken
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
@@ -933,6 +933,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: michi-med-anim
+ stem: .michi.
+ trans_en: MED.ANIM
+ gloss: MED.ANIM
+ gramm: det
+ std: michi
+ id: michi-med-anim
+ paradigm: uninfl
+
+-lexeme
  lex: michisantomo-med-inan-pl
  stem: .michisantomo.
  trans_en: MED.INAN.PL
@@ -950,16 +960,6 @@
  gramm: det
  std: michitomo
  id: michitomo-med-inan-pl
- paradigm: uninfl
-
--lexeme
- lex: michi-med-anim
- stem: .michí.
- trans_en: MED.ANIM
- gloss: MED.ANIM
- gramm: det
- std: michí
- id: michi-med-anim
  paradigm: uninfl
 
 -lexeme
@@ -1444,11 +1444,11 @@
 
 -lexeme
  lex: papa-father
- stem: .papá.
+ stem: .papa.
  trans_en: father
  gloss: father
  gramm: n
- std: papá
+ std: papa
  id: papa-father
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
@@ -1822,13 +1822,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: semari-die
- stem: .sëmarí.
+ lex: sema-die
+ stem: .sëma.
  trans_en: die
  gloss: die
  gramm: vi
- std: sëmarí
- id: semari-die
+ std: sëma
+ id: sema-die
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
@@ -1963,11 +1963,11 @@
 
 -lexeme
  lex: toto-non-indian
- stem: .totó.
+ stem: .toto.
  trans_en: non-Indian
  gloss: non-Indian
  gramm: n
- std: totó
+ std: toto
  id: toto-non-indian
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
@@ -2198,11 +2198,11 @@
 
 -lexeme
  lex: wena-vomit
- stem: .wená.
+ stem: .wena.
  trans_en: vomit
  gloss: vomit
  gramm: n
- std: wená
+ std: wena
  id: wena-vomit
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
@@ -2790,3 +2790,94 @@
  std: pïrarë
  id: pirare-neg-exist
  paradigm: uninfl
+
+-lexeme
+ lex: chi-ch-chij-cop
+ stem: .chi.|.ch.|.chij.
+ trans_en: nan
+ gloss: COP
+ gramm: vi,cop
+ std: chi
+ id: chi-ch-chij-cop
+ paradigm: cop
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: ne-ints
+ stem: .ne.
+ trans_en: nan
+ gloss: INTS
+ gramm: part
+ std: ne
+ id: ne-ints
+ paradigm: uninfl
+
+-lexeme
+ lex: neke-cntr
+ stem: .neke.
+ trans_en: nan
+ gloss: CNTR
+ gramm: part
+ std: neke
+ id: neke-cntr
+ paradigm: uninfl
+
+-lexeme
+ lex: e-e-yes
+ stem: .ë'ë.
+ trans_en: nan
+ gloss: yes
+ gramm: intj
+ std: ë'ë
+ id: e-e-yes
+ paradigm: uninfl
+
+-lexeme
+ lex: taji
+ stem: .taji.
+ trans_en: nan
+ gloss: ???
+ gramm: part
+ std: taji
+ id: taji
+ paradigm: uninfl
+
+-lexeme
+ lex: ire-3ana-inan
+ stem: .irë.
+ trans_en: nan
+ gloss: 3ANA.INAN
+ gramm: det
+ std: irë
+ id: ire-3ana-inan
+ paradigm: uninfl
+
+-lexeme
+ lex: ijte-there
+ stem: .ijtë.
+ trans_en: nan
+ gloss: there
+ gramm: part
+ std: ijtë
+ id: ijte-there
+ paradigm: uninfl
+
+-lexeme
+ lex: pinire-neg
+ stem: .pïnirë.
+ trans_en: nan
+ gloss: NEG
+ gramm: part
+ std: pïnirë
+ id: pinire-neg
+ paradigm: uninfl
+
+-lexeme
+ lex: waraij-warai-like
+ stem: .waraij.|.warai.
+ trans_en: nan
+ gloss: like
+ gramm: postp
+ std: waraij
+ id: waraij-warai-like
+ paradigm: postp
