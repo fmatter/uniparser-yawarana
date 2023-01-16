@@ -11,11 +11,14 @@ DATA_PATH = Path("src/uniparser_yawarana/data")
 
 # roots from the FLEx dictionary
 roots = pd.read_csv("data/roots.csv", keep_default_na=False, index_col=0)
+# roots manually added to the CLDF dataset for some reason
 manual_roots = pd.read_csv("data/manual_roots.csv", keep_default_na=False)
 roots = pd.concat([roots, manual_roots])
-print(roots)
+
 roots["Etym_Gloss"] = roots["Gloss"]
 roots["ID"] = roots.apply(lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis=1)
+
+
 # this dict links stem IDs of morphologically complex stems to
 # "etymologizing" segmentations, glossings, and morph IDs
 # example:
@@ -27,7 +30,6 @@ roots["ID"] = roots.apply(lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis
 #   ids:
 #     - suku-urine
 #     - tavbz
-
 etym_dict = {}
 
 
@@ -88,6 +90,7 @@ derivations = derivations[derivations["Base_Lexeme"].isin(roots.index)]
 # assemble all lexemes
 lexemes = pd.concat([roots, derivations])
 
+
 # the etymological gloss is based on the gloss of the base
 # and the gloss of the derivational affix
 def add_etym_gloss(rec):
@@ -145,6 +148,7 @@ par_dic = {
     "det": "uninfl",
 }
 
+
 # different POS have different paradigms, nouns are more complex
 def get_paradigms(key):
     if isinstance(par_dic[key], list):
@@ -164,9 +168,7 @@ def get_noun_paradigms(rec):
     return [paradigm_str, "n_deriv"]
 
 
-# list of lexicon entries
-
-# generate a uniparser-morph readable lexicon entry
+# generate a uniparser-morph readable lexicon entry from a record
 def create_lexeme_entry(data, paradigms=[], deriv_links=[]):
     lex_str = ["-lexeme"]
     if "Stem" not in data:
@@ -191,9 +193,10 @@ def create_lexeme_entry(data, paradigms=[], deriv_links=[]):
     return "\n".join(lex_str)
 
 
+# list of lexicon entries
 lexemes_str = []
 
-
+# determine the proper paradigms for a lexicon entry and add it to the list
 def add_paradigms(lex):
     lex["Form"] = lex["Form"].split(SEP)
     lex["Lexeme_ID"] = lex["ID"]
@@ -211,6 +214,7 @@ def add_paradigms(lex):
 
 lexemes.apply(add_paradigms, axis=1)
 
+# uniparser-morph txt file for lexemes
 with open(DATA_PATH / "lexemes.txt", "w") as f:
     f.write("\n\n".join(lexemes_str))
 
@@ -249,7 +253,8 @@ npert_dict = {
   paradigm: noun_plural""",
 }
 
-
+# get all possible combinations of these four parameters
+# and create combined paradigms
 noun_paradigms = []
 for comb in product(*noun_class_parameters):
     paradigm_name = f"noun_{comb[0]}_{comb[-1]}_{comb[1]}_{comb[2]}"
@@ -259,20 +264,26 @@ for comb in product(*noun_class_parameters):
     out += "\n" + npert_dict[comb[2]]
     noun_paradigms.append(out)
 
+# manually coded noun paradigms
 with open("data/noun_paradigms.yaml", "r") as f:
     manual_noun_paradigms = f.read()
 
+# manually coded other paradigms
 paradigms_str = manual_noun_paradigms + "\n\n".join(noun_paradigms)
 other_paradigms = open("data/paradigms.txt", "r").read()
 
+# write for uniparser-morph
 with open(DATA_PATH / "paradigms.txt", "w") as f:
     f.write(paradigms_str + "\n\n\n\n" + other_paradigms)
 
+# copy 1-to-1 files
 for fname in ["lex_rules.txt", "disambiguation.cg3", "derivations.txt"]:
     data = open(Path("data") / fname).read()
     with open(DATA_PATH / f"{fname}", "w") as f:
         f.write(data)
 
+# bad analyses are stored as yaml
+# convert to uniparser-yaml
 with open("data/bad_analyses.yaml", "r") as f:
     bad_analyses = yaml.load(f, yaml.SafeLoader)
 with open(DATA_PATH / "bad_analyses.txt", "w") as f:
