@@ -594,6 +594,22 @@
   gramm:
  paradigm: v_suff
 
+-paradigm: të
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: ij.<.>
+  gramm: 3
+  gloss: 3
+  id: ij3
+ -flex: .<.>
+  gramm:
+ paradigm: v_suff
 
 -paradigm: v_intr
  -flex: më.<.>

@@ -64,6 +64,16 @@
  paradigm: pro
 
 -lexeme
+ lex: aniki-aniki-who
+ stem: .aniki.|.anïkï.
+ trans_en: who
+ gloss: who
+ gramm: intj
+ std: aniki
+ id: aniki-aniki-who
+ paradigm: uninfl
+
+-lexeme
  lex: anoto-annatto
  stem: .anoto.
  trans_en: annatto
@@ -902,13 +912,13 @@
  paradigm: n_deriv
 
 -lexeme
- lex: mare-rel-inan
- stem: .marë.
+ lex: mare-mare-rel-inan
+ stem: .marë.|.mare.
  trans_en: REL.INAN
  gloss: REL.INAN
  gramm: part
  std: marë
- id: mare-rel-inan
+ id: mare-mare-rel-inan
  paradigm: uninfl
 
 -lexeme
@@ -2089,6 +2099,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: waimu-language
+ stem: .waimu.
+ trans_en: language
+ gloss: language
+ gramm: n
+ std: waimu
+ id: waimu-language
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wajyaki-happy
  stem: .wajyakï.
  trans_en: happy
@@ -2712,13 +2733,13 @@
  paradigm: uninfl
 
 -lexeme
- lex: yawe-ctmp
- stem: .yawë.
+ lex: yawe-yawo-ctmp
+ stem: .yawë.|.yawo.
  trans_en: nan
  gloss: CTMP
  gramm: part
  std: yawë
- id: yawe-ctmp
+ id: yawe-yawo-ctmp
  paradigm: uninfl
 
 -lexeme
@@ -2881,3 +2902,33 @@
  std: waraij
  id: waraij-warai-like
  paradigm: postp
+
+-lexeme
+ lex: maniki-maniki-rel-anim
+ stem: .manïkï.|.maniki.
+ trans_en: nan
+ gloss: REL.ANIM
+ gramm: part
+ std: manïkï
+ id: maniki-maniki-rel-anim
+ paradigm: uninfl
+
+-lexeme
+ lex: te-go
+ stem: .të.
+ trans_en: nan
+ gloss: go
+ gramm: vi
+ std: të
+ id: te-go
+ paradigm: të
+
+-lexeme
+ lex: ke-ins
+ stem: .ke.
+ trans_en: nan
+ gloss: INS
+ gramm: part
+ std: ke
+ id: ke-ins
+ paradigm: uninfl

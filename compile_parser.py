@@ -270,7 +270,7 @@ with open("data/noun_paradigms.yaml", "r") as f:
 
 # manually coded other paradigms
 paradigms_str = manual_noun_paradigms + "\n\n".join(noun_paradigms)
-other_paradigms = open("data/paradigms.txt", "r").read()
+other_paradigms = open("data/paradigms.yaml", "r").read()
 
 # write for uniparser-morph
 with open(DATA_PATH / "paradigms.txt", "w") as f:
