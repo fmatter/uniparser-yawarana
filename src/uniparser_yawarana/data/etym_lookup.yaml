@@ -118,6 +118,14 @@ kamparata-grow-change-voice:
   - tavbz
   obj:
     kamparata: kamparata
+katupuma-pile-up:
+  gloss:
+    pile.up: ''
+  ids:
+  - katupu-pile-up
+  - macaus
+  obj:
+    katupuma: katupuma
 kawonota-get-high:
   gloss:
     get.high: ''
@@ -142,6 +150,22 @@ kereta-ripen:
   - tavbz
   obj:
     "k\xEBr\xEBta": "k\xEBr\xEBta"
+keyama-raise:
+  gloss:
+    raise: ''
+  ids:
+  - keya-grow
+  - macaus
+  obj:
+    "k\xEByama": "k\xEByama"
+kirima-thicken:
+  gloss:
+    thicken: ''
+  ids:
+  - kiri-thicken
+  - macaus
+  obj:
+    "k\xEFr\xEFma": "k\xEFr\xEFma"
 konopota-start-rainy-season:
   gloss:
     start.rainy.season: ''
@@ -190,6 +214,14 @@ moronta-hurt:
   - tavbz
   obj:
     moronta: moronta
+morontama-cause-pain:
+  gloss:
+    cause.pain: ''
+  ids:
+  - moronta-hurt
+  - macaus
+  obj:
+    morontama: morontama
 motota-fill-with-worms:
   gloss:
     fill.with.worms: ''
@@ -230,6 +262,14 @@ pataka-take-out:
   - kavbz
   obj:
     pataka: pataka
+pejma-bewitch:
+  gloss:
+    bewitch: ''
+  ids:
+  - pecv-witch
+  - macaus
+  obj:
+    pejma: pejma
 pichipichita-form-whitebait:
   gloss:
     form.whitebait: ''
@@ -334,6 +374,38 @@ wereyta-cloud-over:
   - tavbz
   obj:
     wereyta: wereyta
+yajwema-sweeten:
+  gloss:
+    sweeten: ''
+  ids:
+  - yajwe-become-sweet
+  - macaus
+  obj:
+    yajwema: yajwema
+yapima-make-worse:
+  gloss:
+    make.worse: ''
+  ids:
+  - yapi-become-worse
+  - macaus
+  obj:
+    yapima: yapima
+yatuma-warm:
+  gloss:
+    warm: ''
+  ids:
+  - yatu-become-warm
+  - macaus
+  obj:
+    yatuma: yatuma
+yerema-feed:
+  gloss:
+    feed: ''
+  ids:
+  - yere-eat
+  - macaus
+  obj:
+    yerema: yerema
 yerepunta-become-sick:
   gloss:
     become.sick: ''

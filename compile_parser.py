@@ -61,6 +61,9 @@ kavbz["Suffix_Gloss"] = "VBZ.TR"
 tavbz = read_deriv("tavbz", "vi")
 tavbz["Suffix_Gloss"] = "VBZ.INTR"
 
+# causativizer -ma
+macaus = read_deriv("macaus", "vt")
+macaus["Suffix_Gloss"] = "CAUS"
 
 def find_detransitivizer(s):
     if s.startswith("s"):
@@ -80,7 +83,7 @@ detrz["Affix_ID"] = detrz["Form"].apply(find_detransitivizer)
 detrz["Prefix_Gloss"] = "DETRZ"
 
 # assemble derivations, generate human-readable IDs and set as index
-derivations = pd.concat([kavbz, tavbz, detrz])
+derivations = pd.concat([kavbz, tavbz, macaus, detrz])
 derivations["Form_Bare"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
 derivations["Form"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
 derivations["Gloss"] = derivations["Translation"].apply(lambda x: x.replace(" ", "."))
@@ -88,13 +91,14 @@ derivations["ID"] = derivations.apply(
     lambda x: humidify(f"{x['Form_Bare'].split(SEP)[0]}-{x['Translation']}"), axis=1
 )
 derivations.set_index("ID", inplace=True, drop=False)
-
+derivations.to_csv("var/derivations.csv")
 lost_roots = pd.read_csv("data/etym_lexemes.csv")
 lost_roots["ID"] = lost_roots.apply(
     lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
 )
 lost_roots.set_index("ID", inplace=True)
 lost_roots["Etym_Gloss"] = lost_roots["Translation"]
+lost_roots.to_csv("var/lost_roots.csv")
 
 # assemble all lexemes
 lexemes = pd.concat([roots, derivations])

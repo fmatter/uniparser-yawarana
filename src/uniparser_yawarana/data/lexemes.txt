@@ -3535,6 +3535,105 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: katupuma-pile-up
+ stem: .katupuma.
+ trans_en: pile up
+ gloss: pile.up
+ gramm: vt
+ std: katupuma
+ id: katupuma-pile-up
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: keyama-raise
+ stem: .këyama.
+ trans_en: raise
+ gloss: raise
+ gramm: vt
+ std: këyama
+ id: keyama-raise
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: kirima-thicken
+ stem: .kïrïma.
+ trans_en: thicken
+ gloss: thicken
+ gramm: vt
+ std: kïrïma
+ id: kirima-thicken
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: morontama-cause-pain
+ stem: .morontama.
+ trans_en: cause pain
+ gloss: cause.pain
+ gramm: vt
+ std: morontama
+ id: morontama-cause-pain
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: pejma-bewitch
+ stem: .pejma.
+ trans_en: bewitch
+ gloss: bewitch
+ gramm: vt
+ std: pejma
+ id: pejma-bewitch
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yajwema-sweeten
+ stem: .yajwema.
+ trans_en: sweeten
+ gloss: sweeten
+ gramm: vt
+ std: yajwema
+ id: yajwema-sweeten
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yapima-make-worse
+ stem: .yapima.
+ trans_en: make worse
+ gloss: make.worse
+ gramm: vt
+ std: yapima
+ id: yapima-make-worse
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yatuma-warm
+ stem: .yatuma.
+ trans_en: warm
+ gloss: warm
+ gramm: vt
+ std: yatuma
+ id: yatuma-warm
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: yerema-feed
+ stem: .yerema.
+ trans_en: feed
+ gloss: feed
+ gramm: vt
+ std: yerema
+ id: yerema-feed
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
  lex: ej-nai-make-self
  stem: .ëj-nai.
  trans_en: make self
