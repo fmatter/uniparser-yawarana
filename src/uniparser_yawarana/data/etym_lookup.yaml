@@ -1,1 +1,320 @@
-{}
+aijkoronota-recover:
+  gloss:
+    recover: ''
+  ids:
+  - aijkorono-recovered
+  - tavbz
+  obj:
+    aijkoronota: aijkorono-ta
+ajpachika-weed:
+  gloss:
+    weed: ''
+  ids:
+  - ajpachi-undergrowth
+  - kavbz
+  obj:
+    ajpachika: ajpachi-ka
+ajpachita-overgrows:
+  gloss:
+    overgrows: ''
+  ids:
+  - ajpachi-undergrowth
+  - tavbz
+  obj:
+    ajpachita: ajpachi-ta
+akita-fill-with-worms:
+  gloss:
+    fill.with.worms: ''
+  ids:
+  - aki-worm
+  - tavbz
+  obj:
+    "ak\xEFta": "ak\xEF-ta"
+apita-ripen:
+  gloss:
+    ripen: ''
+  ids:
+  - api-ripeness
+  - tavbz
+  obj:
+    apita: api-ta
+asereta-have-dry-cough:
+  gloss:
+    have.dry.cough: ''
+  ids:
+  - asere-dry-cough
+  - tavbz
+  obj:
+    asereta: asere-ta
+awochita-form-tumor:
+  gloss:
+    form.tumor: ''
+  ids:
+  - awochi-tumor
+  - tavbz
+  obj:
+    awochita: awochi-ta
+chekeyta-fill-with-nits:
+  gloss:
+    fill.with.nits: ''
+  ids:
+  - chekey-nit
+  - tavbz
+  obj:
+    "ch\xEBk\xEByta": "ch\xEBk\xEBy-ta"
+chiketa-get-chiggers:
+  gloss:
+    get.chiggers: ''
+  ids:
+  - chike-chigger
+  - tavbz
+  obj:
+    "chik\xEBta": "chik\xEB-ta"
+chimichimita-fill-with-worms-dog:
+  gloss:
+    fill.with.worms.(dog): ''
+  ids:
+  - chimichimi-worm-dog
+  - tavbz
+  obj:
+    chimichimita: chimichimi-ta
+ej-nai-make-self:
+  gloss:
+    make.self: ''
+  ids:
+  - nai-do
+  - dt1
+  obj:
+    "\xEBj-nai": "\xEBj-nai"
+ej-neme-remain:
+  gloss:
+    remain: ''
+  ids:
+  - neme-leave
+  - dt1
+  obj:
+    "\xEBj-n\xEBm\xEB": "\xEBj-n\xEBm\xEB"
+ej-wenaka-vomit:
+  gloss:
+    vomit: ''
+  ids:
+  - wenaka-vomit
+  - dt1
+  obj:
+    "\xEBj-wenaka": "\xEBj-wena-ka"
+kaimota-hunt:
+  gloss:
+    hunt: ''
+  ids:
+  - kaimo-game
+  - tavbz
+  obj:
+    kaimota: kaimo-ta
+kamparata-grow-change-voice:
+  gloss:
+    grow;.change.(voice): ''
+  ids:
+  - kampara-big
+  - tavbz
+  obj:
+    kamparata: kampara-ta
+kawonota-get-high:
+  gloss:
+    get.high: ''
+  ids:
+  - kawono-high
+  - tavbz
+  obj:
+    kawonota: kawono-ta
+kemuta-emit-pus:
+  gloss:
+    emit.pus: ''
+  ids:
+  - kemu-pus
+  - tavbz
+  obj:
+    "k\xEBmuta": "k\xEBmu-ta"
+kereta-ripen:
+  gloss:
+    ripen: ''
+  ids:
+  - kere-ripeness
+  - tavbz
+  obj:
+    "k\xEBr\xEBta": "k\xEBr\xEB-ta"
+konopota-start-rainy-season:
+  gloss:
+    start.rainy.season: ''
+  ids:
+  - konopo-rain
+  - tavbz
+  obj:
+    konopota: konopo-ta
+mesujta-bleed:
+  gloss:
+    bleed: ''
+  ids:
+  - mesuku-blood
+  - tavbz
+  obj:
+    mesujta: mesuj-ta
+meteta-thin:
+  gloss:
+    thin: ''
+  ids:
+  - mete-thin
+  - tavbz
+  obj:
+    "m\xEBt\xEBta": "m\xEBt\xEB-ta"
+moronta-hurt:
+  gloss:
+    hurt: ''
+  ids:
+  - moroni-pain
+  - tavbz
+  obj:
+    moronta: moron-ta
+motota-fill-with-worms:
+  gloss:
+    fill.with.worms: ''
+  ids:
+  - moto-worm
+  - tavbz
+  obj:
+    motota: moto-ta
+mukuta-have-son:
+  gloss:
+    have.son: ''
+  ids:
+  - muku-child
+  - tavbz
+  obj:
+    mukuta: muku-ta
+nakita-be-thirsty:
+  gloss:
+    be.thirsty: ''
+  ids:
+  - naki-thirst
+  - tavbz
+  obj:
+    nakita: naki-ta
+pichipichita-form-whitebait:
+  gloss:
+    form.whitebait: ''
+  ids:
+  - pichipichi-whitebait
+  - tavbz
+  obj:
+    pichipichita: pichipichi-ta
+piketa-fart:
+  gloss:
+    fart: ''
+  ids:
+  - pike-fart
+  - tavbz
+  obj:
+    "pik\xEBta": "pik\xEB-ta"
+punta-form-pulp:
+  gloss:
+    form.pulp: ''
+  ids:
+  - punu-flesh
+  - tavbz
+  obj:
+    punta: pun-ta
+rokota-become-crazy:
+  gloss:
+    become.crazy: ''
+  ids:
+  - roko-crazy
+  - tavbz
+  obj:
+    rokota: roko-ta
+s-enka-finish:
+  gloss:
+    finish: ''
+  ids:
+  - enka-finish
+  - dt2
+  obj:
+    "s-\xEBnka": "s-\xEBnka"
+s-ere-become-scared:
+  gloss:
+    become.scared: ''
+  ids:
+  - erepi-scare
+  - dt2
+  obj:
+    s-ere: s-ere
+s-erema-eat:
+  gloss:
+    eat: ''
+  ids:
+  - yerema-feed
+  - dt2
+  obj:
+    s-erema: s-erema
+sakauta-get-sandy:
+  gloss:
+    get.sandy: ''
+  ids:
+  - sakau-sand
+  - tavbz
+  obj:
+    sakauta: sakau-ta
+senejka-stay:
+  gloss:
+    stay: ''
+  ids:
+  - enejka-watch
+  - dt2
+  obj:
+    senejka: s-enejka
+sujta-urinate:
+  gloss:
+    urinate: ''
+  ids:
+  - suku-urine
+  - tavbz
+  obj:
+    sujta: suj-ta
+wanaputa-grow-savannah-grass:
+  gloss:
+    grow.savannah.grass: ''
+  ids:
+  - wanapu-savannah
+  - tavbz
+  obj:
+    wanaputa: wanapu-ta
+wenaka-vomit:
+  gloss:
+    vomit: ''
+  ids:
+  - wena-vomit
+  - kavbz
+  obj:
+    wenaka: wena-ka
+wereyta-cloud-over:
+  gloss:
+    cloud.over: ''
+  ids:
+  - wereyi-cloud
+  - tavbz
+  obj:
+    wereyta: werey-ta
+yerepunta-become-sick:
+  gloss:
+    become.sick: ''
+  ids:
+  - yerepunu-sick
+  - tavbz
+  obj:
+    yerepunta: yerepun-ta
+yokota-grow-pimple:
+  gloss:
+    grow.pimple: ''
+  ids:
+  - yoko-pimple
+  - tavbz
+  obj:
+    yokota: yoko-ta

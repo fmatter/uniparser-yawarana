@@ -37,7 +37,7 @@ roots["Gloss"] = roots["Translation"].apply(lambda x: x.split(SEP)[0])
 roots["Form"] = roots.apply(lambda x: SEP.join(
         [y for y in x["Form"].split(SEP) + x["Variants"].split(SEP)]
     ).strip(SEP), axis=1)
-roots["ID"] = roots.apply(lambda x: humidify(x["Form"], x["Gloss"]), axis=1)
+roots["ID"] = roots.apply(lambda x: humidify(x["Form"].split(SEP)[0] + " " + x["Gloss"]), axis=1)
 keep_cols = """ID
 Form
 Gloss_es

@@ -10,13 +10,17 @@ SEP = "; "
 DATA_PATH = Path("src/uniparser_yawarana/data")
 
 # roots from the FLEx dictionary
-roots = pd.read_csv("data/roots.csv", keep_default_na=False, index_col=0)
+roots = pd.read_csv("data/roots.csv", keep_default_na=False)
 # roots manually added to the CLDF dataset for some reason
 manual_roots = pd.read_csv("data/manual_roots.csv", keep_default_na=False)
+manual_roots["ID"] = manual_roots.apply(
+    lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis=1
+)
 roots = pd.concat([roots, manual_roots])
 
+roots.set_index("ID", inplace=True, drop=False)
+
 roots["Etym_Gloss"] = roots["Gloss"]
-roots["ID"] = roots.apply(lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis=1)
 
 
 # this dict links stem IDs of morphologically complex stems to
@@ -84,24 +88,46 @@ derivations["ID"] = derivations.apply(
 )
 derivations.set_index("ID", inplace=True)
 
-# todo DELETE THIS AND FIX
-# for now, leave out derivations whose base is not found in roots
-derivations = derivations[derivations["Base_Lexeme"].isin(roots.index)]
+lost_roots = pd.read_csv("data/etym_lexemes.csv")
+lost_roots["ID"] = lost_roots.apply(
+    lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
+)
+lost_roots.set_index("ID", inplace=True)
+lost_roots["Etym_Gloss"] = lost_roots["Translation"]
+
 # assemble all lexemes
 lexemes = pd.concat([roots, derivations])
 
-
+lexemes = lexemes.fillna("")
 # the etymological gloss is based on the gloss of the base
 # and the gloss of the derivational affix
 def add_etym_gloss(rec):
-    if not pd.isnull(rec["Prefix_Gloss"]):
-        rec["Etym_Gloss"] = (
-            rec["Prefix_Gloss"] + "-" + lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
-        )
-    elif not pd.isnull(rec["Suffix_Gloss"]):
-        rec["Etym_Gloss"] = (
-            lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"] + "-" + rec["Suffix_Gloss"]
-        )
+    if rec["Prefix_Gloss"] != "":
+        if rec["Base_Lexeme"] in lexemes:
+            rec["Etym_Gloss"] = (
+                rec["Prefix_Gloss"]
+                + "-"
+                + lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
+            )
+        elif rec["Base_Lexeme"] in lost_roots:
+            rec["Etym_Gloss"] = (
+                rec["Prefix_Gloss"]
+                + "-"
+                + lost_roots.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
+            )
+    elif rec["Suffix_Gloss"] != "":
+        if rec["Base_Lexeme"] in lexemes:
+            rec["Etym_Gloss"] = (
+                lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
+                + "-"
+                + rec["Suffix_Gloss"]
+            )
+        elif rec["Base_Lexeme"] in lost_roots:
+            rec["Etym_Gloss"] = (
+                lost_roots.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
+                + "-"
+                + rec["Suffix_Gloss"]
+            )
     return rec
 
 
@@ -110,9 +136,9 @@ lexemes = lexemes.apply(lambda x: add_etym_gloss(x), axis=1)
 
 # add "etymologizing" information to dict
 def add_deriv_etym(x):
-    if not pd.isnull(x["Affix_ID"]):
+    if x["Affix_ID"] != "":
         add_to_etym_dict(
-            x["ID"],
+            x.name,
             (x["Form"].replace("+", ""), x["Form"].replace("+", "-")),
             (x["Gloss"], x["Etym_Gloss"]),
             [x["Base_Lexeme"], x["Affix_ID"]],
