@@ -997,6 +997,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: mejya-cover
+ stem: .mejya.
+ trans_en: cover
+ gloss: cover
+ gramm: n
+ std: mejya
+ id: mejya-cover
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: michi-med-anim
  stem: .michi.
  trans_en: MED.ANIM
@@ -1119,6 +1130,17 @@
  gramm: n
  std: moyochi
  id: moyochi-spider-sp
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: mujna-grave
+ stem: .mujna.
+ trans_en: grave
+ gloss: grave
+ gramm: n
+ std: mujna
+ id: mujna-grave
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -3106,441 +3128,485 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: 
- stem: .wena+ka.
+ lex: wenaka-vomit
+ stem: .wenaka.
  trans_en: vomit
  gloss: vomit
  gramm: vt
- std: wena+ka
- id: 
+ std: wenaka
+ id: wenaka-vomit
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: 
- stem: .ajpachi+ka.
+ lex: ajpachika-weed
+ stem: .ajpachika.
  trans_en: weed
  gloss: weed
  gramm: vt
- std: ajpachi+ka
- id: 
+ std: ajpachika
+ id: ajpachika-weed
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: 
- stem: .suj+ta.
+ lex: mejyaka-uncover
+ stem: .mejyaka.
+ trans_en: uncover
+ gloss: uncover
+ gramm: vt
+ std: mejyaka
+ id: mejyaka-uncover
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: moronka-make-suffer
+ stem: .moronka.
+ trans_en: make suffer
+ gloss: make.suffer
+ gramm: vt
+ std: moronka
+ id: moronka-make-suffer
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: mujnaka-dig-out
+ stem: .mujnaka.
+ trans_en: dig out
+ gloss: dig.out
+ gramm: vt
+ std: mujnaka
+ id: mujnaka-dig-out
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: pataka-take-out
+ stem: .pataka.
+ trans_en: take out
+ gloss: take.out
+ gramm: vt
+ std: pataka
+ id: pataka-take-out
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: sujta-urinate
+ stem: .sujta.
  trans_en: urinate
  gloss: urinate
  gramm: vi
- std: suj+ta
- id: 
+ std: sujta
+ id: sujta-urinate
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .kaimo+ta.
+ lex: kaimota-hunt
+ stem: .kaimota.
  trans_en: hunt
  gloss: hunt
  gramm: vi
- std: kaimo+ta
- id: 
+ std: kaimota
+ id: kaimota-hunt
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .mëtë+ta.
+ lex: meteta-thin
+ stem: .mëtëta.
  trans_en: thin
  gloss: thin
  gramm: vi
- std: mëtë+ta
- id: 
+ std: mëtëta
+ id: meteta-thin
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .yoko+ta.
+ lex: yokota-grow-pimple
+ stem: .yokota.
  trans_en: grow pimple
  gloss: grow.pimple
  gramm: vi
- std: yoko+ta
- id: 
+ std: yokota
+ id: yokota-grow-pimple
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .yerepun+ta.
+ lex: yerepunta-become-sick
+ stem: .yerepunta.
  trans_en: become sick
  gloss: become.sick
  gramm: vi
- std: yerepun+ta
- id: 
+ std: yerepunta
+ id: yerepunta-become-sick
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .werey+ta.
+ lex: wereyta-cloud-over
+ stem: .wereyta.
  trans_en: cloud over
  gloss: cloud.over
  gramm: vi
- std: werey+ta
- id: 
+ std: wereyta
+ id: wereyta-cloud-over
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .wanapu+ta.
+ lex: wanaputa-grow-savannah-grass
+ stem: .wanaputa.
  trans_en: grow savannah grass
  gloss: grow.savannah.grass
  gramm: vi
- std: wanapu+ta
- id: 
+ std: wanaputa
+ id: wanaputa-grow-savannah-grass
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .sakau+ta.
+ lex: sakauta-get-sandy
+ stem: .sakauta.
  trans_en: get sandy
  gloss: get.sandy
  gramm: vi
- std: sakau+ta
- id: 
+ std: sakauta
+ id: sakauta-get-sandy
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .roko+ta.
+ lex: rokota-become-crazy
+ stem: .rokota.
  trans_en: become crazy
  gloss: become.crazy
  gramm: vi
- std: roko+ta
- id: 
+ std: rokota
+ id: rokota-become-crazy
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .pun+ta.
+ lex: punta-form-pulp
+ stem: .punta.
  trans_en: form pulp
  gloss: form.pulp
  gramm: vi
- std: pun+ta
- id: 
+ std: punta
+ id: punta-form-pulp
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .pikë+ta.
+ lex: piketa-fart
+ stem: .pikëta.
  trans_en: fart
  gloss: fart
  gramm: vi
- std: pikë+ta
- id: 
+ std: pikëta
+ id: piketa-fart
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .pichipichi+ta.
+ lex: pichipichita-form-whitebait
+ stem: .pichipichita.
  trans_en: form whitebait
  gloss: form.whitebait
  gramm: vi
- std: pichipichi+ta
- id: 
+ std: pichipichita
+ id: pichipichita-form-whitebait
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .naki+ta.
+ lex: nakita-be-thirsty
+ stem: .nakita.
  trans_en: be thirsty
  gloss: be.thirsty
  gramm: vi
- std: naki+ta
- id: 
+ std: nakita
+ id: nakita-be-thirsty
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .muku+ta.
+ lex: mukuta-have-son
+ stem: .mukuta.
  trans_en: have son
  gloss: have.son
  gramm: vi
- std: muku+ta
- id: 
+ std: mukuta
+ id: mukuta-have-son
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .moto+ta.
+ lex: motota-fill-with-worms
+ stem: .motota.
  trans_en: fill with worms
  gloss: fill.with.worms
  gramm: vi
- std: moto+ta
- id: 
+ std: motota
+ id: motota-fill-with-worms
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .moron+ta.
+ lex: moronta-hurt
+ stem: .moronta.
  trans_en: hurt
  gloss: hurt
  gramm: vi
- std: moron+ta
- id: 
+ std: moronta
+ id: moronta-hurt
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .mesuj+ta.
+ lex: mesujta-bleed
+ stem: .mesujta.
  trans_en: bleed
  gloss: bleed
  gramm: vi
- std: mesuj+ta
- id: 
+ std: mesujta
+ id: mesujta-bleed
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .kërë+ta.
+ lex: kereta-ripen
+ stem: .kërëta.
  trans_en: ripen
  gloss: ripen
  gramm: vi
- std: kërë+ta
- id: 
+ std: kërëta
+ id: kereta-ripen
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .këmu+ta.
+ lex: kemuta-emit-pus
+ stem: .këmuta.
  trans_en: emit pus
  gloss: emit.pus
  gramm: vi
- std: këmu+ta
- id: 
+ std: këmuta
+ id: kemuta-emit-pus
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .konopo+ta.
+ lex: konopota-start-rainy-season
+ stem: .konopota.
  trans_en: start rainy season
  gloss: start.rainy.season
  gramm: vi
- std: konopo+ta
- id: 
+ std: konopota
+ id: konopota-start-rainy-season
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .kawono+ta.
+ lex: kawonota-get-high
+ stem: .kawonota.
  trans_en: get high
  gloss: get.high
  gramm: vi
- std: kawono+ta
- id: 
+ std: kawonota
+ id: kawonota-get-high
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .kampara+ta.
+ lex: kamparata-grow-change-voice
+ stem: .kamparata.
  trans_en: grow; change (voice)
  gloss: grow;.change.(voice)
  gramm: vi
- std: kampara+ta
- id: 
+ std: kamparata
+ id: kamparata-grow-change-voice
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .chëkëy+ta.
+ lex: chekeyta-fill-with-nits
+ stem: .chëkëyta.
  trans_en: fill with nits
  gloss: fill.with.nits
  gramm: vi
- std: chëkëy+ta
- id: 
+ std: chëkëyta
+ id: chekeyta-fill-with-nits
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .chimichimi+ta.
+ lex: chimichimita-fill-with-worms-dog
+ stem: .chimichimita.
  trans_en: fill with worms (dog)
  gloss: fill.with.worms.(dog)
  gramm: vi
- std: chimichimi+ta
- id: 
+ std: chimichimita
+ id: chimichimita-fill-with-worms-dog
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .chikë+ta.
+ lex: chiketa-get-chiggers
+ stem: .chikëta.
  trans_en: get chiggers
  gloss: get.chiggers
  gramm: vi
- std: chikë+ta
- id: 
+ std: chikëta
+ id: chiketa-get-chiggers
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .awochi+ta.
+ lex: awochita-form-tumor
+ stem: .awochita.
  trans_en: form tumor
  gloss: form.tumor
  gramm: vi
- std: awochi+ta
- id: 
+ std: awochita
+ id: awochita-form-tumor
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .asere+ta.
+ lex: asereta-have-dry-cough
+ stem: .asereta.
  trans_en: have dry cough
  gloss: have.dry.cough
  gramm: vi
- std: asere+ta
- id: 
+ std: asereta
+ id: asereta-have-dry-cough
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .aijkorono+ta.
+ lex: aijkoronota-recover
+ stem: .aijkoronota.
  trans_en: recover
  gloss: recover
  gramm: vi
- std: aijkorono+ta
- id: 
+ std: aijkoronota
+ id: aijkoronota-recover
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .ajpachi+ta.
+ lex: ajpachita-overgrows
+ stem: .ajpachita.
  trans_en: overgrows
  gloss: overgrows
  gramm: vi
- std: ajpachi+ta
- id: 
+ std: ajpachita
+ id: ajpachita-overgrows
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .akï+ta.
+ lex: akita-fill-with-worms
+ stem: .akïta.
  trans_en: fill with worms
  gloss: fill.with.worms
  gramm: vi
- std: akï+ta
- id: 
+ std: akïta
+ id: akita-fill-with-worms
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .api+ta.
+ lex: apita-ripen
+ stem: .apita.
  trans_en: ripen
  gloss: ripen
  gramm: vi
- std: api+ta
- id: 
+ std: apita
+ id: apita-ripen
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
+ lex: ej-nai-make-self
  stem: .ëj-nai.
  trans_en: make self
  gloss: make.self
  gramm: vi
  std: ëj-nai
- id: 
+ id: ej-nai-make-self
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .ëj-wena+ka.
+ lex: ej-wenaka-vomit
+ stem: .ëj-wenaka.
  trans_en: vomit
  gloss: vomit
  gramm: vi
- std: ëj-wena+ka
- id: 
+ std: ëj-wenaka
+ id: ej-wenaka-vomit
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
+ lex: s-erema-eat
  stem: .s-erema.
  trans_en: eat
  gloss: eat
  gramm: vi
  std: s-erema
- id: 
+ id: s-erema-eat
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
+ lex: s-ere-become-scared
  stem: .s-ere.
  trans_en: become scared
  gloss: become.scared
  gramm: vi
  std: s-ere
- id: 
+ id: s-ere-become-scared
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
+ lex: s-enka-finish
  stem: .s-ënka.
  trans_en: finish
  gloss: finish
  gramm: vi
  std: s-ënka
- id: 
+ id: s-enka-finish
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
+ lex: ej-neme-remain
  stem: .ëj-nëmë.
  trans_en: remain
  gloss: remain
  gramm: vi
  std: ëj-nëmë
- id: 
+ id: ej-neme-remain
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: 
- stem: .s+enejka.
+ lex: senejka-stay
+ stem: .senejka.
  trans_en: stay
  gloss: stay
  gramm: vi
- std: s+enejka
- id: 
+ std: senejka
+ id: senejka-stay
  paradigm: v_intr
  paradigm: v_intr_nmlz

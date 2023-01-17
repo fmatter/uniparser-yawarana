@@ -82,11 +82,12 @@ detrz["Prefix_Gloss"] = "DETRZ"
 # assemble derivations, generate human-readable IDs and set as index
 derivations = pd.concat([kavbz, tavbz, detrz])
 derivations["Form_Bare"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
+derivations["Form"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
 derivations["Gloss"] = derivations["Translation"].apply(lambda x: x.replace(" ", "."))
 derivations["ID"] = derivations.apply(
     lambda x: humidify(f"{x['Form_Bare'].split(SEP)[0]}-{x['Translation']}"), axis=1
 )
-derivations.set_index("ID", inplace=True)
+derivations.set_index("ID", inplace=True, drop=False)
 
 lost_roots = pd.read_csv("data/etym_lexemes.csv")
 lost_roots["ID"] = lost_roots.apply(
@@ -97,6 +98,8 @@ lost_roots["Etym_Gloss"] = lost_roots["Translation"]
 
 # assemble all lexemes
 lexemes = pd.concat([roots, derivations])
+
+print(lexemes["ID"])
 
 lexemes = lexemes.fillna("")
 # the etymological gloss is based on the gloss of the base
