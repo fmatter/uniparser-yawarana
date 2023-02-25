@@ -78,30 +78,30 @@ chimichimita-fill-with-worms-dog:
   - tavbz
   obj:
     chimichimita: chimichimita
-ej-nai-make-self:
+ejnai-make-self:
   gloss:
     make.self: ''
   ids:
   - nai-do
   - dt1
   obj:
-    "\xEBj-nai": "\xEBj-nai"
-ej-neme-remain:
+    "\xEBjnai": "\xEBjnai"
+ejneme-remain:
   gloss:
     remain: ''
   ids:
   - neme-leave
   - dt1
   obj:
-    "\xEBj-n\xEBm\xEB": "\xEBj-n\xEBm\xEB"
-ej-wenaka-vomit:
+    "\xEBjn\xEBm\xEB": "\xEBjn\xEBm\xEB"
+ejwenaka-vomit:
   gloss:
     vomit: ''
   ids:
   - wenaka-vomit
   - dt1
   obj:
-    "\xEBj-wenaka": "\xEBj-wenaka"
+    "\xEBjwenaka": "\xEBjwenaka"
 kaimota-hunt:
   gloss:
     hunt: ''
@@ -254,7 +254,7 @@ nakita-be-thirsty:
   - tavbz
   obj:
     nakita: nakita
-pataka-take-out:
+pataka-take-out-1:
   gloss:
     take.out: ''
   ids:
@@ -302,30 +302,6 @@ rokota-become-crazy:
   - tavbz
   obj:
     rokota: rokota
-s-enka-finish:
-  gloss:
-    finish: ''
-  ids:
-  - enka-finish
-  - dt2
-  obj:
-    "s-\xEBnka": "s-\xEBnka"
-s-ere-become-scared:
-  gloss:
-    become.scared: ''
-  ids:
-  - erepi-scare
-  - dt2
-  obj:
-    s-ere: s-ere
-s-erema-eat:
-  gloss:
-    eat: ''
-  ids:
-  - yerema-feed
-  - dt2
-  obj:
-    s-erema: s-erema
 sakauta-get-sandy:
   gloss:
     get.sandy: ''
@@ -342,6 +318,30 @@ senejka-stay:
   - dt2
   obj:
     senejka: senejka
+senka-finish:
+  gloss:
+    finish: ''
+  ids:
+  - enka-finish
+  - dt2
+  obj:
+    "s\xEBnka": "s\xEBnka"
+sere-become-scared:
+  gloss:
+    become.scared: ''
+  ids:
+  - erepi-scare
+  - dt2
+  obj:
+    sere: sere
+serema-eat:
+  gloss:
+    eat: ''
+  ids:
+  - yerema-feed
+  - dt2
+  obj:
+    serema: serema
 sujta-urinate:
   gloss:
     urinate: ''
@@ -398,7 +398,7 @@ yatuma-warm:
   - macaus
   obj:
     yatuma: yatuma
-yerema-feed:
+yerema-feed-1:
   gloss:
     feed: ''
   ids:

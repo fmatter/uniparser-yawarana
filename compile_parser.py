@@ -3,29 +3,211 @@ from humidifier import humidify
 import yaml
 import sys
 from pathlib import Path
-from itertools import product
+from itertools import product, chain
 import json
+import re
 
-SEP = "; "
-DATA_PATH = Path("src/uniparser_yawarana/data")
-
-# roots from the FLEx dictionary
-roots = pd.read_csv("data/roots.csv", keep_default_na=False)
-# roots manually added to the CLDF dataset for some reason
-manual_roots = pd.read_csv("data/manual_roots.csv", keep_default_na=False)
-manual_roots["ID"] = manual_roots.apply(
-    lambda x: humidify(x["Form"] + "-" + x["Gloss"]), axis=1
+SEP = "; " # separator between variants of same form
+DATA_PATH = Path("src/uniparser_yawarana/data") # the python package's data folder
+DERIV_SEP_PATTERN = cogseppattern = f"[{''.join(['+', '-'])}]"
+# enriched LIFT export from MCMM
+dic = pd.read_csv(
+    "/home/florianm/Dropbox/research/cariban/yawarana/yawarana_dictionary/annotated_dictionary.csv",
+    keep_default_na=False,
 )
-roots = pd.concat([roots, manual_roots])
+# keep only roots
+roots = dic[dic["Translation_Root"] != ""]
+roots.rename(columns={"Translation_Root": "Translation"}, inplace=True)
 
-roots.set_index("ID", inplace=True, drop=False)
+def trim_suff(row):
+    if row["POS"] in ["vt", "vi", "n"]:
+        forms = row["Form"].split(SEP)
+        treated_forms = []
+        for form in forms:
+            for suff in ["ri", "ru"]:
+                if form.endswith(suff):
+                    form = "".join(form.rsplit(suff, 1))
+                    if form not in treated_forms:
+                        treated_forms.append(form)
+                    break
+            if form not in treated_forms:
+                treated_forms.append(form)
+        row["Form"] = SEP.join(treated_forms)
+    return row
 
-roots["Etym_Gloss"] = roots["Gloss"]
+roots = roots.apply(trim_suff, axis=1)# cut off lemma-forming suffixes
+roots["Gloss"] = roots["Translation"].apply(lambda x: x.split(SEP)[0])# get a single gloss
+roots["Form"] = roots.apply(lambda x: SEP.join(
+        [y for y in x["Form"].split(SEP) + x["Variants"].split(SEP)]
+    ).strip(SEP), axis=1)# get variants
+keep_cols = """ID
+Form
+Gloss_es
+POS
+Gloss
+Translation
+Paradigm
+Gramm
+Comment
+PERT
+NPERT
+2_Prefix""".split(
+    "\n"
+)
+roots = roots[keep_cols]# prune columns
 
 
+manual_roots = pd.read_csv("data/manual_roots.csv", keep_default_na=False) # roots manually added to the CLDF dataset for some reason
+manual_roots["Translation"] = manual_roots["Gloss"]
+# manual_roots["Form"] = manual_roots.apply(lambda x: SEP.join(x["Form"]), axis=1)# get variants
+roots = pd.concat([roots, manual_roots]) # combine with dictionary roots
+roots["ID"] = roots.apply(lambda x: humidify(x["Form"].split(SEP)[0] + " " + x["Gloss"]), axis=1)# create IDs
+roots.set_index("ID", inplace=True, drop=False) # make retrievable quickly
+roots["Etym_Gloss"] = roots["Gloss"] # roots cannot have an "etymologizing" (showing derivational structure) gloss
+roots.to_csv("var/roots.csv", index=False)
+
+lost_roots = pd.read_csv("data/etym_lexemes.csv") # 
+lost_roots["ID"] = lost_roots.apply(
+    lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
+)
+lost_roots.set_index("ID", inplace=True)
+lost_roots["Etym_Gloss"] = lost_roots["Translation"]
+
+deriv_morphs = pd.read_csv("/home/florianm/Dropbox/research/cariban/yawarana/yawarana-sketch-cldf/etc/derivation_morphs.csv")
+deriv_morphs.set_index("ID", inplace=True, drop=False)
+
+# method to read stems identified as being derived from some other stem
+def read_deriv(name, pos):
+    df = pd.read_csv(f"data/derivations/{name}.csv", keep_default_na=False)
+    df["POS"] = pos
+    df["Affix_ID"] = name
+    return df
+
+
+kavbz = read_deriv("kavbz", "vt") # transitive verbalizer -ka
+kavbz["Suffix_Gloss"] = "VBZ.TR"
+
+tavbz = read_deriv("tavbz", "vi") # intransitive verbalizer -ta
+tavbz["Suffix_Gloss"] = "VBZ.INTR"
+
+macaus = read_deriv("macaus", "vt")# causativizer -ma
+macaus["Suffix_Gloss"] = "CAUS"
+
+# method for finding out which detransitivizer is in a stem
+def find_detransitivizer(s):
+    if s.startswith("s"):
+        return "dt2"
+    elif s.startswith("ëj"):
+        return "dt1"
+    elif s.startswith("at"):
+        return "dt3"
+    else:
+        raise ValueError
+        sys.exit(1)
+
+
+detrz = read_deriv("detrz", "vi")# detransitivized verbs
+detrz["Affix_ID"] = detrz["Form"].apply(find_detransitivizer)
+detrz["Prefix_Gloss"] = "DETRZ"
+
+derivations = pd.concat([kavbz, tavbz, macaus, detrz]) # assemble derived stems
+
+def disassemble_stem(rec, stem_dic=None):
+    if not stem_dic:
+        stem_dic = {}
+        for pos in ["Prefix", "Stem", "Suffix"]:
+            stem_dic[pos] = {}
+            for level in ["ID", "Parts", "Gloss"]:
+                stem_dic[pos][level] = []
+    if pd.isnull(rec.Prefix_Gloss):
+        empty = "Prefix"
+        filled = "Suffix"
+        stemparts, affparts = re.split(DERIV_SEP_PATTERN, rec.Form)
+    else:
+        empty = "Suffix"
+        filled = "Prefix"
+        affparts, stemparts = re.split(DERIV_SEP_PATTERN, rec.Form)
+    stem_dic[filled]["ID"].append(rec["Affix_ID"])
+    stem_dic[filled]["Gloss"].append(rec[f"{filled}_Gloss"])
+    stem_dic[filled]["Parts"].append(affparts)
+    if rec.Base_Stem in roots.index: # morphologically simple stem
+        stem_dic["Stem"]["ID"] = [rec.Base_Stem]
+        stem_dic["Stem"]["Parts"] = [stemparts]
+        stem_dic["Stem"]["Gloss"] = [roots.loc[rec.Base_Stem]["Gloss"]]
+        return stem_dic
+    elif rec.Base_Stem in derivations.index: # morphologically complex stem base
+        return disassemble_stem(derivations.loc[rec.Base_Stem], stem_dic)
+    stem_dic["Stem"]["ID"] = []
+    stem_dic["Stem"]["Parts"] = [stemparts]
+    stem_dic["Stem"]["Gloss"] = []
+    return stem_dic
+
+# function for processing morphologically complex stems
+stem_morphs = [] # morphological components of stems
+positions = ["Prefix", "Stem", "Suffix"] # positions
+def process_stem(rec):
+    stemid = rec["ID"]
+    stem_dic = disassemble_stem(rec)
+    ids = chain(*[stem_dic[pos]["ID"] for pos in positions])
+    parts = chain(*[stem_dic[pos]["Parts"] for pos in positions])
+    glosses = chain(*[stem_dic[pos]["Gloss"] for pos in positions])
+    for idx, (m_id, gloss) in enumerate(zip(ids, glosses)):
+        stem_morphs.append({"ID": f"{stemid}-{idx}", "Morph_ID": m_id, "Stem_ID": stemid, "Index": idx, "Gloss": gloss})
+    rec["Parts"] = " ".join(parts)
+    return rec
+
+derivations["Gloss"] = derivations["Translation"].apply(lambda x: x.replace(" ", ".")) # todo: use proper glossifying function
+derivations["Name"] = derivations["Form"].apply(lambda x: x.replace("+", "").replace("-", ""))
+derivations["ID"] = derivations.apply(
+    lambda x: humidify(f"{x['Name']}-{x['Translation']}"), axis=1
+) # generate IDs
+derivations.set_index("ID", inplace=True, drop=False) # make quickly retrievable
+derivations = derivations.apply(process_stem, axis=1)
+stem_morphs = pd.DataFrame.from_dict(stem_morphs)
+derivations["Form"] = derivations["Name"]
+
+stem_morphs.to_csv("var/stemparts.csv", index=False)
+derivations.to_csv("var/stems.csv", index=False)
+
+# assemble all stems (called lexemes in the uniparser context)
+lexemes = pd.concat([roots, derivations])
+lexemes = lexemes.fillna("")
+# the etymological gloss is based on the gloss of the base
+# and the gloss of the derivational affix
+def add_etym_gloss(rec):
+    if rec["Prefix_Gloss"] != "":
+        if rec["Base_Stem"] in lexemes:
+            rec["Etym_Gloss"] = (
+                rec["Prefix_Gloss"]
+                + "-"
+                + lexemes.loc[rec["Base_Stem"]]["Etym_Gloss"]
+            )
+        elif rec["Base_Stem"] in lost_roots:
+            rec["Etym_Gloss"] = (
+                rec["Prefix_Gloss"]
+                + "-"
+                + lost_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
+            )
+    elif rec["Suffix_Gloss"] != "":
+        if rec["Base_Stem"] in lexemes:
+            rec["Etym_Gloss"] = (
+                lexemes.loc[rec["Base_Stem"]]["Etym_Gloss"]
+                + "-"
+                + rec["Suffix_Gloss"]
+            )
+        elif rec["Base_Stem"] in lost_roots:
+            rec["Etym_Gloss"] = (
+                lost_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
+                + "-"
+                + rec["Suffix_Gloss"]
+            )
+    return rec
+
+
+lexemes = lexemes.apply(lambda x: add_etym_gloss(x), axis=1)
 # this dict links stem IDs of morphologically complex stems to
-# "etymologizing" segmentations, glossings, and morph IDs
-# example:
+# dicts of non-etymologizing to etymologizing segmentations, glossings, and morph IDs
+# for example: (YAML)
 # sujta-urinate:
 #   obj:
 #     sujta: suj-ta
@@ -44,103 +226,6 @@ def add_to_etym_dict(lexeme_id, obj_tuple, gloss_tuple, ids):
         "ids": ids,
     }
 
-
-# read stems identified as being derived from some other stem
-def read_deriv(name, pos):
-    df = pd.read_csv(f"data/derivations/{name}.csv", keep_default_na=False)
-    df["POS"] = pos
-    df["Affix_ID"] = name
-    return df
-
-
-# transitive verbalizer -ka
-kavbz = read_deriv("kavbz", "vt")
-kavbz["Suffix_Gloss"] = "VBZ.TR"
-
-# intransitive verbalizer -ta
-tavbz = read_deriv("tavbz", "vi")
-tavbz["Suffix_Gloss"] = "VBZ.INTR"
-
-# causativizer -ma
-macaus = read_deriv("macaus", "vt")
-macaus["Suffix_Gloss"] = "CAUS"
-
-def find_detransitivizer(s):
-    if s.startswith("s"):
-        return "dt2"
-    elif s.startswith("ëj"):
-        return "dt1"
-    elif s.startswith("at"):
-        return "dt3"
-    else:
-        raise ValueError
-        sys.exit(1)
-
-
-# detransitivized verbs
-detrz = read_deriv("detrz", "vi")
-detrz["Affix_ID"] = detrz["Form"].apply(find_detransitivizer)
-detrz["Prefix_Gloss"] = "DETRZ"
-
-# assemble derivations, generate human-readable IDs and set as index
-derivations = pd.concat([kavbz, tavbz, macaus, detrz])
-derivations["Form_Bare"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
-derivations["Form"] = derivations["Form"].apply(lambda x: x.replace("+", ""))
-derivations["Gloss"] = derivations["Translation"].apply(lambda x: x.replace(" ", "."))
-derivations["ID"] = derivations.apply(
-    lambda x: humidify(f"{x['Form_Bare'].split(SEP)[0]}-{x['Translation']}"), axis=1
-)
-derivations.set_index("ID", inplace=True, drop=False)
-derivations.to_csv("var/derivations.csv")
-lost_roots = pd.read_csv("data/etym_lexemes.csv")
-lost_roots["ID"] = lost_roots.apply(
-    lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
-)
-lost_roots.set_index("ID", inplace=True)
-lost_roots["Etym_Gloss"] = lost_roots["Translation"]
-lost_roots.to_csv("var/lost_roots.csv")
-
-# assemble all lexemes
-lexemes = pd.concat([roots, derivations])
-
-print(lexemes["ID"])
-
-lexemes = lexemes.fillna("")
-# the etymological gloss is based on the gloss of the base
-# and the gloss of the derivational affix
-def add_etym_gloss(rec):
-    if rec["Prefix_Gloss"] != "":
-        if rec["Base_Lexeme"] in lexemes:
-            rec["Etym_Gloss"] = (
-                rec["Prefix_Gloss"]
-                + "-"
-                + lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
-            )
-        elif rec["Base_Lexeme"] in lost_roots:
-            rec["Etym_Gloss"] = (
-                rec["Prefix_Gloss"]
-                + "-"
-                + lost_roots.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
-            )
-    elif rec["Suffix_Gloss"] != "":
-        if rec["Base_Lexeme"] in lexemes:
-            rec["Etym_Gloss"] = (
-                lexemes.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
-                + "-"
-                + rec["Suffix_Gloss"]
-            )
-        elif rec["Base_Lexeme"] in lost_roots:
-            rec["Etym_Gloss"] = (
-                lost_roots.loc[rec["Base_Lexeme"]]["Etym_Gloss"]
-                + "-"
-                + rec["Suffix_Gloss"]
-            )
-    return rec
-
-
-lexemes = lexemes.apply(lambda x: add_etym_gloss(x), axis=1)
-
-
 # add "etymologizing" information to dict
 def add_deriv_etym(x):
     if x["Affix_ID"] != "":
@@ -148,7 +233,7 @@ def add_deriv_etym(x):
             x.name,
             (x["Form"].replace("+", ""), x["Form"].replace("+", "-")),
             (x["Gloss"], x["Etym_Gloss"]),
-            [x["Base_Lexeme"], x["Affix_ID"]],
+            [x["Base_Stem"], x["Affix_ID"]],
         )
 
 
@@ -244,8 +329,8 @@ def add_paradigms(lex):
         paradigms = lex["Paradigm"].split("; ")
     lexemes_str.append(create_lexeme_entry(lex, paradigms))
 
-
 lexemes.apply(add_paradigms, axis=1)
+lexemes["Form"] = lexemes["Form"].apply(lambda x: x[0])
 
 # uniparser-morph txt file for lexemes
 with open(DATA_PATH / "lexemes.txt", "w") as f:
@@ -302,7 +387,7 @@ with open("data/noun_paradigms.yaml", "r") as f:
     manual_noun_paradigms = f.read()
 
 # manually coded other paradigms
-paradigms_str = manual_noun_paradigms + "\n\n".join(noun_paradigms)
+paradigms_str = manual_noun_paradigms + "\n\n"+"\n\n".join(noun_paradigms)
 other_paradigms = open("data/paradigms.yaml", "r").read()
 
 # write for uniparser-morph

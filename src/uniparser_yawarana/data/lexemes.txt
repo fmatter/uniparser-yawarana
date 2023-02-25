@@ -2825,7 +2825,7 @@
 -lexeme
  lex: ya-erg
  stem: .ya.
- trans_en: 
+ trans_en: ERG
  gloss: ERG
  gramm: postp
  std: ya
@@ -2835,7 +2835,7 @@
 -lexeme
  lex: ya-obl
  stem: .ya.
- trans_en: 
+ trans_en: OBL
  gloss: OBL
  gramm: postp
  std: ya
@@ -2845,7 +2845,7 @@
 -lexeme
  lex: ma-rst
  stem: .ma.
- trans_en: 
+ trans_en: RST
  gloss: RST
  gramm: part
  std: ma
@@ -2855,7 +2855,7 @@
 -lexeme
  lex: re-emp
  stem: .rë.
- trans_en: 
+ trans_en: EMP
  gloss: EMP
  gramm: part
  std: rë
@@ -2863,19 +2863,19 @@
  paradigm: uninfl
 
 -lexeme
- lex: yawe-yawo-ctmp
+ lex: yawe-ctmp
  stem: .yawë.|.yawo.
- trans_en: 
+ trans_en: CTMP
  gloss: CTMP
  gramm: part
  std: yawë
- id: yawe-yawo-ctmp
+ id: yawe-ctmp
  paradigm: uninfl
 
 -lexeme
  lex: pinika-prob
  stem: .pïnika.
- trans_en: 
+ trans_en: PROB
  gloss: PROB
  gramm: part
  std: pïnika
@@ -2885,7 +2885,7 @@
 -lexeme
  lex: taki-cnfrm
  stem: .takï.
- trans_en: 
+ trans_en: CNFRM
  gloss: CNFRM
  gramm: part
  std: takï
@@ -2895,7 +2895,7 @@
 -lexeme
  lex: tawara-too
  stem: .tawara.
- trans_en: 
+ trans_en: too
  gloss: too
  gramm: part
  std: tawara
@@ -2905,7 +2905,7 @@
 -lexeme
  lex: chipeke-therefore
  stem: .chipëkë.
- trans_en: 
+ trans_en: therefore
  gloss: therefore
  gramm: part
  std: chipëkë
@@ -2915,7 +2915,7 @@
 -lexeme
  lex: chiyawe-when
  stem: .chiyawë.
- trans_en: 
+ trans_en: when
  gloss: when
  gramm: part
  std: chiyawë
@@ -2925,7 +2925,7 @@
 -lexeme
  lex: kwase-how
  stem: .kwase.
- trans_en: 
+ trans_en: how
  gloss: how
  gramm: part
  std: kwase
@@ -2935,7 +2935,7 @@
 -lexeme
  lex: pirare-neg-exist
  stem: .pïrarë.
- trans_en: 
+ trans_en: NEG.EXIST
  gloss: NEG.EXIST
  gramm: part
  std: pïrarë
@@ -2943,20 +2943,20 @@
  paradigm: uninfl
 
 -lexeme
- lex: chi-ch-chij-cop
+ lex: chi-cop
  stem: .chi.|.ch.|.chij.
- trans_en: 
+ trans_en: COP
  gloss: COP
  gramm: vi,cop
  std: chi
- id: chi-ch-chij-cop
+ id: chi-cop
  paradigm: cop
  paradigm: v_intr_nmlz
 
 -lexeme
  lex: ne-ints
  stem: .ne.
- trans_en: 
+ trans_en: INTS
  gloss: INTS
  gramm: part
  std: ne
@@ -2964,9 +2964,20 @@
  paradigm: uninfl
 
 -lexeme
+ lex: wej-cop
+ stem: .wej.
+ trans_en: COP
+ gloss: COP
+ gramm: vi,cop
+ std: wej
+ id: wej-cop
+ paradigm: cop
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: neke-cntr
  stem: .neke.
- trans_en: 
+ trans_en: CNTR
  gloss: CNTR
  gramm: part
  std: neke
@@ -2976,7 +2987,7 @@
 -lexeme
  lex: e-e-yes
  stem: .ë'ë.
- trans_en: 
+ trans_en: yes
  gloss: yes
  gramm: intj
  std: ë'ë
@@ -2986,7 +2997,7 @@
 -lexeme
  lex: taji
  stem: .taji.
- trans_en: 
+ trans_en: ???
  gloss: ???
  gramm: part
  std: taji
@@ -2996,7 +3007,7 @@
 -lexeme
  lex: ire-3ana-inan
  stem: .irë.
- trans_en: 
+ trans_en: 3ANA.INAN
  gloss: 3ANA.INAN
  gramm: det
  std: irë
@@ -3006,7 +3017,7 @@
 -lexeme
  lex: ijte-there
  stem: .ijtë.
- trans_en: 
+ trans_en: there
  gloss: there
  gramm: part
  std: ijtë
@@ -3016,7 +3027,7 @@
 -lexeme
  lex: pinire-neg
  stem: .pïnirë.
- trans_en: 
+ trans_en: NEG
  gloss: NEG
  gramm: part
  std: pïnirë
@@ -3024,29 +3035,29 @@
  paradigm: uninfl
 
 -lexeme
- lex: waraij-warai-like
+ lex: waraij-like
  stem: .waraij.|.warai.
- trans_en: 
+ trans_en: like
  gloss: like
  gramm: postp
  std: waraij
- id: waraij-warai-like
+ id: waraij-like
  paradigm: postp
 
 -lexeme
- lex: maniki-maniki-rel-anim
+ lex: maniki-rel-anim
  stem: .manïkï.|.maniki.
- trans_en: 
+ trans_en: REL.ANIM
  gloss: REL.ANIM
  gramm: part
  std: manïkï
- id: maniki-maniki-rel-anim
+ id: maniki-rel-anim
  paradigm: uninfl
 
 -lexeme
  lex: te-go
  stem: .të.
- trans_en: 
+ trans_en: go
  gloss: go
  gramm: vi
  std: të
@@ -3056,7 +3067,7 @@
 -lexeme
  lex: ke-ins
  stem: .ke.
- trans_en: 
+ trans_en: INS
  gloss: INS
  gramm: part
  std: ke
@@ -3066,7 +3077,7 @@
 -lexeme
  lex: yewenke-ignorant
  stem: .yewenke.
- trans_en: 
+ trans_en: ignorant
  gloss: ignorant
  gramm: adv
  std: yewenke
@@ -3076,7 +3087,7 @@
 -lexeme
  lex: wara-thus
  stem: .wara.
- trans_en: 
+ trans_en: thus
  gloss: thus
  gramm: part
  std: wara
@@ -3086,7 +3097,7 @@
 -lexeme
  lex: suku-urine
  stem: .suku.
- trans_en: 
+ trans_en: urine
  gloss: urine
  gramm: n
  std: suku
@@ -3097,7 +3108,7 @@
 -lexeme
  lex: mesuku-blood
  stem: .mesuku.
- trans_en: 
+ trans_en: blood
  gloss: blood
  gramm: n
  std: mesuku
@@ -3108,7 +3119,7 @@
 -lexeme
  lex: enka-finish
  stem: .ënka.
- trans_en: 
+ trans_en: finish
  gloss: finish
  gramm: vt
  std: ënka
@@ -3119,13 +3130,24 @@
 -lexeme
  lex: enejka-watch
  stem: .enejka.
- trans_en: 
+ trans_en: watch
  gloss: watch
  gramm: vt
  std: enejka
  id: enejka-watch
  paradigm: v_tr
  paradigm: v_tr_nmlz
+
+-lexeme
+ lex: wajto-fire
+ stem: .wajto.
+ trans_en: fire
+ gloss: fire
+ gramm: n
+ std: wajto
+ id: wajto-fire
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: wenaka-vomit
@@ -3183,13 +3205,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: pataka-take-out
+ lex: pataka-take-out-1
  stem: .pataka.
  trans_en: take out
  gloss: take.out
  gramm: vt
  std: pataka
- id: pataka-take-out
+ id: pataka-take-out-1
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -3623,79 +3645,79 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yerema-feed
+ lex: yerema-feed-1
  stem: .yerema.
  trans_en: feed
  gloss: feed
  gramm: vt
  std: yerema
- id: yerema-feed
+ id: yerema-feed-1
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: ej-nai-make-self
- stem: .ëj-nai.
+ lex: ejnai-make-self
+ stem: .ëjnai.
  trans_en: make self
  gloss: make.self
  gramm: vi
- std: ëj-nai
- id: ej-nai-make-self
+ std: ëjnai
+ id: ejnai-make-self
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ej-wenaka-vomit
- stem: .ëj-wenaka.
+ lex: ejwenaka-vomit
+ stem: .ëjwenaka.
  trans_en: vomit
  gloss: vomit
  gramm: vi
- std: ëj-wenaka
- id: ej-wenaka-vomit
+ std: ëjwenaka
+ id: ejwenaka-vomit
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: s-erema-eat
- stem: .s-erema.
+ lex: serema-eat
+ stem: .serema.
  trans_en: eat
  gloss: eat
  gramm: vi
- std: s-erema
- id: s-erema-eat
+ std: serema
+ id: serema-eat
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: s-ere-become-scared
- stem: .s-ere.
+ lex: sere-become-scared
+ stem: .sere.
  trans_en: become scared
  gloss: become.scared
  gramm: vi
- std: s-ere
- id: s-ere-become-scared
+ std: sere
+ id: sere-become-scared
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: s-enka-finish
- stem: .s-ënka.
+ lex: senka-finish
+ stem: .sënka.
  trans_en: finish
  gloss: finish
  gramm: vi
- std: s-ënka
- id: s-enka-finish
+ std: sënka
+ id: senka-finish
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
 -lexeme
- lex: ej-neme-remain
- stem: .ëj-nëmë.
+ lex: ejneme-remain
+ stem: .ëjnëmë.
  trans_en: remain
  gloss: remain
  gramm: vi
- std: ëj-nëmë
- id: ej-neme-remain
+ std: ëjnëmë
+ id: ejneme-remain
  paradigm: v_intr
  paradigm: v_intr_nmlz
 

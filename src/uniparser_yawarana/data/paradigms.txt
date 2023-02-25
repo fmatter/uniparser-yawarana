@@ -91,7 +91,9 @@
   gramm: pst
   id: jpepst
  -flex: .
-  gramm: -paradigm: noun_c_old_ri_të
+  gramm: 
+
+-paradigm: noun_c_old_ri_të
  -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
@@ -606,7 +608,7 @@
  -flex: ij.<.>
   gramm: 3
   gloss: 3
-  id: ij3
+  id: i3
  -flex: .<.>
   gramm:
  paradigm: v_suff
