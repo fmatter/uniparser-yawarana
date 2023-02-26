@@ -407,6 +407,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: enijpete-one
+ stem: .enijpëtë.
+ trans_en: one
+ gloss: one
+ gramm: adv
+ std: enijpëtë
+ id: enijpete-one
+ paradigm: adv
+
+-lexeme
  lex: enire-now
  stem: .enirë.|.eniro.
  trans_en: now; today
@@ -2594,6 +2604,17 @@
  std: yaye
  id: yaye-loc
  paradigm: postp
+
+-lexeme
+ lex: yemekunu-five
+ stem: .yemekunu.
+ trans_en: five
+ gloss: five
+ gramm: n
+ std: yemekunu
+ id: yemekunu-five
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: yeme-eat-fruits-eggs-soup
