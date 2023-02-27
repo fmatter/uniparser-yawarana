@@ -30,6 +30,14 @@ akita-fill-with-worms:
   - tavbz
   obj:
     "ak\xEFta": "ak\xEFta"
+apataka-come-out:
+  gloss:
+    come.out: ''
+  ids:
+  - pataka-take-out
+  - dt4
+  obj:
+    apataka: apataka
 apita-ripen:
   gloss:
     ripen: ''
@@ -254,7 +262,7 @@ nakita-be-thirsty:
   - tavbz
   obj:
     nakita: nakita
-pataka-take-out-1:
+pataka-take-out:
   gloss:
     take.out: ''
   ids:

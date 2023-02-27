@@ -46,7 +46,7 @@
  lex: ami-unidentified-plant
  stem: .amï.
  trans_en: unidentified plant
- gloss: unidentified plant
+ gloss: unidentified_plant
  gramm: n
  std: amï
  id: ami-unidentified-plant
@@ -99,23 +99,12 @@
  lex: ante-fish-hook
  stem: .antë.
  trans_en: fish hook
- gloss: fish hook
+ gloss: fish_hook
  gramm: n
  std: antë
  id: ante-fish-hook
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
-
--lexeme
- lex: apataka-come-out
- stem: .apataka.
- trans_en: come out
- gloss: come out
- gramm: vi
- std: apataka
- id: apataka-come-out
- paradigm: v_intr
- paradigm: v_intr_nmlz
 
 -lexeme
  lex: api-ripeness
@@ -196,7 +185,7 @@
  lex: aropoko-ball-game
  stem: .aropoko.
  trans_en: ball game
- gloss: ball game
+ gloss: ball_game
  gramm: n
  std: aropoko
  id: aropoko-ball-game
@@ -227,7 +216,7 @@
  lex: asere-dry-cough
  stem: .asere.
  trans_en: dry cough
- gloss: dry cough
+ gloss: dry_cough
  gramm: n
  std: asere
  id: asere-dry-cough
@@ -303,7 +292,7 @@
  lex: chimichimi-worm-dog
  stem: .chimichimi.
  trans_en: worm (dog)
- gloss: worm (dog)
+ gloss: worm_(dog)
  gramm: n
  std: chimichimi
  id: chimichimi-worm-dog
@@ -336,7 +325,7 @@
  lex: chiri-titi-monkey
  stem: .chiri.
  trans_en: titi monkey
- gloss: titi monkey
+ gloss: titi_monkey
  gramm: n
  std: chiri
  id: chiri-titi-monkey
@@ -347,7 +336,7 @@
  lex: chiri-wild-pineapple
  stem: .chiri.
  trans_en: wild pineapple
- gloss: wild pineapple
+ gloss: wild_pineapple
  gramm: n
  std: chiri
  id: chiri-wild-pineapple
@@ -430,7 +419,7 @@
  lex: entono-from-here
  stem: .entono.
  trans_en: from here
- gloss: from here
+ gloss: from_here
  gramm: n
  std: entono
  id: entono-from-here
@@ -462,7 +451,7 @@
  lex: eretapi-cultivated-plant
  stem: .eretapi.
  trans_en: cultivated plant
- gloss: cultivated plant
+ gloss: cultivated_plant
  gramm: n
  std: eretapi
  id: eretapi-cultivated-plant
@@ -630,7 +619,7 @@
  lex: kapau-dasypus-novemcinctus
  stem: .kapau.
  trans_en: dasypus novemcinctus
- gloss: dasypus novemcinctus
+ gloss: dasypus_novemcinctus
  gramm: n
  std: kapau
  id: kapau-dasypus-novemcinctus
@@ -641,7 +630,7 @@
  lex: ka-take-out
  stem: .ka.
  trans_en: take out
- gloss: take out
+ gloss: take_out
  gramm: vt
  std: ka
  id: ka-take-out
@@ -652,7 +641,7 @@
  lex: kasajpe-fruit-pit
  stem: .kasajpë.
  trans_en: fruit pit
- gloss: fruit pit
+ gloss: fruit_pit
  gramm: n
  std: kasajpë
  id: kasajpe-fruit-pit
@@ -739,7 +728,7 @@
  lex: ko-brassolis-sophorae
  stem: .ko.|.korï.
  trans_en: brassolis sophorae
- gloss: brassolis sophorae
+ gloss: brassolis_sophorae
  gramm: n
  std: ko
  id: ko-brassolis-sophorae
@@ -761,7 +750,7 @@
  lex: kuru-prochilodus-mariae
  stem: .kuru.
  trans_en: prochilodus mariae
- gloss: prochilodus mariae
+ gloss: prochilodus_mariae
  gramm: n
  std: kuru
  id: kuru-prochilodus-mariae
@@ -772,7 +761,7 @@
  lex: kuruwa-coroba-palm
  stem: .kuruwa.
  trans_en: coroba palm
- gloss: coroba palm
+ gloss: coroba_palm
  gramm: n
  std: kuruwa
  id: kuruwa-coroba-palm
@@ -891,7 +880,7 @@
  lex: kiripi-go-out
  stem: .kïrïpï.
  trans_en: go out
- gloss: go out
+ gloss: go_out
  gramm: vi
  std: kïrïpï
  id: kiripi-go-out
@@ -924,7 +913,7 @@
  lex: maka-ceiba-pentandra
  stem: .maka.
  trans_en: ceiba pentandra
- gloss: ceiba pentandra
+ gloss: ceiba_pentandra
  gramm: n
  std: maka
  id: maka-ceiba-pentandra
@@ -1000,7 +989,7 @@
  lex: mayi-lets-go
  stem: .mayi.|.mai.
  trans_en: let’s go
- gloss: let’s go
+ gloss: let’s_go
  gramm: intj
  std: mayi
  id: mayi-lets-go
@@ -1136,7 +1125,7 @@
  lex: moyochi-spider-sp
  stem: .moyochi.
  trans_en: spider (sp.)
- gloss: spider (sp.)
+ gloss: spider_(sp.)
  gramm: n
  std: moyochi
  id: moyochi-spider-sp
@@ -1281,7 +1270,7 @@
  lex: mira-priodontes-maximus
  stem: .mïra.
  trans_en: priodontes maximus
- gloss: priodontes maximus
+ gloss: priodontes_maximus
  gramm: n
  std: mïra
  id: mira-priodontes-maximus
@@ -1390,7 +1379,7 @@
  lex: noti-potential-partner
  stem: .noti.
  trans_en: potential partner; cross cousin
- gloss: potential partner
+ gloss: potential_partner
  gramm: n
  std: noti
  id: noti-potential-partner
@@ -1434,7 +1423,7 @@
  lex: ojpa-give-drink
  stem: .ojpa.
  trans_en: give drink
- gloss: give drink
+ gloss: give_drink
  gramm: vt
  std: ojpa
  id: ojpa-give-drink
@@ -1467,7 +1456,7 @@
  lex: orojyamo-evil-being
  stem: .orojyamo.
  trans_en: evil being
- gloss: evil being
+ gloss: evil_being
  gramm: n
  std: orojyamo
  id: orojyamo-evil-being
@@ -1478,7 +1467,7 @@
  lex: pachi-older-sister-of-woman
  stem: .pachi.
  trans_en: older sister of woman
- gloss: older sister of woman
+ gloss: older_sister_of_woman
  gramm: n
  std: pachi
  id: pachi-older-sister-of-woman
@@ -1522,7 +1511,7 @@
  lex: pakura-coix-lacryma-jobi
  stem: .pakura.
  trans_en: Coix lacryma-jobi
- gloss: Coix lacryma-jobi
+ gloss: Coix_lacryma-jobi
  gramm: n
  std: pakura
  id: pakura-coix-lacryma-jobi
@@ -1533,7 +1522,7 @@
  lex: paku-arrow-tip
  stem: .paku.
  trans_en: arrow tip
- gloss: arrow tip
+ gloss: arrow_tip
  gramm: n
  std: paku
  id: paku-arrow-tip
@@ -1616,17 +1605,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: pataka-take-out
- stem: .pataka.
- trans_en: take out
- gloss: take out
- gramm: vt
- std: pataka
- id: pataka-take-out
- paradigm: v_tr
- paradigm: v_tr_nmlz
-
--lexeme
  lex: pene-piranha
  stem: .pene.
  trans_en: piranha
@@ -1684,7 +1662,7 @@
  lex: picha-capuchin-monkey
  stem: .picha.
  trans_en: capuchin monkey
- gloss: capuchin monkey
+ gloss: capuchin_monkey
  gramm: n
  std: picha
  id: picha-capuchin-monkey
@@ -1738,7 +1716,7 @@
  lex: pipi-younger-brother-of-woman
  stem: .pipi.
  trans_en: younger brother of woman
- gloss: younger brother of woman
+ gloss: younger_brother_of_woman
  gramm: n
  std: pipi
  id: pipi-younger-brother-of-woman
@@ -1845,7 +1823,7 @@
  lex: sakara-hoplias-malabaricus
  stem: .sakara.
  trans_en: hoplias malabaricus
- gloss: hoplias malabaricus
+ gloss: hoplias_malabaricus
  gramm: n
  std: sakara
  id: sakara-hoplias-malabaricus
@@ -1867,7 +1845,7 @@
  lex: saku-sweet-potato
  stem: .saku.
  trans_en: sweet potato
- gloss: sweet potato
+ gloss: sweet_potato
  gramm: n
  std: saku
  id: saku-sweet-potato
@@ -1889,7 +1867,7 @@
  lex: sampu-black-piranha
  stem: .sampu.
  trans_en: black piranha
- gloss: black piranha
+ gloss: black_piranha
  gramm: n
  std: sampu
  id: sampu-black-piranha
@@ -1900,7 +1878,7 @@
  lex: sapara-heavy-pot
  stem: .sapara.
  trans_en: heavy pot
- gloss: heavy pot
+ gloss: heavy_pot
  gramm: n
  std: sapara
  id: sapara-heavy-pot
@@ -1932,7 +1910,7 @@
  lex: sere-bitter-manioc
  stem: .sere.
  trans_en: bitter manioc
- gloss: bitter manioc
+ gloss: bitter_manioc
  gramm: n
  std: sere
  id: sere-bitter-manioc
@@ -2007,7 +1985,7 @@
  lex: tajropo-have-fever
  stem: .tajropo.
  trans_en: have fever
- gloss: have fever
+ gloss: have_fever
  gramm: vi
  std: tajropo
  id: tajropo-have-fever
@@ -2062,7 +2040,7 @@
  lex: tawa-nyctidromus-albicollis
  stem: .tawa.
  trans_en: nyctidromus albicollis
- gloss: nyctidromus albicollis
+ gloss: nyctidromus_albicollis
  gramm: n
  std: tawa
  id: tawa-nyctidromus-albicollis
@@ -2275,7 +2253,7 @@
  lex: wajyaki-be-happy
  stem: .wajyakï.
  trans_en: be happy
- gloss: be happy
+ gloss: be_happy
  gramm: vi
  std: wajyakï
  id: wajyaki-be-happy
@@ -2286,7 +2264,7 @@
  lex: wajyakiti-very-happy
  stem: .wajyakïtï.
  trans_en: very happy
- gloss: very happy
+ gloss: very_happy
  gramm: n
  std: wajyakïtï
  id: wajyakiti-very-happy
@@ -2351,7 +2329,7 @@
  lex: wasayi-attalea-maripa
  stem: .wasayi.|.wasai.
  trans_en: attalea maripa
- gloss: attalea maripa
+ gloss: attalea_maripa
  gramm: n
  std: wasayi
  id: wasayi-attalea-maripa
@@ -2459,7 +2437,7 @@
  lex: yajno-brother-in-law-man
  stem: .yajno.
  trans_en: brother in law (man)
- gloss: brother in law (man)
+ gloss: brother_in_law_(man)
  gramm: n
  std: yajno
  id: yajno-brother-in-law-man
@@ -2491,7 +2469,7 @@
  lex: yakono-younger-sister-of-woman
  stem: .yakono.
  trans_en: younger sister of woman
- gloss: younger sister of woman
+ gloss: younger_sister_of_woman
  gramm: n
  std: yakono
  id: yakono-younger-sister-of-woman
@@ -2534,7 +2512,7 @@
  lex: yami-pick-up
  stem: .yamï.
  trans_en: pick up
- gloss: pick up
+ gloss: pick_up
  gramm: vt
  std: yamï
  id: yami-pick-up
@@ -2653,7 +2631,7 @@
  lex: yeme-eat-fruits-eggs-soup
  stem: .yeme.
  trans_en: eat (fruits, eggs, soup)
- gloss: eat (fruits, eggs, soup)
+ gloss: eat_(fruits,_eggs,_soup)
  gramm: vt
  std: yeme
  id: yeme-eat-fruits-eggs-soup
@@ -2686,7 +2664,7 @@
  lex: yojte-fish-with-hook
  stem: .yojtë.
  trans_en: fish with hook
- gloss: fish with hook
+ gloss: fish_with_hook
  gramm: vt
  std: yojtë
  id: yojte-fish-with-hook
@@ -2708,7 +2686,7 @@
  lex: yoki-eat-starch
  stem: .yokï.
  trans_en: eat (starch)
- gloss: eat (starch)
+ gloss: eat_(starch)
  gramm: vt
  std: yokï
  id: yoki-eat-starch
@@ -2762,7 +2740,7 @@
  lex: yene-eat-meat
  stem: .yënë.
  trans_en: eat (meat)
- gloss: eat (meat)
+ gloss: eat_(meat)
  gramm: vt
  std: yënë
  id: yene-eat-meat
@@ -2858,7 +2836,7 @@
  lex: enuku-go-up
  stem: .ënuku.|.ënuj.
  trans_en: go up
- gloss: go up
+ gloss: go_up
  gramm: vi
  std: ënuku
  id: enuku-go-up
@@ -2869,7 +2847,7 @@
  lex: erine-cooking-pot
  stem: .ërinë.
  trans_en: cooking pot
- gloss: cooking pot
+ gloss: cooking_pot
  gramm: n
  std: ërinë
  id: erine-cooking-pot
@@ -2880,7 +2858,7 @@
  lex: etipa-go-in-group
  stem: .ëtïpa.|.tipari.
  trans_en: go in group
- gloss: go in group
+ gloss: go_in_group
  gramm: vi
  std: ëtïpa
  id: etipa-go-in-group
@@ -3292,13 +3270,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: pataka-take-out-1
+ lex: pataka-take-out
  stem: .pataka.
  trans_en: take out
  gloss: take.out
  gramm: vt
  std: pataka
- id: pataka-take-out-1
+ id: pataka-take-out
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -3816,6 +3794,17 @@
  gramm: vi
  std: senejka
  id: senejka-stay
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: apataka-come-out
+ stem: .apataka.
+ trans_en: come out
+ gloss: come.out
+ gramm: vi
+ std: apataka
+ id: apataka-come-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
