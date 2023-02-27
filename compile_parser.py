@@ -395,7 +395,7 @@ with open(DATA_PATH / "paradigms.txt", "w") as f:
     f.write(paradigms_str + "\n\n\n\n" + other_paradigms)
 
 # copy 1-to-1 files
-for fname in ["lex_rules.txt", "disambiguation.cg3", "derivations.txt"]:
+for fname in ["lex_rules.txt", "disambiguation.cg3", "derivations.txt", "clitics.txt"]:
     data = open(Path("data") / fname).read()
     with open(DATA_PATH / f"{fname}", "w") as f:
         f.write(data)

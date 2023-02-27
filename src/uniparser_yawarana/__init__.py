@@ -11,7 +11,7 @@ except ImportError:  # pragma: no cover
 log = logging.getLogger(__name__).addHandler(logging.NullHandler())
 
 __author__ = "Florian Matter"
-__email__ = "florianmatter@gmail.com"
+__email__ = "fmatter@mailbox.org"
 __version__ = "0.0.5.dev"
 
 
@@ -21,11 +21,11 @@ class YawaranaAnalyzer(Analyzer):
         super().__init__(verbose_grammar=verbose_grammar)
         self.flattenSubwords = True
         self.paradigmFile = self.base_path / "paradigms.txt"
-        self.lexFile = self.base_path / "lexemes.txt"
         self.delAnaFile = self.base_path / "bad_analyses.txt"
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
         self.lexRulesFile = self.base_path / "lex_rules.txt"
+        self.lexFile = self.base_path / "lexemes.txt"
         with open(files("uniparser_yawarana") / "data" / "etym_lookup.yaml", "r") as f:
             self.etym_dict = yaml.load(f, Loader=yaml.SafeLoader)
         self.wfCache = {}
