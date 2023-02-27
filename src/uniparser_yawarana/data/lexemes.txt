@@ -1398,6 +1398,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: nwajte-dance
+ stem: .nwajtë.|.wajtë.
+ trans_en: dance
+ gloss: dance
+ gramm: vi
+ std: nwajtë
+ id: nwajte-dance
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: neme-leave
  stem: .nëmë.
  trans_en: leave
@@ -2037,6 +2048,17 @@
  paradigm: v_tr_nmlz
 
 -lexeme
+ lex: tawani-darkness
+ stem: .tawani.
+ trans_en: darkness
+ gloss: darkness
+ gramm: n
+ std: tawani
+ id: tawani-darkness
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: tawa-nyctidromus-albicollis
  stem: .tawa.
  trans_en: nyctidromus albicollis
@@ -2046,16 +2068,6 @@
  id: tawa-nyctidromus-albicollis
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
-
--lexeme
- lex: teijpo-far
- stem: .teijpo.
- trans_en: far; long
- gloss: far
- gramm: adv
- std: teijpo
- id: teijpo-far
- paradigm: adv
 
 -lexeme
  lex: tejwetunu-sick
@@ -2173,6 +2185,16 @@
  std: të
  id: te-loc
  paradigm: postp
+
+-lexeme
+ lex: teijpo-far
+ stem: .tëijpo.|.tëijpë.|.teijpo.
+ trans_en: far; long
+ gloss: far
+ gramm: adv
+ std: tëijpo
+ id: teijpo-far
+ paradigm: adv
 
 -lexeme
  lex: tejta-hollow
@@ -2409,6 +2431,17 @@
  gramm: vi
  std: wëjka
  id: wejka-fall
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: winiki-sleep
+ stem: .wïnïkï.|.wïnïj.|.winik.
+ trans_en: sleep
+ gloss: sleep
+ gramm: vi
+ std: wïnïkï
+ id: winiki-sleep
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
@@ -2822,6 +2855,17 @@
  paradigm: adv
 
 -lexeme
+ lex: enuku-go-up
+ stem: .ënuku.|.ënuj.
+ trans_en: go up
+ gloss: go up
+ gramm: vi
+ std: ënuku
+ id: enuku-go-up
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
  lex: erine-cooking-pot
  stem: .ërinë.
  trans_en: cooking pot
@@ -3169,6 +3213,28 @@
  id: wajto-fire
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: naij-do
+ stem: .naij.
+ trans_en: do
+ gloss: do
+ gramm: vt
+ std: naij
+ id: naij-do
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+
+-lexeme
+ lex: tawejka-dawn
+ stem: .tawejka.
+ trans_en: dawn
+ gloss: dawn
+ gramm: vi
+ std: tawejka
+ id: tawejka-dawn
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: wenaka-vomit
@@ -3752,3 +3818,62 @@
  id: senejka-stay
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: tajne
+ stem: ta&jne.
+ trans_en: they
+ gloss: 3&PL
+ gramm: pn
+ paradigm: pro
+
+-lexeme
+ lex: kaj-say
+ stem: kaj&kë.
+ trans_en: say it!
+ gloss: say&IMP
+ gramm: vt,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: echi-be
+ stem: sejkë.
+ trans_en: be!
+ gloss: be.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: wepi-come
+ stem: sejkë.
+ trans_en: come!
+ gloss: come.IMP
+ gramm: vi,imp
+ paradigm: uninfl
+
+-lexeme
+ lex: imi-father
+ stem: y&ïmï.
+ gloss: LK&father
+ id: ylk,imi-father
+ gramm: n,lk
+ paradigm: uninfl
+ trans_en: my father
+
+-lexeme
+ lex: imi-father
+ stem: ëmo.//ëmë.
+ gloss: 2;father
+ id: imi-father
+ gramm: n,2
+ paradigm: uninfl
+ trans_en: your father
+
+-lexeme
+ lex: imi-father
+ stem: imu.
+ gloss: 3;father
+ id: imi-father
+ gramm: n,3
+ paradigm: uninfl
+ trans_en: his/her father

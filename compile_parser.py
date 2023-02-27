@@ -332,6 +332,9 @@ def add_paradigms(lex):
 lexemes.apply(add_paradigms, axis=1)
 lexemes["Form"] = lexemes["Form"].apply(lambda x: x[0])
 
+with open("data/manual_lexemes.txt", "r") as f:
+    lexemes_str.append(f.read())
+
 # uniparser-morph txt file for lexemes
 with open(DATA_PATH / "lexemes.txt", "w") as f:
     f.write("\n\n".join(lexemes_str))

@@ -119,3 +119,11 @@
  gramm: n
  gloss: NMLZ
  id: anonmlz
+
+-deriv-type: N-dim
+ lex: [.]&pijkedim
+ stem: [.]pïjkë<.>//[.]pijkë<.>
+ paradigm: nmlz
+ gramm: n
+ gloss: DIM
+ id: pijkedim

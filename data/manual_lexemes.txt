@@ -1,6 +1,6 @@
 -lexeme
  lex: tajne
- stem: .ta&jne.
+ stem: ta&jne.
  trans_en: they
  gloss: 3&PL
  gramm: pn

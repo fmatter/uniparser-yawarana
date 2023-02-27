@@ -360,7 +360,8 @@
   gramm:
  deriv-link: N-pe
  deriv-link: N-ke
-
+ deriv-link: N-dim
+ 
 -paradigm: adv_deriv
  -flex: .<.>
   gramm:
