@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 from itertools import product, chain
 import json
+from yawarana_helpers import glossify, find_detransitivizer, trim_dic_suff
 import re
 
 SEP = "; "  # separator between variants of same form
@@ -20,26 +21,10 @@ roots = dic[dic["Translation_Root"] != ""]
 roots.rename(columns={"Translation_Root": "Translation"}, inplace=True)
 
 
-def trim_suff(row):
-    if row["POS"] in ["vt", "vi", "n"]:
-        forms = row["Form"].split(SEP)
-        treated_forms = []
-        for form in forms:
-            for suff in ["ri", "ru"]:
-                if form.endswith(suff):
-                    form = "".join(form.rsplit(suff, 1))
-                    if form not in treated_forms:
-                        treated_forms.append(form)
-                    break
-            if form not in treated_forms:
-                treated_forms.append(form)
-        row["Form"] = SEP.join(treated_forms)
-    return row
 
-
-roots = roots.apply(trim_suff, axis=1)  # cut off lemma-forming suffixes
+roots = roots.apply(lambda x: trim_dic_suff(x, "; "), axis=1)  # cut off lemma-forming suffixes
 roots["Gloss"] = roots["Translation"].apply(
-    lambda x: x.split(SEP)[0].replace(" ", "_")
+    lambda x: glossify(x.split(SEP)[0])
 )  # get a single gloss
 roots["Form"] = roots.apply(
     lambda x: SEP.join(
@@ -79,7 +64,7 @@ roots["Etym_Gloss"] = roots[
 ]  # roots cannot have an "etymologizing" (showing derivational structure) gloss
 roots.to_csv("var/roots.csv", index=False)
 
-lost_roots = pd.read_csv("data/etym_lexemes.csv")  #
+lost_roots = pd.read_csv("data/bound_roots.csv")  #
 lost_roots["ID"] = lost_roots.apply(
     lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
 )
@@ -107,21 +92,6 @@ tavbz["Suffix_Gloss"] = "VBZ.INTR"
 
 macaus = read_deriv("macaus", "vt")  # causativizer -ma
 macaus["Suffix_Gloss"] = "CAUS"
-
-# method for finding out which detransitivizer is in a stem
-def find_detransitivizer(s):
-    if s.startswith("s"):
-        return "dt2"
-    elif s.startswith("ëj"):
-        return "dt1"
-    elif s.startswith("at"):
-        return "dt3"
-    elif s.startswith("a"):
-        return "dt4"
-    else:
-        raise ValueError
-        sys.exit(1)
-
 
 detrz = read_deriv("detrz", "vi")  # detransitivized verbs
 detrz["Affix_ID"] = detrz["Form"].apply(find_detransitivizer)

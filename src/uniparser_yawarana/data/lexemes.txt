@@ -64,16 +64,6 @@
  paradigm: pro
 
 -lexeme
- lex: aniki-who
- stem: .aniki.|.anïkï.
- trans_en: who
- gloss: who
- gramm: intj
- std: aniki
- id: aniki-who
- paradigm: uninfl
-
--lexeme
  lex: anoto-annatto
  stem: .anoto.
  trans_en: annatto
@@ -292,7 +282,7 @@
  lex: chimichimi-worm-dog
  stem: .chimichimi.
  trans_en: worm (dog)
- gloss: worm_(dog)
+ gloss: worm(dog)
  gramm: n
  std: chimichimi
  id: chimichimi-worm-dog
@@ -1125,7 +1115,7 @@
  lex: moyochi-spider-sp
  stem: .moyochi.
  trans_en: spider (sp.)
- gloss: spider_(sp.)
+ gloss: spider(sp.)
  gramm: n
  std: moyochi
  id: moyochi-spider-sp
@@ -1746,7 +1736,7 @@
 
 -lexeme
  lex: punu-flesh
- stem: .punu.
+ stem: .punu.|.pun.
  trans_en: flesh
  gloss: flesh
  gramm: n
@@ -2437,7 +2427,7 @@
  lex: yajno-brother-in-law-man
  stem: .yajno.
  trans_en: brother in law (man)
- gloss: brother_in_law_(man)
+ gloss: brother_in_law(man)
  gramm: n
  std: yajno
  id: yajno-brother-in-law-man
@@ -2631,7 +2621,7 @@
  lex: yeme-eat-fruits-eggs-soup
  stem: .yeme.
  trans_en: eat (fruits, eggs, soup)
- gloss: eat_(fruits,_eggs,_soup)
+ gloss: eat(fruits,_eggs,_soup)
  gramm: vt
  std: yeme
  id: yeme-eat-fruits-eggs-soup
@@ -2686,7 +2676,7 @@
  lex: yoki-eat-starch
  stem: .yokï.
  trans_en: eat (starch)
- gloss: eat_(starch)
+ gloss: eat(starch)
  gramm: vt
  std: yokï
  id: yoki-eat-starch
@@ -2740,7 +2730,7 @@
  lex: yene-eat-meat
  stem: .yënë.
  trans_en: eat (meat)
- gloss: eat_(meat)
+ gloss: eat(meat)
  gramm: vt
  std: yënë
  id: yene-eat-meat
@@ -3139,7 +3129,7 @@
 
 -lexeme
  lex: suku-urine
- stem: .suku.
+ stem: .suku.|.suj.
  trans_en: urine
  gloss: urine
  gramm: n
@@ -3150,7 +3140,7 @@
 
 -lexeme
  lex: mesuku-blood
- stem: .mesuku.
+ stem: .mesuku.|.mesuj.
  trans_en: blood
  gloss: blood
  gramm: n
@@ -3211,6 +3201,27 @@
  gramm: vi
  std: tawejka
  id: tawejka-dawn
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+
+-lexeme
+ lex: aniki-who
+ stem: .anïkï.|.aniki.
+ trans_en: who
+ gloss: who
+ gramm: pn
+ std: anïkï
+ id: aniki-who
+ paradigm: pro
+
+-lexeme
+ lex: ka-say
+ stem: .ka.
+ trans_en: say
+ gloss: say
+ gramm: vi
+ std: ka
+ id: ka-say
  paradigm: v_intr
  paradigm: v_intr_nmlz
 
@@ -3815,6 +3826,7 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
+ id: ta-3,jne-pl
 
 -lexeme
  lex: kaj-say
@@ -3822,6 +3834,7 @@
  trans_en: say it!
  gloss: say&IMP
  gramm: vt,imp
+ id: keimp,ka-say
  paradigm: uninfl
 
 -lexeme

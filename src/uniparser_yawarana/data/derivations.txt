@@ -101,7 +101,7 @@
  stem: <.>[.]ke
  paradigm: adv
  gramm: adv,prop
- gloss: PREP
+ gloss: PROP
  id: keprop
 
 -deriv-type: A-mi

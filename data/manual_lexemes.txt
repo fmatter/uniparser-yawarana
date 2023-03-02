@@ -5,6 +5,7 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
+ id: ta-3,jne-pl
 
 -lexeme
  lex: kaj-say
@@ -12,6 +13,7 @@
  trans_en: say it!
  gloss: say&IMP
  gramm: vt,imp
+ id: keimp,ka-say
  paradigm: uninfl
 
 -lexeme
