@@ -142,7 +142,6 @@ misc["Form"] = misc["Form"].apply(
     lambda x: x.replace("+", "").replace("-", "")
 )
 misc["Gloss"] = misc["Translation"].apply(glossify)
-print(misc)
 misc["ID"] = misc.apply(
     lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
 )  # generate IDs
@@ -229,10 +228,10 @@ par_dic = {
     "adv": ["adv"],
     "aux": "aux",
     "propn": "uninfl",
-    "vt": ["v_tr", "v_tr_nmlz"],
+    "vt": ["v_tr", "v_tr_nmlz", "vt_aspect"],
     "n": ["noun", "n_deriv"],
     "pn": "pro",
-    "vi": ["v_intr", "v_intr_nmlz"],
+    "vi": ["v_intr", "v_intr_nmlz", "vi_aspect"],
     "ideo": "uninfl",
     "rel": "uninfl",
     "det": "uninfl",

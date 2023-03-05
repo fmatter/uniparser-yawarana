@@ -31,6 +31,13 @@
   gramm:
   paradigm: noun_plural
 
+-paradigm: vi_aspect
+ deriv-link: Vi-petiplur
+
+-paradigm: vt_aspect
+ deriv-link: Vt-petiplur
+
+
 -paradigm: v_intr_nmlz
  -flex: .<.>
   gramm:
@@ -79,15 +86,6 @@
  paradigm: v_suff
 
 -paradigm: v_suff
- -flex: .pëti<.>//.pëj<.>
-  gramm: plur
-  gloss: PLUR
-  id: petiplur
- -flex: .<.>
-  gramm:
- paradigm: v_suff1
-
--paradigm: v_suff1
  -flex: .kë
   gloss: IMP
   gramm: imp

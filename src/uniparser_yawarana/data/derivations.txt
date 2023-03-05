@@ -14,6 +14,22 @@
  gloss: PTCP
  id: septcp
 
+-deriv-type: Vi-petiplur
+ lex: [.]&petiplur
+ stem: .[.]pëti.//.[.]pëj.
+ paradigm: v_intr
+ gramm: plur
+ gloss: PLUR
+ id: petiplur
+
+-deriv-type: Vt-petiplur
+ lex: [.]&petiplur
+ stem: .[.]pëti.//.[.]pëj.
+ paradigm: v_tr
+ gramm: plur
+ gloss: PLUR
+ id: petiplur
+
 -deriv-type: V-sesup
  lex: [.]&septcp
  stem: [.]se<.>//[.]che<.>

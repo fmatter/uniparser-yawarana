@@ -255,6 +255,7 @@
  id: chika-bite
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: chike-chigger
@@ -436,6 +437,7 @@
  id: epe-escape
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: eretapi-cultivated-plant
@@ -489,6 +491,7 @@
  id: ini-see
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: intipijke-small
@@ -530,6 +533,7 @@
  id: ita-hear
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: iyajtepe-before
@@ -604,6 +608,7 @@
  id: kamwiyajka-change
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: kapau-dasypus-novemcinctus
@@ -626,6 +631,7 @@
  id: ka-take-out
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: kasajpe-fruit-pit
@@ -790,6 +796,7 @@
  id: kejma-hunt
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: kemu-pus
@@ -843,6 +850,7 @@
  id: keta-stink
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ketejwate-cotton
@@ -876,6 +884,7 @@
  id: kiripi-go-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: majawa-m
@@ -1175,6 +1184,7 @@
  id: munta-budding
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: mejki-dist-anim
@@ -1277,6 +1287,7 @@
  id: nai-do
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: najmo-grandmother
@@ -1332,6 +1343,7 @@
  id: nepi-bring
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: nono-earth
@@ -1386,6 +1398,7 @@
  id: nwajte-dance
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: neme-leave
@@ -1397,6 +1410,7 @@
  id: neme-leave
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: ochi-o
@@ -1419,6 +1433,7 @@
  id: ojpa-give-drink
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: oki-chicha
@@ -1680,6 +1695,7 @@
  id: pika-peel
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: pike-fart
@@ -1776,6 +1792,7 @@
  id: pirika-endure
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: roko-crazy
@@ -1852,6 +1869,7 @@
  id: samo-cry
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: sampu-black-piranha
@@ -1949,6 +1967,7 @@
  id: sema-die
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: tajme-ugly
@@ -1981,6 +2000,7 @@
  id: tajropo-have-fever
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: takono-other
@@ -2003,6 +2023,7 @@
  id: tapa-beat
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: taro-say
@@ -2014,6 +2035,7 @@
  id: taro-say
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: tawani-darkness
@@ -2068,6 +2090,7 @@
  id: tonko-play
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: torote-cemetery
@@ -2132,6 +2155,7 @@
  id: tunami-hide
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: tu-give
@@ -2143,6 +2167,7 @@
  id: tu-give
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: te-loc
@@ -2249,6 +2274,7 @@
  id: wajyaki-be-happy
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wajyakiti-very-happy
@@ -2304,6 +2330,7 @@
  id: warota-work
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ware-thus
@@ -2357,6 +2384,7 @@
  id: wepi-come
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wereyi-cloud
@@ -2401,6 +2429,7 @@
  id: wejka-fall
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: winiki-sleep
@@ -2412,6 +2441,7 @@
  id: winiki-sleep
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wire-1pro
@@ -2454,6 +2484,7 @@
  id: yakarama-tell
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yakono-younger-sister-of-woman
@@ -2497,6 +2528,7 @@
  id: yamane-make
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yami-pick-up
@@ -2508,6 +2540,7 @@
  id: yami-pick-up
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yane-mother
@@ -2530,6 +2563,7 @@
  id: yapechi-grab
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yarika-laugh
@@ -2541,6 +2575,7 @@
  id: yarika-laugh
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: yaruwa-laugh
@@ -2552,6 +2587,7 @@
  id: yaruwa-laugh
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: yare-bring
@@ -2563,6 +2599,7 @@
  id: yare-bring
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yatane-adolescent
@@ -2595,6 +2632,7 @@
  id: yawanka-kill
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yaye-loc
@@ -2627,6 +2665,7 @@
  id: yeme-eat-fruits-eggs-soup
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yerepunu-sick
@@ -2649,6 +2688,7 @@
  id: yojte-fish-with-hook
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yoko-pimple
@@ -2671,6 +2711,7 @@
  id: yoki-eat-starch
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yumpe-fairly
@@ -2714,6 +2755,7 @@
  id: yeni-drink
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yene-eat-meat
@@ -2725,6 +2767,7 @@
  id: yene-eat-meat
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yeye-tree
@@ -2821,6 +2864,7 @@
  id: enuku-go-up
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: erine-cooking-pot
@@ -2843,6 +2887,7 @@
  id: etipa-go-in-group
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ya-erg
@@ -3148,6 +3193,7 @@
  id: enka-finish
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: enejka-watch
@@ -3159,6 +3205,7 @@
  id: enejka-watch
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: wajto-fire
@@ -3181,6 +3228,7 @@
  id: naij-do
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: tawejka-dawn
@@ -3192,6 +3240,7 @@
  id: tawejka-dawn
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: aniki-who
@@ -3213,6 +3262,7 @@
  id: ka-say
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: iwiti-house
@@ -3245,6 +3295,7 @@
  id: wenaka-vomit
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: ajpachika-weed
@@ -3256,6 +3307,7 @@
  id: ajpachika-weed
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: mejyaka-uncover
@@ -3267,6 +3319,7 @@
  id: mejyaka-uncover
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: moronka-make-suffer
@@ -3278,6 +3331,7 @@
  id: moronka-make-suffer
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: mujnaka-dig-out
@@ -3289,6 +3343,7 @@
  id: mujnaka-dig-out
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: pataka-take-out
@@ -3300,6 +3355,7 @@
  id: pataka-take-out
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: sujta-urinate
@@ -3311,6 +3367,7 @@
  id: sujta-urinate
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kaimota-hunt
@@ -3322,6 +3379,7 @@
  id: kaimota-hunt
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: meteta-thin
@@ -3333,6 +3391,7 @@
  id: meteta-thin
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: yokota-grow-pimple
@@ -3344,6 +3403,7 @@
  id: yokota-grow-pimple
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: yerepunta-become-sick
@@ -3355,6 +3415,7 @@
  id: yerepunta-become-sick
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wereyta-cloud-over
@@ -3366,6 +3427,7 @@
  id: wereyta-cloud-over
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wanaputa-grow-savannah-grass
@@ -3377,6 +3439,7 @@
  id: wanaputa-grow-savannah-grass
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: sakauta-get-sandy
@@ -3388,6 +3451,7 @@
  id: sakauta-get-sandy
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: rokota-become-crazy
@@ -3399,6 +3463,7 @@
  id: rokota-become-crazy
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: punta-form-pulp
@@ -3410,6 +3475,7 @@
  id: punta-form-pulp
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: piketa-fart
@@ -3421,6 +3487,7 @@
  id: piketa-fart
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: pichipichita-form-whitebait
@@ -3432,6 +3499,7 @@
  id: pichipichita-form-whitebait
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: nakita-be-thirsty
@@ -3443,6 +3511,7 @@
  id: nakita-be-thirsty
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: mukuta-have-son
@@ -3454,6 +3523,7 @@
  id: mukuta-have-son
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: motota-fill-with-worms
@@ -3465,6 +3535,7 @@
  id: motota-fill-with-worms
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: moronta-hurt
@@ -3476,6 +3547,7 @@
  id: moronta-hurt
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: mesujta-bleed
@@ -3487,6 +3559,7 @@
  id: mesujta-bleed
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kereta-ripen
@@ -3498,6 +3571,7 @@
  id: kereta-ripen
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kemuta-emit-pus
@@ -3509,6 +3583,7 @@
  id: kemuta-emit-pus
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: konopota-start-rainy-season
@@ -3520,6 +3595,7 @@
  id: konopota-start-rainy-season
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kawonota-get-high
@@ -3531,6 +3607,7 @@
  id: kawonota-get-high
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kamparata-grow-change-voice
@@ -3542,6 +3619,7 @@
  id: kamparata-grow-change-voice
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: chekeyta-fill-with-nits
@@ -3553,6 +3631,7 @@
  id: chekeyta-fill-with-nits
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: chimichimita-fill-with-worms-dog
@@ -3564,6 +3643,7 @@
  id: chimichimita-fill-with-worms-dog
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: chiketa-get-chiggers
@@ -3575,6 +3655,7 @@
  id: chiketa-get-chiggers
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: awochita-form-tumor
@@ -3586,6 +3667,7 @@
  id: awochita-form-tumor
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: asereta-have-dry-cough
@@ -3597,6 +3679,7 @@
  id: asereta-have-dry-cough
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: aijkoronota-recover
@@ -3608,6 +3691,7 @@
  id: aijkoronota-recover
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ajpachita-overgrows
@@ -3619,6 +3703,7 @@
  id: ajpachita-overgrows
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: akita-fill-with-worms
@@ -3630,6 +3715,7 @@
  id: akita-fill-with-worms
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: apita-ripen
@@ -3641,6 +3727,7 @@
  id: apita-ripen
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: katupuma-pile-up
@@ -3652,6 +3739,7 @@
  id: katupuma-pile-up
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: keyama-raise
@@ -3663,6 +3751,7 @@
  id: keyama-raise
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: kirima-thicken
@@ -3674,6 +3763,7 @@
  id: kirima-thicken
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: morontama-cause-pain
@@ -3685,6 +3775,7 @@
  id: morontama-cause-pain
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: pejma-bewitch
@@ -3696,6 +3787,7 @@
  id: pejma-bewitch
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yajwema-sweeten
@@ -3707,6 +3799,7 @@
  id: yajwema-sweeten
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yapima-make-worse
@@ -3718,6 +3811,7 @@
  id: yapima-make-worse
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yatuma-warm
@@ -3729,6 +3823,7 @@
  id: yatuma-warm
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yerema-feed
@@ -3740,6 +3835,7 @@
  id: yerema-feed
  paradigm: v_tr
  paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: ejnai-make-self
@@ -3751,6 +3847,7 @@
  id: ejnai-make-self
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ejwenaka-vomit
@@ -3762,6 +3859,7 @@
  id: ejwenaka-vomit
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: serema-eat
@@ -3773,6 +3871,7 @@
  id: serema-eat
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: sere-become-scared
@@ -3784,6 +3883,7 @@
  id: sere-become-scared
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: senka-finish
@@ -3795,6 +3895,7 @@
  id: senka-finish
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: ejneme-remain
@@ -3806,6 +3907,7 @@
  id: ejneme-remain
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: senejka-stay
@@ -3817,6 +3919,7 @@
  id: senejka-stay
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: apataka-come-out
@@ -3828,6 +3931,7 @@
  id: apataka-come-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kojpaye-at-night
@@ -3918,6 +4022,16 @@
  std: mëtëye
  id: meteye-thin
  paradigm: adv
+
+-lexeme
+ lex: tepeti-go-plur
+ stem: .tëpëti.
+ trans_en: go (PLUR)
+ gloss: go(PLUR)
+ gramm: vi
+ std: tëpëti
+ id: tepeti-go-plur
+ paradigm: të
 
 -lexeme
  lex: tajne
