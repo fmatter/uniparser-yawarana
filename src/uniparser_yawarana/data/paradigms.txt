@@ -378,10 +378,11 @@
 
 -paradigm: vi_aspect
  deriv-link: Vi-petiplur
+ deriv-link: Vi-petiplur-bare
 
 -paradigm: vt_aspect
  deriv-link: Vt-petiplur
-
+ deriv-link: Vt-petiplur-bare
 
 -paradigm: v_intr_nmlz
  -flex: .<.>
@@ -488,7 +489,7 @@
 -paradigm: dv_pl
  -flex: .
   gramm:
- -flex: .jne
+ -flex: .jne//.jnë
   gramm: pl
   gloss: PL
   id: jnepl

@@ -22,10 +22,27 @@
  gloss: PLUR
  id: petiplur
 
+-deriv-type: Vi-petiplur-bare
+ lex: [.]&petiplur
+ stem: [.]pëti.//[.]pëj.
+ paradigm: v_suff
+ gramm: plur
+ gloss: PLUR
+ id: petiplur
+
+
 -deriv-type: Vt-petiplur
  lex: [.]&petiplur
  stem: .[.]pëti.//.[.]pëj.
  paradigm: v_tr
+ gramm: plur
+ gloss: PLUR
+ id: petiplur
+
+-deriv-type: Vt-petiplur-bare
+ lex: [.]&petiplur
+ stem: [.]pëti.//[.]pëj.
+ paradigm: v_suff
  gramm: plur
  gloss: PLUR
  id: petiplur
