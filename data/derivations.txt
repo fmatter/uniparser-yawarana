@@ -38,7 +38,6 @@
  gloss: ABS.NMLZ
  id: sapenmlz
 
-
 -deriv-type: V-inf
  lex: [.]&neinf
  stem: <.>[.]në//<.>[.]të
@@ -49,7 +48,7 @@
 
 -deriv-type: V-topo
  lex: [.]&toponmlz
- stem: <.>[.]topo//<.>[.]toj
+ stem: <.>[.]topo<.>//<.>[.]toj<.>
  paradigm: nmlz
  gramm: n
  gloss: CIRC.NMLZ
@@ -65,12 +64,11 @@
 
 -deriv-type: V-semi
  lex: [.]septcp|minmlz
- stem: [.]se|mï<.>//[.]che|mï<.>
+ stem: <.>[.]se|mï<.>//<.>[.]che|mï<.>
  paradigm: nmlz
  gramm: n
  gloss: PTCP|NMLZ
  id: septcp,minmlz
-
 
 -deriv-type: V-tojpe
  lex: [.]&tojpepurp

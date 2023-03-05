@@ -1747,7 +1747,7 @@
 
 -lexeme
  lex: peke-about
- stem: .pëkë.
+ stem: .pëkë.|.poko.
  trans_en: about
  gloss: about
  gramm: postp
@@ -2404,7 +2404,7 @@
 
 -lexeme
  lex: winiki-sleep
- stem: .wïnïkï.|.wïnïj.|.winik.
+ stem: .wïnïkï.|.winik.|.wïnïj.
  trans_en: sleep
  gloss: sleep
  gramm: vi
@@ -2625,17 +2625,6 @@
  gramm: vt
  std: yeme
  id: yeme-eat-fruits-eggs-soup
- paradigm: v_tr
- paradigm: v_tr_nmlz
-
--lexeme
- lex: yerema-feed
- stem: .yerema.
- trans_en: feed
- gloss: feed
- gramm: vt
- std: yerema
- id: yerema-feed
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -3216,7 +3205,7 @@
 
 -lexeme
  lex: ka-say
- stem: .ka.
+ stem: .ka.|.kaj.
  trans_en: say
  gloss: say
  gramm: vi
@@ -3262,7 +3251,7 @@
  lex: moronka-make-suffer
  stem: .moronka.
  trans_en: make suffer
- gloss: make.suffer
+ gloss: make_suffer
  gramm: vt
  std: moronka
  id: moronka-make-suffer
@@ -3273,7 +3262,7 @@
  lex: mujnaka-dig-out
  stem: .mujnaka.
  trans_en: dig out
- gloss: dig.out
+ gloss: dig_out
  gramm: vt
  std: mujnaka
  id: mujnaka-dig-out
@@ -3284,7 +3273,7 @@
  lex: pataka-take-out
  stem: .pataka.
  trans_en: take out
- gloss: take.out
+ gloss: take_out
  gramm: vt
  std: pataka
  id: pataka-take-out
@@ -3328,7 +3317,7 @@
  lex: yokota-grow-pimple
  stem: .yokota.
  trans_en: grow pimple
- gloss: grow.pimple
+ gloss: grow_pimple
  gramm: vi
  std: yokota
  id: yokota-grow-pimple
@@ -3339,7 +3328,7 @@
  lex: yerepunta-become-sick
  stem: .yerepunta.
  trans_en: become sick
- gloss: become.sick
+ gloss: become_sick
  gramm: vi
  std: yerepunta
  id: yerepunta-become-sick
@@ -3350,7 +3339,7 @@
  lex: wereyta-cloud-over
  stem: .wereyta.
  trans_en: cloud over
- gloss: cloud.over
+ gloss: cloud_over
  gramm: vi
  std: wereyta
  id: wereyta-cloud-over
@@ -3361,7 +3350,7 @@
  lex: wanaputa-grow-savannah-grass
  stem: .wanaputa.
  trans_en: grow savannah grass
- gloss: grow.savannah.grass
+ gloss: grow_savannah_grass
  gramm: vi
  std: wanaputa
  id: wanaputa-grow-savannah-grass
@@ -3372,7 +3361,7 @@
  lex: sakauta-get-sandy
  stem: .sakauta.
  trans_en: get sandy
- gloss: get.sandy
+ gloss: get_sandy
  gramm: vi
  std: sakauta
  id: sakauta-get-sandy
@@ -3383,7 +3372,7 @@
  lex: rokota-become-crazy
  stem: .rokota.
  trans_en: become crazy
- gloss: become.crazy
+ gloss: become_crazy
  gramm: vi
  std: rokota
  id: rokota-become-crazy
@@ -3394,7 +3383,7 @@
  lex: punta-form-pulp
  stem: .punta.
  trans_en: form pulp
- gloss: form.pulp
+ gloss: form_pulp
  gramm: vi
  std: punta
  id: punta-form-pulp
@@ -3416,7 +3405,7 @@
  lex: pichipichita-form-whitebait
  stem: .pichipichita.
  trans_en: form whitebait
- gloss: form.whitebait
+ gloss: form_whitebait
  gramm: vi
  std: pichipichita
  id: pichipichita-form-whitebait
@@ -3427,7 +3416,7 @@
  lex: nakita-be-thirsty
  stem: .nakita.
  trans_en: be thirsty
- gloss: be.thirsty
+ gloss: be_thirsty
  gramm: vi
  std: nakita
  id: nakita-be-thirsty
@@ -3438,7 +3427,7 @@
  lex: mukuta-have-son
  stem: .mukuta.
  trans_en: have son
- gloss: have.son
+ gloss: have_son
  gramm: vi
  std: mukuta
  id: mukuta-have-son
@@ -3449,7 +3438,7 @@
  lex: motota-fill-with-worms
  stem: .motota.
  trans_en: fill with worms
- gloss: fill.with.worms
+ gloss: fill_with_worms
  gramm: vi
  std: motota
  id: motota-fill-with-worms
@@ -3493,7 +3482,7 @@
  lex: kemuta-emit-pus
  stem: .këmuta.
  trans_en: emit pus
- gloss: emit.pus
+ gloss: emit_pus
  gramm: vi
  std: këmuta
  id: kemuta-emit-pus
@@ -3504,7 +3493,7 @@
  lex: konopota-start-rainy-season
  stem: .konopota.
  trans_en: start rainy season
- gloss: start.rainy.season
+ gloss: start_rainy_season
  gramm: vi
  std: konopota
  id: konopota-start-rainy-season
@@ -3515,7 +3504,7 @@
  lex: kawonota-get-high
  stem: .kawonota.
  trans_en: get high
- gloss: get.high
+ gloss: get_high
  gramm: vi
  std: kawonota
  id: kawonota-get-high
@@ -3526,7 +3515,7 @@
  lex: kamparata-grow-change-voice
  stem: .kamparata.
  trans_en: grow; change (voice)
- gloss: grow;.change.(voice)
+ gloss: grow;_change(voice)
  gramm: vi
  std: kamparata
  id: kamparata-grow-change-voice
@@ -3537,7 +3526,7 @@
  lex: chekeyta-fill-with-nits
  stem: .chëkëyta.
  trans_en: fill with nits
- gloss: fill.with.nits
+ gloss: fill_with_nits
  gramm: vi
  std: chëkëyta
  id: chekeyta-fill-with-nits
@@ -3548,7 +3537,7 @@
  lex: chimichimita-fill-with-worms-dog
  stem: .chimichimita.
  trans_en: fill with worms (dog)
- gloss: fill.with.worms.(dog)
+ gloss: fill_with_worms(dog)
  gramm: vi
  std: chimichimita
  id: chimichimita-fill-with-worms-dog
@@ -3559,7 +3548,7 @@
  lex: chiketa-get-chiggers
  stem: .chikëta.
  trans_en: get chiggers
- gloss: get.chiggers
+ gloss: get_chiggers
  gramm: vi
  std: chikëta
  id: chiketa-get-chiggers
@@ -3570,7 +3559,7 @@
  lex: awochita-form-tumor
  stem: .awochita.
  trans_en: form tumor
- gloss: form.tumor
+ gloss: form_tumor
  gramm: vi
  std: awochita
  id: awochita-form-tumor
@@ -3581,7 +3570,7 @@
  lex: asereta-have-dry-cough
  stem: .asereta.
  trans_en: have dry cough
- gloss: have.dry.cough
+ gloss: have_dry_cough
  gramm: vi
  std: asereta
  id: asereta-have-dry-cough
@@ -3614,7 +3603,7 @@
  lex: akita-fill-with-worms
  stem: .akïta.
  trans_en: fill with worms
- gloss: fill.with.worms
+ gloss: fill_with_worms
  gramm: vi
  std: akïta
  id: akita-fill-with-worms
@@ -3636,7 +3625,7 @@
  lex: katupuma-pile-up
  stem: .katupuma.
  trans_en: pile up
- gloss: pile.up
+ gloss: pile_up
  gramm: vt
  std: katupuma
  id: katupuma-pile-up
@@ -3669,7 +3658,7 @@
  lex: morontama-cause-pain
  stem: .morontama.
  trans_en: cause pain
- gloss: cause.pain
+ gloss: cause_pain
  gramm: vt
  std: morontama
  id: morontama-cause-pain
@@ -3702,7 +3691,7 @@
  lex: yapima-make-worse
  stem: .yapima.
  trans_en: make worse
- gloss: make.worse
+ gloss: make_worse
  gramm: vt
  std: yapima
  id: yapima-make-worse
@@ -3721,13 +3710,13 @@
  paradigm: v_tr_nmlz
 
 -lexeme
- lex: yerema-feed-1
+ lex: yerema-feed
  stem: .yerema.
  trans_en: feed
  gloss: feed
  gramm: vt
  std: yerema
- id: yerema-feed-1
+ id: yerema-feed
  paradigm: v_tr
  paradigm: v_tr_nmlz
 
@@ -3735,7 +3724,7 @@
  lex: ejnai-make-self
  stem: .ëjnai.
  trans_en: make self
- gloss: make.self
+ gloss: make_self
  gramm: vi
  std: ëjnai
  id: ejnai-make-self
@@ -3768,7 +3757,7 @@
  lex: sere-become-scared
  stem: .sere.
  trans_en: become scared
- gloss: become.scared
+ gloss: become_scared
  gramm: vi
  std: sere
  id: sere-become-scared
@@ -3812,7 +3801,7 @@
  lex: apataka-come-out
  stem: .apataka.
  trans_en: come out
- gloss: come.out
+ gloss: come_out
  gramm: vi
  std: apataka
  id: apataka-come-out
@@ -3826,7 +3815,7 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
- id: ta-3,jne-pl
+ id: ta-3,jnepl
 
 -lexeme
  lex: kaj-say
@@ -3864,18 +3853,18 @@
 
 -lexeme
  lex: imi-father
- stem: ëmo.//ëmë.
- gloss: 2;father
- id: imi-father
+ stem: ë&mo.//ë&më.
+ gloss: 2&father
+ id: imi-father,a2
  gramm: n,2
  paradigm: uninfl
  trans_en: your father
 
 -lexeme
  lex: imi-father
- stem: imu.
- gloss: 3;father
- id: imi-father
+ stem: i&mu.
+ gloss: 3&father
+ id: imi-father,i3
  gramm: n,3
  paradigm: uninfl
  trans_en: his/her father

@@ -1,4 +1,4 @@
-Form,Gloss,Gloss_es,POS,Gramm,Comment,Paradigm,PERT,NPERT,2_Prefix
+Form,Translation,Translation_es,POS,Gramm,Comment,Paradigm,PERT,NPERT,2_Prefix
 ya,ERG,ERG,postp,,,,,,
 ya,OBL,OBL,postp,,,,,,
 ma,RST,RST,part,,,,,,
@@ -34,4 +34,4 @@ wajto,fire,fuego,n,,,,,,
 naij,do,hacer,vt,,,,,,
 tawejka,dawn,amanecer,vi,,,,,,
 anïkï; aniki,who,quién,pn,,,,,,
-ka,say,decír,vi,,,,,,
+ka; kaj,say,decír,vi,,,,,,

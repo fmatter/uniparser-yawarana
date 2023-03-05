@@ -10,7 +10,7 @@ import re
 
 SEP = "; "  # separator between variants of same form
 DATA_PATH = Path("src/uniparser_yawarana/data")  # the python package's data folder
-DERIV_SEP_PATTERN = cogseppattern = f"[{''.join(['+', '-'])}]"
+DERIV_SEP_PATTERN = f"[{''.join(['+', '-'])}]"
 # enriched LIFT export from MCMM
 dic = pd.read_csv(
     "/home/florianm/Dropbox/research/cariban/yawarana/yawarana_dictionary/annotated_dictionary.csv",
@@ -21,8 +21,9 @@ roots = dic[dic["Translation_Root"] != ""]
 roots.rename(columns={"Translation_Root": "Translation"}, inplace=True)
 
 
-
-roots = roots.apply(lambda x: trim_dic_suff(x, "; "), axis=1)  # cut off lemma-forming suffixes
+roots = roots.apply(
+    lambda x: trim_dic_suff(x, "; "), axis=1
+)  # cut off lemma-forming suffixes
 roots["Gloss"] = roots["Translation"].apply(
     lambda x: glossify(x.split(SEP)[0])
 )  # get a single gloss
@@ -52,7 +53,7 @@ roots = roots[keep_cols]  # prune columns
 manual_roots = pd.read_csv(
     "data/manual_roots.csv", keep_default_na=False
 )  # roots manually added to the CLDF dataset for some reason
-manual_roots["Translation"] = manual_roots["Gloss"]
+manual_roots["Gloss"] = manual_roots["Translation"].apply(glossify)
 # manual_roots["Form"] = manual_roots.apply(lambda x: SEP.join(x["Form"]), axis=1)# get variants
 roots = pd.concat([roots, manual_roots])  # combine with dictionary roots
 roots["ID"] = roots.apply(
@@ -64,12 +65,12 @@ roots["Etym_Gloss"] = roots[
 ]  # roots cannot have an "etymologizing" (showing derivational structure) gloss
 roots.to_csv("var/roots.csv", index=False)
 
-lost_roots = pd.read_csv("data/bound_roots.csv")  #
-lost_roots["ID"] = lost_roots.apply(
+bound_roots = pd.read_csv("data/bound_roots.csv")  #
+bound_roots["ID"] = bound_roots.apply(
     lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
 )
-lost_roots.set_index("ID", inplace=True)
-lost_roots["Etym_Gloss"] = lost_roots["Translation"]
+bound_roots.set_index("ID", inplace=True)
+bound_roots["Etym_Gloss"] = bound_roots["Translation"]
 
 deriv_morphs = pd.read_csv(
     "/home/florianm/Dropbox/research/cariban/yawarana/yawarana-sketch-cldf/etc/derivation_morphs.csv"
@@ -97,6 +98,14 @@ detrz = read_deriv("detrz", "vi")  # detransitivized verbs
 detrz["Affix_ID"] = detrz["Form"].apply(find_detransitivizer)
 detrz["Prefix_Gloss"] = "DETRZ"
 
+
+misc = pd.read_csv("data/derivations/misc_derivations.csv", keep_default_na=False)
+misc["Suffix_Gloss"] = misc["Suffix_ID"].apply(lambda x: deriv_morphs.loc[x])
+print(deriv_morphs)
+print(misc)
+print(detrz)
+print(kavbz)
+exit()
 derivations = pd.concat([kavbz, tavbz, macaus, detrz])  # assemble derived stems
 
 
@@ -156,9 +165,7 @@ def process_stem(rec):
     return rec
 
 
-derivations["Gloss"] = derivations["Translation"].apply(
-    lambda x: x.replace(" ", ".")
-)  # todo: use proper glossifying function
+derivations["Gloss"] = derivations["Translation"].apply(glossify)
 derivations["Name"] = derivations["Form"].apply(
     lambda x: x.replace("+", "").replace("-", "")
 )
@@ -184,27 +191,27 @@ def add_etym_gloss(rec):
             rec["Etym_Gloss"] = (
                 rec["Prefix_Gloss"] + "-" + lexemes.loc[rec["Base_Stem"]]["Etym_Gloss"]
             )
-        elif rec["Base_Stem"] in lost_roots:
+        elif rec["Base_Stem"] in bound_roots:
             rec["Etym_Gloss"] = (
                 rec["Prefix_Gloss"]
                 + "-"
-                + lost_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
+                + bound_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
             )
     elif rec["Suffix_Gloss"] != "":
         if rec["Base_Stem"] in lexemes:
             rec["Etym_Gloss"] = (
                 lexemes.loc[rec["Base_Stem"]]["Etym_Gloss"] + "-" + rec["Suffix_Gloss"]
             )
-        elif rec["Base_Stem"] in lost_roots:
+        elif rec["Base_Stem"] in bound_roots:
             rec["Etym_Gloss"] = (
-                lost_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
+                bound_roots.loc[rec["Base_Stem"]]["Etym_Gloss"]
                 + "-"
                 + rec["Suffix_Gloss"]
             )
     return rec
 
-
 lexemes = lexemes.apply(lambda x: add_etym_gloss(x), axis=1)
+
 # this dict links stem IDs of morphologically complex stems to
 # dicts of non-etymologizing to etymologizing segmentations, glossings, and morph IDs
 # for example: (YAML)

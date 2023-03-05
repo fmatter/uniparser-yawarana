@@ -367,12 +367,14 @@
   gramm:
 
 -paradigm: nmlz
- -flex: .
-  gramm: 
- -flex: .jpë
-  gramm: pst
-  gloss: PST
-  id: jpepst
+ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert
+  paradigm: noun_pref_new_c
+ -flex: .<.>
+  gramm:
+  paradigm: noun_plural
 
 -paradigm: v_intr_nmlz
  -flex: .<.>
@@ -418,7 +420,7 @@
  -flex: ta.<.>
   gramm: 3P
   gloss: 3P
-  id: t3
+  id: ta-3
  paradigm: v_suff
 
 -paradigm: v_suff
@@ -463,10 +465,10 @@
   gramm: fut
   gloss: FUT
   id: tojpefut
- -flex: .tëpëkë<.>
+ -flex: .nëpëkë<.>
   gramm: prog
   gloss: PROG.INTR
-  id: tepeke
+  id: nepeke
  -flex: .pëkë<.>
   gramm: prog
   gloss: PROG.TR
@@ -557,13 +559,13 @@
 -paradigm: cop_clit
  -flex: .pëkë
   gloss: about
-  gramm: LEX:pekeon:about
-  id: pekeon
+  gramm: LEX:peke-about:about
+  id: peke-about
   sep: =
  -flex: .poko|no//.poko|n
   gloss: about|NMLZ
-  gramm: LEX:pekeon:about
-  id: pekeon,anonmlz
+  gramm: LEX:peke-about:about
+  id: peke-about,anonmlz
   sep: =
  -flex: .yawë
   gloss: CTMP
@@ -647,6 +649,7 @@
  -flex: të.<.>
   gramm: 3
   gloss: 3
+  id: ta-3
  -flex: y.<.>
   gramm: lk
   gloss: LK

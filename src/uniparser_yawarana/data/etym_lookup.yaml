@@ -24,7 +24,7 @@ ajpachita-overgrows:
     ajpachita: ajpachita
 akita-fill-with-worms:
   gloss:
-    fill.with.worms: ''
+    fill_with_worms: ''
   ids:
   - aki-worm
   - tavbz
@@ -32,7 +32,7 @@ akita-fill-with-worms:
     "ak\xEFta": "ak\xEFta"
 apataka-come-out:
   gloss:
-    come.out: ''
+    come_out: ''
   ids:
   - pataka-take-out
   - dt4
@@ -48,7 +48,7 @@ apita-ripen:
     apita: apita
 asereta-have-dry-cough:
   gloss:
-    have.dry.cough: ''
+    have_dry_cough: ''
   ids:
   - asere-dry-cough
   - tavbz
@@ -56,7 +56,7 @@ asereta-have-dry-cough:
     asereta: asereta
 awochita-form-tumor:
   gloss:
-    form.tumor: ''
+    form_tumor: ''
   ids:
   - awochi-tumor
   - tavbz
@@ -64,7 +64,7 @@ awochita-form-tumor:
     awochita: awochita
 chekeyta-fill-with-nits:
   gloss:
-    fill.with.nits: ''
+    fill_with_nits: ''
   ids:
   - chekey-nit
   - tavbz
@@ -72,7 +72,7 @@ chekeyta-fill-with-nits:
     "ch\xEBk\xEByta": "ch\xEBk\xEByta"
 chiketa-get-chiggers:
   gloss:
-    get.chiggers: ''
+    get_chiggers: ''
   ids:
   - chike-chigger
   - tavbz
@@ -80,7 +80,7 @@ chiketa-get-chiggers:
     "chik\xEBta": "chik\xEBta"
 chimichimita-fill-with-worms-dog:
   gloss:
-    fill.with.worms.(dog): ''
+    fill_with_worms(dog): ''
   ids:
   - chimichimi-worm-dog
   - tavbz
@@ -88,7 +88,7 @@ chimichimita-fill-with-worms-dog:
     chimichimita: chimichimita
 ejnai-make-self:
   gloss:
-    make.self: ''
+    make_self: ''
   ids:
   - nai-do
   - dt1
@@ -120,7 +120,7 @@ kaimota-hunt:
     kaimota: kaimota
 kamparata-grow-change-voice:
   gloss:
-    grow;.change.(voice): ''
+    grow;_change(voice): ''
   ids:
   - kampara-big
   - tavbz
@@ -128,7 +128,7 @@ kamparata-grow-change-voice:
     kamparata: kamparata
 katupuma-pile-up:
   gloss:
-    pile.up: ''
+    pile_up: ''
   ids:
   - katupu-pile-up
   - macaus
@@ -136,7 +136,7 @@ katupuma-pile-up:
     katupuma: katupuma
 kawonota-get-high:
   gloss:
-    get.high: ''
+    get_high: ''
   ids:
   - kawono-high
   - tavbz
@@ -144,7 +144,7 @@ kawonota-get-high:
     kawonota: kawonota
 kemuta-emit-pus:
   gloss:
-    emit.pus: ''
+    emit_pus: ''
   ids:
   - kemu-pus
   - tavbz
@@ -176,7 +176,7 @@ kirima-thicken:
     "k\xEFr\xEFma": "k\xEFr\xEFma"
 konopota-start-rainy-season:
   gloss:
-    start.rainy.season: ''
+    start_rainy_season: ''
   ids:
   - konopo-rain
   - tavbz
@@ -208,7 +208,7 @@ meteta-thin:
     "m\xEBt\xEBta": "m\xEBt\xEBta"
 moronka-make-suffer:
   gloss:
-    make.suffer: ''
+    make_suffer: ''
   ids:
   - moroni-pain
   - kavbz
@@ -224,7 +224,7 @@ moronta-hurt:
     moronta: moronta
 morontama-cause-pain:
   gloss:
-    cause.pain: ''
+    cause_pain: ''
   ids:
   - moronta-hurt
   - macaus
@@ -232,7 +232,7 @@ morontama-cause-pain:
     morontama: morontama
 motota-fill-with-worms:
   gloss:
-    fill.with.worms: ''
+    fill_with_worms: ''
   ids:
   - moto-worm
   - tavbz
@@ -240,7 +240,7 @@ motota-fill-with-worms:
     motota: motota
 mujnaka-dig-out:
   gloss:
-    dig.out: ''
+    dig_out: ''
   ids:
   - mujna-grave
   - kavbz
@@ -248,7 +248,7 @@ mujnaka-dig-out:
     mujnaka: mujnaka
 mukuta-have-son:
   gloss:
-    have.son: ''
+    have_son: ''
   ids:
   - muku-child
   - tavbz
@@ -256,7 +256,7 @@ mukuta-have-son:
     mukuta: mukuta
 nakita-be-thirsty:
   gloss:
-    be.thirsty: ''
+    be_thirsty: ''
   ids:
   - naki-thirst
   - tavbz
@@ -264,7 +264,7 @@ nakita-be-thirsty:
     nakita: nakita
 pataka-take-out:
   gloss:
-    take.out: ''
+    take_out: ''
   ids:
   - pata-village
   - kavbz
@@ -274,13 +274,13 @@ pejma-bewitch:
   gloss:
     bewitch: ''
   ids:
-  - pecv-witch
+  - pej-witch
   - macaus
   obj:
     pejma: pejma
 pichipichita-form-whitebait:
   gloss:
-    form.whitebait: ''
+    form_whitebait: ''
   ids:
   - pichipichi-whitebait
   - tavbz
@@ -296,7 +296,7 @@ piketa-fart:
     "pik\xEBta": "pik\xEBta"
 punta-form-pulp:
   gloss:
-    form.pulp: ''
+    form_pulp: ''
   ids:
   - punu-flesh
   - tavbz
@@ -304,7 +304,7 @@ punta-form-pulp:
     punta: punta
 rokota-become-crazy:
   gloss:
-    become.crazy: ''
+    become_crazy: ''
   ids:
   - roko-crazy
   - tavbz
@@ -312,7 +312,7 @@ rokota-become-crazy:
     rokota: rokota
 sakauta-get-sandy:
   gloss:
-    get.sandy: ''
+    get_sandy: ''
   ids:
   - sakau-sand
   - tavbz
@@ -336,7 +336,7 @@ senka-finish:
     "s\xEBnka": "s\xEBnka"
 sere-become-scared:
   gloss:
-    become.scared: ''
+    become_scared: ''
   ids:
   - erepi-scare
   - dt2
@@ -360,7 +360,7 @@ sujta-urinate:
     sujta: sujta
 wanaputa-grow-savannah-grass:
   gloss:
-    grow.savannah.grass: ''
+    grow_savannah_grass: ''
   ids:
   - wanapu-savannah
   - tavbz
@@ -376,7 +376,7 @@ wenaka-vomit:
     wenaka: wenaka
 wereyta-cloud-over:
   gloss:
-    cloud.over: ''
+    cloud_over: ''
   ids:
   - wereyi-cloud
   - tavbz
@@ -392,7 +392,7 @@ yajwema-sweeten:
     yajwema: yajwema
 yapima-make-worse:
   gloss:
-    make.worse: ''
+    make_worse: ''
   ids:
   - yapi-become-worse
   - macaus
@@ -406,7 +406,7 @@ yatuma-warm:
   - macaus
   obj:
     yatuma: yatuma
-yerema-feed-1:
+yerema-feed:
   gloss:
     feed: ''
   ids:
@@ -416,7 +416,7 @@ yerema-feed-1:
     yerema: yerema
 yerepunta-become-sick:
   gloss:
-    become.sick: ''
+    become_sick: ''
   ids:
   - yerepunu-sick
   - tavbz
@@ -424,7 +424,7 @@ yerepunta-become-sick:
     yerepunta: yerepunta
 yokota-grow-pimple:
   gloss:
-    grow.pimple: ''
+    grow_pimple: ''
   ids:
   - yoko-pimple
   - tavbz

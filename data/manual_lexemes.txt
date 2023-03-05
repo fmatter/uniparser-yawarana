@@ -5,7 +5,7 @@
  gloss: 3&PL
  gramm: pn
  paradigm: pro
- id: ta-3,jne-pl
+ id: ta-3,jnepl
 
 -lexeme
  lex: kaj-say
@@ -43,18 +43,18 @@
 
 -lexeme
  lex: imi-father
- stem: ëmo.//ëmë.
- gloss: 2;father
- id: imi-father
+ stem: ë&mo.//ë&më.
+ gloss: 2&father
+ id: imi-father,a2
  gramm: n,2
  paradigm: uninfl
  trans_en: your father
 
 -lexeme
  lex: imi-father
- stem: imu.
- gloss: 3;father
- id: imi-father
+ stem: i&mu.
+ gloss: 3&father
+ id: imi-father,i3
  gramm: n,3
  paradigm: uninfl
  trans_en: his/her father
