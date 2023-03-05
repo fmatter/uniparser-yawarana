@@ -235,6 +235,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: ati-plot-of-cultivated-land
+ stem: .ati.
+ trans_en: plot of cultivated land
+ gloss: plot_of_cultivated_land
+ gramm: n
+ std: ati
+ id: ati-plot-of-cultivated-land
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: awochi-tumor
  stem: .awochi.
  trans_en: tumor
