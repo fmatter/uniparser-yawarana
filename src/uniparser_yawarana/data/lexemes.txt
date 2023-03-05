@@ -3298,6 +3298,16 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: soj-splash
+ stem: .soj.
+ trans_en: splash
+ gloss: splash
+ gramm: ideo
+ std: soj
+ id: soj-splash
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit

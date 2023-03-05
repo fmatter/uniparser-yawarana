@@ -18,7 +18,7 @@
  lex: [.]&petiplur
  stem: .[.]pëti.//.[.]pëj.
  paradigm: v_intr
- gramm: plur
+ gramm: plur,vi
  gloss: PLUR
  id: petiplur
 
@@ -26,16 +26,15 @@
  lex: [.]&petiplur
  stem: [.]pëti.//[.]pëj.
  paradigm: v_suff
- gramm: plur
+ gramm: plur,vi
  gloss: PLUR
  id: petiplur
-
 
 -deriv-type: Vt-petiplur
  lex: [.]&petiplur
  stem: .[.]pëti.//.[.]pëj.
  paradigm: v_tr
- gramm: plur
+ gramm: plur,vt
  gloss: PLUR
  id: petiplur
 
@@ -43,7 +42,7 @@
  lex: [.]&petiplur
  stem: [.]pëti.//[.]pëj.
  paradigm: v_suff
- gramm: plur
+ gramm: plur,vt
  gloss: PLUR
  id: petiplur
 
