@@ -3011,7 +3011,7 @@
 
 -lexeme
  lex: chi-cop
- stem: .chi.|.ch.|.chij.
+ stem: .chi.|.ch.|.chij.|.wej.
  trans_en: COP
  gloss: COP
  gramm: vi,cop
@@ -3029,17 +3029,6 @@
  std: ne
  id: ne-ints
  paradigm: uninfl
-
--lexeme
- lex: wej-cop
- stem: .wej.
- trans_en: COP
- gloss: COP
- gramm: vi,cop
- std: wej
- id: wej-cop
- paradigm: cop
- paradigm: v_intr_nmlz
 
 -lexeme
  lex: neke-cntr
