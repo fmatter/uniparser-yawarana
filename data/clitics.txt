@@ -1,0 +1,8 @@
+-clitic
+ lex: re-emp
+ stem: rë
+ trans_en: EMP
+ type: en
+ gloss: EMP
+ gramm: emp
+ id: re-emp
