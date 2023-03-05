@@ -16,7 +16,7 @@ __version__ = "0.0.5.dev"
 
 
 class YawaranaAnalyzer(Analyzer):
-    def __init__(self, etymologize="add", verbose_grammar=False):
+    def __init__(self, etymologize=False, verbose_grammar=False):
         super().__init__(verbose_grammar=verbose_grammar)
         self.base_path = files("uniparser_yawarana") / "data"
         self.flattenSubwords = True

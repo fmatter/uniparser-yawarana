@@ -46,7 +46,7 @@ def test_postp_inflection(parser):
 
 def test_verb_inflection(parser):
     for lemma, gloss, gramm, verb_set in [
-        ("yerema", "feed", "ipfv", ["uyeremari", "mëyeremari", "tayeremari"]),
+        ("yerema-feed", "feed", "ipfv", ["uyeremari", "mëyeremari", "tayeremari"]),
         ("senejka-stay", "stay", "ipfv", ["usenejkari", "mësenejkari", "senejkari"]),
     ]:
         for i, x in enumerate(verb_set):

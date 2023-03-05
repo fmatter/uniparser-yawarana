@@ -3215,6 +3215,27 @@
  paradigm: v_intr_nmlz
 
 -lexeme
+ lex: iwiti-house
+ stem: .ïwïtï.|.ïwïj.
+ trans_en: house
+ gloss: house
+ gramm: n
+ std: ïwïtï
+ id: iwiti-house
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: tawaja-thus-neg
+ stem: .tawaja.
+ trans_en: thus.NEG
+ gloss: thus.NEG
+ gramm: adv
+ std: tawaja
+ id: tawaja-thus-neg
+ paradigm: adv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -3807,6 +3828,96 @@
  id: apataka-come-out
  paradigm: v_intr
  paradigm: v_intr_nmlz
+
+-lexeme
+ lex: kojpaye-at-night
+ stem: .kojpaye.
+ trans_en: at night
+ gloss: at_night
+ gramm: adv
+ std: kojpaye
+ id: kojpaye-at-night
+ paradigm: adv
+
+-lexeme
+ lex: kamprake-big
+ stem: .kamprake.
+ trans_en: big
+ gloss: big
+ gramm: adv
+ std: kamprake
+ id: kamprake-big
+ paradigm: adv
+
+-lexeme
+ lex: intompijke-small
+ stem: .intompïjkë.
+ trans_en: small
+ gloss: small
+ gramm: n
+ std: intompïjkë
+ id: intompijke-small
+ paradigm: uninfl
+
+-lexeme
+ lex: kwatojpe-how
+ stem: .kwatojpe.
+ trans_en: how
+ gloss: how
+ gramm: adv
+ std: kwatojpe
+ id: kwatojpe-how
+ paradigm: adv
+
+-lexeme
+ lex: tejpore-tasty
+ stem: .tejpore.
+ trans_en: tasty
+ gloss: tasty
+ gramm: adv
+ std: tejpore
+ id: tejpore-tasty
+ paradigm: adv
+
+-lexeme
+ lex: tapire-red
+ stem: .tapire.
+ trans_en: red
+ gloss: red
+ gramm: adv
+ std: tapire
+ id: tapire-red
+ paradigm: adv
+
+-lexeme
+ lex: pechine-pochine-odorous
+ stem: .pëchine.|.pochine.
+ trans_en: odorous
+ gloss: odorous
+ gramm: adv
+ std: pëchine
+ id: pechine-pochine-odorous
+ paradigm: adv
+
+-lexeme
+ lex: makepijke-second-mother
+ stem: .makëpïjkë.
+ trans_en: second mother
+ gloss: second_mother
+ gramm: n
+ std: makëpïjkë
+ id: makepijke-second-mother
+ paradigm: uninfl
+
+-lexeme
+ lex: meteye-thin
+ stem: .mëtëye.
+ trans_en: thin
+ gloss: thin
+ gramm: adv
+ std: mëtëye
+ id: meteye-thin
+ paradigm: adv
 
 -lexeme
  lex: tajne

@@ -35,8 +35,8 @@ def run_polysemy_test(forms, parser):
 def test_tojpe(parser):
     run_polysemy_test(
         forms=[
-            ("ijmokatojpe", {"PURP": "adv", "FUT": "vt"}),
-            ("tawejkatojpe", {"PURP": "adv", "FUT": "vi"}),
+            ("chikatojpe", {"PURP": "adv", "FUT": "vt"}),
+            ("këtatojpe", {"PURP": "adv", "FUT": "vi"}),
         ],
         parser=parser,
     )
@@ -71,7 +71,7 @@ def test_ptcp(parser):
 
 
 def test_sapë(parser):
-    run_polysemy_test(forms=[("asamosapë", {"PFV": "vi", "NMLZ": "n"})], parser=parser)
+    run_polysemy_test(forms=[("wïnïjsapë", {"PFV": "vi", "NMLZ": "n"})], parser=parser)
 
 
 def test_jpë(parser):
@@ -84,7 +84,7 @@ def test_jpë(parser):
 
 def test_unamb_derivs(parser):
     forms = [
-        ("asamonë", {"INF": "n"}),
+        ("nwajtënë", {"INF": "n"}),
         ("tuni", {"AGTNMLZ": "n"}),
         ("yarikatopo", {"NMLZ": "n"}),
         ("wejtane", {"CNCS": "adv"}),
@@ -95,4 +95,6 @@ def test_unamb_derivs(parser):
 
 
 def test_combinations(parser):
-    print(parser.analyze_words(["warotasemï", "warotase", "tarinemï"]))
+    assert len(parser.analyze_words("warotasemï")) == 1 # -se-mï
+    assert len(parser.analyze_words("warotase")) == 3 # PTCP, SUP, PST
+    assert len(parser.analyze_words("tajmemï")) == 1
