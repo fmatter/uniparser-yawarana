@@ -2311,7 +2311,7 @@
 
 -lexeme
  lex: waraijtokomo-man
- stem: .waraijtokomo.|.waraijtokom.
+ stem: .waraijtokomo.|.waraijtokom.|.waraijtokon.
  trans_en: man
  gloss: man
  gramm: n
@@ -2879,7 +2879,7 @@
 
 -lexeme
  lex: etipa-go-in-group
- stem: .ëtïpa.|.tipari.
+ stem: .ëtïpa.|.tipa.
  trans_en: go in group
  gloss: go_in_group
  gramm: vi
@@ -3306,6 +3306,49 @@
  std: soj
  id: soj-splash
  paradigm: uninfl
+
+-lexeme
+ lex: aaa-ah
+ stem: .aaa.
+ trans_en: ah
+ gloss: ah
+ gramm: intj
+ std: aaa
+ id: aaa-ah
+ paradigm: uninfl
+
+-lexeme
+ lex: ekete-where
+ stem: .ëkëtë.|.ëkëj.
+ trans_en: where
+ gloss: where
+ gramm: adv
+ std: ëkëtë
+ id: ekete-where
+ paradigm: adv
+
+-lexeme
+ lex: eki-chicha
+ stem: .ëkï.|.okï.
+ trans_en: chicha
+ gloss: chicha
+ gramm: n
+ std: ëkï
+ id: eki-chicha
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: womi-enter
+ stem: .womï.|.won.
+ trans_en: enter
+ gloss: enter
+ gramm: vi
+ std: womï
+ id: womi-enter
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wenaka-vomit

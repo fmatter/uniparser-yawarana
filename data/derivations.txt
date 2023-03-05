@@ -144,7 +144,7 @@
 
 -deriv-type: A-ano
  lex: [.]&anonmlz
- stem: [.]no<.>//[.]n<.>//[.]ano<.>
+ stem: [.]no<.>//[.]n<.>//[.]ano<.>//[.]na<.>
  paradigm: nmlz
  gramm: n
  gloss: NMLZ
