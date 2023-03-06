@@ -41,6 +41,7 @@ dic = pd.read_csv(
 # keep only roots
 roots = dic[dic["Translation_Root"] != ""]
 roots.rename(columns={"Translation_Root": "Translation"}, inplace=True)
+roots["Translation"] = roots["Translation"].apply(lambda x: x.replace("-", "_"))
 roots = roots.apply(
     lambda x: trim_dic_suff(x, "; "), axis=1
 )  # cut off lemma-forming suffixes

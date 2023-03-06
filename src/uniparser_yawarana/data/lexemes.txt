@@ -1526,8 +1526,8 @@
 -lexeme
  lex: pakura-coix-lacryma-jobi
  stem: .pakura.
- trans_en: Coix lacryma-jobi
- gloss: Coix_lacryma-jobi
+ trans_en: Coix lacryma_jobi
+ gloss: Coix_lacryma_jobi
  gramm: n
  std: pakura
  id: pakura-coix-lacryma-jobi
@@ -2117,8 +2117,8 @@
 -lexeme
  lex: toto-non-indian
  stem: .toto.
- trans_en: non-Indian
- gloss: non-Indian
+ trans_en: non_Indian
+ gloss: non_Indian
  gramm: n
  std: toto
  id: toto-non-indian
