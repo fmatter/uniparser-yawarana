@@ -26,5 +26,13 @@
     {
         "wf": "iyawë",
         "gramm": ".*cond.*"
+    },
+    {
+        "wf": "nwarë",
+        "gramm": "emp"
+    },
+    {
+        "wf": "taro",
+        "trans": "rice"
     }
 ]

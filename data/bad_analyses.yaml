@@ -12,3 +12,7 @@
   gramm: .*prog.*
 - wf: iyawë
   gramm: .*cond.*
+- wf: nwarë # nwarë is lexicalized nwa=rë
+  gramm: emp
+- wf: taro # taro 'say', not t-aro-∅ 'his/her rice'
+  trans: rice
