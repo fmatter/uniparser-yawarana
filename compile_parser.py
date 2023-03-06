@@ -1,12 +1,34 @@
-import pandas as pd
-from humidifier import humidify
-import yaml
-import sys
-from pathlib import Path
-from itertools import product, chain
 import json
-from yawarana_helpers import glossify, find_detransitivizer, trim_dic_suff
-import re
+from itertools import product
+from pathlib import Path
+import pandas as pd
+import yaml
+from humidifier import humidify
+from yawarana_helpers import find_detransitivizer
+from yawarana_helpers import glossify
+from yawarana_helpers import trim_dic_suff
+
+
+def write_file(path, content, mode="text"):
+    with open(path, "w", encoding="utf-8") as f:
+        if mode == "yaml":
+            yaml.dump(content, f)
+        if mode == "text":
+            f.write(content)
+        if mode == "json":
+            json.dump(content, f, ensure_ascii=False, indent=4)
+        return None
+    raise ValueError(mode)
+
+
+def read_file(path, mode="text"):
+    with open(path, "r", encoding="utf-8") as f:
+        if mode == "yaml":
+            return yaml.load(f, yaml.SafeLoader)
+        if mode == "text":
+            return f.read()
+        raise ValueError(mode)
+
 
 SEP = "; "  # separator between variants of same form
 DATA_PATH = Path("src/uniparser_yawarana/data")  # the python package's data folder
@@ -26,9 +48,9 @@ roots["Gloss"] = roots["Translation"].apply(
     lambda x: glossify(x.split(SEP)[0])
 )  # get a single gloss
 roots["Form"] = roots.apply(
-    lambda x: SEP.join(
-        [y for y in x["Form"].split(SEP) + x["Variants"].split(SEP)]
-    ).strip(SEP),
+    lambda x: SEP.join(list(x["Form"].split(SEP) + x["Variants"].split(SEP))).strip(
+        SEP
+    ),
     axis=1,
 )  # get variants
 keep_cols = """ID
@@ -98,10 +120,8 @@ def disassemble_stem(rec, stem_dic=None):
             for level in ["ID", "Gloss"]:
                 stem_dic[pos][level] = []
     if pd.isnull(rec.Prefix_Gloss):
-        empty = "Prefix"
         filled = "Suffix"
     else:
-        empty = "Suffix"
         filled = "Prefix"
     stem_dic[filled]["ID"].append(rec["Affix_ID"])
     stem_dic[filled]["Gloss"].append(rec[f"{filled}_Gloss"])
@@ -109,20 +129,20 @@ def disassemble_stem(rec, stem_dic=None):
         stem_dic["Stem"]["ID"] = [rec.Base_Stem]
         stem_dic["Stem"]["Gloss"] = [roots.loc[rec.Base_Stem]["Gloss"]]
         return stem_dic
-    elif rec.Base_Stem in derivations.index:  # morphologically complex stem base
+    if rec.Base_Stem in derivations.index:  # morphologically complex stem base
         return disassemble_stem(derivations.loc[rec.Base_Stem], stem_dic)
     stem_dic["Stem"]["ID"] = []
     stem_dic["Stem"]["Gloss"] = []
     return stem_dic
 
 
+def process_stem(rec):
+    disassemble_stem(rec)
+    return rec
+
+
 # function for processing morphologically complex stems
 positions = ["Prefix", "Stem", "Suffix"]  # positions
-
-
-def process_stem(rec):
-    stem_dic = disassemble_stem(rec)
-    return rec
 
 
 derivations["Gloss"] = derivations["Translation"].apply(glossify)
@@ -138,9 +158,7 @@ derivations["Form"] = derivations["Name"]
 
 # misc derivations
 misc = pd.read_csv("data/derivations/misc_derivations.csv", keep_default_na=False)
-misc["Form"] = misc["Form"].apply(
-    lambda x: x.replace("+", "").replace("-", "")
-)
+misc["Form"] = misc["Form"].apply(lambda x: x.replace("+", "").replace("-", ""))
 misc["Gloss"] = misc["Translation"].apply(glossify)
 misc["ID"] = misc.apply(
     lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
@@ -177,7 +195,7 @@ def add_etym_gloss(rec):
     return rec
 
 
-lexemes = lexemes.apply(lambda x: add_etym_gloss(x), axis=1)
+lexemes = lexemes.apply(add_etym_gloss, axis=1)
 # this dict links stem IDs of morphologically complex stems to
 # dicts of non-etymologizing to etymologizing segmentations, glossings, and morph IDs
 # for example: (YAML)
@@ -211,13 +229,11 @@ def add_deriv_etym(x):
         )
 
 
-lexemes.apply(
-    lambda x: add_deriv_etym(x),
-    axis=1,
-)
+lexemes.apply(add_deriv_etym, axis=1)
 # dump to yaml for uniparser-yawarana to read
-with open(DATA_PATH / "etym_lookup.yaml", "w") as f:
-    yaml.dump(etym_dict, f)
+
+write_file(DATA_PATH / "etym_lookup.yaml", etym_dict, "yaml")
+
 # mapping POS to paradigms
 par_dic = {
     "qpro": "uninfl",
@@ -256,7 +272,9 @@ def get_noun_paradigms(rec):
 
 
 # generate a uniparser-morph readable lexicon entry from a record
-def create_lexeme_entry(data, paradigms=[], deriv_links=[]):
+def create_lexeme_entry(data, paradigms=None, deriv_links=None):
+    paradigms = paradigms or []
+    deriv_links = deriv_links or []
     lex_str = ["-lexeme"]
     if "Stem" not in data:
         form_string = "|".join(["." + x + "." for x in data["Form"]])
@@ -300,11 +318,10 @@ def add_paradigms(lex):
 
 lexemes.apply(add_paradigms, axis=1)
 lexemes["Form"] = lexemes["Form"].apply(lambda x: x[0])
-with open("data/manual_lexemes.txt", "r") as f:
-    lexemes_str.append(f.read())
+lexemes_str.append(read_file("data/manual_lexemes.txt"))
 # uniparser-morph txt file for lexemes
-with open(DATA_PATH / "lexemes.txt", "w") as f:
-    f.write("\n\n".join(lexemes_str))
+write_file(DATA_PATH / "lexemes.txt", "\n\n".join(lexemes_str))
+
 # paradigms are largely defined manually,
 # but the cross-cutting inflectional classes in nouns
 # are generated. four parameters defining inflectional classes:
@@ -346,22 +363,17 @@ for comb in product(*noun_class_parameters):
     out += "\n" + npert_dict[comb[2]]
     noun_paradigms.append(out)
 # manually coded noun paradigms
-with open("data/noun_paradigms.yaml", "r") as f:
-    manual_noun_paradigms = f.read()
+manual_noun_paradigms = read_file("data/noun_paradigms.yaml")
 # manually coded other paradigms
 paradigms_str = manual_noun_paradigms + "\n\n" + "\n\n".join(noun_paradigms)
-other_paradigms = open("data/paradigms.yaml", "r").read()
+other_paradigms = read_file("data/paradigms.yaml")
 # write for uniparser-morph
-with open(DATA_PATH / "paradigms.txt", "w") as f:
-    f.write(paradigms_str + "\n\n\n\n" + other_paradigms)
+write_file(DATA_PATH / "paradigms.txt", paradigms_str + "\n\n\n\n" + other_paradigms)
 # copy 1-to-1 files
 for fname in ["lex_rules.txt", "disambiguation.cg3", "derivations.txt", "clitics.txt"]:
-    data = open(Path("data") / fname).read()
-    with open(DATA_PATH / f"{fname}", "w") as f:
-        f.write(data)
+    data = read_file(Path("data") / fname)
+    write_file(DATA_PATH / f"{fname}", data)
 # bad analyses are stored as yaml
 # convert to uniparser-yaml
-with open("data/bad_analyses.yaml", "r") as f:
-    bad_analyses = yaml.load(f, yaml.SafeLoader)
-with open(DATA_PATH / "bad_analyses.txt", "w") as f:
-    json.dump(bad_analyses, f, ensure_ascii=False, indent=4)
+bad_analyses = read_file("data/bad_analyses.yaml", "yaml")
+write_file(DATA_PATH / "bad_analyses.txt", bad_analyses, "json")
