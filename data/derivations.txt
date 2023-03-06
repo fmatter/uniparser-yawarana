@@ -49,7 +49,7 @@
 -deriv-type: V-sesup
  lex: [.]&septcp
  stem: [.]se<.>//[.]che<.>
- paradigm: adv
+ paradigm: uninfl
  gramm: adv,sup
  gloss: SUP
  id: septcp

@@ -34,5 +34,9 @@
     {
         "wf": "taro",
         "trans": "rice"
+    },
+    {
+        "wf": ".*semï",
+        "gramm": "sup"
     }
 ]

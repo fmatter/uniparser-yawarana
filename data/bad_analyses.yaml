@@ -16,3 +16,5 @@
   gramm: emp
 - wf: taro # taro 'say', not t-aro-∅ 'his/her rice'
   trans: rice
+- wf: .*semï
+  gramm: sup

@@ -1,7 +1,8 @@
 """Documentation about uniparser_yawarana"""
 import logging
-from uniparser_morph import Analyzer
 import yaml
+from uniparser_morph import Analyzer
+
 
 try:
     from importlib.resources import files  # pragma: no cover
@@ -26,7 +27,11 @@ class YawaranaAnalyzer(Analyzer):
         self.delAnaFile = self.base_path / "bad_analyses.txt"
         self.cliticFile = self.base_path / "clitics.txt"
         self.derivFile = self.base_path / "derivations.txt"
-        with open(files("uniparser_yawarana") / "data" / "etym_lookup.yaml", "r") as f:
+        with open(
+            files("uniparser_yawarana") / "data" / "etym_lookup.yaml",
+            "r",
+            encoding="utf-8",
+        ) as f:
             self.etym_dict = yaml.load(f, Loader=yaml.SafeLoader)
         self.wfCache = {}
         self.etymologize_mode = etymologize
@@ -56,8 +61,13 @@ class YawaranaAnalyzer(Analyzer):
             ("gloss_etym", etym_gloss),
         ]
 
-    def analyze_words(
-        self, words, cgFile="", format=None, disambiguate=True  # noqa: N803
+    def analyze_words(  # pylint: disable=redefined-builtin,too-many-arguments
+        self,
+        words,
+        cgFile="",
+        format=None,
+        disambiguate=True,
+        replacementsAllowed=0,
     ):
         all_analyses = super().analyze_words(
             words,

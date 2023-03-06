@@ -4108,15 +4108,6 @@
  id: ta-3,jnepl
 
 -lexeme
- lex: kaj-say
- stem: kaj&kë.
- trans_en: say it!
- gloss: say&IMP
- gramm: vt,imp
- id: keimp,ka-say
- paradigm: uninfl
-
--lexeme
  lex: echi-be
  stem: sejkë.
  trans_en: be!
