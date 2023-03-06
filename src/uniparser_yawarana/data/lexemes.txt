@@ -3351,6 +3351,16 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: ta-like
+ stem: .ta.
+ trans_en: like
+ gloss: like
+ gramm: part
+ std: ta
+ id: ta-like
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
