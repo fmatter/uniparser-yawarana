@@ -1447,17 +1447,6 @@
  paradigm: vt_aspect
 
 -lexeme
- lex: oki-chicha
- stem: .okï.
- trans_en: chicha
- gloss: chicha
- gramm: n
- std: okï
- id: oki-chicha
- paradigm: noun_v_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: onono-another
  stem: .onono.
  trans_en: another
