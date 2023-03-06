@@ -4103,7 +4103,7 @@
  stem: ta&jne.
  trans_en: they
  gloss: 3&PL
- gramm: pn
+ gramm: pn,3
  paradigm: pro
  id: ta-3,jnepl
 
