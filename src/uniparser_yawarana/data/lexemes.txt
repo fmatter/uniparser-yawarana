@@ -58,7 +58,7 @@
  stem: .ana.
  trans_en: 1+3PRO
  gloss: 1+3PRO
- gramm: pn
+ gramm: pn,13
  std: ana
  id: ana-1-3pro
  paradigm: pro
@@ -372,7 +372,7 @@
  stem: .ejnë.
  trans_en: 1+2PRO
  gloss: 1+2PRO
- gramm: pn
+ gramm: pn,12
  std: ejnë
  id: ejne-1-2pro
  paradigm: pro
@@ -1083,7 +1083,7 @@
  stem: .monkontomo.|.mokontomo.|.mëkontomo.|.montomo.|.mokontom.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
- gramm: pn
+ gramm: pn,2
  std: monkontomo
  id: monkontomo-2pl-pro
  paradigm: pro
@@ -1202,7 +1202,7 @@
  stem: .mëjkï.
  trans_en: DIST.ANIM
  gloss: DIST.ANIM
- gramm: pn
+ gramm: pn,3
  std: mëjkï
  id: mejki-dist-anim
  paradigm: pro
@@ -1242,7 +1242,7 @@
  stem: .mërë.
  trans_en: 2PRO
  gloss: 2PRO
- gramm: pn
+ gramm: pn,2
  std: mërë
  id: mere-2pro
  paradigm: pro
@@ -2216,7 +2216,7 @@
  stem: .tëwï.
  trans_en: 3PRO
  gloss: 3PRO
- gramm: pn
+ gramm: pn,3
  std: tëwï
  id: tewi-3pro
  paradigm: pro
@@ -2226,7 +2226,7 @@
  stem: .tëwïsantomo.|.tëwïsanton.
  trans_en: 3PRO.PL
  gloss: 3PRO.PL
- gramm: pn
+ gramm: pn,3
  std: tëwïsantomo
  id: tewisantomo-3pro-pl
  paradigm: pro
@@ -2459,7 +2459,7 @@
  stem: .wïrë.
  trans_en: 1PRO
  gloss: 1PRO
- gramm: pn
+ gramm: pn,1
  std: wïrë
  id: wire-1pro
  paradigm: pro
