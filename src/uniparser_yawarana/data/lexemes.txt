@@ -2791,17 +2791,6 @@
  paradigm: adv
 
 -lexeme
- lex: ejte-house
- stem: .ëjtë.
- trans_en: house
- gloss: house
- gramm: n
- std: ëjtë
- id: ejte-house
- paradigm: noun_v_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: ejwate-hammock
  stem: .ëjwatë.
  trans_en: hammock
@@ -3244,13 +3233,13 @@
 
 -lexeme
  lex: iwiti-house
- stem: .ïwïtï.|.ïwïj.
+ stem: .ïwïtï.|.ïwïj.|.ëj.
  trans_en: house
  gloss: house
  gramm: n
  std: ïwïtï
  id: iwiti-house
- paradigm: noun_v_new_ri_0
+ paradigm: noun_v_new_ri_të
  paradigm: n_deriv
 
 -lexeme
