@@ -2317,8 +2317,7 @@
  gramm: n
  std: waraijtokomo
  id: waraijtokomo-man
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
+ paradigm: uninfl
 
 -lexeme
  lex: warota-work
@@ -2331,16 +2330,6 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
-
--lexeme
- lex: ware-thus
- stem: .warë.|.nwarë.|.nwa.|.wa.|.ënwarë.|.uwarë.
- trans_en: thus
- gloss: thus
- gramm: adv
- std: warë
- id: ware-thus
- paradigm: adv
 
 -lexeme
  lex: wasayi-attalea-maripa
@@ -3347,6 +3336,16 @@
  gramm: part
  std: ta
  id: ta-like
+ paradigm: uninfl
+
+-lexeme
+ lex: nwa-thus
+ stem: .nwa.|.wa.
+ trans_en: thus
+ gloss: thus
+ gramm: part
+ std: nwa
+ id: nwa-thus
  paradigm: uninfl
 
 -lexeme
