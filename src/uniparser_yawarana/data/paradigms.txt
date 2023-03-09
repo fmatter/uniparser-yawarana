@@ -381,10 +381,14 @@
 -paradigm: vi_aspect
  deriv-link: Vi-petiplur
  deriv-link: Vi-petiplur-bare
+ deriv-link: Vi-podes-bare
+ deriv-link: Vi-podes
 
 -paradigm: vt_aspect
  deriv-link: Vt-petiplur
  deriv-link: Vt-petiplur-bare
+ deriv-link: Vt-podes-bare
+ deriv-link: Vt-podes
 
 -paradigm: v_intr_nmlz
  -flex: .<.>

@@ -342,6 +342,14 @@ sere-become-scared:
   - dt2
   obj:
     sere: sere
+sereka-become-tired:
+  gloss:
+    become_tired: ''
+  ids:
+  - ereka-scare
+  - dt2
+  obj:
+    sereka: sereka
 serema-eat:
   gloss:
     eat: ''

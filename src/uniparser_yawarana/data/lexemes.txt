@@ -3338,6 +3338,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: ejka-right
+ stem: .ëjka.|.ënka.
+ trans_en: right
+ gloss: right
+ gramm: part
+ std: ëjka
+ id: ejka-right
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -3981,6 +3991,18 @@
  gramm: vi
  std: apataka
  id: apataka-come-out
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: sereka-become-tired
+ stem: .sereka.
+ trans_en: become tired
+ gloss: become_tired
+ gramm: vi
+ std: sereka
+ id: sereka-become-tired
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
