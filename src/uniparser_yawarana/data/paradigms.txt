@@ -119,6 +119,11 @@
  deriv-link: N-ke
  deriv-link: N-dim
 
+ -paradigm: n_priv
+  -flex: .
+   gramm:
+  deriv-link: N-jra
+
 -paradigm: noun_c_old_ri_të
  -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
   gloss: PERT
@@ -710,4 +715,5 @@
  -flex: .
   gramm: 
  deriv-link: A-mi
+ deriv-link: A-mijra
  deriv-link: A-ano

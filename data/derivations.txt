@@ -62,14 +62,19 @@
 
 -deriv-type: A-mi
  lex: [.]&minmlz
- stem: [.]mï.<.>//[.]m.<.>
- paradigm: mi_clitic
+ stem: [.]mï<.>//[.]m<.>
  gramm: n
  gloss: NMLZ
  id: minmlz
  paradigm: mi_clitic
  paradigm: noun_clitic
 
+-deriv-type: A-mijra
+ lex: [.]&minmlz&jrapriv
+ stem: [.]mï&jra
+ gramm: n,priv
+ gloss: NMLZ&PRIV
+ id: minmlz,jrapriv
 
 -deriv-type: V-semi
  lex: [.]septcp|minmlz
@@ -120,6 +125,13 @@
  gramm: adv,prop
  gloss: PROP
  id: keprop
+
+-deriv-type: N-jra
+ lex: [.]&jrapriv
+ stem: [.]jra<.>
+ gramm: priv
+ gloss: PRIV
+ id: jrapriv
 
 # productive aspectual derivations
 
