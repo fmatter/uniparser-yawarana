@@ -50,7 +50,7 @@
  gramm: n
  std: amu
  id: amu-ripeness
- paradigm: noun_v_new_ri_0
+ paradigm: noun_v_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -279,7 +279,7 @@
  gramm: n
  std: chijchipu
  id: chijchipu-body-movement
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -335,7 +335,7 @@
  gramm: n
  std: chipiyu
  id: chipiyu-fungus-sp
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -346,7 +346,7 @@
  gramm: n
  std: chiramu
  id: chiramu-mange
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -509,7 +509,7 @@
  gramm: n
  std: ijpu
  id: ijpu-summit
- paradigm: noun_v_new_ri_0
+ paradigm: noun_v_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -663,7 +663,7 @@
  gramm: n
  std: kapau
  id: kapau-dasypus-novemcinctus
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -807,7 +807,7 @@
  gramm: n
  std: kuru
  id: kuru-prochilodus-mariae
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -863,7 +863,7 @@
  gramm: n
  std: këmu
  id: kemu-pus
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1219,7 +1219,7 @@
  gramm: n
  std: muku
  id: muku-child
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1538,7 +1538,7 @@
  gramm: n
  std: paijku
  id: paijku-p
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1582,7 +1582,7 @@
  gramm: n
  std: paku
  id: paku-arrow-tip
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1809,7 +1809,7 @@
  gramm: n
  std: punu
  id: punu-flesh
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1908,7 +1908,7 @@
  gramm: n
  std: sakau
  id: sakau-sand
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1919,7 +1919,7 @@
  gramm: n
  std: saku
  id: saku-sweet-potato
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -1942,7 +1942,7 @@
  gramm: n
  std: sampu
  id: sampu-black-piranha
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2087,7 +2087,7 @@
  gramm: n
  std: takunu
  id: takunu-laziness
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2144,7 +2144,7 @@
  gramm: n
  std: tejwetunu
  id: tejwetunu-sick
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2329,7 +2329,7 @@
  gramm: n
  std: waimu
  id: waimu-language
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2375,7 +2375,7 @@
  gramm: n
  std: wanapu
  id: wanapu-savannah
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2585,7 +2585,7 @@
  gramm: n
  std: yaku
  id: yaku-agouti
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2700,7 +2700,7 @@
  gramm: n
  std: yatunu
  id: yatunu-day
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2743,7 +2743,7 @@
  gramm: n
  std: yemekunu
  id: yemekunu-five
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2766,7 +2766,7 @@
  gramm: n
  std: yerepunu
  id: yerepunu-sick
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2823,7 +2823,7 @@
  gramm: n
  std: yutu
  id: yutu-forest
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -3252,7 +3252,7 @@
  gramm: n
  std: suku
  id: suku-urine
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -3263,7 +3263,7 @@
  gramm: n
  std: mesuku
  id: mesuku-blood
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -3560,6 +3560,17 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
+
+-lexeme
+ lex: sukuri-silently
+ stem: .sukuri.
+ trans_en: silently
+ gloss: silently
+ gramm: adv
+ std: sukuri
+ id: sukuri-silently
+ paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: wenaka-vomit

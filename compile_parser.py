@@ -261,9 +261,14 @@ def get_paradigms(key):
 
 
 def get_noun_paradigms(rec):
-    for val, default in [("PERT", "ri"), ("NPERT", "0"), ("2_Prefix", "new")]:
+    for val, default in [("NPERT", "0"), ("2_Prefix", "new")]:
         if rec[val] == "":
             rec[val] = default
+    if rec["PERT"] == "":
+        if rec["Form"][0][-1] == "u":
+            rec["PERT"] = "ru"
+        else:
+            rec["PERT"] = "ri"
     if rec["Form"][0][0] in ["a", "e", "i", "o", "u", "ï", "ë"]:
         seg = "v"
     else:
@@ -330,9 +335,13 @@ write_file(DATA_PATH / "lexemes.txt", "\n\n".join(lexemes_str))
 # * pertensive suffix
 # * non-pertensive suffix
 # * old or new second person marker
-noun_class_parameters = [["c", "v"], ["ri", "ti", "0"], ["të", "0"], ["old", "new"]]
+noun_class_parameters = [["c", "v"], ["ri", "ru", "ti", "0"], ["të", "0"], ["old", "new"]]
 pert_dict = {
-    "ri": """ -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
+    "ri": """ -flex: <.>.ri<.>//<.>.0<.>
+  gloss: PERT
+  gramm: pert
+  id: rupert""",
+    "ru": """ -flex: <.>.ru<.>
   gloss: PERT
   gramm: pert
   id: rupert""",
