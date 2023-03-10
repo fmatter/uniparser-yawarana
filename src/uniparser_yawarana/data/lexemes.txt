@@ -2908,14 +2908,24 @@
  paradigm: uninfl
 
 -lexeme
+ lex: yawe-loc
+ stem: .yawë.|.yawo.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ std: yawë
+ id: yawe-loc
+ paradigm: postp
+
+-lexeme
  lex: yawe-ctmp
  stem: .yawë.|.yawo.
  trans_en: CTMP
  gloss: CTMP
- gramm: part
+ gramm: postp
  std: yawë
  id: yawe-ctmp
- paradigm: uninfl
+ paradigm: postp
 
 -lexeme
  lex: pinika-prob
@@ -3345,6 +3355,16 @@
  gramm: part
  std: ëjka
  id: ejka-right
+ paradigm: uninfl
+
+-lexeme
+ lex: sakunkai-s
+ stem: .sakunkai.
+ trans_en: S.
+ gloss: S.
+ gramm: intj
+ std: sakunkai
+ id: sakunkai-s
  paradigm: uninfl
 
 -lexeme

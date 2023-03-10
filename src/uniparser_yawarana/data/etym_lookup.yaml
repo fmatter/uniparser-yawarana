@@ -346,7 +346,7 @@ sereka-become-tired:
   gloss:
     become_tired: ''
   ids:
-  - ereka-scare
+  - ereka-tire
   - dt2
   obj:
     sereka: sereka
