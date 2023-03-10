@@ -481,11 +481,11 @@
   gloss: FUT
   id: tojpefut
   paradigm: v_jra
- -flex: .nëpëkë<.>
+ -flex: .nëpëkë//.tëpëkë
   gramm: prog
   gloss: PROG.INTR
   id: nepeke
- -flex: .pëkë<.>
+ -flex: .pëkë
   gramm: prog
   gloss: PROG.TR
   id: pekeprog
