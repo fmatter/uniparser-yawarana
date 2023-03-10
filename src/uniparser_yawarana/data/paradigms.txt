@@ -104,6 +104,16 @@
   gloss: ESS
   sep: =
 
+-paradigm: mi_clitic
+ -flex: .
+  gramm:
+ -flex: .pïnirë
+  id: pinire-neg
+  gramm: neg
+  gloss: NEG
+  sep: =
+
+
 -paradigm: noun_c_old_ri_të
  -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
   gloss: PERT

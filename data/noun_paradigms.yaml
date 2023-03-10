@@ -103,3 +103,12 @@
   gramm: ess,adv
   gloss: ESS
   sep: =
+
+-paradigm: mi_clitic
+ -flex: .
+  gramm:
+ -flex: .pïnirë
+  id: pinire-neg
+  gramm: neg
+  gloss: NEG
+  sep: =

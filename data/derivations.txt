@@ -6,6 +6,15 @@
  gramm: n
  id: rinmlz
 
+-deriv-type: A-mi
+ lex: [.]&minmlz
+ stem: [.]mï.//[.]m.
+ paradigm: nmlz
+ paradigm: mi_clitic
+ gramm: n
+ gloss: NMLZ
+ id: minmlz
+
 -deriv-type: V-septcp
  lex: [.]&septcp
  stem: [.]se<.>//[.]che<.>
@@ -157,14 +166,6 @@
  gramm: adv,prop
  gloss: PROP
  id: keprop
-
--deriv-type: A-mi
- lex: [.]&minmlz
- stem: [.]mï<.>
- paradigm: nmlz
- gramm: n
- gloss: NMLZ
- id: minmlz
 
 -deriv-type: A-ano
  lex: [.]&anonmlz
