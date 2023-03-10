@@ -9,6 +9,14 @@
  gramm: n
  id: rinmlz
 
+-deriv-type: V-kemi
+ lex: [.]&keprop&minmlz
+ stem: [.].ke&mï
+ gramm: adv,prop
+ gloss: PROP&NMLZ
+ id: keprop,minmlz
+
+
 -deriv-type: V-jpë
  lex: [.]&jpenmlz
  stem: [.]jpë

@@ -114,7 +114,7 @@
   sep: =
 
 -paradigm: n_deriv
- -flex: .<.>
+ -flex: .
   gramm:
  deriv-link: N-ke
  deriv-link: N-dim
