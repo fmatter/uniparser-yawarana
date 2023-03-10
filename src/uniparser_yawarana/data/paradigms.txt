@@ -510,6 +510,7 @@
   gloss: PL
   id: jnepl
 
+
 -paradigm: konto_pl
  -flex: .
   gramm:
@@ -521,10 +522,11 @@
 -paradigm: v_jra
  -flex: .
   gramm:
- -flex: .jra
+ -flex: .jra<.>
   gloss: NEG
   gramm: neg
   id: jraneg
+  paradigm: konto_pl
  -flex: .jnari
   gloss: NEG
   gramm: neg
