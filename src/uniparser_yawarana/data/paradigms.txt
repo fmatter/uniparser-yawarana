@@ -477,6 +477,7 @@
   gloss: PST
   id: sepst
   paradigm: v_jne_pl
+  paradigm: konto_pl
  -flex: .tojpe<.>
   gramm: fut
   gloss: FUT
