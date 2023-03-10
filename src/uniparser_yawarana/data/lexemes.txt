@@ -2333,6 +2333,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: waimu-speak
+ stem: .waimu.
+ trans_en: speak
+ gloss: speak
+ gramm: vi
+ std: waimu
+ id: waimu-speak
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: wajyaki-happy
  stem: .wajyakï.
  trans_en: happy
@@ -2345,7 +2357,7 @@
 
 -lexeme
  lex: wajyaki-be-happy
- stem: .wajyakï.
+ stem: .wajyakï.|.wajyakïtï.
  trans_en: be happy
  gloss: be_happy
  gramm: vi
@@ -2354,17 +2366,6 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
-
--lexeme
- lex: wajyakiti-very-happy
- stem: .wajyakïtï.
- trans_en: very happy
- gloss: very_happy
- gramm: n
- std: wajyakïtï
- id: wajyakiti-very-happy
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
 
 -lexeme
  lex: wanapu-savannah
@@ -3483,6 +3484,16 @@
  gramm: intj
  std: kï
  id: ki-ugh
+ paradigm: uninfl
+
+-lexeme
+ lex: ajaja-hahaha
+ stem: .ajaja.
+ trans_en: hahaha
+ gloss: hahaha
+ gramm: intj
+ std: ajaja
+ id: ajaja-hahaha
  paradigm: uninfl
 
 -lexeme

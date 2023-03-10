@@ -11,11 +11,12 @@
 
 -deriv-type: V-kemi
  lex: [.]&keprop&minmlz
- stem: [.].ke&mï
+ stem: [.]ke&mï<.>//[.]ke&m<.>
  gramm: adv,prop
  gloss: PROP&NMLZ
  id: keprop,minmlz
-
+ paradigm: mi_clitic
+ paradigm: noun_clitic
 
 -deriv-type: V-jpë
  lex: [.]&jpenmlz
@@ -66,6 +67,9 @@
  gramm: n
  gloss: NMLZ
  id: minmlz
+ paradigm: mi_clitic
+ paradigm: noun_clitic
+
 
 -deriv-type: V-semi
  lex: [.]septcp|minmlz
