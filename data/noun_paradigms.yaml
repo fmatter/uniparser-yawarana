@@ -94,3 +94,12 @@
   id: jpepst
  -flex: .
   gramm: 
+
+-paradigm: noun_clitic
+ -flex: .
+  gramm:
+ -flex: .pe
+  id: peess
+  gramm: ess,adv
+  gloss: ESS
+  sep: =

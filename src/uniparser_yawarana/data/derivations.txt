@@ -1,7 +1,7 @@
 -deriv-type: V-ri
  lex: [.]&rinmlz
- stem: [.]ri<.>//[.]0<.>
- paradigm: uninfl
+ stem: [.]ri.//[.]0.
+ paradigm: noun_clitic
  gloss: ACNNMLZ
  gramm: n
  id: rinmlz
@@ -149,14 +149,6 @@
  gramm: adv,cncs
  gloss: CNCS
  id: tanecncs
-
--deriv-type: N-pe
- lex: [.]&peess
- stem: <.>[.]pe
- paradigm: adv
- gramm: adv,ess
- gloss: ESS
- id: peess
 
 -deriv-type: N-ke
  lex: [.]&keprop

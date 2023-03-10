@@ -95,6 +95,15 @@
  -flex: .
   gramm: 
 
+-paradigm: noun_clitic
+ -flex: .
+  gramm:
+ -flex: .pe
+  id: peess
+  gramm: ess,adv
+  gloss: ESS
+  sep: =
+
 -paradigm: noun_c_old_ri_të
  -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
   gloss: PERT
@@ -360,7 +369,6 @@
 -paradigm: n_deriv
  -flex: .<.>
   gramm:
- deriv-link: N-pe
  deriv-link: N-ke
  deriv-link: N-dim
  
@@ -393,6 +401,10 @@
 -paradigm: v_intr_nmlz
  -flex: .<.>
   gramm:
+ -flex: .pe<.>
+  id: peess
+  gramm: ess, adv
+  gloss: ESS
  deriv-link: V-topo
  deriv-link: V-tojpe
  deriv-link: V-ri
@@ -403,11 +415,14 @@
  deriv-link: V-sape
  deriv-link: V-tane
  deriv-link: V-jpë
- deriv-link: N-pe
 
 -paradigm: v_tr_nmlz
  -flex: .<.>
   gramm:
+ -flex: .pe<.>
+  id: peess
+  gramm: ess, adv
+  gloss: ESS
  deriv-link: V-topo
  deriv-link: V-ri
  deriv-link: V-tojpe
@@ -418,7 +433,6 @@
  deriv-link: V-sape
  deriv-link: V-tane
  deriv-link: V-jpë
- deriv-link: N-pe
 
 -paradigm: v_tr
  -flex: .<.>

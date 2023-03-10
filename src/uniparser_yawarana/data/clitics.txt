@@ -6,3 +6,12 @@
  gloss: EMP
  gramm: emp
  id: re-emp
+
+-clitic
+ lex: ma-rst
+ stem: ma
+ trans_en: RST
+ type: en
+ gloss: RST
+ gramm: rst
+ id: ma-rst
