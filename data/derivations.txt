@@ -1,19 +1,72 @@
+# nouns
+
 -deriv-type: V-ri
  lex: [.]&rinmlz
- stem: [.]ri.//[.]0.
+ stem: [.]ri.<.>//[.]0.<.>
  paradigm: noun_clitic
+ paradigm: n_deriv
  gloss: ACNNMLZ
  gramm: n
  id: rinmlz
 
+-deriv-type: V-jpë
+ lex: [.]&jpenmlz
+ stem: [.]jpë
+ gramm: n
+ gloss: PST.ACNNMLZ
+ id: jpenmlz
+
+-deriv-type: V-sape
+ lex: [.]&sapenmlz
+ stem: [.]sapë//[.]saj
+ gramm: n
+ gloss: ABS.NMLZ
+ id: sapenmlz
+
+-deriv-type: V-inf
+ lex: [.]&neinf
+ stem: [.]në//[.]të
+ gramm: n
+ gloss: INF
+ id: neinf
+
+-deriv-type: V-topo
+ lex: [.]&toponmlz
+ stem: <.>[.]topo<.>//<.>[.]toj<.>
+ gramm: n
+ gloss: CIRC.NMLZ
+ id: toponmlz
+
+-deriv-type: V-ni
+ lex: [.]&ninmlz
+ stem: [.]ni<.>
+ gramm: n
+ gloss: AGTNMLZ
+ id: ninmlz
+
+-deriv-type: A-ano
+ lex: [.]&anonmlz
+ stem: [.]no<.>//[.]n<.>//[.]ano<.>//[.]na<.>
+ gramm: n
+ gloss: NMLZ
+ id: anonmlz
+
 -deriv-type: A-mi
  lex: [.]&minmlz
- stem: [.]mï.//[.]m.
- paradigm: nmlz
+ stem: [.]mï.<.>//[.]m.<.>
  paradigm: mi_clitic
  gramm: n
  gloss: NMLZ
  id: minmlz
+
+-deriv-type: V-semi
+ lex: [.]septcp|minmlz
+ stem: <.>[.]se|mï<.>//<.>[.]che|mï<.>
+ gramm: n
+ gloss: PTCP|NMLZ
+ id: septcp,minmlz
+
+# adverbs
 
 -deriv-type: V-septcp
  lex: [.]&septcp
@@ -22,6 +75,40 @@
  gramm: adv,ptcp
  gloss: PTCP
  id: septcp
+
+-deriv-type: V-sesup
+ lex: [.]&septcp
+ stem: [.]se<.>//[.]che<.>
+ paradigm: uninfl
+ gramm: adv,sup
+ gloss: SUP
+ id: septcp
+
+-deriv-type: V-tojpe
+ lex: [.]&tojpepurp
+ stem: [.]tojpe<.>
+ paradigm: adv
+ gramm: adv,purp
+ gloss: PURP
+ id: tojpepurp
+
+-deriv-type: V-tane
+ lex: [.]&tanecncs
+ stem: [.]tane<.>
+ paradigm: adv
+ gramm: adv,cncs
+ gloss: CNCS
+ id: tanecncs
+
+-deriv-type: N-ke
+ lex: [.]&keprop
+ stem: [.]ke<.>
+ paradigm: adv
+ gramm: adv,prop
+ gloss: PROP
+ id: keprop
+
+# productive aspectual derivations
 
 -deriv-type: Vi-podes
  lex: [.]&podes
@@ -87,98 +174,11 @@
  gloss: PLUR
  id: petiplur
 
--deriv-type: V-sesup
- lex: [.]&septcp
- stem: [.]se<.>//[.]che<.>
- paradigm: uninfl
- gramm: adv,sup
- gloss: SUP
- id: septcp
-
--deriv-type: V-jpë
- lex: [.]&jpenmlz
- stem: [.]jpë<.>
- paradigm: nmlz
- gramm: n
- gloss: PST.ACNNMLZ
- id: jpenmlz
-
--deriv-type: V-sape
- lex: [.]&sapenmlz
- stem: <.>[.]sapë//<.>[.]saj
- paradigm: nmlz
- gramm: n
- gloss: ABS.NMLZ
- id: sapenmlz
-
--deriv-type: V-inf
- lex: [.]&neinf
- stem: <.>[.]në//<.>[.]të
- paradigm: nmlz
- gramm: n
- gloss: INF
- id: neinf
-
--deriv-type: V-topo
- lex: [.]&toponmlz
- stem: <.>[.]topo<.>//<.>[.]toj<.>
- paradigm: nmlz
- gramm: n
- gloss: CIRC.NMLZ
- id: toponmlz
-
--deriv-type: V-ni
- lex: [.]&ninmlz
- stem: [.]ni<.>
- paradigm: nmlz
- gramm: n
- gloss: AGTNMLZ
- id: ninmlz
-
--deriv-type: V-semi
- lex: [.]septcp|minmlz
- stem: <.>[.]se|mï<.>//<.>[.]che|mï<.>
- paradigm: nmlz
- gramm: n
- gloss: PTCP|NMLZ
- id: septcp,minmlz
-
--deriv-type: V-tojpe
- lex: [.]&tojpepurp
- stem: [.]tojpe<.>
- paradigm: adv
- gramm: adv,purp
- gloss: PURP
- id: tojpepurp
-
--deriv-type: V-tane
- lex: [.]&tanecncs
- stem: [.]tane<.>
- paradigm: adv
- gramm: adv,cncs
- gloss: CNCS
- id: tanecncs
-
--deriv-type: N-ke
- lex: [.]&keprop
- stem: <.>[.]ke
- paradigm: adv
- gramm: adv,prop
- gloss: PROP
- id: keprop
-
--deriv-type: A-ano
- lex: [.]&anonmlz
- stem: [.]no<.>//[.]n<.>//[.]ano<.>//[.]na<.>
- paradigm: nmlz
- gramm: n
- gloss: NMLZ
- id: anonmlz
+# productive nominal derivations
 
 -deriv-type: N-dim
  lex: [.]&pijkedim
  stem: [.]pïjkë<.>//[.]pijkë<.>
- paradigm: nmlz
  gramm: n
  gloss: DIM
  id: pijkedim

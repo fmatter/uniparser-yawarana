@@ -26,6 +26,7 @@ def pick_analysis(anas, good_gloss):
 
 def run_polysemy_test(forms, parser):
     for form, data in forms:
+        print(form, "OK?")
         analyses = parser.analyze_words(form)
         for gloss, tag in data.items():
             analysis = pick_analysis(analyses, gloss)

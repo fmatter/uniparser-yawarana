@@ -10,25 +10,9 @@
   gloss: PST
   id: jpepst
 
--paradigm: n_deriv
- -flex: .<.>
-  gramm:
- deriv-link: N-ke
- deriv-link: N-dim
- 
 -paradigm: adv_deriv
  -flex: .<.>
   gramm:
-
--paradigm: nmlz
- -flex: <.>.ru<.>//<.>.ri<.>//<.>.0<.>
-  gloss: PERT
-  gramm: pert
-  id: rupert
-  paradigm: noun_pref_new_c
- -flex: .<.>
-  gramm:
-  paradigm: noun_plural
 
 -paradigm: vi_aspect
  deriv-link: Vi-petiplur
@@ -112,6 +96,8 @@
   gramm: ipfv
   gloss: IPFV
   id: riipfv
+  paradigm: v_jne_pl
+  paradigm: v_jra
  -flex: .jpë<.>
   gramm: pst
   gloss: PST
@@ -120,14 +106,17 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
+  paradigm: konto_pl
  -flex: .se<.>//.che<.>
   gramm: pst
   gloss: PST
   id: sepst
+  paradigm: v_jne_pl
  -flex: .tojpe<.>
   gramm: fut
   gloss: FUT
   id: tojpefut
+  paradigm: v_jra
  -flex: .nëpëkë<.>
   gramm: prog
   gloss: PROG.INTR
@@ -140,7 +129,7 @@
   gloss: NEG
   gramm: neg
   id: janeg
- -flex: .sarë<.>
+ -flex: .sarë
   gramm: imn
   gloss: IMN
   id: sareimn
@@ -148,19 +137,26 @@
   gramm: post
   gloss: POST
   id: tikenepost
- paradigm: dv_pl
 
--paradigm: dv_pl
+-paradigm: v_jne_pl
  -flex: .
   gramm:
  -flex: .jne//.jnë
   gramm: pl
   gloss: PL
   id: jnepl
+
+-paradigm: konto_pl
+ -flex: .
+  gramm:
  -flex: .kontomo//.konton
   gramm: pl
   gloss: PL
   id: kontomopl
+
+-paradigm: v_jra
+ -flex: .
+  gramm:
  -flex: .jra
   gloss: NEG
   gramm: neg
@@ -209,6 +205,7 @@
   gramm: pfv
   gloss: PFV
   id: sapepfv
+  paradigm: konto_pl
  -flex: .se<.>//.che<.>
   gramm: pst
   gloss: PST
@@ -217,7 +214,7 @@
   gramm: fut
   gloss: FUT
   id: tojpefut
- paradigm: dv_pl
+ paradigm: konto_pl
 
 -paradigm: cop_clit
  -flex: .pëkë
@@ -341,6 +338,6 @@
   gramm: neg
   id: jraneg
  -flex: .
-  gramm
+  gramm: 
  deriv-link: A-mi
  deriv-link: A-ano

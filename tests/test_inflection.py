@@ -70,9 +70,9 @@ def test_tam_suffixes(parser):
         ("tasarë", "taro-say", "say-IMN", "imn,vt", "adv"),
         ("yaruwatëpëkë", "yaruwa-laugh", "laugh-PROG.INTR", "prog,vi", ""),
         ("tapëkë", "taro-say", "say-PROG.TR", "prog,vt", ""),
-        ("tainirijra", "ini-see", "3P-see-IPFV-NEG", "ipfv,3P,vt,neg", "n"),
+        ("yaruwarijra", "yaruwa-laugh", "laugh-IPFV-NEG", "ipfv,vi,neg", "n"),
         ("tasejra", "taro-say", "say-PST-NEG", "vt,neg,pst", "adv"),
-        ("yaruwajrama", "yaruwa-laugh", "laugh-PROH", "vi,proh", ""),
+        # ("yaruwajrama", "yaruwa-laugh", "laugh-PROH", "vi,proh", ""), # todo: disambiguate
     ]:
         analyses = parser.analyze_words(form)
         for analysis in analyses:

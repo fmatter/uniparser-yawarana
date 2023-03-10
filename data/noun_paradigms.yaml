@@ -112,3 +112,9 @@
   gramm: neg
   gloss: NEG
   sep: =
+
+-paradigm: n_deriv
+ -flex: .<.>
+  gramm:
+ deriv-link: N-ke
+ deriv-link: N-dim
