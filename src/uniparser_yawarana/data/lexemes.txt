@@ -2693,6 +2693,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yatunu-day
+ stem: .yatunu.|.yatum.
+ trans_en: day; sun
+ gloss: day
+ gramm: n
+ std: yatunu
+ id: yatunu-day
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: yate-loc
  stem: .yatë.
  trans_en: LOC
@@ -3043,7 +3054,7 @@
 
 -lexeme
  lex: tawara-too
- stem: .tawara.
+ stem: .tawara.|.tawaraij.
  trans_en: too
  gloss: too
  gramm: part
@@ -3478,7 +3489,7 @@
 
 -lexeme
  lex: ki-ugh
- stem: .kï.
+ stem: .kï.|.kë.
  trans_en: ugh
  gloss: ugh
  gramm: intj
@@ -3495,6 +3506,60 @@
  std: ajaja
  id: ajaja-hahaha
  paradigm: uninfl
+
+-lexeme
+ lex: peremeki-talk
+ stem: .përemekï.
+ trans_en: talk
+ gloss: talk
+ gramm: vi
+ std: përemekï
+ id: peremeki-talk
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: narepe-part
+ stem: .narëpe.
+ trans_en: PART
+ gloss: PART
+ gramm: part
+ std: narëpe
+ id: narepe-part
+ paradigm: uninfl
+
+-lexeme
+ lex: pare-also
+ stem: .parë.
+ trans_en: also
+ gloss: also
+ gramm: part
+ std: parë
+ id: pare-also
+ paradigm: uninfl
+
+-lexeme
+ lex: sa-eval
+ stem: .sa.
+ trans_en: EVAL
+ gloss: EVAL
+ gramm: part
+ std: sa
+ id: sa-eval
+ paradigm: uninfl
+
+-lexeme
+ lex: yekerema-boast-sexually
+ stem: .yekerema.
+ trans_en: boast sexually
+ gloss: boast_sexually
+ gramm: vi
+ std: yekerema
+ id: yekerema-boast-sexually
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wenaka-vomit
