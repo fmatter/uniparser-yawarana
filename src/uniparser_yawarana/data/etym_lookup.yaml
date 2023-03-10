@@ -30,6 +30,14 @@ akita-fill-with-worms:
   - tavbz
   obj:
     "ak\xEFta": "ak\xEFta"
+amuta-ripen:
+  gloss:
+    ripen: ''
+  ids:
+  - amu-ripeness
+  - tavbz
+  obj:
+    amuta: amuta
 apataka-come-out:
   gloss:
     come_out: ''
@@ -70,6 +78,14 @@ chekeyta-fill-with-nits:
   - tavbz
   obj:
     "ch\xEBk\xEByta": "ch\xEBk\xEByta"
+chijchipuruta-move-body:
+  gloss:
+    move_body: ''
+  ids:
+  - chijchipuru-body-movement
+  - tavbz
+  obj:
+    chijchipuruta: chijchipuruta
 chiketa-get-chiggers:
   gloss:
     get_chiggers: ''
@@ -126,6 +142,14 @@ kamparata-grow-change-voice:
   - tavbz
   obj:
     kamparata: kamparata
+kasota-fatten:
+  gloss:
+    fatten: ''
+  ids:
+  - kaso-fat
+  - tavbz
+  obj:
+    kasota: kasota
 katupuma-pile-up:
   gloss:
     pile_up: ''
@@ -366,6 +390,14 @@ sujta-urinate:
   - tavbz
   obj:
     sujta: sujta
+takunuru-slack-off:
+  gloss:
+    slack_off: ''
+  ids:
+  - takunuru-laziness
+  - tavbz
+  obj:
+    takunuru: takunuru
 wanaputa-grow-savannah-grass:
   gloss:
     grow_savannah_grass: ''
@@ -382,6 +414,14 @@ wenaka-vomit:
   - kavbz
   obj:
     wenaka: wenaka
+werewereta-swarm-mosquitos:
+  gloss:
+    swarm(mosquitos): ''
+  ids:
+  - werewere-mosquito-sp
+  - tavbz
+  obj:
+    werewereta: werewereta
 wereyta-cloud-over:
   gloss:
     cloud_over: ''

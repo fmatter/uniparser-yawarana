@@ -43,6 +43,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: amu-ripeness
+ stem: .amu.
+ trans_en: ripeness
+ gloss: ripeness
+ gramm: n
+ std: amu
+ id: amu-ripeness
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: ami-unidentified-plant
  stem: .amï.
  trans_en: unidentified plant
@@ -254,6 +265,17 @@
  std: awochi
  id: awochi-tumor
  paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: chijchipu-body-movement
+ stem: .chijchipu.
+ trans_en: body movement
+ gloss: body_movement
+ gramm: n
+ std: chijchipu
+ id: chijchipu-body-movement
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -652,6 +674,17 @@
  gramm: n
  std: kasajpë
  id: kasajpe-fruit-pit
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kaso-fat
+ stem: .kaso.
+ trans_en: fat
+ gloss: fat
+ gramm: n
+ std: kaso
+ id: kaso-fat
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
@@ -2014,6 +2047,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: takunu-laziness
+ stem: .takunu.
+ trans_en: laziness
+ gloss: laziness
+ gramm: n
+ std: takunu
+ id: takunu-laziness
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: tapa-beat
  stem: .tapa.
  trans_en: beat
@@ -2374,6 +2418,17 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
+
+-lexeme
+ lex: werewere-mosquito-sp
+ stem: .werewere.
+ trans_en: mosquito sp.
+ gloss: mosquito_sp.
+ gramm: n
+ std: werewere
+ id: werewere-mosquito-sp
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: wereyi-cloud
@@ -3807,6 +3862,66 @@
  gramm: vi
  std: apita
  id: apita-ripen
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: amuta-ripen
+ stem: .amuta.
+ trans_en: ripen
+ gloss: ripen
+ gramm: vi
+ std: amuta
+ id: amuta-ripen
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: chijchipuruta-move-body
+ stem: .chijchipuruta.
+ trans_en: move body
+ gloss: move_body
+ gramm: vi
+ std: chijchipuruta
+ id: chijchipuruta-move-body
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: kasota-fatten
+ stem: .kasota.
+ trans_en: fatten
+ gloss: fatten
+ gramm: vi
+ std: kasota
+ id: kasota-fatten
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: takunuru-slack-off
+ stem: .takunuru.
+ trans_en: slack off
+ gloss: slack_off
+ gramm: vi
+ std: takunuru
+ id: takunuru-slack-off
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: werewereta-swarm-mosquitos
+ stem: .werewereta.
+ trans_en: swarm (mosquitos)
+ gloss: swarm(mosquitos)
+ gramm: vi
+ std: werewereta
+ id: werewereta-swarm-mosquitos
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
