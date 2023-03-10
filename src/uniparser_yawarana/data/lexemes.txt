@@ -127,6 +127,7 @@
  std: apo
  id: apo-later
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: apuni-soap
@@ -148,6 +149,7 @@
  std: arajmatë
  id: arajmate-dangerous
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: arina-trembler
@@ -202,6 +204,7 @@
  std: asakontompene
  id: asakontompene-four
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: asake-two
@@ -212,6 +215,7 @@
  std: asakë
  id: asake-two
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: asere-dry-cough
@@ -428,6 +432,7 @@
  std: enijpëtë
  id: enijpete-one
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: enire-now
@@ -438,6 +443,7 @@
  std: enirë
  id: enire-now
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: entono-from-here
@@ -459,6 +465,7 @@
  std: entë
  id: ente-here-loc
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: epe-escape
@@ -492,6 +499,7 @@
  std: ewinë
  id: ewine-here-all
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: ijpu-summit
@@ -535,6 +543,7 @@
  std: intipijkë
  id: intipijke-small
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: iriyawe-then
@@ -545,6 +554,7 @@
  std: iriyawë
  id: iriyawe-then
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: irejpe-then
@@ -555,6 +565,7 @@
  std: irëjpë
  id: irejpe-then
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: ita-hear
@@ -577,6 +588,7 @@
  std: iyajtëpe
  id: iyajtepe-before
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: jwaka-ill-aq
@@ -708,6 +720,7 @@
  std: kawë
  id: kawe-high
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: kaya-barbasco
@@ -1130,6 +1143,7 @@
  std: morone
  id: morone-hurting
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: moroni-pain
@@ -1217,6 +1231,7 @@
  std: mune
  id: mune-bulbous
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: munta-budding
@@ -1299,6 +1314,7 @@
  std: mïjna
  id: mijna-there-all
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: minte-there-loc
@@ -1309,6 +1325,7 @@
  std: mïntë
  id: minte-there-loc
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: mira-priodontes-maximus
@@ -1409,6 +1426,7 @@
  std: nope
  id: nope-good
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: noro-parrot-sp
@@ -1813,6 +1831,7 @@
  std: pëkëpene
  id: pekepene-alone
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: pimi-neck
@@ -1857,6 +1876,7 @@
  std: romoye
  id: romoye-downriver
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: rotoro-doctor
@@ -1945,6 +1965,7 @@
  std: sarë
  id: sare-here-all
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: sawo-rapids
@@ -1977,6 +1998,7 @@
  std: sukase
  id: sukase-all
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: sukutaka-yucuta
@@ -2021,6 +2043,7 @@
  std: tajme
  id: tajme-ugly
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tajnomo-piaroa
@@ -2187,6 +2210,7 @@
  std: tujnaka
  id: tujnaka-iller
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tuna-water
@@ -2242,6 +2266,7 @@
  std: tëijpo
  id: teijpo-far
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tejta-hollow
@@ -2776,6 +2801,7 @@
  std: yumpe
  id: yumpe-fairly
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: yutu-forest
@@ -2854,6 +2880,7 @@
  std: ëjpïna
  id: ejpina-often
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: ejwate-hammock
@@ -2896,6 +2923,7 @@
  std: ëmpare
  id: empare-already
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: enuku-go-up
@@ -3192,6 +3220,7 @@
  std: yewenke
  id: yewenke-ignorant
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: wara-thus
@@ -3326,6 +3355,7 @@
  std: tawaja
  id: tawaja-thus-neg
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: kanta-sing
@@ -3368,6 +3398,7 @@
  std: ëkëtë
  id: ekete-where
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: eki-chicha
@@ -4195,6 +4226,7 @@
  std: kojpaye
  id: kojpaye-at-night
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: kamprake-big
@@ -4205,6 +4237,7 @@
  std: kamprake
  id: kamprake-big
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: intompijke-small
@@ -4225,6 +4258,7 @@
  std: kwatojpe
  id: kwatojpe-how
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tejpore-tasty
@@ -4235,6 +4269,7 @@
  std: tejpore
  id: tejpore-tasty
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tapire-red
@@ -4245,6 +4280,7 @@
  std: tapire
  id: tapire-red
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: pechine-pochine-odorous
@@ -4255,6 +4291,7 @@
  std: pëchine
  id: pechine-pochine-odorous
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: makepijke-second-mother
@@ -4275,6 +4312,7 @@
  std: mëtëye
  id: meteye-thin
  paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: tepeti-go-plur

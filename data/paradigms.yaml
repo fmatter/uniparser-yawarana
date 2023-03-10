@@ -10,10 +10,6 @@
   gloss: PST
   id: jpepst
 
--paradigm: adv_deriv
- -flex: .<.>
-  gramm:
-
 -paradigm: vi_aspect
  deriv-link: Vi-petiplur
  deriv-link: Vi-petiplur-bare
@@ -330,13 +326,15 @@
   gramm: neg
   gloss: NEG
 
-
-
 -paradigm: adv
+ -flex: .
+  gramm: 
  -flex: .jra
   gloss: NEG
   gramm: neg
   id: jraneg
+
+-paradigm: adv_deriv
  -flex: .
   gramm: 
  deriv-link: A-mi

@@ -2,7 +2,7 @@
 
 -deriv-type: V-ri
  lex: [.]&rinmlz
- stem: [.]ri.<.>//[.]0.<.>
+ stem: [.]ri<.>//[.]0<.>
  paradigm: noun_clitic
  paradigm: n_deriv
  gloss: ACNNMLZ
@@ -71,7 +71,7 @@
 -deriv-type: V-septcp
  lex: [.]&septcp
  stem: [.]se<.>//[.]che<.>
- paradigm: adv
+ paradigm: adv_deriv
  gramm: adv,ptcp
  gloss: PTCP
  id: septcp
@@ -103,6 +103,7 @@
 -deriv-type: N-ke
  lex: [.]&keprop
  stem: [.]ke<.>
+ paradigm: adv_deriv
  paradigm: adv
  gramm: adv,prop
  gloss: PROP

@@ -242,7 +242,7 @@ par_dic = {
     "postp": "postp",
     "coord": "uninfl",
     "intj": "uninfl",
-    "adv": ["adv"],
+    "adv": ["adv", "adv_deriv"],
     "aux": "aux",
     "propn": "uninfl",
     "vt": ["v_tr", "v_tr_nmlz", "vt_aspect"],
