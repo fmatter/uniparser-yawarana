@@ -1805,6 +1805,16 @@
  paradigm: postp
 
 -lexeme
+ lex: pekepene-alone
+ stem: .pëkëpene.
+ trans_en: alone
+ gloss: alone
+ gramm: adv
+ std: pëkëpene
+ id: pekepene-alone
+ paradigm: adv
+
+-lexeme
  lex: pimi-neck
  stem: .pïmï.
  trans_en: neck
@@ -3423,6 +3433,28 @@
  paradigm: uninfl
 
 -lexeme
+ lex: i-put
+ stem: .i.
+ trans_en: put
+ gloss: put
+ gramm: vt
+ std: i
+ id: i-put
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: ki-ugh
+ stem: .kï.
+ trans_en: ugh
+ gloss: ugh
+ gramm: intj
+ std: kï
+ id: ki-ugh
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -4138,6 +4170,18 @@
  gramm: vi
  std: sereka
  id: sereka-become-tired
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: esene-see-self
+ stem: .esene.
+ trans_en: see self
+ gloss: see_self
+ gramm: vi
+ std: esene
+ id: esene-see-self
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect

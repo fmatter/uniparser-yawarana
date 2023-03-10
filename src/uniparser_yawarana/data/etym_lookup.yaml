@@ -126,6 +126,14 @@ ejwenaka-vomit:
   - dt1
   obj:
     "\xEBjwenaka": "\xEBjwenaka"
+esene-see-self:
+  gloss:
+    see_self: ''
+  ids:
+  - ini-see
+  - dt4
+  obj:
+    esene: esene
 kaimota-hunt:
   gloss:
     hunt: ''
