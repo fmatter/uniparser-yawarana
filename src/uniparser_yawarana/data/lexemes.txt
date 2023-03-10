@@ -2440,7 +2440,7 @@
  gramm: n
  std: wena
  id: wena-vomit
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
