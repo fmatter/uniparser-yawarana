@@ -10,11 +10,11 @@
  id: rinmlz
 
 -deriv-type: V-kemi
- lex: [.]&keprop&minmlz
- stem: [.]ke&mï<.>//[.]ke&m<.>
+ lex: [.]rinmlz&keprop&minmlz
+ stem: [.]0&ke&mï<.>//[.]0&ke&m<.>
  gramm: adv,prop
- gloss: PROP&NMLZ
- id: keprop,minmlz
+ gloss: ACNNMLZ&PROP&NMLZ
+ id: rinmlz,keprop,minmlz
  paradigm: mi_clitic
  paradigm: noun_clitic
 
