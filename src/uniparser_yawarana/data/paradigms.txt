@@ -461,6 +461,7 @@
   gloss: IPFV
   id: riipfv
   paradigm: v_jne_pl
+  paradigm: konto_pl
   paradigm: v_jra
  -flex: .jpë<.>
   gramm: pst
