@@ -634,7 +634,7 @@
 
 -lexeme
  lex: kampara-big
- stem: .kampara.
+ stem: .kampara.|.kampra.
  trans_en: big
  gloss: big
  gramm: n
@@ -1608,7 +1608,7 @@
 
 -lexeme
  lex: pano-fmr
- stem: .pano.
+ stem: .pano.|.pan.
  trans_en: FMR
  gloss: FMR
  gramm: part
@@ -1659,6 +1659,17 @@
  id: pata-axe
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: penare-before
+ stem: .penarë.
+ trans_en: before
+ gloss: before
+ gramm: adv
+ std: penarë
+ id: penare-before
+ paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: pene-piranha
@@ -2103,6 +2114,17 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: tarine-fast
+ stem: .tarine.
+ trans_en: fast
+ gloss: fast
+ gramm: adv
+ std: tarine
+ id: tarine-fast
+ paradigm: adv
+ paradigm: adv_deriv
+
+-lexeme
  lex: taro-say
  stem: .taro.|.taj.|.ta.
  trans_en: say
@@ -2133,7 +2155,7 @@
  gramm: n
  std: tawa
  id: tawa-nyctidromus-albicollis
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -2694,7 +2716,7 @@
 
 -lexeme
  lex: yatunu-day
- stem: .yatunu.|.yatum.
+ stem: .yatunu.|.yatum.|.yatun.
  trans_en: day; sun
  gloss: day
  gramm: n
@@ -3115,7 +3137,7 @@
 
 -lexeme
  lex: ne-ints
- stem: .ne.
+ stem: .ne.|.n.
  trans_en: INTS
  gloss: INTS
  gramm: part
@@ -3212,6 +3234,7 @@
  std: të
  id: te-go
  paradigm: të
+ paradigm: vi_aspect
 
 -lexeme
  lex: ke-ins
@@ -3581,6 +3604,110 @@
  std: yarë
  id: yare-alone
  paradigm: postp
+
+-lexeme
+ lex: mmm-yes
+ stem: .mmm.
+ trans_en: yes
+ gloss: yes
+ gramm: intj
+ std: mmm
+ id: mmm-yes
+ paradigm: uninfl
+
+-lexeme
+ lex: wera-like
+ stem: .wëra.|.wara.|.wora.
+ trans_en: like
+ gloss: like
+ gramm: postp
+ std: wëra
+ id: wera-like
+ paradigm: postp
+
+-lexeme
+ lex: po-loc
+ stem: .po.
+ trans_en: LOC
+ gloss: LOC
+ gramm: postp
+ std: po
+ id: po-loc
+ paradigm: postp
+
+-lexeme
+ lex: tewijna-there-ana
+ stem: .tëwïjna.
+ trans_en: there.ANA
+ gloss: there.ANA
+ gramm: adv
+ std: tëwïjna
+ id: tewijna-there-ana
+ paradigm: adv
+ paradigm: adv_deriv
+
+-lexeme
+ lex: kwa-what
+ stem: .kwa.
+ trans_en: what
+ gloss: what
+ gramm: part
+ std: kwa
+ id: kwa-what
+ paradigm: uninfl
+
+-lexeme
+ lex: meki-3-anim-dist
+ stem: .mëkï.
+ trans_en: 3.ANIM.DIST
+ gloss: 3.ANIM.DIST
+ gramm: det,3
+ std: mëkï
+ id: meki-3-anim-dist
+ paradigm: uninfl
+
+-lexeme
+ lex: ese-name
+ stem: .ese.
+ trans_en: name
+ gloss: name
+ gramm: n
+ std: ese
+ id: ese-name
+ paradigm: noun_v_new_ti_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: me-pol
+ stem: .me.
+ trans_en: POL
+ gloss: POL
+ gramm: part
+ std: me
+ id: me-pol
+ paradigm: uninfl
+
+-lexeme
+ lex: awata-surp
+ stem: .awata.
+ trans_en: SURP
+ gloss: SURP
+ gramm: intj
+ std: awata
+ id: awata-surp
+ paradigm: uninfl
+
+-lexeme
+ lex: ewenke-not-know
+ stem: .ewenke.
+ trans_en: not know
+ gloss: not_know
+ gramm: vt
+ std: ewenke
+ id: ewenke-not-know
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: wenaka-vomit
@@ -4087,6 +4214,18 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: keyata-grow
+ stem: .këyata.
+ trans_en: grow
+ gloss: grow
+ gramm: vi
+ std: këyata
+ id: keyata-grow
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: katupuma-pile-up
  stem: .katupuma.
  trans_en: pile up
@@ -4445,6 +4584,15 @@
  gloss: come.IMP
  gramm: vi,imp
  paradigm: uninfl
+
+-lexeme
+ lex: pijkedim
+ stem: pïjkë.//pijkë.
+ trans_en: DIM
+ gloss: DIM
+ gramm: part
+ paradigm: uninfl
+ id: pijkedim
 
 -lexeme
  lex: imi-father

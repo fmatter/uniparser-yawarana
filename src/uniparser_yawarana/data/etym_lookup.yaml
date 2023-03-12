@@ -194,10 +194,18 @@ keyama-raise:
   gloss:
     raise: ''
   ids:
-  - keya-grow
+  - keya-big
   - macaus
   obj:
     "k\xEByama": "k\xEByama"
+keyata-grow:
+  gloss:
+    grow: ''
+  ids:
+  - keya-big
+  - tavbz
+  obj:
+    "k\xEByata": "k\xEByata"
 kirima-thicken:
   gloss:
     thicken: ''

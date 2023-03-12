@@ -24,6 +24,15 @@
  paradigm: uninfl
 
 -lexeme
+ lex: pijkedim
+ stem: pïjkë.//pijkë.
+ trans_en: DIM
+ gloss: DIM
+ gramm: part
+ paradigm: uninfl
+ id: pijkedim
+
+-lexeme
  lex: imi-father
  stem: y&ïmï.
  gloss: LK&father

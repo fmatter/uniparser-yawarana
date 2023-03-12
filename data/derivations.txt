@@ -169,7 +169,7 @@
 
 -deriv-type: Vi-petiplur
  lex: [.]&petiplur
- stem: .[.]pëti.//.[.]pëj.
+ stem: <.>[.]pëti.//.[.]pëj.
  paradigm: v_intr
  gramm: plur,vi
  gloss: PLUR
