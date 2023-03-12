@@ -85,6 +85,7 @@
   id: kontomopl
  -flex: .<.>
   gramm:
+ paradigm: noun_clitic
  paradigm: noun_past
 
 -paradigm: noun_past

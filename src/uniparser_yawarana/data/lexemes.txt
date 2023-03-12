@@ -3711,6 +3711,39 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: se-eval
+ stem: .se.
+ trans_en: EVAL
+ gloss: EVAL
+ gramm: part
+ std: se
+ id: se-eval
+ paradigm: uninfl
+
+-lexeme
+ lex: empami-learn
+ stem: .ëmpamï.|.ëmpan.|.ëmpam.
+ trans_en: learn
+ gloss: learn
+ gramm: vi
+ std: ëmpamï
+ id: empami-learn
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: yakucho-p-a
+ stem: .yakucho.
+ trans_en: P. A.
+ gloss: P._A.
+ gramm: n
+ std: yakucho
+ id: yakucho-p-a
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -4560,6 +4593,18 @@
  std: tëpëti
  id: tepeti-go-plur
  paradigm: të
+
+-lexeme
+ lex: sejpeti-sejpej-dream
+ stem: .sejpëti.|.sejpëj.
+ trans_en: dream
+ gloss: dream
+ gramm: vi
+ std: sejpëti
+ id: sejpeti-sejpej-dream
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: tajne
