@@ -15,3 +15,12 @@
  gloss: RST
  gramm: rst
  id: ma-rst
+
+-clitic
+ lex: ne-ints
+ stem: n
+ trans_en: INTS
+ type: en
+ gloss: INTS
+ gramm: ints
+ id: ne-ints
