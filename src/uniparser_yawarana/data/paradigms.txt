@@ -169,7 +169,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_old_ru_të
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -181,7 +181,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_new_ru_të
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -193,7 +193,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_old_ru_0
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -203,7 +203,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_new_ru_0
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -337,7 +337,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_old_ru_të
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -349,7 +349,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_new_ru_të
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -361,7 +361,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_old_ru_0
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert
@@ -371,7 +371,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_new_ru_0
- -flex: <.>.ru<.>
+ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert

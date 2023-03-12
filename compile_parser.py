@@ -341,7 +341,7 @@ pert_dict = {
   gloss: PERT
   gramm: pert
   id: rupert""",
-    "ru": """ -flex: <.>.ru<.>
+    "ru": """ -flex: <.>.ru<.>//<.>.0<.>
   gloss: PERT
   gramm: pert
   id: rupert""",
