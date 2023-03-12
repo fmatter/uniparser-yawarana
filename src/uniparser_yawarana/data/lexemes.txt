@@ -3079,10 +3079,11 @@
  stem: .tawara.|.tawaraij.
  trans_en: too
  gloss: too
- gramm: part
+ gramm: adv
  std: tawara
  id: tawara-too
- paradigm: uninfl
+ paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: chipeke-therefore
