@@ -78,14 +78,14 @@ chekeyta-fill-with-nits:
   - tavbz
   obj:
     "ch\xEBk\xEByta": "ch\xEBk\xEByta"
-chijchipuruta-move-body:
+chijchiputa-move-body:
   gloss:
     move_body: ''
   ids:
-  - chijchipuru-body-movement
+  - chijchipu-body-movement
   - tavbz
   obj:
-    chijchipuruta: chijchipuruta
+    chijchiputa: chijchiputa
 chiketa-get-chiggers:
   gloss:
     get_chiggers: ''
@@ -398,14 +398,14 @@ sujta-urinate:
   - tavbz
   obj:
     sujta: sujta
-takunuru-slack-off:
+takunuta-slack-off:
   gloss:
     slack_off: ''
   ids:
-  - takunuru-laziness
+  - takunu-laziness
   - tavbz
   obj:
-    takunuru: takunuru
+    takunuta: takunuta
 wanaputa-grow-savannah-grass:
   gloss:
     grow_savannah_grass: ''

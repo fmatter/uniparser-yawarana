@@ -3573,6 +3573,16 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: yare-alone
+ stem: .yarë.
+ trans_en: alone
+ gloss: alone
+ gramm: postp
+ std: yarë
+ id: yare-alone
+ paradigm: postp
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -4029,13 +4039,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: chijchipuruta-move-body
- stem: .chijchipuruta.
+ lex: chijchiputa-move-body
+ stem: .chijchiputa.
  trans_en: move body
  gloss: move_body
  gramm: vi
- std: chijchipuruta
- id: chijchipuruta-move-body
+ std: chijchiputa
+ id: chijchiputa-move-body
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
@@ -4053,13 +4063,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: takunuru-slack-off
- stem: .takunuru.
+ lex: takunuta-slack-off
+ stem: .takunuta.
  trans_en: slack off
  gloss: slack_off
  gramm: vi
- std: takunuru
- id: takunuru-slack-off
+ std: takunuta
+ id: takunuta-slack-off
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
