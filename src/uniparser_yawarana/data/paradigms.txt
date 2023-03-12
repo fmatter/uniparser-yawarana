@@ -738,6 +738,9 @@
   gramm:
  paradigm: v_suff
 
+-paradigm: të_plur
+ deriv-link: Vi-ijplur
+
 -paradigm: v_intr
  -flex: më.<.>
   gramm: 2

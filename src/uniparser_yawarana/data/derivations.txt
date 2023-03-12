@@ -167,6 +167,14 @@
  gloss: DES
  id: podes
 
+-deriv-type: Vi-ijplur
+ lex: [.]&petiplur
+ stem: <.>[.]pëti.//.[.]pëj.
+ paradigm: të
+ gramm: plur,vi
+ gloss: PLUR
+ id: petiplur
+
 -deriv-type: Vi-petiplur
  lex: [.]&petiplur
  stem: <.>[.]pëti.//.[.]pëj.

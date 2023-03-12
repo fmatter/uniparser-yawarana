@@ -3234,7 +3234,7 @@
  std: të
  id: te-go
  paradigm: të
- paradigm: vi_aspect
+ paradigm: të_plur
 
 -lexeme
  lex: ke-ins
