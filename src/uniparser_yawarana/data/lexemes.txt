@@ -4214,13 +4214,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: keyata-grow
- stem: .këyata.
+ lex: keyata-keyeta-grow
+ stem: .këyata.|.këyeta.
  trans_en: grow
  gloss: grow
  gramm: vi
  std: këyata
- id: keyata-grow
+ id: keyata-keyeta-grow
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
