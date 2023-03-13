@@ -58,3 +58,12 @@
  gramm: n,3
  paradigm: uninfl
  trans_en: his/her father
+
+-lexeme
+ lex: nwapeke-behind
+ stem: .nwa&pëkë.
+ gloss: buttocks&on
+ id: nwa-buttock,peke-about
+ gramm: postp
+ paradigm: postp
+ trans_en: behind

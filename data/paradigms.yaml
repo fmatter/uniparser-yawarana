@@ -121,7 +121,7 @@
   gramm: prog
   gloss: PROG.INTR
   id: nepeke
- -flex: .pëkë
+ -flex: .pëkë//.pïkë
   gramm: prog
   gloss: PROG.TR
   id: pekeprog

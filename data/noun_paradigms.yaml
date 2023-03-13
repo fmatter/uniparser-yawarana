@@ -73,7 +73,7 @@
 -paradigm: noun_plural
  -flex: .<.>
   gramm:
- -flex: .tomo<.>//.ton<.>
+ -flex: .tomo<.>//.ton<.>//.tom<.>
   gramm: pl
   gloss: PL
   id: tomopl

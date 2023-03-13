@@ -1126,7 +1126,7 @@
 
 -lexeme
  lex: monkontomo-2pl-pro
- stem: .monkontomo.|.mokontomo.|.mëkontomo.|.montomo.|.mokontom.
+ stem: .monkontomo.|.mokontomo.|.mëkontomo.|.montomo.|.mokontom.|.mokonton.
  trans_en: 2PL.PRO
  gloss: 2PL.PRO
  gramm: pn,2
@@ -1836,6 +1836,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: putu-feel
+ stem: .putu.
+ trans_en: feel
+ gloss: feel
+ gramm: vt
+ std: putu
+ id: putu-feel
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: peke-about
  stem: .pëkë.|.poko.
  trans_en: about
@@ -1910,6 +1922,17 @@
  std: rotoro
  id: rotoro-doctor
  paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: rui-older-brother
+ stem: .rui.
+ trans_en: older brother
+ gloss: older_brother
+ gramm: n
+ std: rui
+ id: rui-older-brother
+ paradigm: noun_c_old_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -2204,6 +2227,18 @@
  paradigm: uninfl
 
 -lexeme
+ lex: tojpa-hit
+ stem: .tojpa.
+ trans_en: hit
+ gloss: hit
+ gramm: vt
+ std: tojpa
+ id: tojpa-hit
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: tonko-play
  stem: .tonko.
  trans_en: play
@@ -2458,6 +2493,17 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: waruwa-hoti
+ stem: .waruwa.
+ trans_en: hoti
+ gloss: hoti
+ gramm: n
+ std: waruwa
+ id: waruwa-hoti
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wasayi-attalea-maripa
  stem: .wasayi.|.wasai.
  trans_en: attalea maripa
@@ -2648,17 +2694,6 @@
  paradigm: postp
 
 -lexeme
- lex: yakono-younger-sister-of-woman
- stem: .yakono.
- trans_en: younger sister of woman
- gloss: younger_sister_of_woman
- gramm: n
- std: yakono
- id: yakono-younger-sister-of-woman
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: yaku-agouti
  stem: .yaku.
  trans_en: agouti
@@ -2681,7 +2716,7 @@
 
 -lexeme
  lex: yamane-make
- stem: .yamanë.|.yaman.
+ stem: .yamanë.|.yaman.|.yamani.
  trans_en: make
  gloss: make
  gramm: vt
@@ -2693,7 +2728,7 @@
 
 -lexeme
  lex: yami-pick-up
- stem: .yamï.
+ stem: .yamï.|.yan.
  trans_en: pick up
  gloss: pick_up
  gramm: vt
@@ -2715,8 +2750,19 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yapijtomo-old
+ stem: .yapijtomo.|.yapijton.
+ trans_en: old
+ gloss: old
+ gramm: n
+ std: yapijtomo
+ id: yapijtomo-old
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: yapechi-grab
- stem: .yapëchi.
+ stem: .yapëchi.|.yapëj.
  trans_en: grab
  gloss: grab
  gramm: vt
@@ -2795,6 +2841,18 @@
  paradigm: postp
 
 -lexeme
+ lex: yawaki-grate
+ stem: .yawakï.
+ trans_en: grate
+ gloss: grate
+ gramm: vt
+ std: yawakï
+ id: yawaki-grate
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: yawanka-kill
  stem: .yawanka.
  trans_en: kill
@@ -2852,15 +2910,28 @@
  paradigm: vt_aspect
 
 -lexeme
- lex: yerepunu-sick
- stem: .yerepunu.|.yerepun.
- trans_en: sick
- gloss: sick
- gramm: n
- std: yerepunu
- id: yerepunu-sick
- paradigm: noun_c_new_ru_0
- paradigm: n_deriv
+ lex: yepema-pay
+ stem: .yepema.
+ trans_en: pay
+ gloss: pay
+ gramm: vt
+ std: yepema
+ id: yepema-pay
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: yojma-mix
+ stem: .yojma.
+ trans_en: mix
+ gloss: mix
+ gramm: vt
+ std: yojma
+ id: yojma-mix
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yojte-fish-with-hook
@@ -2887,12 +2958,24 @@
 
 -lexeme
  lex: yoki-eat-starch
- stem: .yokï.
+ stem: .yokï.|.yoj.
  trans_en: eat (starch)
  gloss: eat(starch)
  gramm: vt
  std: yokï
  id: yoki-eat-starch
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: yopo-find
+ stem: .yopo.
+ trans_en: find
+ gloss: find
+ gramm: vt
+ std: yopo
+ id: yopo-find
  paradigm: v_tr
  paradigm: v_tr_nmlz
  paradigm: vt_aspect
@@ -3302,10 +3385,10 @@
  stem: .ke.
  trans_en: INS
  gloss: INS
- gramm: part
+ gramm: postp
  std: ke
  id: ke-ins
- paradigm: uninfl
+ paradigm: postp
 
 -lexeme
  lex: yewenke-ignorant
@@ -3944,6 +4027,216 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: yakete-cut
+ stem: .yakëtë.
+ trans_en: cut
+ gloss: cut
+ gramm: vt
+ std: yakëtë
+ id: yakete-cut
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: enrike-e
+ stem: .enrike.
+ trans_en: E.
+ gloss: E.
+ gramm: n
+ std: enrike
+ id: enrike-e
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kayupare-k
+ stem: .kayupare.
+ trans_en: K.
+ gloss: K.
+ gramm: n
+ std: kayupare
+ id: kayupare-k
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: parangana-pot
+ stem: .parangana.
+ trans_en: pot
+ gloss: pot
+ gramm: n
+ std: parangana
+ id: parangana-pot
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: tampa-become-angry
+ stem: .tampa.
+ trans_en: become angry
+ gloss: become_angry
+ gramm: vi
+ std: tampa
+ id: tampa-become-angry
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: nanka-find
+ stem: .nanka.
+ trans_en: find
+ gloss: find
+ gramm: vt
+ std: nanka
+ id: nanka-find
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: akono-younger-sister-of-woman
+ stem: .akono.
+ trans_en: younger sister of woman
+ gloss: younger_sister_of_woman
+ gramm: n
+ std: akono
+ id: akono-younger-sister-of-woman
+ paradigm: noun_v_old_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kano-c
+ stem: .kaño.
+ trans_en: C.
+ gloss: C.
+ gramm: n
+ std: kaño
+ id: kano-c
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: chiwapure-c
+ stem: .chiwapure.
+ trans_en: C.
+ gloss: C.
+ gramm: n
+ std: chiwapure
+ id: chiwapure-c
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: nwa-glute
+ stem: .nwa.
+ trans_en: glute
+ gloss: glute
+ gramm: n
+ std: nwa
+ id: nwa-glute
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: enu-eye
+ stem: .ënu.
+ trans_en: eye
+ gloss: eye
+ gramm: n
+ std: ënu
+ id: enu-eye
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: ejne-below
+ stem: .ëjnë.
+ trans_en: below
+ gloss: below
+ gramm: postp
+ std: ëjnë
+ id: ejne-below
+ paradigm: postp
+
+-lexeme
+ lex: neto-n
+ stem: .neto.
+ trans_en: N.
+ gloss: N.
+ gramm: n
+ std: neto
+ id: neto-n
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: erepunu-sick
+ stem: .erepunu.|.erepun.
+ trans_en: sick
+ gloss: sick
+ gramm: n
+ std: erepunu
+ id: erepunu-sick
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: antonio-a
+ stem: .antonio.
+ trans_en: A.
+ gloss: A.
+ gramm: n
+ std: antonio
+ id: antonio-a
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: sarampion-measles
+ stem: .sarampion.
+ trans_en: measles
+ gloss: measles
+ gramm: n
+ std: sarampion
+ id: sarampion-measles
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: pini-neg
+ stem: .pïni.
+ trans_en: NEG
+ gloss: NEG
+ gramm: part
+ std: pïni
+ id: pini-neg
+ paradigm: uninfl
+
+-lexeme
+ lex: santo-s
+ stem: .santo.
+ trans_en: S.
+ gloss: S.
+ gramm: n
+ std: santo
+ id: santo-s
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: melicio-m
+ stem: .melicio.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: melicio
+ id: melicio-m
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -4460,6 +4753,18 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: majta-become-thin
+ stem: .majta.
+ trans_en: become thin
+ gloss: become_thin
+ gramm: vi
+ std: majta
+ id: majta-become-thin
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: katupuma-pile-up
  stem: .katupuma.
  trans_en: pile up
@@ -4857,3 +5162,12 @@
  gramm: n,3
  paradigm: uninfl
  trans_en: his/her father
+
+-lexeme
+ lex: nwapeke-behind
+ stem: .nwa&pëkë.
+ gloss: buttocks&on
+ id: nwa-buttock,peke-about
+ gramm: postp
+ paradigm: postp
+ trans_en: behind

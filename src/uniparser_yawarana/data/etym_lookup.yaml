@@ -342,6 +342,14 @@ keyata-keyeta-grow:
   - tavbz
   obj:
     "k\xEByata; k\xEByeta": "k\xEByata; k\xEByeta"
+majta-become-thin:
+  gloss:
+    become_thin: ''
+  ids:
+  - ''
+  - tavbz
+  obj:
+    majta: majta
 katupuma-pile-up:
   gloss:
     pile_up: ''
