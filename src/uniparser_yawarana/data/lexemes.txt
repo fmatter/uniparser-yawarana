@@ -2183,7 +2183,7 @@
 
 -lexeme
  lex: temeki-defend
- stem: .temekï.
+ stem: .temekï.|.semekï.
  trans_en: defend
  gloss: defend
  gramm: vt

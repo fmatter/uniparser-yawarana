@@ -214,7 +214,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_old_ti_të
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -226,7 +226,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_new_ti_të
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -238,7 +238,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_old_ti_0
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -248,7 +248,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_c_new_ti_0
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -382,7 +382,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_old_ti_të
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -394,7 +394,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_new_ti_të
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -406,7 +406,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_old_ti_0
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
@@ -416,7 +416,7 @@
   paradigm: noun_plural
 
 -paradigm: noun_v_new_ti_0
- -flex: <.>.ti<.>
+ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert
   id: tipert
