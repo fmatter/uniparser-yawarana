@@ -77,6 +77,10 @@
   gloss: IMP
   gramm: imp
   id: keimp
+ -flex: .të|kë
+  gloss: PL|IMP
+  gramm: imp,pl
+  id: keimp,tepl
  -flex: .jrama
   gloss: PROH
   gramm: proh

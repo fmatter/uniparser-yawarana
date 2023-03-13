@@ -4237,6 +4237,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: joti-hoti
+ stem: .joti.
+ trans_en: hoti
+ gloss: hoti
+ gramm: n
+ std: joti
+ id: joti-hoti
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
