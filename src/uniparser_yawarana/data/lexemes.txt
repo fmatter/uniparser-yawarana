@@ -3708,13 +3708,13 @@
  paradigm: adv_deriv
 
 -lexeme
- lex: kwa-what
+ lex: kwa-how
  stem: .kwa.
- trans_en: what
- gloss: what
+ trans_en: how
+ gloss: how
  gramm: part
  std: kwa
- id: kwa-what
+ id: kwa-how
  paradigm: uninfl
 
 -lexeme
@@ -4718,27 +4718,6 @@
  gramm: adv
  std: kamprake
  id: kamprake-big
- paradigm: adv
- paradigm: adv_deriv
-
--lexeme
- lex: intompijke-small
- stem: .intompïjkë.
- trans_en: small
- gloss: small
- gramm: n
- std: intompïjkë
- id: intompijke-small
- paradigm: uninfl
-
--lexeme
- lex: kwatojpe-how
- stem: .kwatojpe.
- trans_en: how
- gloss: how
- gramm: adv
- std: kwatojpe
- id: kwatojpe-how
  paradigm: adv
  paradigm: adv_deriv
 

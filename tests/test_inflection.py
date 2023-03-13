@@ -54,9 +54,10 @@ def test_noun_inflection(parser):
     
 
 def test_postp_inflection(parser):
-    for x in ["upoye", "mëpoye", "ipoye"]:
+    for i, x in enumerate(["upoye", "mëpoye", "ipoye"]):
         form = parse_1(x, parser)
-        print(form)
+        assert "poye-above" == form.lemma
+        assert str(i+1) in form.gramm
 
 
 def test_verb_inflection(parser):
