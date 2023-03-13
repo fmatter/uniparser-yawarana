@@ -1,7 +1,7 @@
 # 2023-03-12
-* corpus tokens: 21866/26211 (83.42%)
-* corpus types: 1261/3338 (37.78%)
-* dictionary wordforms: 74/191 (38.74%)
+* corpus tokens: 22020/26211 (84.01%)
+* corpus types: 1314/3338 (39.36%)
+* dictionary wordforms: 75/191 (39.27%)
 # 2023-03-11
 * corpus tokens: 21591/26211 (82.37%)
 * corpus types: 1189/3338 (35.62%)

@@ -27,7 +27,7 @@
 
 -deriv-type: V-sape
  lex: [.]&sapenmlz
- stem: [.]sapë//[.]saj
+ stem: [.]sapë//[.]saj//[.]chaj
  gramm: n
  gloss: ABS.NMLZ
  id: sapenmlz

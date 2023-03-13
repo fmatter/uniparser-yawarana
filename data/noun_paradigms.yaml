@@ -71,10 +71,8 @@
  paradigm: noun_plural
 
 -paradigm: noun_plural
- -flex: .jne<.>
-  gramm: pl
-  gloss: PL
-  id: jnepl
+ -flex: .<.>
+  gramm:
  -flex: .tomo<.>//.ton<.>
   gramm: pl
   gloss: PL
@@ -85,6 +83,15 @@
   id: kontomopl
  -flex: .<.>
   gramm:
+ paradigm: what_about_second_plural
+
+-paradigm: what_about_second_plural
+ -flex: .<.>
+  gramm:
+ -flex: .jne<.>
+  gramm: pl
+  gloss: PL
+  id: jnepl
  paradigm: noun_clitic
  paradigm: noun_past
 

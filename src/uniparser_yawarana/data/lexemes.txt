@@ -2047,7 +2047,7 @@
 
 -lexeme
  lex: sema-die
- stem: .sëma.
+ stem: .sëma.|.ësëma.
  trans_en: die
  gloss: die
  gramm: vi
@@ -2616,6 +2616,17 @@
  paradigm: pro
 
 -lexeme
+ lex: ya-ra-grandchild
+ stem: .ya'ra.
+ trans_en: grandchild
+ gloss: grandchild
+ gramm: n
+ std: ya'ra
+ id: ya-ra-grandchild
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: yajno-brother-in-law-man
  stem: .yajno.
  trans_en: brother in law (man)
@@ -2829,6 +2840,18 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: yenepe-send-away
+ stem: .yenepe.
+ trans_en: send away
+ gloss: send_away
+ gramm: vt
+ std: yenepe
+ id: yenepe-send-away
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: yerepunu-sick
  stem: .yerepunu.|.yerepun.
  trans_en: sick
@@ -2966,13 +2989,13 @@
 
 -lexeme
  lex: ejwate-hammock
- stem: .ëjwatë.
+ stem: .ëjwatë.|.ejwe.
  trans_en: hammock
  gloss: hammock
  gramm: n
  std: ëjwatë
  id: ejwate-hammock
- paradigm: noun_v_new_ri_0
+ paradigm: noun_v_new_ti_të
  paradigm: n_deriv
 
 -lexeme
@@ -3875,6 +3898,38 @@
  std: irario
  id: irario-h
  paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: miro-m
+ stem: .mïro.
+ trans_en: M.
+ gloss: M.
+ gramm: intj
+ std: mïro
+ id: miro-m
+ paradigm: uninfl
+
+-lexeme
+ lex: akere-relative
+ stem: .akere.
+ trans_en: relative
+ gloss: relative
+ gramm: n
+ std: akere
+ id: akere-relative
+ paradigm: noun_v_new_ti_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: pupuri-bactris-gasipaes
+ stem: .pupuri.
+ trans_en: Bactris gasipaes
+ gloss: Bactris_gasipaes
+ gramm: n
+ std: pupuri
+ id: pupuri-bactris-gasipaes
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
