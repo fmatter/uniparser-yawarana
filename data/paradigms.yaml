@@ -113,6 +113,10 @@
   gloss: FUT
   id: tojpefut
   paradigm: v_jra
+ -flex: .tojpano
+  gramm: fut
+  gloss: FUT.CONCL
+  id: tojpanofut
  -flex: .nëpëkë//.tëpëkë
   gramm: prog
   gloss: PROG.INTR
@@ -212,6 +216,10 @@
   gramm: fut
   gloss: FUT
   id: tojpefut
+ -flex: .tojpano
+  gramm: fut
+  gloss: FUT.CONCL
+  id: tojpanofut
  paradigm: konto_pl
 
 -paradigm: cop_clit
