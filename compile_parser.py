@@ -72,7 +72,9 @@ roots = roots[keep_cols]  # prune columns
 manual_roots = pd.read_csv(
     "data/manual_roots.csv", keep_default_na=False
 )  # roots manually added to the CLDF dataset for some reason
-manual_roots["Gloss"] = manual_roots["Translation"].apply(glossify)
+manual_roots["Gloss"] = manual_roots["Translation"].apply(
+    lambda x: glossify(x.split(SEP)[0])
+)  # get a single gloss
 # manual_roots["Form"] = manual_roots.apply(lambda x: SEP.join(x["Form"]), axis=1)# get variants
 roots = pd.concat([roots, manual_roots])  # combine with dictionary roots
 roots["ID"] = roots.apply(

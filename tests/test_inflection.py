@@ -9,6 +9,9 @@ def test_noun_inflection(parser):
         assert "house" in form.gloss
         assert "poss" in form.gramm
         assert str(i + 1) in form.gloss
+        assert "pst" in parse_1(x+"jpë", parser).gramm
+    assert "npert" in parse_1("ëjtë", parser).gramm
+    assert "pl" in parse_1("uyïwïjjne", parser).gramm
 
     for i, x in enumerate(["umukuru", "mëmukuru", "imukuru"]):  # 'child'
         form = parse_1(x, parser)
@@ -16,6 +19,9 @@ def test_noun_inflection(parser):
         assert "child" in form.gloss
         assert "poss" in form.gramm
         assert str(i + 1) in form.gloss
+        assert "pst" in parse_1(x+"jpë", parser).gramm
+    assert "pl" in parse_1("mukuton", parser).gramm
+    assert "pl" in parse_1("mukutomojne", parser).gramm
 
     for i, x in enumerate(["unajmori", "anajmori", "inajmori"]):  # 'grandmother'
         form = parse_1(x, parser)
@@ -23,20 +29,29 @@ def test_noun_inflection(parser):
         assert "grandmother" in form.gloss
         assert "poss" in form.gramm
         assert str(i + 1) in form.gloss
+        assert "pst" in parse_1(x+"jpë", parser).gramm
 
-    # for i, x in enumerate(["uyawori", "ayawori", "tawori"]): # 'uncle / father in law'
-    #     form = parse_1(x, parser)
-    #     # assert form.lemma == "najmo"
-    #     # assert "grand.mother" in form.gloss
-    #     # assert "poss" in form.gramm
-    #     assert str(i+1) in form.gloss
+    for i, x in enumerate(["uyawori", "ayawori", "tawori"]): # 'uncle / father in law'
+        form = parse_1(x, parser)
+        assert form.lemma == "awo-uncle"
+        assert "uncle" in form.gloss
+        assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
+        assert "pst" in parse_1(x+"jpë", parser).gramm
+    assert "lk" in parse_1("yawori", parser).gramm
 
-    print(parse_1("yeseti", parser))
 
-    # assert "pert" in parse_1("yeseti", parser).gramm
-    # assert "pert" in parse_1("yëri", parser).gramm
-    # assert "NPERT" in parse_1("yëtë", parser).gloss
+    for i, x in enumerate(["uyejweti", "mëyejweti", "tejweti"]): # 'uncle / father in law'
+        form = parse_1(x, parser)
+        assert form.lemma == "ejwe-hammock"
+        assert "hammock" in form.gloss
+        assert "poss" in form.gramm
+        assert str(i+1) in form.gloss
+        assert "pst" in parse_1(x+"jpë", parser).gramm
+    assert "lk" in parse_1("yejweti", parser).gramm
+    assert "npert" in parse_1("ëjwatë", parser).gramm
 
+    
 
 def test_postp_inflection(parser):
     for x in ["upoye", "mëpoye", "ipoye"]:

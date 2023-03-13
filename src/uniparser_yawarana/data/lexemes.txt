@@ -2988,17 +2988,6 @@
  paradigm: adv_deriv
 
 -lexeme
- lex: ejwate-hammock
- stem: .ëjwatë.|.ejwe.
- trans_en: hammock
- gloss: hammock
- gramm: n
- std: ëjwatë
- id: ejwate-hammock
- paradigm: noun_v_new_ti_të
- paradigm: n_deriv
-
--lexeme
  lex: eke-which
  stem: .ëkë.
  trans_en: which
@@ -3930,6 +3919,28 @@
  std: pupuri
  id: pupuri-bactris-gasipaes
  paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: awo-uncle
+ stem: .awo.
+ trans_en: uncle; father in law
+ gloss: uncle
+ gramm: n
+ std: awo
+ id: awo-uncle
+ paradigm: noun_v_old_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: ejwe-hammock
+ stem: .ejwe.|.ëjwa.
+ trans_en: hammock
+ gloss: hammock
+ gramm: n
+ std: ejwe
+ id: ejwe-hammock
+ paradigm: noun_v_new_ti_të
  paradigm: n_deriv
 
 -lexeme
