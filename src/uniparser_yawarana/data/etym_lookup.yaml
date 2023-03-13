@@ -62,6 +62,14 @@ asereta-have-dry-cough:
   - tavbz
   obj:
     asereta: asereta
+atapej-seize-on:
+  gloss:
+    seize_on: ''
+  ids:
+  - ''
+  - dt3
+  obj:
+    "atap\xEBj": "atap\xEBj"
 awochita-form-tumor:
   gloss:
     form_tumor: ''
@@ -162,7 +170,7 @@ katupuma-pile-up:
   gloss:
     pile_up: ''
   ids:
-  - katupu-pile-up
+  - ''
   - macaus
   obj:
     katupuma: katupuma
@@ -194,7 +202,7 @@ keyama-raise:
   gloss:
     raise: ''
   ids:
-  - keya-big
+  - ''
   - macaus
   obj:
     "k\xEByama": "k\xEByama"
@@ -202,7 +210,7 @@ keyata-keyeta-grow:
   gloss:
     grow: ''
   ids:
-  - keya-big
+  - ''
   - tavbz
   obj:
     "k\xEByata; k\xEByeta": "k\xEByata; k\xEByeta"
@@ -210,7 +218,7 @@ kirima-thicken:
   gloss:
     thicken: ''
   ids:
-  - kiri-thicken
+  - ''
   - macaus
   obj:
     "k\xEFr\xEFma": "k\xEFr\xEFma"
@@ -242,7 +250,7 @@ meteta-thin:
   gloss:
     thin: ''
   ids:
-  - mete-thin
+  - ''
   - tavbz
   obj:
     "m\xEBt\xEBta": "m\xEBt\xEBta"
@@ -314,7 +322,7 @@ pejma-bewitch:
   gloss:
     bewitch: ''
   ids:
-  - pej-witch
+  - ''
   - macaus
   obj:
     pejma: pejma
@@ -374,19 +382,11 @@ senka-finish:
   - dt2
   obj:
     "s\xEBnka": "s\xEBnka"
-sere-become-scared:
-  gloss:
-    become_scared: ''
-  ids:
-  - erepi-scare
-  - dt2
-  obj:
-    sere: sere
 sereka-become-tired:
   gloss:
     become_tired: ''
   ids:
-  - ereka-tire
+  - ''
   - dt2
   obj:
     sereka: sereka
@@ -450,15 +450,23 @@ yajwema-sweeten:
   gloss:
     sweeten: ''
   ids:
-  - yajwe-become-sweet
+  - ''
   - macaus
   obj:
     yajwema: yajwema
+yakarama-tell:
+  gloss:
+    tell: ''
+  ids:
+  - yakara-believe
+  - macaus
+  obj:
+    yakarama: yakarama
 yapima-make-worse:
   gloss:
     make_worse: ''
   ids:
-  - yapi-become-worse
+  - ''
   - macaus
   obj:
     yapima: yapima
@@ -466,7 +474,7 @@ yatuma-warm:
   gloss:
     warm: ''
   ids:
-  - yatu-become-warm
+  - ''
   - macaus
   obj:
     yatuma: yatuma
@@ -474,7 +482,7 @@ yerema-feed:
   gloss:
     feed: ''
   ids:
-  - yere-eat
+  - ''
   - macaus
   obj:
     yerema: yerema

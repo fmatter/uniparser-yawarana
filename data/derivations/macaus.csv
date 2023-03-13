@@ -1,10 +1,11 @@
-Form,Translation,Base_Stem,Translation_es
-katupu+ma,pile up,katupu-pile-up,Amontonar; acumular; reunir
-këya+ma,raise,keya-big,"Criar ( niño, animal); hacer crecer"
-kïrï+ma,thicken,kiri-thicken,"espesar (agregando casabe, yuca)"
-moronta+ma,cause pain,moronta-hurt,"causa dolor, hacer sufrir"
-pej+ma,bewitch,pej-witch,Brujear para dañar
-yajwe+ma,sweeten,yajwe-become-sweet,Endulzar
-yapi+ma,make worse,yapi-become-worse,empeorar (enfermo)
-yatu+ma,warm,yatu-become-warm,Calentar (comida)
-yere+ma,feed,yere-eat,dar de comer
+Form,Translation,Base_Stem,Translation_es,Base_Root
+katupu+ma,pile up,,Amontonar; acumular; reunir,katupu-pile-up
+këya+ma,raise,,"Criar ( niño, animal); hacer crecer",keya-big
+kïrï+ma,thicken,,"espesar (agregando casabe, yuca)",kiri-thicken
+moronta+ma,cause pain,moronta-hurt,"causa dolor, hacer sufrir",
+pej+ma,bewitch,,Brujear para dañar,pej-witch
+yajwe+ma,sweeten,,Endulzar,yajwe-become-sweet
+yapi+ma,make worse,,empeorar (enfermo),yapi-become-worse
+yatu+ma,warm,,Calentar (comida),yatu-become-warm
+yere+ma,feed,,dar de comer,yere-eat
+yakara+ma,tell,yakara-believe,contar,

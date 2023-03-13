@@ -1792,6 +1792,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pojte-want
+ stem: .pojtë.
+ trans_en: want
+ gloss: want
+ gramm: vt
+ std: pojtë
+ id: pojte-want
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: poroko-basket-sp
  stem: .poroko.
  trans_en: basket.sp
@@ -2170,6 +2182,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: temeki-defend
+ stem: .temekï.
+ trans_en: defend
+ gloss: defend
+ gramm: vt
+ std: temekï
+ id: temeki-defend
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: ti-hsy
  stem: .ti.
  trans_en: HSY
@@ -2466,6 +2490,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: wenkepi-forget
+ stem: .wenkepï.|.wënkepï.
+ trans_en: forget
+ gloss: forget
+ gramm: vi
+ std: wenkepï
+ id: wenkepi-forget
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: wepi-come
  stem: .wepï.|.wej.
  trans_en: come
@@ -2473,6 +2509,18 @@
  gramm: vi
  std: wepï
  id: wepi-come
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: wereta-arrive
+ stem: .wereta.
+ trans_en: arrive
+ gloss: arrive
+ gramm: vi
+ std: wereta
+ id: wereta-arrive
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
@@ -2534,6 +2582,18 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: we-kill
+ stem: .wë.
+ trans_en: kill
+ gloss: kill
+ gramm: vt
+ std: wë
+ id: we-kill
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: winiki-sleep
  stem: .wïnïkï.|.winik.|.wïnïj.
  trans_en: sleep
@@ -2575,18 +2635,6 @@
  std: yaka
  id: yaka-all
  paradigm: postp
-
--lexeme
- lex: yakarama-tell
- stem: .yakarama.
- trans_en: tell
- gloss: tell
- gramm: vt
- std: yakarama
- id: yakarama-tell
- paradigm: v_tr
- paradigm: v_tr_nmlz
- paradigm: vt_aspect
 
 -lexeme
  lex: yakono-younger-sister-of-woman
@@ -3036,7 +3084,7 @@
 
 -lexeme
  lex: yawe-loc
- stem: .yawë.|.yawo.
+ stem: .yawë.|.yawo.|.chawë.
  trans_en: LOC
  gloss: LOC
  gramm: postp
@@ -3046,7 +3094,7 @@
 
 -lexeme
  lex: yawe-ctmp
- stem: .yawë.|.yawo.
+ stem: .yawë.|.yawo.|.chawë.
  trans_en: CTMP
  gloss: CTMP
  gramm: postp
@@ -3699,18 +3747,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: ewenke-not-know
- stem: .ewenke.
- trans_en: not know
- gloss: not_know
- gramm: vt
- std: ewenke
- id: ewenke-not-know
- paradigm: v_tr
- paradigm: v_tr_nmlz
- paradigm: vt_aspect
-
--lexeme
  lex: se-eval
  stem: .se.
  trans_en: EVAL
@@ -3741,6 +3777,104 @@
  std: yakucho
  id: yakucho-p-a
  paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: pedrito-p
+ stem: .pedrito.
+ trans_en: P.
+ gloss: P.
+ gramm: n
+ std: pedrito
+ id: pedrito-p
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kuruj-k
+ stem: .kuruj.
+ trans_en: K.
+ gloss: K.
+ gramm: intj
+ std: kuruj
+ id: kuruj-k
+ paradigm: uninfl
+
+-lexeme
+ lex: akino-younger-brother
+ stem: .akino.
+ trans_en: younger brother
+ gloss: younger_brother
+ gramm: n
+ std: akino
+ id: akino-younger-brother
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: eee-hey
+ stem: .eee.
+ trans_en: hey
+ gloss: hey
+ gramm: intj
+ std: eee
+ id: eee-hey
+ paradigm: uninfl
+
+-lexeme
+ lex: pajarito-p
+ stem: .pajarito.
+ trans_en: P.
+ gloss: P.
+ gramm: n
+ std: pajarito
+ id: pajarito-p
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: yakara-believe
+ stem: .yakara.
+ trans_en: believe
+ gloss: believe
+ gramm: vi
+ std: yakara
+ id: yakara-believe
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: tajnon-piaroa
+ stem: .tajnon.
+ trans_en: Piaroa
+ gloss: Piaroa
+ gramm: n
+ std: tajnon
+ id: tajnon-piaroa
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: tamanaku-t
+ stem: .tamanaku.
+ trans_en: T.
+ gloss: T.
+ gramm: n
+ std: tamanaku
+ id: tamanaku-t
+ paradigm: noun_c_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: irario-h
+ stem: .irario.
+ trans_en: H.
+ gloss: H.
+ gramm: n
+ std: irario
+ id: irario-h
+ paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -4368,6 +4502,18 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: yakarama-tell
+ stem: .yakarama.
+ trans_en: tell
+ gloss: tell
+ gramm: vt
+ std: yakarama
+ id: yakarama-tell
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: ejnai-make-self
  stem: .ëjnai.
  trans_en: make self
@@ -4399,18 +4545,6 @@
  gramm: vi
  std: serema
  id: serema-eat
- paradigm: v_intr
- paradigm: v_intr_nmlz
- paradigm: vi_aspect
-
--lexeme
- lex: sere-become-scared
- stem: .sere.
- trans_en: become scared
- gloss: become_scared
- gramm: vi
- std: sere
- id: sere-become-scared
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
@@ -4483,6 +4617,18 @@
  gramm: vi
  std: esene
  id: esene-sene-see-self
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: atapej-seize-on
+ stem: .atapëj.
+ trans_en: seize on
+ gloss: seize_on
+ gramm: vi
+ std: atapëj
+ id: atapej-seize-on
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
