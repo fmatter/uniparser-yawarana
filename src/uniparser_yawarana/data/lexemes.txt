@@ -1869,6 +1869,18 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: penaka-return
+ stem: .pënaka.
+ trans_en: return
+ gloss: return
+ gramm: vt
+ std: pënaka
+ id: penaka-return
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: pimi-neck
  stem: .pïmï.
  trans_en: neck
@@ -2494,7 +2506,7 @@
 
 -lexeme
  lex: waruwa-hoti
- stem: .waruwa.
+ stem: .waruwa.|.waruwaru.
  trans_en: hoti
  gloss: hoti
  gramm: n
@@ -2748,6 +2760,18 @@
  id: yane-mother
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: yaniki-call
+ stem: .yanïkï.|.yanïj.
+ trans_en: call
+ gloss: call
+ gramm: vt
+ std: yanïkï
+ id: yaniki-call
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yapijtomo-old
@@ -3983,17 +4007,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: akere-relative
- stem: .akere.
- trans_en: relative
- gloss: relative
- gramm: n
- std: akere
- id: akere-relative
- paradigm: noun_v_new_ti_0
- paradigm: n_deriv
-
--lexeme
  lex: pupuri-bactris-gasipaes
  stem: .pupuri.
  trans_en: Bactris gasipaes
@@ -4245,6 +4258,50 @@
  std: joti
  id: joti-hoti
  paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: akere-relative
+ stem: .akërë.|.akere.
+ trans_en: relative
+ gloss: relative
+ gramm: n
+ std: akërë
+ id: akere-relative
+ paradigm: noun_v_new_ti_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kawaratu-k
+ stem: .kawaratu.
+ trans_en: K.
+ gloss: K.
+ gramm: n
+ std: kawaratu
+ id: kawaratu-k
+ paradigm: noun_c_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: o-game-food
+ stem: .o.
+ trans_en: game food
+ gloss: game_food
+ gramm: n
+ std: o
+ id: o-game-food
+ paradigm: noun_v_new_ti_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: u-starchy-food
+ stem: .u.
+ trans_en: starchy food
+ gloss: starchy_food
+ gramm: n
+ std: u
+ id: u-starchy-food
+ paradigm: noun_v_new_ru_0
  paradigm: n_deriv
 
 -lexeme
@@ -5011,6 +5068,18 @@
  gramm: vi
  std: atapëj
  id: atapej-seize-on
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: ejpenaka-return
+ stem: .ëjpënaka.
+ trans_en: return
+ gloss: return
+ gramm: vi
+ std: ëjpënaka
+ id: ejpenaka-return
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect

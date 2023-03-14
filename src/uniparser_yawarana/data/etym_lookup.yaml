@@ -510,6 +510,14 @@ atapej-seize-on:
   - dt3
   obj:
     "atap\xEBj": "atap\xEBj"
+ejpenaka-return:
+  gloss:
+    return: ''
+  ids:
+  - penaka-return
+  - dt1
+  obj:
+    "\xEBjp\xEBnaka": "\xEBjp\xEBnaka"
 0:
   gloss:
     at_night: ''
