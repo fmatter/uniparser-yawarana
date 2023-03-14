@@ -3439,15 +3439,14 @@
  paradigm: postp
 
 -lexeme
- lex: yewenke-ignorant
- stem: .yewenke.
+ lex: ewenke-ignorant
+ stem: .ewenke.
  trans_en: ignorant
  gloss: ignorant
- gramm: adv
- std: yewenke
- id: yewenke-ignorant
- paradigm: adv
- paradigm: adv_deriv
+ gramm: postp
+ std: ewenke
+ id: ewenke-ignorant
+ paradigm: postp
 
 -lexeme
  lex: wara-thus
