@@ -4665,13 +4665,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: yerepunta-become-sick
- stem: .yerepunta.
+ lex: erepunta-become-sick
+ stem: .erepunta.
  trans_en: become sick
  gloss: become_sick
  gramm: vi
- std: yerepunta
- id: yerepunta-become-sick
+ std: erepunta
+ id: erepunta-become-sick
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect

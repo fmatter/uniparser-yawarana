@@ -78,14 +78,14 @@ yokota-grow-pimple:
   - tavbz
   obj:
     yokota: yokota
-yerepunta-become-sick:
+erepunta-become-sick:
   gloss:
     become_sick: ''
   ids:
-  - yerepunu-sick
+  - erepunu-sick
   - tavbz
   obj:
-    yerepunta: yerepunta
+    erepunta: erepunta
 wereyta-cloud-over:
   gloss:
     cloud_over: ''

@@ -151,7 +151,6 @@
   gloss: PL
   id: jnepl
 
-
 -paradigm: konto_pl
  -flex: .
   gramm:
@@ -307,6 +306,10 @@
   gloss: 1|LK
   gramm: 1,poss
   id: u1,ylk
+ -flex: t.<.>
+  gloss: 3
+  gramm: 3
+  id: i3  
  -flex: .<.>
   gramm:
  paradigm: v_suff
