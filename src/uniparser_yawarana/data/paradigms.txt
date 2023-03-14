@@ -784,14 +784,22 @@
  paradigm: v_suff
 
 -paradigm: postp
- -flex: më|y.<.>
-  gloss: 2|LK
-  gramm: 2,lk
-  id: me2,ylk
+ -flex: u.<.>
+  gramm: 1
+  gloss: 1
+  id: u1
  -flex: u|y.<.>
   gloss: 1|LK
   gramm: 1
   id: u1,ylk
+ -flex: më.<.>
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: më|y.<.>
+  gloss: 2|LK
+  gramm: 2,lk
+  id: me2,ylk
  -flex: i.<.>//t.<.>
   gramm: 3
   gloss: 3

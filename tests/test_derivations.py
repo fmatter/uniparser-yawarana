@@ -76,7 +76,7 @@ def test_sapë(parser):
 
 
 def test_jpë(parser):
-    for ana in parser.analyze_words("tujpë"):
+    for ana in parser.analyze_words("inijpë"):
         if "PST.ACNNMLZ" in ana.gloss:
             assert "n" in ana.gramm.split(",")
         else:
