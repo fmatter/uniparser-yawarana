@@ -129,10 +129,11 @@
   gramm: prog
   gloss: PROG.TR
   id: pekeprog
- -flex: .ja
+ -flex: .ja<.>
   gloss: NEG
   gramm: neg
   id: janeg
+  paradigm: konto_pl
  -flex: .sarë
   gramm: imn
   gloss: IMN
