@@ -127,7 +127,7 @@
  deriv-link: N-ke
  deriv-link: N-dim
 
- -paradigm: n_priv
-  -flex: .
-   gramm:
-  deriv-link: N-jra
+-paradigm: n_priv
+ -flex: .
+  gramm:
+ deriv-link: N-jra

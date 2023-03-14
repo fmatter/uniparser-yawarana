@@ -41,10 +41,12 @@
 
 -deriv-type: V-topo
  lex: [.]&toponmlz
- stem: <.>[.]topo<.>//<.>[.]toj<.>
+ stem: [.]topo<.>//[.]toj<.>
  gramm: n
  gloss: CIRC.NMLZ
  id: toponmlz
+ paradigm: n_priv
+ paradigm: noun_past
 
 -deriv-type: V-ni
  lex: [.]&ninmlz
@@ -128,7 +130,7 @@
 
 -deriv-type: N-jra
  lex: [.]&jrapriv
- stem: [.]jra<.>
+ stem: [.]jra
  gramm: priv
  gloss: PRIV
  id: jrapriv
