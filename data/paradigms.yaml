@@ -155,7 +155,7 @@
 -paradigm: konto_pl
  -flex: .
   gramm:
- -flex: .kontomo//.konton
+ -flex: .kontomo//.konton//.kontom
   gramm: pl
   gloss: PL
   id: kontomopl

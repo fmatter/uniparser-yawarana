@@ -251,7 +251,7 @@
 
 -lexeme
  lex: ati-plot-of-cultivated-land
- stem: .ati.
+ stem: .ati.|.atï.
  trans_en: plot of cultivated land
  gloss: plot_of_cultivated_land
  gramm: n
@@ -1658,7 +1658,7 @@
  gramm: n
  std: pata
  id: pata-village
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_new_ri_të
  paradigm: n_deriv
 
 -lexeme
@@ -1671,6 +1671,18 @@
  id: pata-axe
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: pate-cross
+ stem: .patë.
+ trans_en: cross
+ gloss: cross
+ gramm: vt
+ std: patë
+ id: pate-cross
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: penare-before
@@ -2047,6 +2059,18 @@
  id: sawo-rapids
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: sepami-get-married
+ stem: .sepamï.|.sepan.
+ trans_en: get married
+ gloss: get_married
+ gramm: vi
+ std: sepamï
+ id: sepami-get-married
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: sere-bitter-manioc
@@ -2505,6 +2529,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: waraijto-husband
+ stem: .waraijto.
+ trans_en: husband
+ gloss: husband
+ gramm: n
+ std: waraijto
+ id: waraijto-husband
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: warota-work
  stem: .warota.
  trans_en: work
@@ -2561,6 +2596,18 @@
  paradigm: postp
 
 -lexeme
+ lex: weka-defecate
+ stem: .weka.
+ trans_en: defecate
+ gloss: defecate
+ gramm: vi
+ std: weka
+ id: weka-defecate
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: wena-vomit
  stem: .wena.
  trans_en: vomit
@@ -2573,7 +2620,7 @@
 
 -lexeme
  lex: wenkepi-forget
- stem: .wenkepï.|.wënkepï.
+ stem: .wenkepï.|.wënkepï.|.wënkej.
  trans_en: forget
  gloss: forget
  gramm: vi
@@ -2639,6 +2686,18 @@
  id: weroro-dog
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: weseyu-be-brave
+ stem: .weseyu.|.wesei.
+ trans_en: be brave
+ gloss: be_brave
+ gramm: vi
+ std: weseyu
+ id: weseyu-be-brave
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wiriyamo-woman
@@ -2728,6 +2787,18 @@
  std: yaka
  id: yaka-all
  paradigm: postp
+
+-lexeme
+ lex: yaka-dig-out
+ stem: .yaka.
+ trans_en: dig out
+ gloss: dig_out
+ gramm: vt
+ std: yaka
+ id: yaka-dig-out
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yaku-agouti
@@ -3060,6 +3131,18 @@
  id: ye-tooth
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: yempeka-offend
+ stem: .yëmpëka.
+ trans_en: offend
+ gloss: offend
+ gramm: vt
+ std: yëmpëka
+ id: yempeka-offend
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yeni-drink
@@ -3702,13 +3785,13 @@
  paradigm: vt_aspect
 
 -lexeme
- lex: ki-ugh
- stem: .kï.|.kë.
+ lex: kij-ugh
+ stem: .kïj.|.kï.|.kë.
  trans_en: ugh
  gloss: ugh
  gramm: intj
- std: kï
- id: ki-ugh
+ std: kïj
+ id: kij-ugh
  paradigm: uninfl
 
 -lexeme
@@ -4385,6 +4468,83 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: kukurito-k
+ stem: .kukurito.
+ trans_en: K.
+ gloss: K.
+ gramm: n
+ std: kukurito
+ id: kukurito-k
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: wine-from
+ stem: .wïnë.
+ trans_en: from
+ gloss: from
+ gramm: postp
+ std: wïnë
+ id: wine-from
+ paradigm: postp
+
+-lexeme
+ lex: kunawo-brother-in-law
+ stem: .kuñawo.
+ trans_en: brother in law
+ gloss: brother_in_law
+ gramm: n
+ std: kuñawo
+ id: kunawo-brother-in-law
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: yamuwati-y
+ stem: .yamuwati.
+ trans_en: Y.
+ gloss: Y.
+ gramm: n
+ std: yamuwati
+ id: yamuwati-y
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: merisiyo-m
+ stem: .merisiyo.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: merisiyo
+ id: merisiyo-m
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kanejte-weave
+ stem: .kanejtë.
+ trans_en: weave
+ gloss: weave
+ gramm: vi
+ std: kanejtë
+ id: kanejte-weave
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: indigena-indigenous-person
+ stem: .indigena.
+ trans_en: indigenous person
+ gloss: indigenous_person
+ gramm: n
+ std: indigena
+ id: indigena-indigenous-person
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -4913,6 +5073,18 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: paijta-swell-river
+ stem: .paijta.
+ trans_en: swell (river)
+ gloss: swell(river)
+ gramm: vi
+ std: paijta
+ id: paijta-swell-river
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: katupuma-pile-up
  stem: .katupuma.
  trans_en: pile up
@@ -5261,6 +5433,18 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
+
+-lexeme
+ lex: mujnajte-bury
+ stem: .mujnajtë.
+ trans_en: bury
+ gloss: bury
+ gramm: vt
+ std: mujnajtë
+ id: mujnajte-bury
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: tajne

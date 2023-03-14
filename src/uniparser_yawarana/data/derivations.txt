@@ -57,7 +57,7 @@
 
 -deriv-type: A-ano
  lex: [.]&anonmlz
- stem: [.]no<.>//[.]n<.>//[.]ano<.>//[.]na<.>
+ stem: [.]no<.>//[.]n<.>//[.]an<.>//[.]ano<.>//[.]na<.>
  gramm: n
  gloss: NMLZ
  id: anonmlz

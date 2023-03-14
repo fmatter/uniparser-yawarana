@@ -350,6 +350,14 @@ majta-become-thin:
   - tavbz
   obj:
     majta: majta
+paijta-swell-river:
+  gloss:
+    swell(river): ''
+  ids:
+  - ''
+  - tavbz
+  obj:
+    paijta: paijta
 katupuma-pile-up:
   gloss:
     pile_up: ''
@@ -590,3 +598,11 @@ ejpenaka-return:
   - petiplur
   obj:
     "sejp\xEBti; sejp\xEBj": "sejp\xEBti; sejp\xEBj"
+9:
+  gloss:
+    bury: ''
+  ids:
+  - mujna-grave
+  - jtevbz
+  obj:
+    "mujnajt\xEB": "mujnajt\xEB"
