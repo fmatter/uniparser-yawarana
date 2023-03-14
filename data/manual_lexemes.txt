@@ -8,6 +8,24 @@
  id: ta-3,jnepl
 
 -lexeme
+ lex: tewijne
+ stem: tëwï&jne.
+ trans_en: they
+ gloss: 3&PL
+ gramm: pn,3
+ paradigm: pro
+ id: tewi-3pro,jnepl
+
+-lexeme
+ lex: tese
+ stem: t&ese.
+ trans_en: called
+ gloss: PROP&name
+ gramm: prop
+ paradigm: n_deriv
+ id: ese-name
+
+-lexeme
  lex: echi-be
  stem: sejkë.
  trans_en: be!

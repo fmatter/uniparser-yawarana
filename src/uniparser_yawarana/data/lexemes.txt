@@ -591,6 +591,18 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: iyajte-care-for
+ stem: .iyajtë.
+ trans_en: care for
+ gloss: care_for
+ gramm: vt
+ std: iyajtë
+ id: iyajte-care-for
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: jwaka-ill-aq
  stem: .jwaka.
  trans_en: ILL.AQ; LOC.AQ
@@ -2527,6 +2539,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: wati-burn
+ stem: .watï.|.waj.
+ trans_en: burn
+ gloss: burn
+ gramm: vi
+ std: watï
+ id: wati-burn
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: wawe-loc-aq
  stem: .wawë.
  trans_en: LOC.AQ
@@ -3039,7 +3063,7 @@
 
 -lexeme
  lex: yeni-drink
- stem: .yëni.|.yeni.
+ stem: .yëni.|.yeni.|.yën.
  trans_en: drink
  gloss: drink
  gramm: vt
@@ -4008,7 +4032,7 @@
 
 -lexeme
  lex: pupuri-bactris-gasipaes
- stem: .pupuri.
+ stem: .pupuri.|.pïpïri.|.pïpïrï.
  trans_en: Bactris gasipaes
  gloss: Bactris_gasipaes
  gramm: n
@@ -4302,6 +4326,63 @@
  std: u
  id: u-starchy-food
  paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: wintika-disappear
+ stem: .wintika.
+ trans_en: disappear
+ gloss: disappear
+ gramm: vi
+ std: wintika
+ id: wintika-disappear
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: javier-j
+ stem: .javier.
+ trans_en: J.
+ gloss: J.
+ gramm: n
+ std: javier
+ id: javier-j
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: wanita-j
+ stem: .Wanita.
+ trans_en: J.
+ gloss: J.
+ gramm: n
+ std: Wanita
+ id: wanita-j
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: sawankuwi-die
+ stem: .sawankuwi.|.sawankui.
+ trans_en: die
+ gloss: die
+ gramm: vi
+ std: sawankuwi
+ id: sawankuwi-die
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: yawarana-yawarana
+ stem: .yawarana.
+ trans_en: Yawarana
+ gloss: Yawarana
+ gramm: n
+ std: yawarana
+ id: yawarana-yawarana
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -5190,6 +5271,24 @@
  gramm: pn,3
  paradigm: pro
  id: ta-3,jnepl
+
+-lexeme
+ lex: tewijne
+ stem: tëwï&jne.
+ trans_en: they
+ gloss: 3&PL
+ gramm: pn,3
+ paradigm: pro
+ id: tewi-3pro,jnepl
+
+-lexeme
+ lex: tese
+ stem: t&ese.
+ trans_en: called
+ gloss: PROP&name
+ gramm: prop
+ paradigm: n_deriv
+ id: ese-name
 
 -lexeme
  lex: echi-be
