@@ -54,16 +54,29 @@ def test_noun_inflection(parser):
     
 
 def test_postp_inflection(parser):
-    for i, x in enumerate(["upoye", "mëpoye", "ipoye"]):
+    for i, x in enumerate(["upoye", "mëpoye", "ipoye"]): # i-class
         form = parse_1(x, parser)
         assert "poye-above" == form.lemma
         assert str(i+1) in form.gramm
+        assert "neg" in parse_1(x+"jra", parser).gramm
+    for i, x in enumerate(["uyewenke", "mëyewenke", "tewenke"]): # t-class
+        form = parse_1(x, parser)
+        assert "ewenke-ignorant" == form.lemma
+        assert str(i+1) in form.gramm
+        assert "neg" in parse_1(x+"jra", parser).gramm
+    for i, x in enumerate(["uwïnë", "mëwïnë", "tëwïnë"]): # të-class
+        form = parse_1(x, parser)
+        assert "wine-from" == form.lemma
+        assert str(i+1) in form.gramm
+        assert "neg" in parse_1(x+"jra", parser).gramm
 
 
 def test_verb_inflection(parser):
     for lemma, gloss, gramm, verb_set in [
         ("yerema-feed", "feed", "ipfv", ["uyeremari", "mëyeremari", "tayeremari"]),
         ("senejka-stay", "stay", "ipfv", ["usenejkari", "mësenejkari", "senejkari"]),
+        ("ejneme-remain", "remain", "ipfv", ["uëjnëmëri", "mëëjnëri", "ëjnëri"]),
+        ("akita-fill-with-worms", "fill_with_worms", "ipfv", ["uakïtari", "mëakïtari", "akïtari"]),
     ]:
         for i, x in enumerate(verb_set):
             forms = parser.analyze_words(x)
@@ -96,3 +109,9 @@ def test_tam_suffixes(parser):
             assert analysis.lemma == lemma
             assert analysis.gloss == gloss
             assert set(analysis.gramm.split(",")) == set(gramm.split(","))
+
+def test_pronouns(parser):
+    form = parse_1("wïrë", parser)
+    assert "wire-1pro" == form.lemma
+    assert "1" in form.gramm
+    assert "pst" in parse_1("wïrë"+"jpë", parser).gramm
