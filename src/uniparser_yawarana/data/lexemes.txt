@@ -1043,6 +1043,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: mare-still
+ stem: .marë.|.mare.
+ trans_en: still
+ gloss: still
+ gramm: adv
+ std: marë
+ id: mare-still
+ paradigm: adv
+ paradigm: adv_deriv
+
+-lexeme
  lex: mayawaka-m
  stem: .mayawaka.
  trans_en: M.
