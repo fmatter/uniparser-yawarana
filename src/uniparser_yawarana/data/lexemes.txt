@@ -2084,6 +2084,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: sojpa-take-out
+ stem: .sojpa.
+ trans_en: take out
+ gloss: take_out
+ gramm: vt
+ std: sojpa
+ id: sojpa-take-out
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: sukase-all
  stem: .sukase.
  trans_en: all
@@ -2835,7 +2847,7 @@
 
 -lexeme
  lex: yami-pick-up
- stem: .yamï.|.yan.
+ stem: .yamï.|.yan.|.yam.
  trans_en: pick up
  gloss: pick_up
  gramm: vt
@@ -3164,6 +3176,18 @@
  gramm: vt
  std: yënë
  id: yene-eat-meat
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: yewuku-answer
+ stem: .yëwuku.
+ trans_en: answer
+ gloss: answer
+ gramm: vt
+ std: yëwuku
+ id: yewuku-answer
  paradigm: v_tr
  paradigm: v_tr_nmlz
  paradigm: vt_aspect
@@ -4554,6 +4578,17 @@
  std: pëkëpene
  id: pekepene-alone
  paradigm: postp
+
+-lexeme
+ lex: margarita-m
+ stem: .margarita.
+ trans_en: M.
+ gloss: M.
+ gramm: n
+ std: margarita
+ id: margarita-m
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: wenaka-vomit
