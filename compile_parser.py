@@ -253,7 +253,7 @@ par_dic = {
     "vi": ["v_intr", "v_intr_nmlz", "vi_aspect"],
     "ideo": "uninfl",
     "rel": "uninfl",
-    "det": "uninfl",
+    "dem": "uninfl",
 }
 # different POS have different paradigms, nouns are more complex
 def get_paradigms(key):

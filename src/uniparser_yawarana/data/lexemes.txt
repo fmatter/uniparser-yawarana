@@ -408,7 +408,7 @@
  stem: .eni.|.seni.|.en.
  trans_en: PROX.INAN
  gloss: PROX.INAN
- gramm: det
+ gramm: dem
  std: eni
  id: eni-prox-inan
  paradigm: uninfl
@@ -418,7 +418,7 @@
  stem: .enijne.
  trans_en: PROX.INAN.PL
  gloss: PROX.INAN.PL
- gramm: det
+ gramm: dem
  std: enijne
  id: enijne-prox-inan-pl
  paradigm: uninfl
@@ -883,7 +883,7 @@
  stem: .kërë.
  trans_en: PROX.ANIM
  gloss: PROX.ANIM
- gramm: det
+ gramm: dem
  std: kërë
  id: kere-prox-anim
  paradigm: uninfl
@@ -904,7 +904,7 @@
  stem: .kërësantomo.
  trans_en: PROX.ANIM.PL
  gloss: PROX.ANIM.PL
- gramm: det
+ gramm: dem
  std: kërësantomo
  id: keresantomo-prox-anim-pl
  paradigm: uninfl
@@ -1090,7 +1090,7 @@
  stem: .michi.
  trans_en: MED.ANIM
  gloss: MED.ANIM
- gramm: det
+ gramm: dem
  std: michi
  id: michi-med-anim
  paradigm: uninfl
@@ -1100,7 +1100,7 @@
  stem: .michisantomo.
  trans_en: MED.INAN.PL
  gloss: MED.INAN.PL
- gramm: det
+ gramm: dem
  std: michisantomo
  id: michisantomo-med-inan-pl
  paradigm: uninfl
@@ -1110,7 +1110,7 @@
  stem: .michitomo.
  trans_en: MED.INAN.PL
  gloss: MED.INAN.PL
- gramm: det
+ gramm: dem
  std: michitomo
  id: michitomo-med-inan-pl
  paradigm: uninfl
@@ -1120,7 +1120,7 @@
  stem: .misi.
  trans_en: MED.INAN
  gloss: MED.INAN
- gramm: det
+ gramm: dem
  std: misi
  id: misi-med-inan
  paradigm: uninfl
@@ -1283,7 +1283,7 @@
  stem: .mëjnijne.
  trans_en: DIST.INAN.PL
  gloss: DIST.INAN.PL
- gramm: det
+ gramm: dem
  std: mëjnijne
  id: mejnijne-dist-inan-pl
  paradigm: uninfl
@@ -1293,7 +1293,7 @@
  stem: .mëjnï.|.mënï.
  trans_en: DIST.INAN
  gloss: DIST.INAN
- gramm: det
+ gramm: dem
  std: mëjnï
  id: mejni-dist-inan
  paradigm: uninfl
@@ -1303,7 +1303,7 @@
  stem: .mëkïsantomo.
  trans_en: DIST.ANIM.PL
  gloss: DIST.ANIM.PL
- gramm: det
+ gramm: dem
  std: mëkïsantomo
  id: mekisantomo-dist-anim-pl
  paradigm: uninfl
@@ -1323,7 +1323,7 @@
  stem: .mërë.
  trans_en: MED.INAN
  gloss: MED.INAN
- gramm: det
+ gramm: dem
  std: mërë
  id: mere-med-inan
  paradigm: uninfl
@@ -3466,7 +3466,7 @@
  stem: .irë.
  trans_en: 3ANA.INAN
  gloss: 3ANA.INAN
- gramm: det
+ gramm: dem
  std: irë
  id: ire-3ana-inan
  paradigm: uninfl
@@ -3946,7 +3946,7 @@
  stem: .mëkï.
  trans_en: 3.ANIM.DIST
  gloss: 3.ANIM.DIST
- gramm: det,3
+ gramm: dem,3
  std: mëkï
  id: meki-3-anim-dist
  paradigm: uninfl
