@@ -9,6 +9,10 @@
   gramm: pst
   gloss: PST
   id: jpepst
+ -flex: .jne//.jnë
+  gramm: pl
+  gloss: PL
+  id: jnepl
 
 -paradigm: vi_aspect
  deriv-link: Vi-petiplur
@@ -77,6 +81,10 @@
   gloss: IMP
   gramm: imp
   id: keimp
+ -flex: .i
+  gloss: HORT
+  gramm: hort
+  id: ihort
  -flex: .të|kë
   gloss: PL|IMP
   gramm: imp,pl
@@ -134,7 +142,7 @@
   gramm: neg
   id: janeg
   paradigm: konto_pl
- -flex: .sarë
+ -flex: .sarë//.charë
   gramm: imn
   gloss: IMN
   id: sareimn

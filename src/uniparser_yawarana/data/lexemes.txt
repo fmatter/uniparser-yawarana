@@ -603,6 +603,17 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: jta-foot
+ stem: .jta.
+ trans_en: foot
+ gloss: foot
+ gramm: n
+ std: jta
+ id: jta-foot
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: jwaka-ill-aq
  stem: .jwaka.
  trans_en: ILL.AQ; LOC.AQ
@@ -677,6 +688,17 @@
  id: kapau-dasypus-novemcinctus
  paradigm: noun_c_new_ru_0
  paradigm: n_deriv
+
+-lexeme
+ lex: karasake-white
+ stem: .karasake.|.Probably contains [mp](keprop)..
+ trans_en: white
+ gloss: white
+ gramm: adv
+ std: karasake
+ id: karasake-white
+ paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: ka-take-out
@@ -766,6 +788,18 @@
  id: kejkepe-salamander
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: kinta-become-tired
+ stem: .kinta.
+ trans_en: become tired
+ gloss: become_tired
+ gramm: vi
+ std: kinta
+ id: kinta-become-tired
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kojpa-night
@@ -931,6 +965,18 @@
  id: ketejwate-cotton
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: keya-think
+ stem: .këya.
+ trans_en: think
+ gloss: think
+ gramm: vi
+ std: këya
+ id: keya-think
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: kimiy-chili
@@ -1928,6 +1974,18 @@
  paradigm: vt_aspect
 
 -lexeme
+ lex: roka-wash
+ stem: .roka.
+ trans_en: wash
+ gloss: wash
+ gramm: vt
+ std: roka
+ id: roka-wash
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: roko-crazy
  stem: .roko.
  trans_en: crazy
@@ -2091,6 +2149,18 @@
  gramm: vt
  std: sojpa
  id: sojpa-take-out
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: sopika-skin
+ stem: .sopika.
+ trans_en: skin
+ gloss: skin
+ gramm: vt
+ std: sopika
+ id: sopika-skin
  paradigm: v_tr
  paradigm: v_tr_nmlz
  paradigm: vt_aspect
@@ -2538,7 +2608,8 @@
  gramm: n
  std: waraijtokomo
  id: waraijtokomo-man
- paradigm: uninfl
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: waraijto-husband
@@ -2776,7 +2847,7 @@
  gramm: n
  std: ya'ra
  id: ya-ra-grandchild
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_old_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -2970,6 +3041,18 @@
  std: yatë
  id: yate-loc
  paradigm: postp
+
+-lexeme
+ lex: yawaka-sow
+ stem: .yawaka.
+ trans_en: sow
+ gloss: sow
+ gramm: vt
+ std: yawaka
+ id: yawaka-sow
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: yawaki-grate
@@ -4460,11 +4543,11 @@
 
 -lexeme
  lex: wanita-j
- stem: .Wanita.
+ stem: .wanita.
  trans_en: J.
  gloss: J.
  gramm: n
- std: Wanita
+ std: wanita
  id: wanita-j
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
@@ -4505,11 +4588,11 @@
 
 -lexeme
  lex: wine-from
- stem: .wïnë.
+ stem: .winë.|.wïnë.
  trans_en: from
  gloss: from
  gramm: postp
- std: wïnë
+ std: winë
  id: wine-from
  paradigm: postp
 
@@ -4589,6 +4672,104 @@
  id: margarita-m
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: kajwe-coffee
+ stem: .kajwe.
+ trans_en: coffee
+ gloss: coffee
+ gramm: n
+ std: kajwe
+ id: kajwe-coffee
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kapitan-chief
+ stem: .kapitan.
+ trans_en: chief
+ gloss: chief
+ gramm: n
+ std: kapitan
+ id: kapitan-chief
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: are-leaf
+ stem: .are.
+ trans_en: leaf; hair
+ gloss: leaf
+ gramm: n
+ std: are
+ id: are-leaf
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: piuj-rustle
+ stem: .piuj.
+ trans_en: rustle
+ gloss: rustle
+ gramm: ideo
+ std: piuj
+ id: piuj-rustle
+ paradigm: uninfl
+
+-lexeme
+ lex: julieta-j
+ stem: .julieta.
+ trans_en: J.
+ gloss: J.
+ gramm: n
+ std: julieta
+ id: julieta-j
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: ron-rum
+ stem: .ron.
+ trans_en: rum
+ gloss: rum
+ gramm: n
+ std: ron
+ id: ron-rum
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: pike-when
+ stem: .pïkë.
+ trans_en: when
+ gloss: when
+ gramm: postp
+ std: pïkë
+ id: pike-when
+ paradigm: postp
+
+-lexeme
+ lex: toma-t
+ stem: .toma.
+ trans_en: T.
+ gloss: T.
+ gramm: n
+ std: toma
+ id: toma-t
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: peremeki-speak
+ stem: .peremekï.
+ trans_en: speak
+ gloss: speak
+ gramm: vi
+ std: peremekï
+ id: peremeki-speak
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
 
 -lexeme
  lex: wenaka-vomit
