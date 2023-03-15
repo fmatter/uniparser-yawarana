@@ -1893,17 +1893,6 @@
  paradigm: postp
 
 -lexeme
- lex: pekepene-alone
- stem: .pëkëpene.
- trans_en: alone
- gloss: alone
- gramm: adv
- std: pëkëpene
- id: pekepene-alone
- paradigm: adv
- paradigm: adv_deriv
-
--lexeme
  lex: penaka-return
  stem: .pënaka.
  trans_en: return
@@ -4554,6 +4543,16 @@
  id: indigena-indigenous-person
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: pekepene-alone
+ stem: .pëkëpene.
+ trans_en: alone
+ gloss: alone
+ gramm: postp
+ std: pëkëpene
+ id: pekepene-alone
+ paradigm: postp
 
 -lexeme
  lex: wenaka-vomit
