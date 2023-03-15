@@ -846,6 +846,30 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: kuku-answer
+ stem: .kuku.
+ trans_en: answer
+ gloss: answer
+ gramm: vt
+ std: kuku
+ id: kuku-answer
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: kune-cook
+ stem: .kunë.|.kuno.
+ trans_en: cook
+ gloss: cook
+ gramm: vt
+ std: kunë
+ id: kune-cook
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: kuru-prochilodus-mariae
  stem: .kuru.
  trans_en: prochilodus mariae
@@ -1873,6 +1897,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pirini-walk
+ stem: .pirini.|.pïrini.
+ trans_en: walk
+ gloss: walk
+ gramm: vi
+ std: pirini
+ id: pirini-walk
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: pojte-want
  stem: .pojtë.
  trans_en: want
@@ -2064,7 +2100,7 @@
 
 -lexeme
  lex: samo-cry
- stem: .samo.
+ stem: .samo.|.sëmo.
  trans_en: cry
  gloss: cry
  gramm: vi
@@ -2233,6 +2269,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: tajromini-bad-omen
+ stem: .tajromini.|.tajromin.
+ trans_en: bad omen
+ gloss: bad_omen
+ gramm: n
+ std: tajromini
+ id: tajromini-bad-omen
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: tajropo-have-fever
  stem: .tajropo.
  trans_en: have fever
@@ -2336,7 +2383,7 @@
 
 -lexeme
  lex: temeki-defend
- stem: .temekï.|.semekï.
+ stem: .temekï.|.semekï.|.semej.
  trans_en: defend
  gloss: defend
  gramm: vt
@@ -2545,7 +2592,7 @@
 
 -lexeme
  lex: waimu-speak
- stem: .waimu.
+ stem: .waimu.|.waimurun.
  trans_en: speak
  gloss: speak
  gramm: vi
@@ -2942,13 +2989,13 @@
 
 -lexeme
  lex: yane-mother
- stem: .yanë.
+ stem: .yanë.|.sanë.
  trans_en: mother
  gloss: mother
  gramm: n
  std: yanë
  id: yane-mother
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_old_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -2976,7 +3023,7 @@
 
 -lexeme
  lex: yapechi-grab
- stem: .yapëchi.|.yapëj.
+ stem: .yapëchi.|.yapëj.|.yapïchi.
  trans_en: grab
  gloss: grab
  gramm: vt
@@ -4244,6 +4291,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: pijiguao-bactris-gasipaes
+ stem: .pijiguao.
+ trans_en: Bactris gasipaes
+ gloss: Bactris_gasipaes
+ gramm: n
+ std: pijiguao
+ id: pijiguao-bactris-gasipaes
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: awo-uncle
  stem: .awo.
  trans_en: uncle; father in law
@@ -4782,6 +4840,71 @@
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
+
+-lexeme
+ lex: sanaka-heal
+ stem: .sanaka.
+ trans_en: heal
+ gloss: heal
+ gramm: vi
+ std: sanaka
+ id: sanaka-heal
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: ijiji-ijiji
+ stem: .ïjïjï.
+ trans_en: ïjïjï
+ gloss: ïjïjï
+ gramm: ideo
+ std: ïjïjï
+ id: ijiji-ijiji
+ paradigm: uninfl
+
+-lexeme
+ lex: mjm-yes
+ stem: .mjm.
+ trans_en: yes
+ gloss: yes
+ gramm: intj
+ std: mjm
+ id: mjm-yes
+ paradigm: uninfl
+
+-lexeme
+ lex: sempinuku-close-eyes
+ stem: .sëmpinuku.|.sëmpinuj.
+ trans_en: close eyes
+ gloss: close_eyes
+ gramm: vi
+ std: sëmpinuku
+ id: sempinuku-close-eyes
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: chuk-smack
+ stem: .chuk.
+ trans_en: smack
+ gloss: smack
+ gramm: ideo
+ std: chuk
+ id: chuk-smack
+ paradigm: uninfl
+
+-lexeme
+ lex: yolanda-y
+ stem: .yolanda.
+ trans_en: Y.
+ gloss: Y.
+ gramm: n
+ std: yolanda
+ id: yolanda-y
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: wenaka-vomit
