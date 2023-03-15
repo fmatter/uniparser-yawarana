@@ -823,6 +823,10 @@
   gramm: lk
   gloss: LK
   id: ylk
+ -flex: ësë.<.>
+  gramm: detrz
+  gloss: DETRZ
+  id: dt1
  -flex: .<.>
   gramm:
  deriv-link: A-ano
