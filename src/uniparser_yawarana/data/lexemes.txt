@@ -3510,6 +3510,7 @@
  id: te-go
  paradigm: të
  paradigm: të_plur
+ paradigm: v_intr_nmlz
 
 -lexeme
  lex: ke-ins
