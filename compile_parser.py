@@ -387,4 +387,4 @@ for fname in ["lex_rules.txt", "derivations.txt", "clitics.txt"]:
     write_file(DATA_PATH / f"{fname}", data)
 # bad analyses are stored as yaml
 # convert to uniparser-yaml
-dump(load("data/bad_analyses.yaml"), DATA_PATH / "bad_analyses.txt", "json")
+dump(load("data/bad_analyses.yaml"), DATA_PATH / "bad_analyses.txt", mode="json")
