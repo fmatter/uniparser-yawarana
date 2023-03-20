@@ -7,7 +7,7 @@ from humidifier import humidify
 from yawarana_helpers import find_detransitivizer
 from yawarana_helpers import glossify
 from yawarana_helpers import trim_dic_suff
-
+from writio import load, dump
 
 def write_file(path, content, mode="text"):
     with open(path, "w", encoding="utf-8") as f:
@@ -387,5 +387,4 @@ for fname in ["lex_rules.txt", "derivations.txt", "clitics.txt"]:
     write_file(DATA_PATH / f"{fname}", data)
 # bad analyses are stored as yaml
 # convert to uniparser-yaml
-# bad_analyses = read_file("data/bad_analyses.yaml", "yaml")
-# write_file(DATA_PATH / "bad_analyses.txt", bad_analyses, "json")
+dump(load("data/bad_analyses.yaml"), DATA_PATH / "bad_analyses.txt", "json")
