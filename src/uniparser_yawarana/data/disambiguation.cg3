@@ -1,6 +1,12 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
+LIST Nominal = n pn;
+
 SECTION # verbs and nouns
 REMOVE (ipfv) IF (1 (postp));
+REMOVE (pst) IF (1 (postp));
+REMOVE (pfv) IF (1 (postp));
 
 REMOVE (n) IF (1 ("mare-rel-inan"));
+
+REMOVE (pert) IF (NEGATE -1 Nominal);
