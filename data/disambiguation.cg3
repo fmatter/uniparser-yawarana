@@ -7,6 +7,12 @@ REMOVE (ipfv) IF (1 (postp));
 REMOVE (pst) IF (1 (postp));
 REMOVE (pfv) IF (1 (postp));
 
+
+# Experimental: ya v is always ERG v, never OBL n
+REMOVE (n) IF (-1 ("ya-erg"));
+REMOVE ("ya-obl") IF (1 (vt));
+
+
 REMOVE (n) IF (1 ("mare-rel-inan"));
 
 REMOVE (pert) IF (NEGATE -1 Nominal);
