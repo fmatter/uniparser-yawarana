@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * fundamental restructuring, data pipeline cleanup
 * more sophisticated noun paradigms
 * glossier glosses
+* restarted disambiguation
 
 ### Removed
 

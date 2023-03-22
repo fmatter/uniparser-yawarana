@@ -2,3 +2,5 @@ DELIMITERS = "<SENT_BOUNDARY>";
 
 SECTION # verbs and nouns
 REMOVE (ipfv) IF (1 (postp));
+
+REMOVE (n) IF (1 ("mare-rel-inan"));
