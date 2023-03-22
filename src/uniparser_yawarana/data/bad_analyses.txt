@@ -1,0 +1,6 @@
+[
+    {
+        "wf": "tajne",
+        "lemma": "taro-say"
+    }
+]

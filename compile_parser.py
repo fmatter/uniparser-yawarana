@@ -382,7 +382,7 @@ other_paradigms = read_file("data/paradigms.yaml")
 # write for uniparser-morph
 write_file(DATA_PATH / "paradigms.txt", paradigms_str + "\n\n\n\n" + other_paradigms)
 # copy 1-to-1 files
-for fname in ["lex_rules.txt", "derivations.txt", "clitics.txt"]:
+for fname in ["lex_rules.txt", "derivations.txt", "clitics.txt", "disambiguation.cg3"]:
     data = read_file(Path("data") / fname)
     write_file(DATA_PATH / f"{fname}", data)
 # bad analyses are stored as yaml
