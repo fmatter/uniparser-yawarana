@@ -13,6 +13,10 @@ REMOVE (n) IF (-1 ("ya-erg"));
 REMOVE ("ya-obl") IF (1 (vt));
 
 
+# Circle in on supines
+SELECT (sup) IF (*-1 ("te-go"));
+
+
 REMOVE (n) IF (1 ("mare-rel-inan"));
 
 REMOVE (pert) IF (NEGATE -1 Nominal);
