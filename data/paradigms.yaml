@@ -44,10 +44,6 @@
 -paradigm: v_tr_nmlz
  -flex: .<.>
   gramm:
- -flex: .pe<.>
-  id: peess
-  gramm: ess, adv
-  gloss: ESS
  deriv-link: V-topo
  deriv-link: V-ri
  deriv-link: V-tojpe

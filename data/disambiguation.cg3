@@ -1,22 +1,75 @@
 DELIMITERS = "<SENT_BOUNDARY>";
 
-LIST Nominal = n pn;
+LIST nominal = n pn;
+LIST verbal = ipfv pst pfv;
+LIST postpositional = postp "<pokono>";
+LIST particles = "ti-hsy" "tawara-too" "re-emp" "ta-like";
+SET notParticles = (*) - particles;
 
-SECTION # verbs and nouns
-REMOVE (ipfv) IF (1 (postp));
-REMOVE (pst) IF (1 (postp));
-REMOVE (pfv) IF (1 (postp));
+SECTION # taro
 
+# ta ti ta (ti)
+SELECT ("taro-say") IF (1 ("ti-hsy")) (2 ("ta-like"));
+SELECT ("ta-like") IF (-1 ("ti-hsy")) (-2 ("taro-say"));
 
-# Experimental: ya v is always ERG v, never OBL n
+# ta ta
+SELECT ("taro-say") IF (1 ("ta-like"));
+SELECT ("ta-like") IF (-1 ("taro-say"));
+
+SECTION # verbs and deverbal forms
+
+# only nouns before postpositions
+SELECT nominal IF (1 postpositional);
+
+# only verbs before auxiliaries
+SELECT verbal IF (*1 ("chi-cop") BARRIER notParticles);
+
+# only auxiliaries after verbs
+SELECT ("chi-cop") IF (*-1 verbal BARRIER notParticles);
+
+# only verbs before relativizer (and aspectual? mare)
+REMOVE (n) IF (1 ("mare-rel-inan"));
+
+# marked A imply verb
 REMOVE (n) IF (-1 ("ya-erg"));
-REMOVE ("ya-obl") IF (1 (vt));
-
+SELECT verbal IF (1 nominal) (2 ("ya-erg"));
 
 # Circle in on supines
 SELECT (sup) IF (*-1 ("te-go"));
 
+SECTION # nouns
 
-REMOVE (n) IF (1 ("mare-rel-inan"));
+# need a possessor
+REMOVE (pert) IF (NEGATE -1 nominal);
 
-REMOVE (pert) IF (NEGATE -1 Nominal);
+SECTION # misc
+
+# ya vt or vt n/pn ya is always ERG v, never OBL n
+REMOVE ("ya-obl") IF (1 (vt));
+REMOVE ("ya-obl") IF (*-2 (vt) BARRIER notParticles);
+
+# sentence-final ënka is always the discourse marker 'right?'
+SELECT ("ejka-right") IF (NOT 1 (*));
+
+# after a verb, assume that ka is the question particle
+SELECT ("ka-q") IF (0 ("<ka>")) (-1 verbal);
+
+# ta wïrë 'I say'
+SELECT ("taro-say") IF (0 ("<taro>") OR ("<ta>")) (1 ("<wïrë>"));
+
+# ati: 'what' or 'field'?
+SELECT ("ati-what") IF (1 ("<rë>") OR ("<ta>"));
+
+# yaka: only 'dig out' when inflected
+SELECT ("yaka-all") IF (0 ("<yaka>"));
+
+# nwa: never 'glute' if not preceded by nominal (?)
+SELECT ("nwa-thus") IF (NOT -1 nominal);
+
+# chiri ma 'only that', 'that' being a nominalized copula
+SELECT (acnnmlz) IF (1 ("<ma>")) (0 ("<chiri>"));
+
+SECTION # bad wordforms with clitics
+REMOVE (rst) IF (0 ("<yakarama>"));
+SELECT ("nwa-thus+re-emp") IF (0 ("<nwarë>"));
+SELECT ("ire-3ana-inan") IF (0 ("<irë>"));

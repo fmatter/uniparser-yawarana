@@ -3442,7 +3442,7 @@
  gramm: postp
  std: ya
  id: ya-erg
- paradigm: postp
+ paradigm: uninfl
 
 -lexeme
  lex: ya-obl
@@ -3452,7 +3452,7 @@
  gramm: postp
  std: ya
  id: ya-obl
- paradigm: postp
+ paradigm: uninfl
 
 -lexeme
  lex: ma-rst
@@ -3485,16 +3485,6 @@
  paradigm: postp
 
 -lexeme
- lex: yawe-ctmp
- stem: .yawë.|.yawo.|.chawë.
- trans_en: CTMP
- gloss: CTMP
- gramm: postp
- std: yawë
- id: yawe-ctmp
- paradigm: postp
-
--lexeme
  lex: pinika-prob
  stem: .pïnika.
  trans_en: PROB
@@ -3524,16 +3514,6 @@
  id: tawara-too
  paradigm: adv
  paradigm: adv_deriv
-
--lexeme
- lex: chipeke-therefore
- stem: .chipëkë.
- trans_en: therefore
- gloss: therefore
- gramm: part
- std: chipëkë
- id: chipeke-therefore
- paradigm: uninfl
 
 -lexeme
  lex: chiyawe-when
@@ -4018,12 +3998,12 @@
  stem: .yekerema.
  trans_en: boast sexually
  gloss: boast_sexually
- gramm: vi
+ gramm: vt
  std: yekerema
  id: yekerema-boast-sexually
- paradigm: v_intr
- paradigm: v_intr_nmlz
- paradigm: vi_aspect
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
 
 -lexeme
  lex: sukuri-silently

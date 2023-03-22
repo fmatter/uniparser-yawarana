@@ -2,3 +2,9 @@
   lemma: taro-say
 - wf: taji
   lemma: taro-say
+- wf: yëni
+  gramm: .*hort.*
+- wf: ini
+  gramm: .*(hort).*
+- wf: ini
+  gloss: .*AGTNMLZ.*

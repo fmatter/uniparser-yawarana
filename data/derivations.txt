@@ -6,7 +6,7 @@
  paradigm: noun_clitic
  paradigm: n_deriv
  gloss: ACNNMLZ
- gramm: n
+ gramm: n, acnnmlz
  id: rinmlz
 
 -deriv-type: V-kemi
