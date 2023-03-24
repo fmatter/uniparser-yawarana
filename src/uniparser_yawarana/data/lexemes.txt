@@ -4877,6 +4877,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: ati-what
+ stem: .ati.
+ trans_en: what
+ gloss: what
+ gramm: n
+ std: ati
+ id: ati-what
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
