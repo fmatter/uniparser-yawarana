@@ -81,7 +81,7 @@
  lex: nwapeke-behind
  stem: .nwa&pëkë.
  gloss: glute&on
- id: nwa-glute,peke-about
+ id: nwa-glute,peke-on
  gramm: postp
  paradigm: postp
  trans_en: behind
