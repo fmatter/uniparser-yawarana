@@ -5870,8 +5870,8 @@
 -lexeme
  lex: nwapeke-behind
  stem: .nwa&pëkë.
- gloss: glute&on
- id: nwa-glute,peke-on
+ gloss: glute&about
+ id: nwa-glute,peke-about
  gramm: postp
  paradigm: postp
  trans_en: behind
