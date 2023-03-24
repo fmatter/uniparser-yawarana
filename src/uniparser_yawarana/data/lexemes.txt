@@ -240,16 +240,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ati-what
- stem: .ati.
- trans_en: what
- gloss: what
- gramm: intj
- std: ati
- id: ati-what
- paradigm: uninfl
-
--lexeme
  lex: ati-plot-of-cultivated-land
  stem: .ati.|.atï.
  trans_en: plot of cultivated land

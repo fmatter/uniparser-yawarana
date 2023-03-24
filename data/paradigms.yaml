@@ -198,7 +198,6 @@
   gramm: ipfv
   gloss: IPFV
   id: riipfv
-  paradigm: cop_clit
  -flex: .ja
   gloss: NEG
   gramm: neg

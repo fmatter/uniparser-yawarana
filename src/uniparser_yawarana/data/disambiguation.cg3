@@ -19,7 +19,7 @@ SELECT ("ta-like") IF (-1 ("taro-say"));
 SECTION # verbs and deverbal forms
 
 # only nouns before postpositions
-SELECT nominal IF (1 postpositional);
+SELECT nominal IF (1 postpositional) (0 verbal);
 
 # only verbs before auxiliaries
 SELECT verbal IF (*1 ("chi-cop") BARRIER notParticles);
