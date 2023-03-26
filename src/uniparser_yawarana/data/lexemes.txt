@@ -681,7 +681,7 @@
 
 -lexeme
  lex: karasake-white
- stem: .karasake.|.Probably contains [mp](keprop)..
+ stem: .karasake.
  trans_en: white
  gloss: white
  gramm: adv
@@ -5392,13 +5392,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: keyata-keyeta-grow
- stem: .këyata.|.këyeta.
+ lex: keyata-grow
+ stem: .këyata.
  trans_en: grow
  gloss: grow
  gramm: vi
  std: këyata
- id: keyata-keyeta-grow
+ id: keyata-grow
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect
@@ -5644,13 +5644,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: esene-sene-see-self
- stem: .esene.|.sene.
+ lex: esene-see-self
+ stem: .esene.
  trans_en: see self
  gloss: see_self
  gramm: vi
  std: esene
- id: esene-sene-see-self
+ id: esene-see-self
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect

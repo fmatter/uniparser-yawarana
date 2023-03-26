@@ -150,7 +150,7 @@ positions = ["Prefix", "Stem", "Suffix"]  # positions
 
 derivations["Gloss"] = derivations["Translation"].apply(glossify)
 derivations["Name"] = derivations["Form"].apply(
-    lambda x: x.replace("+", "").replace("-", "")
+    lambda x: x.split(SEP)[0].replace("+", "").replace("-", "")
 )
 derivations["ID"] = derivations.apply(
     lambda x: humidify(f"{x['Name']}-{x['Translation']}"), axis=1
