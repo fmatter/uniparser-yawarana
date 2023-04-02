@@ -5393,7 +5393,7 @@
 
 -lexeme
  lex: keyata-grow
- stem: .këyata.
+ stem: .këyata.|.këyeta.
  trans_en: grow
  gloss: grow
  gramm: vi
@@ -5645,7 +5645,7 @@
 
 -lexeme
  lex: esene-see-self
- stem: .esene.
+ stem: .esene.|.sene.
  trans_en: see self
  gloss: see_self
  gramm: vi

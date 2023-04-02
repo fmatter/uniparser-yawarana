@@ -9,6 +9,7 @@ from yawarana_helpers import glossify
 from yawarana_helpers import trim_dic_suff
 from writio import load, dump
 
+
 def write_file(path, content, mode="text"):
     with open(path, "w", encoding="utf-8") as f:
         if mode == "yaml":
@@ -157,7 +158,6 @@ derivations["ID"] = derivations.apply(
 )  # generate IDs
 derivations.set_index("ID", inplace=True, drop=False)  # make quickly retrievable
 derivations = derivations.apply(process_stem, axis=1)
-derivations["Form"] = derivations["Name"]
 
 # misc derivations
 misc = pd.read_csv("data/derivations/misc_derivations.csv", keep_default_na=False)
@@ -170,6 +170,8 @@ misc["ID"] = misc.apply(
 # assemble all stems (called lexemes in the uniparser context)
 lexemes = pd.concat([roots, derivations, misc])
 lexemes = lexemes.fillna("")
+
+
 # the etymological gloss is based on the gloss of the base
 # and the gloss of the derivational affix
 def add_etym_gloss(rec):
@@ -224,12 +226,13 @@ def add_to_etym_dict(lexeme_id, obj_tuple, gloss_tuple, ids):
 # add "etymologizing" information to dict
 def add_deriv_etym(x):
     if x["Affix_ID"] != "":
-        add_to_etym_dict(
-            x.name,
-            (x["Form"].replace("+", ""), x["Form"].replace("+", "-")),
-            (x["Gloss"], x["Etym_Gloss"]),
-            [x["Base_Stem"], x["Affix_ID"]],
-        )
+        for f in x["Form"].split(SEP):
+            add_to_etym_dict(
+                x.name,
+                (f.replace("+", ""), f.replace("+", "-")),
+                (x["Gloss"], x["Etym_Gloss"]),
+                [x["Base_Stem"], x["Affix_ID"]],
+            )
 
 
 lexemes.apply(add_deriv_etym, axis=1)
@@ -310,7 +313,7 @@ def create_lexeme_entry(data, paradigms=None, deriv_links=None):
 lexemes_str = []
 # determine the proper paradigms for a lexicon entry and add it to the list
 def add_paradigms(lex):
-    lex["Form"] = lex["Form"].split(SEP)
+    lex["Form"] = [y.replace("+", "").replace("-", "") for y in lex["Form"].split(SEP)]
     lex["Lexeme_ID"] = lex["ID"]
     if lex["Paradigm"] == "":
         paradigms = []
@@ -337,7 +340,12 @@ write_file(DATA_PATH / "lexemes.txt", "\n\n".join(lexemes_str))
 # * pertensive suffix
 # * non-pertensive suffix
 # * old or new second person marker
-noun_class_parameters = [["c", "v"], ["ri", "ru", "ti", "0"], ["të", "0"], ["old", "new"]]
+noun_class_parameters = [
+    ["c", "v"],
+    ["ri", "ru", "ti", "0"],
+    ["të", "0"],
+    ["old", "new"],
+]
 pert_dict = {
     "ri": """ -flex: <.>.ri<.>//<.>.0<.>//<.>.rï<.>
   gloss: PERT

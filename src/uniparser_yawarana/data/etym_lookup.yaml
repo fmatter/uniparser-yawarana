@@ -5,7 +5,7 @@ wenaka-vomit:
   - wena-vomit
   - kavbz
   obj:
-    wenaka: wenaka
+    wenaka: wena-ka
 ajpachika-weed:
   gloss:
     weed: ''
@@ -13,7 +13,7 @@ ajpachika-weed:
   - ajpachi-undergrowth
   - kavbz
   obj:
-    ajpachika: ajpachika
+    ajpachika: ajpachi-ka
 mejyaka-uncover:
   gloss:
     uncover: ''
@@ -21,7 +21,7 @@ mejyaka-uncover:
   - mejya-cover
   - kavbz
   obj:
-    mejyaka: mejyaka
+    mejyaka: mejya-ka
 moronka-make-suffer:
   gloss:
     make_suffer: ''
@@ -29,7 +29,7 @@ moronka-make-suffer:
   - moroni-pain
   - kavbz
   obj:
-    moronka: moronka
+    moronka: moron-ka
 mujnaka-dig-out:
   gloss:
     dig_out: ''
@@ -37,7 +37,7 @@ mujnaka-dig-out:
   - mujna-grave
   - kavbz
   obj:
-    mujnaka: mujnaka
+    mujnaka: mujna-ka
 pataka-take-out:
   gloss:
     take_out: ''
@@ -45,7 +45,7 @@ pataka-take-out:
   - pata-village
   - kavbz
   obj:
-    pataka: pataka
+    pataka: pata-ka
 sujta-urinate:
   gloss:
     urinate: ''
@@ -53,7 +53,7 @@ sujta-urinate:
   - suku-urine
   - tavbz
   obj:
-    sujta: sujta
+    sujta: suj-ta
 kaimota-hunt:
   gloss:
     hunt: ''
@@ -61,7 +61,7 @@ kaimota-hunt:
   - kaimo-game
   - tavbz
   obj:
-    kaimota: kaimota
+    kaimota: kaimo-ta
 meteta-thin:
   gloss:
     thin: ''
@@ -69,7 +69,7 @@ meteta-thin:
   - ''
   - tavbz
   obj:
-    "m\xEBt\xEBta": "m\xEBt\xEBta"
+    "m\xEBt\xEBta": "m\xEBt\xEB-ta"
 yokota-grow-pimple:
   gloss:
     grow_pimple: ''
@@ -77,7 +77,7 @@ yokota-grow-pimple:
   - yoko-pimple
   - tavbz
   obj:
-    yokota: yokota
+    yokota: yoko-ta
 erepunta-become-sick:
   gloss:
     become_sick: ''
@@ -85,7 +85,7 @@ erepunta-become-sick:
   - erepunu-sick
   - tavbz
   obj:
-    erepunta: erepunta
+    erepunta: erepun-ta
 wereyta-cloud-over:
   gloss:
     cloud_over: ''
@@ -93,7 +93,7 @@ wereyta-cloud-over:
   - wereyi-cloud
   - tavbz
   obj:
-    wereyta: wereyta
+    wereyta: werey-ta
 wanaputa-grow-savannah-grass:
   gloss:
     grow_savannah_grass: ''
@@ -101,7 +101,7 @@ wanaputa-grow-savannah-grass:
   - wanapu-savannah
   - tavbz
   obj:
-    wanaputa: wanaputa
+    wanaputa: wanapu-ta
 sakauta-get-sandy:
   gloss:
     get_sandy: ''
@@ -109,7 +109,7 @@ sakauta-get-sandy:
   - sakau-sand
   - tavbz
   obj:
-    sakauta: sakauta
+    sakauta: sakau-ta
 rokota-become-crazy:
   gloss:
     become_crazy: ''
@@ -117,7 +117,7 @@ rokota-become-crazy:
   - roko-crazy
   - tavbz
   obj:
-    rokota: rokota
+    rokota: roko-ta
 punta-form-pulp:
   gloss:
     form_pulp: ''
@@ -125,7 +125,7 @@ punta-form-pulp:
   - punu-flesh
   - tavbz
   obj:
-    punta: punta
+    punta: pun-ta
 piketa-fart:
   gloss:
     fart: ''
@@ -133,7 +133,7 @@ piketa-fart:
   - pike-fart
   - tavbz
   obj:
-    "pik\xEBta": "pik\xEBta"
+    "pik\xEBta": "pik\xEB-ta"
 pichipichita-form-whitebait:
   gloss:
     form_whitebait: ''
@@ -141,7 +141,7 @@ pichipichita-form-whitebait:
   - pichipichi-whitebait
   - tavbz
   obj:
-    pichipichita: pichipichita
+    pichipichita: pichipichi-ta
 nakita-be-thirsty:
   gloss:
     be_thirsty: ''
@@ -149,7 +149,7 @@ nakita-be-thirsty:
   - naki-thirst
   - tavbz
   obj:
-    nakita: nakita
+    nakita: naki-ta
 mukuta-have-son:
   gloss:
     have_son: ''
@@ -157,7 +157,7 @@ mukuta-have-son:
   - muku-child
   - tavbz
   obj:
-    mukuta: mukuta
+    mukuta: muku-ta
 motota-fill-with-worms:
   gloss:
     fill_with_worms: ''
@@ -165,7 +165,7 @@ motota-fill-with-worms:
   - moto-worm
   - tavbz
   obj:
-    motota: motota
+    motota: moto-ta
 moronta-hurt:
   gloss:
     hurt: ''
@@ -173,7 +173,7 @@ moronta-hurt:
   - moroni-pain
   - tavbz
   obj:
-    moronta: moronta
+    moronta: moron-ta
 mesujta-bleed:
   gloss:
     bleed: ''
@@ -181,7 +181,7 @@ mesujta-bleed:
   - mesuku-blood
   - tavbz
   obj:
-    mesujta: mesujta
+    mesujta: mesuj-ta
 kereta-ripen:
   gloss:
     ripen: ''
@@ -189,7 +189,7 @@ kereta-ripen:
   - kere-ripeness
   - tavbz
   obj:
-    "k\xEBr\xEBta": "k\xEBr\xEBta"
+    "k\xEBr\xEBta": "k\xEBr\xEB-ta"
 kemuta-emit-pus:
   gloss:
     emit_pus: ''
@@ -197,7 +197,7 @@ kemuta-emit-pus:
   - kemu-pus
   - tavbz
   obj:
-    "k\xEBmuta": "k\xEBmuta"
+    "k\xEBmuta": "k\xEBmu-ta"
 konopota-start-rainy-season:
   gloss:
     start_rainy_season: ''
@@ -205,7 +205,7 @@ konopota-start-rainy-season:
   - konopo-rain
   - tavbz
   obj:
-    konopota: konopota
+    konopota: konopo-ta
 kawonota-get-high:
   gloss:
     get_high: ''
@@ -213,7 +213,7 @@ kawonota-get-high:
   - kawono-high
   - tavbz
   obj:
-    kawonota: kawonota
+    kawonota: kawono-ta
 kamparata-grow-change-voice:
   gloss:
     grow;_change(voice): ''
@@ -221,7 +221,7 @@ kamparata-grow-change-voice:
   - kampara-big
   - tavbz
   obj:
-    kamparata: kamparata
+    kamparata: kampara-ta
 chekeyta-fill-with-nits:
   gloss:
     fill_with_nits: ''
@@ -229,7 +229,7 @@ chekeyta-fill-with-nits:
   - chekey-nit
   - tavbz
   obj:
-    "ch\xEBk\xEByta": "ch\xEBk\xEByta"
+    "ch\xEBk\xEByta": "ch\xEBk\xEBy-ta"
 chimichimita-fill-with-worms-dog:
   gloss:
     fill_with_worms(dog): ''
@@ -237,7 +237,7 @@ chimichimita-fill-with-worms-dog:
   - chimichimi-worm-dog
   - tavbz
   obj:
-    chimichimita: chimichimita
+    chimichimita: chimichimi-ta
 chiketa-get-chiggers:
   gloss:
     get_chiggers: ''
@@ -245,7 +245,7 @@ chiketa-get-chiggers:
   - chike-chigger
   - tavbz
   obj:
-    "chik\xEBta": "chik\xEBta"
+    "chik\xEBta": "chik\xEB-ta"
 awochita-form-tumor:
   gloss:
     form_tumor: ''
@@ -253,7 +253,7 @@ awochita-form-tumor:
   - awochi-tumor
   - tavbz
   obj:
-    awochita: awochita
+    awochita: awochi-ta
 asereta-have-dry-cough:
   gloss:
     have_dry_cough: ''
@@ -261,7 +261,7 @@ asereta-have-dry-cough:
   - asere-dry-cough
   - tavbz
   obj:
-    asereta: asereta
+    asereta: asere-ta
 aijkoronota-recover:
   gloss:
     recover: ''
@@ -269,7 +269,7 @@ aijkoronota-recover:
   - aijkorono-recovered
   - tavbz
   obj:
-    aijkoronota: aijkoronota
+    aijkoronota: aijkorono-ta
 ajpachita-overgrows:
   gloss:
     overgrows: ''
@@ -277,7 +277,7 @@ ajpachita-overgrows:
   - ajpachi-undergrowth
   - tavbz
   obj:
-    ajpachita: ajpachita
+    ajpachita: ajpachi-ta
 akita-fill-with-worms:
   gloss:
     fill_with_worms: ''
@@ -285,7 +285,7 @@ akita-fill-with-worms:
   - aki-worm
   - tavbz
   obj:
-    "ak\xEFta": "ak\xEFta"
+    "ak\xEFta": "ak\xEF-ta"
 apita-ripen:
   gloss:
     ripen: ''
@@ -293,7 +293,7 @@ apita-ripen:
   - api-ripeness
   - tavbz
   obj:
-    apita: apita
+    apita: api-ta
 amuta-ripen:
   gloss:
     ripen: ''
@@ -301,7 +301,7 @@ amuta-ripen:
   - amu-ripeness
   - tavbz
   obj:
-    amuta: amuta
+    amuta: amu-ta
 chijchiputa-move-body:
   gloss:
     move_body: ''
@@ -309,7 +309,7 @@ chijchiputa-move-body:
   - chijchipu-body-movement
   - tavbz
   obj:
-    chijchiputa: chijchiputa
+    chijchiputa: chijchipu-ta
 kasota-fatten:
   gloss:
     fatten: ''
@@ -317,7 +317,7 @@ kasota-fatten:
   - kaso-fat
   - tavbz
   obj:
-    kasota: kasota
+    kasota: kaso-ta
 takunuta-slack-off:
   gloss:
     slack_off: ''
@@ -325,7 +325,7 @@ takunuta-slack-off:
   - takunu-laziness
   - tavbz
   obj:
-    takunuta: takunuta
+    takunuta: takunu-ta
 werewereta-swarm-mosquitos:
   gloss:
     swarm(mosquitos): ''
@@ -341,7 +341,7 @@ keyata-grow:
   - ''
   - tavbz
   obj:
-    "k\xEByata": "k\xEByata"
+    "k\xEByeta": "k\xEBye-ta"
 majta-become-thin:
   gloss:
     become_thin: ''
@@ -349,7 +349,7 @@ majta-become-thin:
   - ''
   - tavbz
   obj:
-    majta: majta
+    majta: maj-ta
 paijta-swell-river:
   gloss:
     swell(river): ''
@@ -357,7 +357,7 @@ paijta-swell-river:
   - ''
   - tavbz
   obj:
-    paijta: paijta
+    paijta: paij-ta
 katupuma-pile-up:
   gloss:
     pile_up: ''
@@ -365,7 +365,7 @@ katupuma-pile-up:
   - ''
   - macaus
   obj:
-    katupuma: katupuma
+    katupuma: katupu-ma
 keyama-raise:
   gloss:
     raise: ''
@@ -373,7 +373,7 @@ keyama-raise:
   - ''
   - macaus
   obj:
-    "k\xEByama": "k\xEByama"
+    "k\xEByama": "k\xEBya-ma"
 kirima-thicken:
   gloss:
     thicken: ''
@@ -381,7 +381,7 @@ kirima-thicken:
   - ''
   - macaus
   obj:
-    "k\xEFr\xEFma": "k\xEFr\xEFma"
+    "k\xEFr\xEFma": "k\xEFr\xEF-ma"
 morontama-cause-pain:
   gloss:
     cause_pain: ''
@@ -389,7 +389,7 @@ morontama-cause-pain:
   - moronta-hurt
   - macaus
   obj:
-    morontama: morontama
+    morontama: moronta-ma
 pejma-bewitch:
   gloss:
     bewitch: ''
@@ -397,7 +397,7 @@ pejma-bewitch:
   - ''
   - macaus
   obj:
-    pejma: pejma
+    pejma: pej-ma
 yajwema-sweeten:
   gloss:
     sweeten: ''
@@ -405,7 +405,7 @@ yajwema-sweeten:
   - ''
   - macaus
   obj:
-    yajwema: yajwema
+    yajwema: yajwe-ma
 yapima-make-worse:
   gloss:
     make_worse: ''
@@ -413,7 +413,7 @@ yapima-make-worse:
   - ''
   - macaus
   obj:
-    yapima: yapima
+    yapima: yapi-ma
 yatuma-warm:
   gloss:
     warm: ''
@@ -421,7 +421,7 @@ yatuma-warm:
   - ''
   - macaus
   obj:
-    yatuma: yatuma
+    yatuma: yatu-ma
 yerema-feed:
   gloss:
     feed: ''
@@ -429,7 +429,7 @@ yerema-feed:
   - ''
   - macaus
   obj:
-    yerema: yerema
+    yerema: yere-ma
 yakarama-tell:
   gloss:
     tell: ''
@@ -437,7 +437,7 @@ yakarama-tell:
   - yakara-believe
   - macaus
   obj:
-    yakarama: yakarama
+    yakarama: yakara-ma
 ejnai-make-self:
   gloss:
     make_self: ''
@@ -445,7 +445,7 @@ ejnai-make-self:
   - nai-do
   - dt1
   obj:
-    "\xEBjnai": "\xEBjnai"
+    "\xEBj-nai": "\xEBj-nai"
 ejwenaka-vomit:
   gloss:
     vomit: ''
@@ -453,7 +453,7 @@ ejwenaka-vomit:
   - wenaka-vomit
   - dt1
   obj:
-    "\xEBjwenaka": "\xEBjwenaka"
+    "\xEBj-wenaka": "\xEBj-wenaka"
 serema-eat:
   gloss:
     eat: ''
@@ -461,7 +461,7 @@ serema-eat:
   - yerema-feed
   - dt2
   obj:
-    serema: serema
+    s-erema: s-erema
 senka-finish:
   gloss:
     finish: ''
@@ -469,7 +469,7 @@ senka-finish:
   - enka-finish
   - dt2
   obj:
-    "s\xEBnka": "s\xEBnka"
+    "s-\xEBnka": "s-\xEBnka"
 ejneme-remain:
   gloss:
     remain: ''
@@ -477,7 +477,7 @@ ejneme-remain:
   - neme-leave
   - dt1
   obj:
-    "\xEBjn\xEBm\xEB": "\xEBjn\xEBm\xEB"
+    "\xEBj-n\xEBm\xEB": "\xEBj-n\xEBm\xEB"
 senejka-stay:
   gloss:
     stay: ''
@@ -485,7 +485,7 @@ senejka-stay:
   - enejka-watch
   - dt2
   obj:
-    senejka: senejka
+    senejka: s-enejka
 apataka-come-out:
   gloss:
     come_out: ''
@@ -493,7 +493,7 @@ apataka-come-out:
   - pataka-take-out
   - dt4
   obj:
-    apataka: apataka
+    a-pataka: a-pataka
 sereka-become-tired:
   gloss:
     become_tired: ''
@@ -501,7 +501,7 @@ sereka-become-tired:
   - ''
   - dt2
   obj:
-    sereka: sereka
+    sereka: s-ereka
 esene-see-self:
   gloss:
     see_self: ''
@@ -509,7 +509,7 @@ esene-see-self:
   - ini-see
   - dt5
   obj:
-    esene: esene
+    sene: s-ene
 atapej-seize-on:
   gloss:
     seize_on: ''
@@ -517,7 +517,7 @@ atapej-seize-on:
   - ''
   - dt3
   obj:
-    "atap\xEBj": "atap\xEBj"
+    "atap\xEBj": "at-ap\xEBj"
 ejpenaka-return:
   gloss:
     return: ''
@@ -525,7 +525,7 @@ ejpenaka-return:
   - penaka-return
   - dt1
   obj:
-    "\xEBjp\xEBnaka": "\xEBjp\xEBnaka"
+    "\xEBjp\xEBnaka": "\xEBj-p\xEBnaka"
 0:
   gloss:
     at_night: ''
@@ -565,7 +565,7 @@ ejpenaka-return:
   - ''
   - neadvz
   obj:
-    "p\xEBchine; pochine": "p\xEBchine; pochine"
+    pochine: pochine
 5:
   gloss:
     second_mother: ''
@@ -597,7 +597,7 @@ ejpenaka-return:
   - ''
   - petiplur
   obj:
-    "sejp\xEBti; sejp\xEBj": "sejp\xEBti; sejp\xEBj"
+    "sejp\xEBj": "sejp\xEBj"
 9:
   gloss:
     bury: ''
