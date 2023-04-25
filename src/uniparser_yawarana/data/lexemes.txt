@@ -937,17 +937,6 @@
  paradigm: uninfl
 
 -lexeme
- lex: kere-ripeness
- stem: .kërë.
- trans_en: ripeness
- gloss: ripeness
- gramm: n
- std: kërë
- id: kere-ripeness
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: keresantomo-prox-anim-pl
  stem: .kërësantomo.
  trans_en: PROX.ANIM.PL
@@ -3577,13 +3566,13 @@
  paradigm: uninfl
 
 -lexeme
- lex: taji
+ lex: taji-foc
  stem: .taji.
- trans_en: ???
- gloss: ???
+ trans_en: FOC
+ gloss: FOC
  gramm: part
  std: taji
- id: taji
+ id: taji-foc
  paradigm: uninfl
 
 -lexeme
@@ -4885,6 +4874,38 @@
  std: ati
  id: ati-what
  paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: pe-ess
+ stem: .pe.
+ trans_en: ESS
+ gloss: ESS
+ gramm: postp
+ std: pe
+ id: pe-ess
+ paradigm: postp
+
+-lexeme
+ lex: kerejpe-old
+ stem: .kërëjpë.
+ trans_en: old
+ gloss: old
+ gramm: n
+ std: kërëjpë
+ id: kerejpe-old
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: kere-old
+ stem: .kërë.
+ trans_en: old
+ gloss: old
+ gramm: n
+ std: kërë
+ id: kere-old
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
