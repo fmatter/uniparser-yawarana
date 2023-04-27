@@ -18,5 +18,9 @@
     {
         "wf": "ini",
         "gloss": ".*AGTNMLZ.*"
+    },
+    {
+        "wf": "kampra",
+        "gramm": ".*pert.*"
     }
 ]
