@@ -2079,7 +2079,7 @@
 
 -lexeme
  lex: samo-cry
- stem: .samo.|.sëmo.
+ stem: .samo.|.sëmo.|.asamo.
  trans_en: cry
  gloss: cry
  gramm: vi

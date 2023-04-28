@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * `nmlz` tags for productive nominalizations
 * disambiguation of essive and palm species *pe*
+* lexemes
 
 ### Changed
 
