@@ -57,9 +57,6 @@ SELECT ("ka-q") IF (0 ("<ka>")) (-1 verbal);
 # ta wïrë 'I say'
 SELECT ("taro-say") IF (0 ("<taro>") OR ("<ta>")) (1 ("<wïrë>"));
 
-# sentence initial ta is always 'say'
-REMOVE ("ta-like") IF (-1 (*));
-
 # ati: 'what' or 'field'?
 SELECT ("ati-what") IF (1 ("<rë>") OR ("<ta>"));
 
