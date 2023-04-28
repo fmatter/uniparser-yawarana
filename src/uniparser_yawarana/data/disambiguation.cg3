@@ -66,6 +66,9 @@ SELECT ("yaka-all") IF (0 ("<yaka>"));
 # nwa: never 'glute' if not preceded by nominal (?)
 SELECT ("nwa-thus") IF (NOT -1 nominal);
 
+# pe: never 'palm.sp' if preceded by nominalized verb
+SELECT ("pe-ess") IF (-1 (nmlz));
+
 # chiri ma 'only that', 'that' being a nominalized copula
 SELECT (acnnmlz) IF (1 ("<ma>")) (0 ("<chiri>"));
 

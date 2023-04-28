@@ -6,13 +6,13 @@
  paradigm: noun_clitic
  paradigm: n_deriv
  gloss: ACNNMLZ
- gramm: n, acnnmlz
+ gramm: n,nmlz
  id: rinmlz
 
 -deriv-type: V-kemi
  lex: [.]rinmlz&keprop&minmlz
  stem: [.]0&ke&mï<.>//[.]0&ke&m<.>
- gramm: adv,prop
+ gramm: adv,prop,nmlz
  gloss: ACNNMLZ&PROP&NMLZ
  id: rinmlz,keprop,minmlz
  paradigm: mi_clitic
@@ -21,28 +21,28 @@
 -deriv-type: V-jpë
  lex: [.]&jpenmlz
  stem: [.]jpë
- gramm: n
+ gramm: n,nmlz
  gloss: PST.ACNNMLZ
  id: jpenmlz
 
 -deriv-type: V-sape
  lex: [.]&sapenmlz
  stem: [.]sapë//[.]saj//[.]chaj
- gramm: n
+ gramm: n,nmlz
  gloss: ABS.NMLZ
  id: sapenmlz
 
 -deriv-type: V-inf
  lex: [.]&neinf
  stem: [.]në//[.]të
- gramm: n
+ gramm: n,nmlz
  gloss: INF
  id: neinf
 
 -deriv-type: V-topo
  lex: [.]&toponmlz
  stem: [.]topo<.>//[.]toj<.>
- gramm: n
+ gramm: n,nmlz
  gloss: CIRC.NMLZ
  id: toponmlz
  paradigm: n_priv
@@ -51,21 +51,21 @@
 -deriv-type: V-ni
  lex: [.]&ninmlz
  stem: [.]ni<.>
- gramm: n
+ gramm: n,nmlz
  gloss: AGTNMLZ
  id: ninmlz
 
 -deriv-type: A-ano
  lex: [.]&anonmlz
  stem: [.]no<.>//[.]n<.>//[.]an<.>//[.]ano<.>//[.]na<.>
- gramm: n
+ gramm: n,nmlz
  gloss: NMLZ
  id: anonmlz
 
 -deriv-type: A-mi
  lex: [.]&minmlz
  stem: [.]mï<.>//[.]m<.>
- gramm: n
+ gramm: n,nmlz
  gloss: NMLZ
  id: minmlz
  paradigm: mi_clitic
@@ -74,14 +74,14 @@
 -deriv-type: A-mijra
  lex: [.]&minmlz&jrapriv
  stem: [.]mï&jra
- gramm: n,priv
+ gramm: n,priv,nmlz
  gloss: NMLZ&PRIV
  id: minmlz,jrapriv
 
 -deriv-type: V-semi
  lex: [.]septcp|minmlz
  stem: <.>[.]se|mï<.>//<.>[.]che|mï<.>
- gramm: n
+ gramm: n,nmlz
  gloss: PTCP|NMLZ
  id: septcp,minmlz
 
@@ -214,6 +214,6 @@
 -deriv-type: N-dim
  lex: [.]&pijkedim
  stem: [.]pïjkë<.>//[.]pijkë<.>
- gramm: n
+ gramm: n,dim
  gloss: DIM
  id: pijkedim

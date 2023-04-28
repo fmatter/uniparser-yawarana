@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+* `nmlz` tags for productive nominalizations
+* disambiguation of essive and palm species *pe*
+
+### Changed
+
+### Removed
+
+## [0.0.5] -- 2023-04-28
+
+### Added
 * use lexeme IDs for lex entries
 * derivational morphology in `derivations.txt`
 * more morphology and lexemes
