@@ -22,5 +22,9 @@
     {
         "wf": "kampra",
         "gramm": ".*pert.*"
+    },
+    {
+        "wf": "takï",
+        "gloss": ".*worm.*"
     }
 ]

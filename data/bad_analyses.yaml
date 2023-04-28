@@ -10,3 +10,5 @@
   gloss: .*AGTNMLZ.*
 - wf: kampra
   gramm: .*pert.*
+- wf: takï # never 'his/her worm'
+  gloss: .*worm.*
