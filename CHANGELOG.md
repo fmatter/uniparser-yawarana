@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * lexemes
 
 ### Changed
+* "no nominalizations before auxiliaries" instead of "only verbs before auxiliaries"
 
 ### Removed
 

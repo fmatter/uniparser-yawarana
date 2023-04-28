@@ -22,7 +22,7 @@ SECTION # verbs and deverbal forms
 SELECT nominal IF (1 postpositional) (0 verbal);
 
 # only verbs before auxiliaries
-SELECT verbal IF (*1 ("chi-cop") BARRIER notParticles);
+REMOVE (nmlz) IF (*1 ("chi-cop") BARRIER notParticles);
 
 # only auxiliaries after verbs
 SELECT ("chi-cop") IF (*-1 verbal BARRIER notParticles);
