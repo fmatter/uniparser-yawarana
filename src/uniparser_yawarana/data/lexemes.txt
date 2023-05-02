@@ -75,16 +75,6 @@
  paradigm: pro
 
 -lexeme
- lex: aniki-who
- stem: .aniki.
- trans_en: who
- gloss: who
- gramm: intj
- std: aniki
- id: aniki-who
- paradigm: uninfl
-
--lexeme
  lex: anoto-annatto
  stem: .anoto.
  trans_en: annatto
@@ -3968,13 +3958,13 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: aniki-who-1
+ lex: aniki-who
  stem: .anïkï.|.aniki.
  trans_en: who
  gloss: who
  gramm: pn
  std: anïkï
- id: aniki-who-1
+ id: aniki-who
  paradigm: pro
 
 -lexeme
@@ -4745,17 +4735,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: o-game-food
- stem: .o.
- trans_en: game food
- gloss: game_food
- gramm: n
- std: o
- id: o-game-food
- paradigm: noun_v_new_ti_0
- paradigm: n_deriv
-
--lexeme
  lex: u-starchy-food
  stem: .u.
  trans_en: starchy food
@@ -5161,69 +5140,69 @@
  paradigm: n_deriv
 
 -lexeme
- lex: ape-liver
- stem: .apë.
+ lex: ere-liver
+ stem: .ere.
  trans_en: liver
  gloss: liver
  gramm: n
- std: apë
- id: ape-liver
+ std: ere
+ id: ere-liver
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: ere-meat
- stem: .ere.
+ lex: oti-meat
+ stem: .oti.
  trans_en: meat
  gloss: meat
  gramm: n
- std: ere
- id: ere-meat
+ std: oti
+ id: oti-meat
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: oti-nose
- stem: .oti.
+ lex: ena-nose
+ stem: .ëna.
  trans_en: nose
  gloss: nose
  gramm: n
- std: oti
- id: oti-nose
+ std: ëna
+ id: ena-nose
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: ena-smoke
- stem: .ëna.
+ lex: echi-smoke
+ stem: .ëchi.
  trans_en: smoke
  gloss: smoke
  gramm: n
- std: ëna
- id: ena-smoke
+ std: ëchi
+ id: echi-smoke
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: echi-stone
- stem: .ëchi.
+ lex: tepu-stone
+ stem: .tëpu.
  trans_en: stone
  gloss: stone
  gramm: n
- std: ëchi
- id: echi-stone
- paradigm: noun_v_new_ri_0
+ std: tëpu
+ id: tepu-stone
+ paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
- lex: tepu-arm-wing
- stem: .tëpu.
+ lex: ape-arm-wing
+ stem: .apë.
  trans_en: arm, wing
  gloss: arm,_wing
  gramm: n
- std: tëpu
- id: tepu-arm-wing
- paradigm: noun_c_new_ru_0
+ std: apë
+ id: ape-arm-wing
+ paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
 -lexeme
