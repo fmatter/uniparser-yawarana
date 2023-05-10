@@ -5228,6 +5228,18 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: kemichini-be-cold
+ stem: .këmïchini.
+ trans_en: be cold
+ gloss: be_cold
+ gramm: vi
+ std: këmïchini
+ id: kemichini-be-cold
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
