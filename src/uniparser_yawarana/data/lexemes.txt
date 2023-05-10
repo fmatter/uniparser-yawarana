@@ -3488,7 +3488,7 @@
 
 -lexeme
  lex: yeni-drink
- stem: .yëni.|.yeni.|.yën.
+ stem: .yëni.|.yeni.|.yën.|.yënï.
  trans_en: drink
  gloss: drink
  gramm: vt
