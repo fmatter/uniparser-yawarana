@@ -1774,7 +1774,7 @@
  gramm: n
  std: paku
  id: paku-arrow-tip
- paradigm: noun_c_new_ru_0
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
@@ -3106,17 +3106,6 @@
  paradigm: v_tr
  paradigm: v_tr_nmlz
  paradigm: vt_aspect
-
--lexeme
- lex: yaku-agouti
- stem: .yaku.
- trans_en: agouti
- gloss: agouti
- gramm: n
- std: yaku
- id: yaku-agouti
- paradigm: noun_c_new_ru_0
- paradigm: n_deriv
 
 -lexeme
  lex: yakere-com
@@ -5229,6 +5218,85 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: yakuri-agouti
+ stem: .yakuri.
+ trans_en: agouti
+ gloss: agouti
+ gramm: n
+ std: yakuri
+ id: yakuri-agouti
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: makampra-aunt
+ stem: .makampra.
+ trans_en: aunt
+ gloss: aunt
+ gramm: n
+ std: makampra
+ id: makampra-aunt
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: yemi-be-hungry
+ stem: .yëmï.|.yomi.|.yëmi.
+ trans_en: be hungry
+ gloss: be_hungry
+ gramm: vi
+ std: yëmï
+ id: yemi-be-hungry
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: ijmojka-cook
+ stem: .ijmojka.|.ijmoka.
+ trans_en: cook
+ gloss: cook
+ gramm: vt
+ std: ijmojka
+ id: ijmojka-cook
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
+ lex: padrastro-stepfather
+ stem: .padrastro.
+ trans_en: stepfather
+ gloss: stepfather
+ gramm: n,esp
+ std: padrastro
+ id: padrastro-stepfather
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: rafa-rafa
+ stem: .rafa.
+ trans_en: Rafa
+ gloss: Rafa
+ gramm: n
+ std: rafa
+ id: rafa-rafa
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: perez-perez
+ stem: .perez.
+ trans_en: Perez
+ gloss: Perez
+ gramm: n
+ std: perez
+ id: perez-perez
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
@@ -6217,3 +6285,12 @@
  gramm: postp
  paradigm: postp
  trans_en: behind
+
+-lexeme
+ lex: te-go
+ stem: .maijtë.
+ gloss: go.IMP
+ id: maijte-go-imp
+ gramm: imp,vi
+ paradigm: uninfl
+ trans_en: go!

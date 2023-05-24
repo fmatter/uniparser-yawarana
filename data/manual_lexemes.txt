@@ -85,3 +85,12 @@
  gramm: postp
  paradigm: postp
  trans_en: behind
+
+-lexeme
+ lex: te-go
+ stem: .maijtë.
+ gloss: go.IMP
+ id: maijte-go-imp
+ gramm: imp,vi
+ paradigm: uninfl
+ trans_en: go!
