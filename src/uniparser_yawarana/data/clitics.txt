@@ -24,3 +24,12 @@
  gloss: INTS
  gramm: ints
  id: ne-ints
+
+-clitic
+ lex: ka-all
+ stem: ka
+ trans_en: ALL
+ type: en
+ gloss: ALL
+ gramm: all
+ id: ka-all
