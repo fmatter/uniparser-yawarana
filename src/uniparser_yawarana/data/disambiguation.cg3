@@ -76,3 +76,4 @@ SECTION # bad wordforms with clitics
 REMOVE (rst) IF (0 ("<yakarama>"));
 SELECT ("nwa-thus+re-emp") IF (0 ("<nwarë>"));
 SELECT ("ire-3ana-inan") IF (0 ("<irë>"));
+SELECT ("akere-with") IF (0 ("<takërë>"));

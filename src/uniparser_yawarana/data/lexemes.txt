@@ -1532,6 +1532,17 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: najwata-harbor
+ stem: .najwata.
+ trans_en: harbor
+ gloss: harbor
+ gramm: n
+ std: najwata
+ id: najwata-harbor
+ paradigm: noun_c_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: naki-thirst
  stem: .naki.
  trans_en: thirst
@@ -3106,16 +3117,6 @@
  paradigm: v_tr
  paradigm: v_tr_nmlz
  paradigm: vt_aspect
-
--lexeme
- lex: yakere-com
- stem: .yakërë.
- trans_en: COM
- gloss: COM
- gramm: postp
- std: yakërë
- id: yakere-com
- paradigm: postp
 
 -lexeme
  lex: yamane-make
@@ -5295,6 +5296,16 @@
  id: perez-perez
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: akere-with
+ stem: .akërë.
+ trans_en: with
+ gloss: with
+ gramm: postp
+ std: akërë
+ id: akere-with
+ paradigm: postp
 
 -lexeme
  lex: wenaka-vomit
