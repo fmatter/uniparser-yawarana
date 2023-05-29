@@ -51,6 +51,10 @@
   gramm: 3,poss
   gloss: 3
   id: i3
+ -flex: ej.<.>
+  gramm: 12,poss
+  gloss: 1+2
+  id: i3
  -flex: ..<.>
   gramm:
  paradigm: noun_plural

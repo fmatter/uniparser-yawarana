@@ -17,7 +17,7 @@ __version__ = "0.0.6.dev"
 
 
 class YawaranaAnalyzer(Analyzer):
-    def __init__(self, etymologize=False, verbose_grammar=False):
+    def __init__(self, etymologize=False, verbose_grammar=False, cache=True):
         super().__init__(verbose_grammar=verbose_grammar)
         self.base_path = files("uniparser_yawarana") / "data"
         self.flattenSubwords = True
@@ -36,6 +36,8 @@ class YawaranaAnalyzer(Analyzer):
         self.wfCache = {}
         self.etymologize_mode = etymologize
         self.load_grammar()
+        self.initialize_parser()
+        self.m.REMEMBER_PARSES = cache
 
     def etymologize(self, ana):
         etym_ids = []
@@ -75,12 +77,22 @@ class YawaranaAnalyzer(Analyzer):
             format=format,
             disambiguate=disambiguate,
         )
+        filtered = []
         for ana in all_analyses:
-            if self.etymologize_mode:
-                if str(ana) not in self.wfCache:
-                    self.etymologize(ana)
-                ana.otherData.extend(self.wfCache[str(ana)])
-        return all_analyses
+            if isinstance(ana, list):
+                dedup = list(dict.fromkeys(ana))
+                filtered.append(dedup)
+                # if len(dedup) == 1:
+                #     filtered.append(dedup[0])
+                # else:
+                #     filtered.append(dedup)
+            else:
+                filtered.append(ana)
+            # if self.etymologize_mode:
+            #     if str(ana) not in self.wfCache:
+            #         self.etymologize(ana)
+            #     ana.otherData.extend(self.wfCache[str(ana)])
+        return filtered
 
         # if isinstance(all_analyses[0], list):  # filter wrong analyses of -jrama 'PROH'
         #     filtered = []

@@ -2802,6 +2802,18 @@
  paradigm: vi_aspect
 
 -lexeme
+ lex: wajyama-kiss
+ stem: .wajyama.
+ trans_en: kiss
+ gloss: kiss
+ gramm: vt
+ std: wajyama
+ id: wajyama-kiss
+ paradigm: v_tr
+ paradigm: v_tr_nmlz
+ paradigm: vt_aspect
+
+-lexeme
  lex: wanapu-savannah
  stem: .wanapu.
  trans_en: savannah
@@ -4121,7 +4133,7 @@
 
 -lexeme
  lex: ajaja-hahaha
- stem: .ajaja.
+ stem: .ajaja.|.jajajaja.
  trans_en: hahaha
  gloss: hahaha
  gramm: intj
@@ -5306,6 +5318,47 @@
  std: akërë
  id: akere-with
  paradigm: postp
+
+-lexeme
+ lex: ka-all
+ stem: .ka.
+ trans_en: ALL
+ gloss: ALL
+ gramm: postp
+ std: ka
+ id: ka-all
+ paradigm: postp
+
+-lexeme
+ lex: maijte-go-imp
+ stem: .maijtë.
+ trans_en: go.IMP
+ gloss: go.IMP
+ gramm: vi
+ std: maijtë
+ id: maijte-go-imp
+ paradigm: uninfl
+
+-lexeme
+ lex: ammm-um
+ stem: .ammm.
+ trans_en: um
+ gloss: um
+ gramm: intj
+ std: ammm
+ id: ammm-um
+ paradigm: uninfl
+
+-lexeme
+ lex: ejnomo-ejnomo
+ stem: .ejnomo.
+ trans_en: ejnomo
+ gloss: ejnomo
+ gramm: n
+ std: ejnomo
+ id: ejnomo-ejnomo
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: wenaka-vomit
