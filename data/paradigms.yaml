@@ -365,6 +365,7 @@
  -flex: .jra
   gramm: neg
   gloss: NEG
+  id: jraneg
 
 -paradigm: adv
  -flex: .
