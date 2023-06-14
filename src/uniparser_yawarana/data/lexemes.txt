@@ -6197,13 +6197,13 @@
  paradigm: adv_deriv
 
 -lexeme
- lex: pechine-pochine-odorous
+ lex: pechine-odorous
  stem: .pëchine.|.pochine.
  trans_en: odorous
  gloss: odorous
  gramm: adv
  std: pëchine
- id: pechine-pochine-odorous
+ id: pechine-odorous
  paradigm: adv
  paradigm: adv_deriv
 
@@ -6239,13 +6239,13 @@
  paradigm: të
 
 -lexeme
- lex: sejpeti-sejpej-dream
+ lex: sejpeti-dream
  stem: .sejpëti.|.sejpëj.
  trans_en: dream
  gloss: dream
  gramm: vi
  std: sejpëti
- id: sejpeti-sejpej-dream
+ id: sejpeti-dream
  paradigm: v_intr
  paradigm: v_intr_nmlz
  paradigm: vi_aspect

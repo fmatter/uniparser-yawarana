@@ -30,6 +30,8 @@ def read_file(path, mode="text"):
             return f.read()
         raise ValueError(mode)
 
+def create_lex_id(rec):
+    return humidify(rec["Form"].split(SEP)[0] + " " + rec["Gloss"])
 
 SEP = "; "  # separator between variants of same form
 DATA_PATH = Path("src/uniparser_yawarana/data")  # the python package's data folder
@@ -78,9 +80,7 @@ manual_roots["Gloss"] = manual_roots["Translation"].apply(
 )  # get a single gloss
 # manual_roots["Form"] = manual_roots.apply(lambda x: SEP.join(x["Form"]), axis=1)# get variants
 roots = pd.concat([roots, manual_roots])  # combine with dictionary roots
-roots["ID"] = roots.apply(
-    lambda x: humidify(x["Form"].split(SEP)[0] + " " + x["Gloss"]), axis=1
-)  # create IDs
+roots["ID"] = roots.apply(create_lex_id, axis=1)  # create IDs
 roots.set_index("ID", inplace=True, drop=False)  # make retrievable quickly
 roots["Etym_Gloss"] = roots[
     "Gloss"
@@ -163,9 +163,7 @@ derivations = derivations.apply(process_stem, axis=1)
 misc = pd.read_csv("data/derivations/misc_derivations.csv", keep_default_na=False)
 misc["Form"] = misc["Form"].apply(lambda x: x.replace("+", "").replace("-", ""))
 misc["Gloss"] = misc["Translation"].apply(glossify)
-misc["ID"] = misc.apply(
-    lambda x: humidify(f"{x['Form']}-{x['Translation']}"), axis=1
-)  # generate IDs
+misc["ID"] = misc.apply(create_lex_id, axis=1)
 
 # assemble all stems (called lexemes in the uniparser context)
 lexemes = pd.concat([roots, derivations, misc])
