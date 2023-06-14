@@ -54,6 +54,7 @@
  gramm: n,nmlz
  gloss: AGTNMLZ
  id: ninmlz
+ paradigm: uninfl
 
 -deriv-type: A-ano
  lex: [.]&anonmlz

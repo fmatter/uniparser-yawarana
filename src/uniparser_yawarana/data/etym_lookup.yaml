@@ -333,7 +333,7 @@ werewereta-swarm-mosquitos:
   - werewere-mosquito-sp
   - tavbz
   obj:
-    werewereta: werewereta
+    werewereta: werewere-ta
 keyata-grow:
   gloss:
     grow: ''
@@ -429,7 +429,7 @@ yerema-feed:
   - ''
   - macaus
   obj:
-    yerema: yere-ma
+    erema: ere-ma
 yakarama-tell:
   gloss:
     tell: ''
@@ -579,7 +579,7 @@ ejpenaka-return:
     thin: ''
   ids:
   - ''
-  - readvz
+  - yeadvz
   obj:
     "m\xEBt\xEBye": "m\xEBt\xEBye"
 7:

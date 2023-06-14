@@ -546,7 +546,7 @@
 
 -lexeme
  lex: ini-see
- stem: .ini.|.in.
+ stem: .ini.|.in.|.ene.
  trans_en: see
  gloss: see
  gramm: vt
@@ -5998,7 +5998,7 @@
 
 -lexeme
  lex: yerema-feed
- stem: .yerema.
+ stem: .yerema.|.erema.
  trans_en: feed
  gloss: feed
  gramm: vt
