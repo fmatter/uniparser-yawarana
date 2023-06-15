@@ -33,3 +33,12 @@
  gloss: ALL
  gramm: all
  id: ka-all
+
+-clitic
+ lex: jra-neg
+ stem: jra
+ trans_en: NEG
+ type: en
+ gloss: NEG
+ gramm: neg
+ id: jra-neg

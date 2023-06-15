@@ -5361,6 +5361,16 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: jra-neg
+ stem: .jra.
+ trans_en: NEG
+ gloss: NEG
+ gramm: part
+ std: jra
+ id: jra-neg
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit

@@ -131,10 +131,11 @@
  deriv-link: N-ke
  deriv-link: N-dim
 
--paradigm: n_priv
- -flex: .
-  gramm:
- deriv-link: N-jra
+# jra is a particle
+# -paradigm: n_priv
+#  -flex: .
+#   gramm:
+#  deriv-link: N-jra
 
 -paradigm: noun_c_old_ri_të
  -flex: <.>.ri<.>//<.>.0<.>//<.>.rï<.>
@@ -642,11 +643,11 @@
 -paradigm: v_jra
  -flex: .
   gramm:
- -flex: .jra<.>
-  gloss: NEG
-  gramm: neg
-  id: jraneg
-  paradigm: konto_pl
+ # -flex: .jra<.>
+ #  gloss: NEG
+ #  gramm: neg
+ #  id: jraneg
+ #  paradigm: konto_pl
  -flex: .jnari
   gloss: NEG
   gramm: neg
@@ -838,22 +839,22 @@
 -paradigm: postp-suff
  -flex: .
   gramm:
- -flex: .jra
-  gramm: neg
-  gloss: NEG
-  id: jraneg
+ # -flex: .jra
+ #  gramm: neg
+ #  gloss: NEG
+ #  id: jraneg
 
 -paradigm: adv
  -flex: .
   gramm: 
- -flex: .jra
-  gloss: NEG
-  gramm: neg
-  id: jraneg
+ # -flex: .jra
+ #  gloss: NEG
+ #  gramm: neg
+ #  id: jraneg
 
 -paradigm: adv_deriv
  -flex: .
   gramm: 
  deriv-link: A-mi
- deriv-link: A-mijra
+ # deriv-link: A-mijra
  deriv-link: A-ano

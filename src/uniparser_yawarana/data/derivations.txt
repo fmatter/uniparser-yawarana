@@ -72,12 +72,13 @@
  paradigm: mi_clitic
  paradigm: noun_clitic
 
--deriv-type: A-mijra
- lex: [.]&minmlz&jrapriv
- stem: [.]mï&jra
- gramm: n,priv,nmlz
- gloss: NMLZ&PRIV
- id: minmlz,jrapriv
+# jra is a particle
+# -deriv-type: A-mijra
+#  lex: [.]&minmlz&jrapriv
+#  stem: [.]mï&jra
+#  gramm: n,priv,nmlz
+#  gloss: NMLZ&PRIV
+#  id: minmlz,jrapriv
 
 -deriv-type: V-semi
  lex: [.]septcp|minmlz
@@ -129,12 +130,13 @@
  gloss: PROP
  id: keprop
 
--deriv-type: N-jra
- lex: [.]&jrapriv
- stem: [.]jra
- gramm: priv
- gloss: PRIV
- id: jrapriv
+# jra is a particle
+# -deriv-type: N-jra
+#  lex: [.]&jrapriv
+#  stem: [.]jra
+#  gramm: priv
+#  gloss: PRIV
+#  id: jrapriv
 
 # productive aspectual derivations
 
