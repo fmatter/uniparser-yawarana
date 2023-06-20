@@ -340,7 +340,7 @@ write_file(DATA_PATH / "lexemes.txt", "\n\n".join(lexemes_str))
 # * old or new second person marker
 noun_class_parameters = [
     ["c", "v"],
-    ["ri", "ru", "ti", "0"],
+    ["ri", "ru", "ti", "i", "0"],
     ["të", "0"],
     ["old", "new"],
 ]
@@ -353,6 +353,10 @@ pert_dict = {
   gloss: PERT
   gramm: pert
   id: rupert""",
+    "i": """ -flex: <.>.i<.>
+  gloss: PERT
+  gramm: pert
+  id: ipert""",
     "ti": """ -flex: <.>.ti<.>//<.>.j<.>
   gloss: PERT
   gramm: pert

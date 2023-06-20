@@ -2832,7 +2832,7 @@
  gramm: n
  std: wanene
  id: wanene-aunt
- paradigm: noun_c_new_ri_0
+ paradigm: noun_c_old_i_0
  paradigm: n_deriv
 
 -lexeme
