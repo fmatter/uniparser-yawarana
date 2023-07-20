@@ -93,7 +93,7 @@ bound_roots["ID"] = bound_roots.apply(
 bound_roots.set_index("ID", inplace=True)
 bound_roots["Etym_Gloss"] = bound_roots["Translation"]
 deriv_morphs = pd.read_csv(
-    "/home/florianm/Dropbox/research/cariban/yawarana/yawarana-sketch-cldf/etc/derivation_morphs.csv"
+    "/home/florianm/Dropbox/research/cariban/yawarana/yawarana-corpus-cldf/etc/derivation_morphs.csv"
 )
 deriv_morphs.set_index("ID", inplace=True, drop=False)
 # method to read stems identified as being derived from some other stem
