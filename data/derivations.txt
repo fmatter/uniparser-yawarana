@@ -10,7 +10,7 @@
  id: rinmlz
 
 -deriv-type: V-kemi
- lex: [.]rinmlz&keprop&minmlz
+ lex: [.]&rinmlz&keprop&minmlz
  stem: [.]0&ke&mï<.>//[.]0&ke&m<.>
  gramm: adv,prop,nmlz
  gloss: ACNNMLZ&PROP&NMLZ
