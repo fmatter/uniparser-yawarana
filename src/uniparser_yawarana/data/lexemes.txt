@@ -1499,7 +1499,7 @@
 
 -lexeme
  lex: nai-do
- stem: .nai.
+ stem: .nai.|.naij.
  trans_en: do
  gloss: do
  gramm: vt
@@ -3936,18 +3936,6 @@
  paradigm: n_deriv
 
 -lexeme
- lex: naij-do
- stem: .naij.
- trans_en: do
- gloss: do
- gramm: vt
- std: naij
- id: naij-do
- paradigm: v_tr
- paradigm: v_tr_nmlz
- paradigm: vt_aspect
-
--lexeme
  lex: tawejka-dawn
  stem: .tawejka.
  trans_en: dawn
@@ -4604,17 +4592,6 @@
  std: nwa
  id: nwa-glute
  paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
- lex: enu-eye
- stem: .ënu.
- trans_en: eye
- gloss: eye
- gramm: n
- std: ënu
- id: enu-eye
- paradigm: noun_v_new_ru_0
  paradigm: n_deriv
 
 -lexeme
