@@ -2413,7 +2413,7 @@
 
 -lexeme
  lex: tajnomo-piaroa
- stem: .tajnomo.
+ stem: .tajnomo.|.tajnon.
  trans_en: Piaroa
  gloss: Piaroa
  gramm: n
@@ -4395,17 +4395,6 @@
  paradigm: vi_aspect
 
 -lexeme
- lex: tajnon-piaroa
- stem: .tajnon.
- trans_en: Piaroa
- gloss: Piaroa
- gramm: n
- std: tajnon
- id: tajnon-piaroa
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: tamanaku-t
  stem: .tamanaku.
  trans_en: T.
@@ -5265,24 +5254,24 @@
  paradigm: n_deriv
 
 -lexeme
- lex: rafa-rafa
+ lex: rafa-r
  stem: .rafa.
- trans_en: Rafa
- gloss: Rafa
+ trans_en: R.
+ gloss: R.
  gramm: n
  std: rafa
- id: rafa-rafa
+ id: rafa-r
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
- lex: perez-perez
+ lex: perez-p
  stem: .perez.
- trans_en: Perez
- gloss: Perez
+ trans_en: P.
+ gloss: P.
  gramm: n
  std: perez
- id: perez-perez
+ id: perez-p
  paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
