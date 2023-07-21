@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 * "no nominalizations before auxiliaries" instead of "only verbs before auxiliaries"
 * better disambiuation of *ta*
+* adverbials (adverbial phrases?) are their own POS
 
 ### Fixed
 * *-0-ke-mï*

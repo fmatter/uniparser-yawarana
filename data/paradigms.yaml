@@ -367,6 +367,22 @@
  #  gloss: NEG
  #  id: jraneg
 
+-paradigm: advl
+ -flex: .
+  gramm:
+ -flex: u.
+  gramm: 1
+  gloss: 1
+  id: u1
+ -flex: më.
+  gramm: 2
+  gloss: 2
+  id: me2
+ -flex: ta.
+  gramm: 3P
+  gloss: 3P
+  id: ta-3
+
 -paradigm: adv
  -flex: .
   gramm: 

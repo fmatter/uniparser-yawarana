@@ -99,25 +99,25 @@
 
 -deriv-type: V-sesup
  lex: [.]&septcp
- stem: [.]se<.>//[.]che<.>
- paradigm: uninfl
- gramm: adv,sup
+ stem: <.>[.]se//<.>[.]che
+ paradigm: advl
+ gramm: advl,sup
  gloss: SUP
  id: septcp
 
 -deriv-type: V-tojpe
  lex: [.]&tojpepurp
- stem: [.]tojpe<.>
- paradigm: adv
- gramm: adv,purp
+ stem: <.>[.]tojpe
+ paradigm: advl
+ gramm: advl,purp
  gloss: PURP
  id: tojpepurp
 
 -deriv-type: V-tane
  lex: [.]&tanecncs
- stem: [.]tane<.>
- paradigm: adv
- gramm: adv,cncs
+ stem: <.>[.]tane
+ paradigm: advl
+ gramm: advl,cncs
  gloss: CNCS
  id: tanecncs
 

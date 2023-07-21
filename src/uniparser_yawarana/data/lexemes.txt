@@ -3925,17 +3925,6 @@
  paradigm: vt_aspect
 
 -lexeme
- lex: wajto-fire
- stem: .wajto.
- trans_en: fire
- gloss: fire
- gramm: n
- std: wajto
- id: wajto-fire
- paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
  lex: tawejka-dawn
  stem: .tawejka.
  trans_en: dawn
@@ -5061,17 +5050,6 @@
  std: kërë
  id: kere-old
  paradigm: noun_c_new_ri_0
- paradigm: n_deriv
-
--lexeme
- lex: mesuku-blood
- stem: .mesuku.
- trans_en: blood
- gloss: blood
- gramm: n
- std: mesuku
- id: mesuku-blood
- paradigm: noun_c_new_ru_0
  paradigm: n_deriv
 
 -lexeme
