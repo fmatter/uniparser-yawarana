@@ -5335,6 +5335,17 @@
  paradigm: uninfl
 
 -lexeme
+ lex: enirepeke-recently
+ stem: .enirëpëke.
+ trans_en: recently
+ gloss: recently
+ gramm: adv
+ std: enirëpëke
+ id: enirepeke-recently
+ paradigm: adv
+ paradigm: adv_deriv
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit

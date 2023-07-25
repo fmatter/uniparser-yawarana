@@ -957,11 +957,6 @@
 -paradigm: adv
  -flex: .
   gramm: 
- -flex: .pëkë
-  gloss: about
-  gramm: postp
-  id: peke-about
-  sep: =
  # -flex: .jra
  #  gloss: NEG
  #  gramm: neg
