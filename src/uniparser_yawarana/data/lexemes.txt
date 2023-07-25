@@ -5346,6 +5346,16 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: pinita-neg
+ stem: .pïnita.
+ trans_en: NEG
+ gloss: NEG
+ gramm: part
+ std: pïnita
+ id: pinita-neg
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
