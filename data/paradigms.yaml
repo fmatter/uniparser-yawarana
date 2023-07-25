@@ -227,6 +227,10 @@
   gramm: fut
   gloss: FUT.CONCL
   id: tojpanofut
+ -flex: .ripo<.>
+  gramm: irr
+  gloss: IRR
+  id: ripoirr
  paradigm: konto_pl
 
 -paradigm: cop_clit

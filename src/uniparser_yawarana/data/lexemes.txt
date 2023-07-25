@@ -5315,6 +5315,16 @@
  paradigm: uninfl
 
 -lexeme
+ lex: chipokono-because
+ stem: .chipokono.|.chipokon.
+ trans_en: because
+ gloss: because
+ gramm: part
+ std: chipokono
+ id: chipokono-because
+ paradigm: uninfl
+
+-lexeme
  lex: wenaka-vomit
  stem: .wenaka.
  trans_en: vomit
