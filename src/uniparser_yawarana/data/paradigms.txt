@@ -933,6 +933,11 @@
 -paradigm: postp-suff
  -flex: .
   gramm:
+ -flex: .jne
+  gramm: pl
+  gloss: PL
+  id: jnepl
+  sep: =
  # -flex: .jra
  #  gramm: neg
  #  gloss: NEG
