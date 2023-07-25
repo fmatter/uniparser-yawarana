@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 2023-07-25
+
 ### Added
 * `nmlz` tags for productive nominalizations
 * disambiguation of essive and palm species *pe*
@@ -19,8 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 * *-0-ke-mï*
-
-### Removed
 
 ## [0.0.5] -- 2023-04-28
 
@@ -82,6 +82,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * initial release
 
 [Unreleased]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.4...HEAD
+[0.0.6]: https://github.com/fmatter/uniparser-yawarana/compare/0.0.4...0.0.4
 [0.0.4]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.4
 [0.0.3]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.3
 [0.0.2]: https://github.com/fmatter/uniparser-yawarana/releases/tag/0.0.2
