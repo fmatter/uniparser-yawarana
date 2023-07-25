@@ -5316,12 +5316,22 @@
 
 -lexeme
  lex: chipokono-because
- stem: .chipokono.|.chipokon.
+ stem: .chipokono.|.chipokon.|.chipëkën.
  trans_en: because
  gloss: because
  gramm: part
  std: chipokono
  id: chipokono-because
+ paradigm: uninfl
+
+-lexeme
+ lex: kontomo-pl
+ stem: .kontomo.
+ trans_en: PL
+ gloss: PL
+ gramm: part
+ std: kontomo
+ id: kontomo-pl
  paradigm: uninfl
 
 -lexeme

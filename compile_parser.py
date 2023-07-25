@@ -31,6 +31,9 @@ def read_file(path, mode="text"):
         raise ValueError(mode)
 
 def create_lex_id(rec):
+    if rec.get("ID"):
+        if len(rec["ID"]) < 15:
+            return rec["ID"]
     return humidify(rec["Form"].split(SEP)[0] + " " + rec["Gloss"])
 
 SEP = "; "  # separator between variants of same form
@@ -102,7 +105,6 @@ def read_deriv(name, pos):
     df["POS"] = pos
     df["Affix_ID"] = name
     return df
-
 
 kavbz = read_deriv("kavbz", "vt")  # transitive verbalizer -ka
 kavbz["Suffix_Gloss"] = "VBZ.TR"

@@ -85,6 +85,7 @@
   gramm: pl
   gloss: PL
   id: kontomopl
+  sep: =
  -flex: .<.>
   gramm:
  paradigm: what_about_second_plural
