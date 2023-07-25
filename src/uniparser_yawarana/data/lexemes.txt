@@ -32,6 +32,38 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: ajyu-tucuma-palm
+ stem: .ajyu.
+ trans_en: tucuma (palm)
+ gloss: tucuma(palm)
+ gramm: n
+ std: ajyu
+ id: ajyu-tucuma-palm
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: aka-ouch-cry-of-pain
+ stem: .aka.
+ trans_en: ouch (cry of pain)
+ gloss: ouch(cry_of_pain)
+ gramm: ideo
+ std: aka
+ id: aka-ouch-cry-of-pain
+ paradigm: uninfl
+
+-lexeme
+ lex: ako-pylon
+ stem: .ako.
+ trans_en: pylon
+ gloss: pylon
+ gramm: n
+ std: ako
+ id: ako-pylon
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: aki-worm
  stem: .akï.
  trans_en: worm; maggot
@@ -39,6 +71,17 @@
  gramm: n
  std: akï
  id: aki-worm
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: amaka-sweet-yucca
+ stem: .amaka.
+ trans_en: sweet yucca
+ gloss: sweet_yucca
+ gramm: n
+ std: amaka
+ id: amaka-sweet-yucca
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
@@ -75,6 +118,39 @@
  paradigm: pro
 
 -lexeme
+ lex: anaijke-wild-pineapple-sp
+ stem: .anaijkë.
+ trans_en: wild pineapple sp.
+ gloss: wild_pineapple_sp.
+ gramm: n
+ std: anaijkë
+ id: anaijke-wild-pineapple-sp
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: anake-ant-sp
+ stem: .anakë.
+ trans_en: ant sp.
+ gloss: ant_sp.
+ gramm: n
+ std: anakë
+ id: anake-ant-sp
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: anau-ant-sp
+ stem: .anau.
+ trans_en: ant sp.
+ gloss: ant_sp.
+ gramm: n
+ std: anau
+ id: anau-ant-sp
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
  lex: anoto-annatto
  stem: .anoto.
  trans_en: annatto
@@ -105,6 +181,40 @@
  std: antë
  id: ante-fish-hook
  paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: apa-decrease
+ stem: .apa.
+ trans_en: decrease
+ gloss: decrease
+ gramm: vi
+ std: apa
+ id: apa-decrease
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
+ lex: apereku-ceiba
+ stem: .apereku.
+ trans_en: ceiba
+ gloss: ceiba
+ gramm: n
+ std: apereku
+ id: apereku-ceiba
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: aperemu-chrysalis
+ stem: .aperemu.
+ trans_en: chrysalis
+ gloss: chrysalis
+ gramm: n
+ std: aperemu
+ id: aperemu-chrysalis
+ paradigm: noun_v_new_ru_0
  paradigm: n_deriv
 
 -lexeme
