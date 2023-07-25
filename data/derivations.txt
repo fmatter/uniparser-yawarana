@@ -100,8 +100,8 @@
 -deriv-type: V-sesup
  lex: [.]&septcp
  stem: <.>[.]se//<.>[.]che
- paradigm: advl
- gramm: advl,sup
+ paradigm: adv_deriv
+ gramm: adv,sup
  gloss: SUP
  id: septcp
 

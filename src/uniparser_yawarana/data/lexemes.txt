@@ -3580,7 +3580,7 @@
 
 -lexeme
  lex: empare-already
- stem: .ëmpare.
+ stem: .ëmpare.|.ïmparë.
  trans_en: already
  gloss: already
  gramm: adv

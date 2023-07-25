@@ -36,8 +36,8 @@ def run_polysemy_test(forms, parser):
 def test_tojpe(parser):
     run_polysemy_test(
         forms=[
-            ("chikatojpe", {"PURP": "adv", "FUT": "vt"}),
-            ("këtatojpe", {"PURP": "adv", "FUT": "vi"}),
+            ("chikatojpe", {"PURP": "advl", "FUT": "vt"}),
+            ("këtatojpe", {"PURP": "advl", "FUT": "vi"}),
         ],
         parser=parser,
     )
@@ -88,7 +88,7 @@ def test_unamb_derivs(parser):
         ("nwajtënë", {"INF": "n"}),
         ("tuni", {"AGTNMLZ": "n"}),
         ("yarikatopo", {"NMLZ": "n"}),
-        ("wejtane", {"CNCS": "adv"}),
+        ("wejtane", {"CNCS": "advl"}),
     ]
     run_polysemy_test(forms, parser)
     forms = [("munemï", {"NMLZ": "n"}), ("mïjnano", {"NMLZ": "n"})]

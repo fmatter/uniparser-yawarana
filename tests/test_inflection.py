@@ -92,19 +92,21 @@ def test_tam_suffixes(parser):
     for form, lemma, gloss, gramm, bad_tag in [
         ("tainija", "ini-see", "3P-see-NEG", "neg,3P,vt", ""),
         ("tainiri", "ini-see", "3P-see-IPFV", "ipfv,3P,vt", "n"),
-        ("inijpë", "ini-see", "see-PST", "pst,vt", "n"),
+        ("inijpë", "ini-see", "see-PST", "pst,vt", "nmlz"),
         ("inisapë", "ini-see", "see-PFV", "pfv,vt", "n"),
-        ("initojpe", "ini-see", "see-FUT", "fut,vt", "adv"),
+        ("initojpe", "ini-see", "see-FUT", "fut,vt", "advl"),
         ("inche", "ini-see", "see-PST", "pst,vt", "adv"),
         ("tasarë", "taro-say", "say-IMN", "imn,vt", "adv"),
         ("yaruwatëpëkë", "yaruwa-laugh", "laugh-PROG.INTR", "prog,vi", ""),
         ("tapëkë", "taro-say", "say-PROG.TR", "prog,vt", ""),
-        ("yaruwarijra", "yaruwa-laugh", "laugh-IPFV-NEG", "ipfv,vi,neg", "n"),
+        ("yaruwarijra", "yaruwa-laugh+jra-neg", "laugh-IPFV=NEG", "ipfv,vi,neg", "n"),
         # ("yaruwajrama", "yaruwa-laugh", "laugh-PROH", "vi,proh", ""), # todo: disambiguate
     ]:
         analyses = parser.analyze_words(form)
         for analysis in analyses:
-            if bad_tag in analysis.gramm.split(","):
+            if not isinstance(bad_tag, list):
+                bad_tag = [bad_tag]
+            if set(bad_tag).intersection(set(analysis.gramm.split(","))):
                 continue
             assert analysis.lemma == lemma
             assert analysis.gloss == gloss
