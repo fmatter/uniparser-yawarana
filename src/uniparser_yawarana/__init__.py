@@ -39,29 +39,29 @@ class YawaranaAnalyzer(Analyzer):
         self.initialize_parser()
         self.m.REMEMBER_PARSES = cache
 
-    def etymologize(self, ana):
-        etym_ids = []
-        etym_obj = ana.wfGlossed
-        etym_gloss = ana.gloss
-        for k, v in ana.otherData:
-            if k != "id":
-                continue
-            ids = v.split(",")
-            for _id in ids:
-                if _id in self.etym_dict:
-                    etym_info = self.etym_dict[_id]
-                    etym_ids.extend(etym_info["ids"])
-                    for orig, repl in etym_info["obj"].items():
-                        etym_obj = etym_obj.replace(orig, repl)
-                    for orig, repl in etym_info["gloss"].items():
-                        etym_gloss = etym_gloss.replace(orig, repl)
-                else:
-                    etym_ids.append(_id)
-        self.wfCache[str(ana)] = [
-            ("id_etym", ",".join(etym_ids)),
-            ("wfGlossed_etym", etym_obj),
-            ("gloss_etym", etym_gloss),
-        ]
+    # def etymologize(self, ana):
+    #     etym_ids = []
+    #     etym_obj = ana.wfGlossed
+    #     etym_gloss = ana.gloss
+    #     for k, v in ana.otherData:
+    #         if k != "id":
+    #             continue
+    #         ids = v.split(",")
+    #         for _id in ids:
+    #             if _id in self.etym_dict:
+    #                 etym_info = self.etym_dict[_id]
+    #                 etym_ids.extend(etym_info["ids"])
+    #                 for orig, repl in etym_info["obj"].items():
+    #                     etym_obj = etym_obj.replace(orig, repl)
+    #                 for orig, repl in etym_info["gloss"].items():
+    #                     etym_gloss = etym_gloss.replace(orig, repl)
+    #             else:
+    #                 etym_ids.append(_id)
+    #     self.wfCache[str(ana)] = [
+    #         ("id_etym", ",".join(etym_ids)),
+    #         ("wfGlossed_etym", etym_obj),
+    #         ("gloss_etym", etym_gloss),
+    #     ]
 
     def analyze_words(  # pylint: disable=redefined-builtin,too-many-arguments
         self,
