@@ -240,6 +240,17 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: aponte-seat
+ stem: .apontë.
+ trans_en: seat; nest
+ gloss: seat
+ gramm: n
+ std: apontë
+ id: aponte-seat
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: apuni-soap
  stem: .apuni.
  trans_en: soap
@@ -247,6 +258,17 @@
  gramm: n
  std: apuni
  id: apuni-soap
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: apemiti-bracelet
+ stem: .apëmïti.
+ trans_en: bracelet
+ gloss: bracelet
+ gramm: n
+ std: apëmïti
+ id: apemiti-bracelet
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
 
@@ -260,6 +282,50 @@
  id: arajmate-dangerous
  paradigm: adv
  paradigm: adv_deriv
+
+-lexeme
+ lex: arata-horned-beetle
+ stem: .arata.
+ trans_en: horned beetle
+ gloss: horned_beetle
+ gramm: n
+ std: arata
+ id: arata-horned-beetle
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: arauruku-wild-grape-sp
+ stem: .arauruku.
+ trans_en: wild grape sp.
+ gloss: wild_grape_sp.
+ gramm: n
+ std: arauruku
+ id: arauruku-wild-grape-sp
+ paradigm: noun_v_new_ru_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: araway-wild-pineapple-sp
+ stem: .araway.
+ trans_en: wild pineapple sp.
+ gloss: wild_pineapple_sp.
+ gramm: n
+ std: araway
+ id: araway-wild-pineapple-sp
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: araya-monkey-spider
+ stem: .araya.
+ trans_en: monkey spider
+ gloss: monkey_spider
+ gramm: n
+ std: araya
+ id: araya-monkey-spider
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
 
 -lexeme
  lex: arina-trembler
@@ -282,6 +348,28 @@
  id: aro-rice
  paradigm: noun_v_new_ri_0
  paradigm: n_deriv
+
+-lexeme
+ lex: arojpete-garbage
+ stem: .arojpëtë.
+ trans_en: garbage
+ gloss: garbage
+ gramm: n
+ std: arojpëtë
+ id: arojpete-garbage
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: arokate-difficult
+ stem: .arokatë.
+ trans_en: difficult
+ gloss: difficult
+ gramm: adv
+ std: arokatë
+ id: arokate-difficult
+ paradigm: adv
+ paradigm: adv_deriv
 
 -lexeme
  lex: aroma-limpet
@@ -328,6 +416,18 @@
  paradigm: adv_deriv
 
 -lexeme
+ lex: asare-get-stuck
+ stem: .asarë.
+ trans_en: get stuck
+ gloss: get_stuck
+ gramm: vi
+ std: asarë
+ id: asare-get-stuck
+ paradigm: v_intr
+ paradigm: v_intr_nmlz
+ paradigm: vi_aspect
+
+-lexeme
  lex: asere-dry-cough
  stem: .asere.
  trans_en: dry cough
@@ -371,6 +471,28 @@
  paradigm: n_deriv
 
 -lexeme
+ lex: awajpe-mountain-eagle
+ stem: .awajpë.
+ trans_en: mountain eagle
+ gloss: mountain_eagle
+ gramm: n
+ std: awajpë
+ id: awajpe-mountain-eagle
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: awarake-wasp-sp
+ stem: .awarakë.
+ trans_en: wasp sp.
+ gloss: wasp_sp.
+ gramm: n
+ std: awarakë
+ id: awarake-wasp-sp
+ paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
  lex: awochi-tumor
  stem: .awochi.
  trans_en: tumor
@@ -379,6 +501,17 @@
  std: awochi
  id: awochi-tumor
  paradigm: noun_v_new_ri_0
+ paradigm: n_deriv
+
+-lexeme
+ lex: chai-son-voc
+ stem: .chai.
+ trans_en: son (voc.)
+ gloss: son(voc.)
+ gramm: n
+ std: chai
+ id: chai-son-voc
+ paradigm: noun_c_new_ri_0
  paradigm: n_deriv
 
 -lexeme
