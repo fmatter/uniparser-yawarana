@@ -31,4 +31,4 @@ jobs:
         run: sudo apt install -y cg3
       - name: Test with pytest
         run: |
-          poetry run pytest test
+          poetry run pytest tests
