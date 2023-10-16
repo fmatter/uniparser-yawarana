@@ -40,5 +40,5 @@
  trans_en: NEG
  type: en
  gloss: NEG
- gramm: neg
+ gramm: neg,part
  id: jra-neg

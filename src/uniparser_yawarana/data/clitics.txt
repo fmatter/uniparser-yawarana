@@ -2,43 +2,48 @@
  lex: re-emp
  stem: rë
  trans_en: EMP
- type: en
  gloss: EMP
- gramm: emp
+ gramm: part,emp
+ std: rë
  id: re-emp
+ type: en
 
 -clitic
  lex: ma-rst
  stem: ma
  trans_en: RST
- type: en
  gloss: RST
- gramm: rst
+ gramm: part,rst
+ std: ma
  id: ma-rst
+ type: en
 
 -clitic
- lex: ne-ints
+ lex: n-ints
  stem: n
  trans_en: INTS
- type: en
  gloss: INTS
- gramm: ints
- id: ne-ints
+ gramm: part,ints
+ std: n
+ id: n-ints
+ type: en
 
 -clitic
  lex: ka-all
  stem: ka
  trans_en: ALL
- type: en
  gloss: ALL
- gramm: all
+ gramm: part,all
+ std: ka
  id: ka-all
+ type: en
 
 -clitic
  lex: jra-neg
  stem: jra
  trans_en: NEG
- type: en
  gloss: NEG
- gramm: neg
+ gramm: part,neg
+ std: jra
  id: jra-neg
+ type: en

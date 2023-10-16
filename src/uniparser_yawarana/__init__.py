@@ -15,6 +15,14 @@ __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
 __version__ = "0.0.7.dev"
 
+def fix_clitic(wf):
+    print(wf.wf)
+    print(wf.wfGlossed)
+    print(wf.gloss)
+    print(wf.lemma)
+    print(wf.gramm)
+    print(wf.otherData)
+    return "OK"
 
 class YawaranaAnalyzer(Analyzer):
     def __init__(self, etymologize=False, verbose_grammar=False, cache=True):
