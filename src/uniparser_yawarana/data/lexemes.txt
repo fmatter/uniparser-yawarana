@@ -5559,7 +5559,7 @@
 
 -lexeme
  lex: chipokono-because
- stem: .chipokono.|.chipokon.|.chipëkën.
+ stem: .chipokono.|.chipokon.|.chipëkën.|.chipëkë.
  trans_en: because
  gloss: because
  gramm: part

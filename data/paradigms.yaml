@@ -371,7 +371,7 @@
   gramm: pl
   gloss: PL
   id: jnepl
-  sep: =
+  # sep: =
  # -flex: .jra
  #  gramm: neg
  #  gloss: NEG
