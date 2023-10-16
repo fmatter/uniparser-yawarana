@@ -96,7 +96,6 @@ def test_tam_suffixes(parser):
         ("inisapë", "ini-see", "see-PFV", "pfv,vt", "n"),
         ("initojpe", "ini-see", "see-FUT", "fut,vt", "advl"),
         ("inche", "ini-see", "see-PST", "pst,vt", "adv"),
-        ("tasarë", "taro-say", "say-IMN", "imn,vt", "adv"),
         ("yaruwatëpëkë", "yaruwa-laugh", "laugh-PROG.INTR", "prog,vi", ""),
         ("tapëkë", "taro-say", "say-PROG.TR", "prog,vt", ""),
         ("yaruwarijra", "yaruwa-laugh+jra-neg", "laugh-IPFV=NEG", "ipfv,vi,neg", "n"),

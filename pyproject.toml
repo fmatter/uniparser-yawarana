@@ -1,21 +1,46 @@
+[tool.poetry]
+name = "uniparser-yawarana"
+version = "0.7.dev"
+description = "A UniParser implementation for morphologically parsing and annotating Yawarana material."
+authors = ["Florian Matter <flmt@mailbox.org>"]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+
+[tool.poetry.urls]
+"Bug tracker" = "https://www.github.com/fmatter/uniparser-yawarana/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pytest = "^7.4.2"
+uniparser-morph = "^2.7.4"
+
+[tool.poetry.group.dev.dependencies]
+keepachangelog = "^1.0.0"
+pytest = "^7.4.2"
+black = "^23.9.1"
+tomli = "^2.0.1"
+mkdocs = "^1.5.3"
+mike = "^1.1.2"
+mkdocs-material = "^9.4.4"
+invoke = "^2.2.0"
+isort = "^5.12.0"
+prospector = "^1.10.2"
+writio = "^0.0.1"
+coverage = "^7.3.2"
+
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
-[tool.tox]
-legacy_tox_ini = """
-[tox]
-envlist = py36,py37,py38,py39,lint
-skip_missing_interpreters = true
-toxworkdir=/tmp/.uniparser_yawarana_tox
-
-[testenv]
-usedevelop=True
-commands = 
-    pytest --cov
-extras = dev
-
-[testenv:lint]
-commands = python -m flake8
-extras = dev
-"""
+[tool.pytest.ini_options]
+testpaths = "tests"
