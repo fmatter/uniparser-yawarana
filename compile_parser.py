@@ -283,10 +283,10 @@ def get_noun_paradigms(rec):
 
 
 # generate a uniparser-morph readable lexicon entry from a record
-def create_lexeme_entry(data, paradigms=None, deriv_links=None):
+def create_lexeme_entry(data, paradigms=None, deriv_links=None, mode="lexeme"):
     paradigms = paradigms or []
     deriv_links = deriv_links or []
-    lex_str = ["-lexeme"]
+    lex_str = [f"-{mode}"]
     if "Stem" not in data:
         form_string = "|".join(["." + x + "." for x in data["Form"]])
     else:
@@ -298,8 +298,10 @@ def create_lexeme_entry(data, paradigms=None, deriv_links=None):
         "gloss": data["Gloss"],
         "gramm": ",".join(data["POS"].split(",") + data["Gramm"].split(",")).strip(","),
         "std": data["Form"][0],
+        "id": data["ID"]
     }
-    fields["id"] = data["ID"]
+    if mode == "clitic":
+        fields["type"] = data["Type"]
     for field, value in fields.items():
         lex_str.extend([f" {field}: {value}"])
     for paradigm in paradigms:
@@ -393,8 +395,21 @@ paradigms_str = manual_noun_paradigms + "\n\n" + "\n\n".join(noun_paradigms)
 other_paradigms = read_file("data/paradigms.yaml")
 # write for uniparser-morph
 write_file(DATA_PATH / "paradigms.txt", paradigms_str + "\n\n\n\n" + other_paradigms)
+
+clitics_str = []
+clitics = load("data/clitics.csv")
+clitics["Translation"] = clitics["Gloss"]
+clitics["Form"] = clitics["Stem"]
+clitics["ID"] = clitics.apply(lambda x: create_lex_id(x), axis=1)
+clitics["Lexeme_ID"] = clitics.apply(lambda x: create_lex_id(x), axis=1)
+clitics["Form"] = clitics["Form"].apply(lambda x: x.split(SEP))
+clitics = clitics[clitics["exclude"] != "y"]
+clitics.apply(lambda x: clitics_str.append(create_lexeme_entry(x,mode="clitic")), axis=1)
+dump("\n\n".join(clitics_str), DATA_PATH / "clitics.txt")
+# clitics.rename(columns={"Type": "type", "Lexeme_ID": "lex", "Stem": "stem", "Gloss": "gloss", "Gramm": "gramm", "ID": "id", "POS": "pos"}, inplace=True)
+# dump(clitics, DATA_PATH / "clitics.csv")
 # copy 1-to-1 files
-for fname in ["lex_rules.txt", "derivations.txt", "clitics.txt", "disambiguation.cg3"]:
+for fname in ["lex_rules.txt", "derivations.txt", "disambiguation.cg3"]:
     data = read_file(Path("data") / fname)
     write_file(DATA_PATH / f"{fname}", data)
 # bad analyses are stored as yaml
