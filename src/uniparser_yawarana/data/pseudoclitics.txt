@@ -1,0 +1,59 @@
+-clitic
+ lex: pe-ess
+ stem: pe
+ gloss: ESS
+ gramm: postp,ess
+ std: pe
+ id: pe-ess
+ trans_en: ESS
+ type: en
+
+-clitic
+ lex: kontomo-pl
+ stem: kontomo
+ gloss: PL
+ gramm: part,pl
+ std: kontomo
+ id: kontomopl
+ type: en
+ trans_en: PL
+
+-clitic
+ lex: kontomo-pl
+ stem: konton
+ gloss: PL
+ gramm: part,pl
+ std: kontomo
+ id: kontomopl
+ type: en
+ trans_en: PL
+
+-clitic
+ lex: kontomo-pl
+ stem: kontom
+ gloss: PL
+ gramm: part,pl
+ std: kontomo
+ id: kontomopl
+ type: en
+ trans_en: PL
+
+-clitic
+ lex: pinire-neg
+ stem: pïnirë
+ gloss: NEG
+ gramm: part,neg
+ std: pïnirë
+ id: pinire-neg
+ type: en
+ trans_en: NEG
+
+-clitic
+ lex: jnepl
+ stem: jne
+ gloss: PL
+ gramm: pl
+ std: jne
+ id: jnepl
+ type: en
+ trans_en: PL
