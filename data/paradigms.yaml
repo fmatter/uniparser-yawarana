@@ -167,11 +167,6 @@
 -paradigm: v_jra
  -flex: .
   gramm:
- # -flex: .jra<.>
- #  gloss: NEG
- #  gramm: neg
- #  id: jraneg
- #  paradigm: konto_pl
  -flex: .jnari
   gloss: NEG
   gramm: neg
@@ -371,11 +366,6 @@
   gramm: pl
   gloss: PL
   id: jnepl
-  # sep: =
- # -flex: .jra
- #  gramm: neg
- #  gloss: NEG
- #  id: jraneg
 
 -paradigm: advl
  -flex: .

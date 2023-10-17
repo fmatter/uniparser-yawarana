@@ -2,7 +2,8 @@
 import logging
 import yaml
 from uniparser_morph import Analyzer
-
+from writio import load
+import re
 
 try:
     from importlib.resources import files  # pragma: no cover
@@ -15,14 +16,6 @@ __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
 __version__ = "0.0.7.dev"
 
-def fix_clitic(wf):
-    print(wf.wf)
-    print(wf.wfGlossed)
-    print(wf.gloss)
-    print(wf.lemma)
-    print(wf.gramm)
-    print(wf.otherData)
-    return "OK"
 
 class YawaranaAnalyzer(Analyzer):
     def __init__(self, etymologize=False, verbose_grammar=False, cache=True):
@@ -46,7 +39,16 @@ class YawaranaAnalyzer(Analyzer):
         self.load_grammar()
         self.initialize_parser()
         self.m.REMEMBER_PARSES = cache
-
+        clitic_str = load(self.base_path / "clitics.txt") + "\n\n" + load(self.base_path / "pseudoclitics.txt")
+        self.clitics = []
+        for clitic in clitic_str.split("\n\n"):
+            cldict = {l.split(": ")[0].strip(): l.split(": ")[1] for l in clitic.split("\n")[1::]}
+            if cldict["type"] == "en":
+                cldict["form"] = "="+cldict["stem"]
+            else:
+                cldict["form"] = cldict["stem"]+"="
+            cldict["gramm"] = cldict["gramm"].split(",")
+            self.clitics.append(cldict)
     # def etymologize(self, ana):
     #     etym_ids = []
     #     etym_obj = ana.wfGlossed
@@ -71,6 +73,56 @@ class YawaranaAnalyzer(Analyzer):
     #         ("gloss_etym", etym_gloss),
     #     ]
 
+    def fix_clitic(self, wf):
+        if "=" in wf.wfGlossed:
+            wf.lemma = wf.lemma.replace("+", "=")
+            wf.gramm = wf.gramm.split(",")
+            add_data = dict(wf.otherData)
+            add_data["id"] = add_data["id"].split(",")
+            if "trans_en" in add_data:
+                add_data["trans_en"] = add_data["trans_en"].split("; ")
+            while "=" in wf.wfGlossed:
+                # print(f"Sorting clitics in {wf.wfGlossed}")
+                proclitics = []
+                enclitics = []
+                for clitic in self.clitics:
+                    if clitic["type"] == "en" and wf.wfGlossed.endswith(clitic["form"]):
+                        wf.wfGlossed = re.sub(f'{clitic["form"]}$', "", wf.wfGlossed)
+                        # print(clitic)
+                        # print(wf)
+                        for grm in clitic["gramm"]:
+                            if grm in wf.gramm:
+                                wf.gramm.remove(grm)
+                        for k, v in add_data.items():
+                            if clitic[k] in v:
+                                v.remove(clitic[k])
+                        if clitic["lex"] not in wf.lemma:
+                            wf.lemma += "=" + clitic["lex"]
+                        enclitics.append(clitic)
+                    elif clitic["type"] == "pro" and wf.wfGlossed.startswith(clitic["form"]):
+                        wf.wfGlossed = re.sub(f'^{clitic["form"]}', "", wf.wfGlossed)
+                        for grm in clitic["gramm"]:
+                            wf.gramm.remove(grm)
+                        for k, v in add_data.items():
+                            v.remove(clitic[k])
+                        proclitics.append(clitic)
+            wf.gramm = ",".join(wf.gramm)
+            for k in add_data:
+                add_data[k] = ",".join(add_data[k])
+            for clitic in proclitics:
+                wf.wfGlossed = clitic["form"] + wf.wfGlossed
+                wf.gramm = ",".join(clitic["gramm"]) + "=" + wf.gramm
+                for k in add_data:
+                    add_data[k] = clitic[k] + "=" + add_data[k]
+            for clitic in enclitics:
+                wf.wfGlossed += clitic["form"]
+                wf.gramm = wf.gramm + "=" + ",".join(clitic["gramm"])
+                for k in add_data:
+                    add_data[k] += "=" + clitic[k]
+            wf.otherData = list(add_data.items())
+        return wf
+
+
     def analyze_words(  # pylint: disable=redefined-builtin,too-many-arguments
         self,
         words,
@@ -88,14 +140,15 @@ class YawaranaAnalyzer(Analyzer):
         filtered = []
         for ana in all_analyses:
             if isinstance(ana, list):
-                dedup = list(dict.fromkeys(ana))
-                filtered.append(dedup)
+                ana = [self.fix_clitic(x) for x in ana]
+                # dedup = list(dict.fromkeys(ana))
+                filtered.append(ana)
                 # if len(dedup) == 1:
                 #     filtered.append(dedup[0])
                 # else:
                 #     filtered.append(dedup)
             else:
-                filtered.append(ana)
+                filtered.append(self.fix_clitic(ana))
             # if self.etymologize_mode:
             #     if str(ana) not in self.wfCache:
             #         self.etymologize(ana)

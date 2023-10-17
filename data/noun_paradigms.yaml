@@ -81,40 +81,42 @@
   gramm: pl
   gloss: PL
   id: tomopl
+ -flex: .<.>
+  gramm:
+ paradigm: noun_past
+
+-paradigm: noun_past
+ -flex: .jpë<.>
+  gloss: PST
+  gramm: pst
+  id: jpepst
+ -flex: .<.>
+  gramm:
+ paradigm: noun_clitic 
+
+-paradigm: noun_clitic
+ -flex: .<.>
+  gramm:
+  paradigm: noun_clitic2
  -flex: .kontomo<.>//.konton<.>
   gramm: pl
   gloss: PL
   id: kontomopl
   sep: =
- -flex: .<.>
-  gramm:
- paradigm: what_about_second_plural
-
--paradigm: what_about_second_plural
- -flex: .<.>
-  gramm:
- -flex: .jne<.>
-  gramm: pl
-  gloss: PL
-  id: jnepl
- paradigm: noun_clitic
- paradigm: noun_past
-
--paradigm: noun_past
- -flex: .jpë
-  gloss: PST
-  gramm: pst
-  id: jpepst
- -flex: .
-  gramm: 
-
--paradigm: noun_clitic
- -flex: .
-  gramm:
+  paradigm: noun_clitic2
  -flex: .pe
   id: pe-ess
   gramm: ess
   gloss: ESS
+  sep: =
+
+-paradigm: noun_clitic2
+ -flex: .
+  gramm:
+ -flex: .jne
+  gramm: pl
+  gloss: PL
+  id: jnepl
   sep: =
 
 -paradigm: mi_clitic

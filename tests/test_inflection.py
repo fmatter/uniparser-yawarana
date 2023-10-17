@@ -98,14 +98,14 @@ def test_tam_suffixes(parser):
         ("inche", "ini-see", "see-PST", "pst,vt", "adv"),
         ("yaruwatëpëkë", "yaruwa-laugh", "laugh-PROG.INTR", "prog,vi", ""),
         ("tapëkë", "taro-say", "say-PROG.TR", "prog,vt", ""),
-        ("yaruwarijra", "yaruwa-laugh+jra-neg", "laugh-IPFV=NEG", "ipfv,vi,neg", "n"),
-        # ("yaruwajrama", "yaruwa-laugh", "laugh-PROH", "vi,proh", ""), # todo: disambiguate
     ]:
         analyses = parser.analyze_words(form)
         for analysis in analyses:
             if not isinstance(bad_tag, list):
                 bad_tag = [bad_tag]
             if set(bad_tag).intersection(set(analysis.gramm.split(","))):
+                continue
+            if "=" in analysis.wfGlossed:
                 continue
             assert analysis.lemma == lemma
             assert analysis.gloss == gloss

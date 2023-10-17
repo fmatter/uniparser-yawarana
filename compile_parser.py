@@ -403,10 +403,11 @@ clitics["Form"] = clitics["Stem"]
 clitics["ID"] = clitics.apply(lambda x: create_lex_id(x), axis=1)
 clitics["Lexeme_ID"] = clitics.apply(lambda x: create_lex_id(x), axis=1)
 clitics["Form"] = clitics["Form"].apply(lambda x: x.split(SEP))
-
+clitics = clitics[clitics["exclude"] != "y"]
 clitics.apply(lambda x: clitics_str.append(create_lexeme_entry(x,mode="clitic")), axis=1)
 dump("\n\n".join(clitics_str), DATA_PATH / "clitics.txt")
-
+# clitics.rename(columns={"Type": "type", "Lexeme_ID": "lex", "Stem": "stem", "Gloss": "gloss", "Gramm": "gramm", "ID": "id", "POS": "pos"}, inplace=True)
+# dump(clitics, DATA_PATH / "clitics.csv")
 # copy 1-to-1 files
 for fname in ["lex_rules.txt", "derivations.txt", "disambiguation.cg3"]:
     data = read_file(Path("data") / fname)
