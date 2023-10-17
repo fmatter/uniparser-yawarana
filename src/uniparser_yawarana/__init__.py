@@ -16,6 +16,22 @@ __author__ = "Florian Matter"
 __email__ = "fmatter@mailbox.org"
 __version__ = "0.0.7.dev"
 
+# parts of speech
+pos_list = """n
+vt
+vi
+adv
+advl
+pn
+postp
+intj
+dem
+qpro
+part
+ideo""".split(
+    "\n"
+)
+
 
 class YawaranaAnalyzer(Analyzer):
     def __init__(self, etymologize=False, verbose_grammar=False, cache=True):
@@ -39,16 +55,24 @@ class YawaranaAnalyzer(Analyzer):
         self.load_grammar()
         self.initialize_parser()
         self.m.REMEMBER_PARSES = cache
-        clitic_str = load(self.base_path / "clitics.txt") + "\n\n" + load(self.base_path / "pseudoclitics.txt")
+        clitic_str = (
+            load(self.base_path / "clitics.txt")
+            + "\n\n"
+            + load(self.base_path / "pseudoclitics.txt")
+        )
         self.clitics = []
         for clitic in clitic_str.split("\n\n"):
-            cldict = {l.split(": ")[0].strip(): l.split(": ")[1] for l in clitic.split("\n")[1::]}
+            cldict = {
+                l.split(": ")[0].strip(): l.split(": ")[1]
+                for l in clitic.split("\n")[1::]
+            }
             if cldict["type"] == "en":
-                cldict["form"] = "="+cldict["stem"]
+                cldict["form"] = "=" + cldict["stem"]
             else:
-                cldict["form"] = cldict["stem"]+"="
+                cldict["form"] = cldict["stem"] + "="
             cldict["gramm"] = cldict["gramm"].split(",")
             self.clitics.append(cldict)
+
     # def etymologize(self, ana):
     #     etym_ids = []
     #     etym_obj = ana.wfGlossed
@@ -99,7 +123,9 @@ class YawaranaAnalyzer(Analyzer):
                         if clitic["lex"] not in wf.lemma:
                             wf.lemma += "=" + clitic["lex"]
                         enclitics.append(clitic)
-                    elif clitic["type"] == "pro" and wf.wfGlossed.startswith(clitic["form"]):
+                    elif clitic["type"] == "pro" and wf.wfGlossed.startswith(
+                        clitic["form"]
+                    ):
                         wf.wfGlossed = re.sub(f'^{clitic["form"]}', "", wf.wfGlossed)
                         for grm in clitic["gramm"]:
                             wf.gramm.remove(grm)
@@ -121,7 +147,6 @@ class YawaranaAnalyzer(Analyzer):
                     add_data[k] += "=" + clitic[k]
             wf.otherData = list(add_data.items())
         return wf
-
 
     def analyze_words(  # pylint: disable=redefined-builtin,too-many-arguments
         self,

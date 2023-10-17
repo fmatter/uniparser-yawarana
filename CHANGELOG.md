@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * `nmlz` tags for productive nominalizations
 * disambiguation of essive and palm species *pe*
 * lexemes
+* `pos_list variable`
 
 ### Changed
 * "no nominalizations before auxiliaries" instead of "only verbs before auxiliaries"
